@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: tw.gov.mohw.nricm.twcm
-canonical: https://EXAMPLE.org/twcm
+canonical: https://www.nricm.edu.tw/twcm
 name: TWCM
 title: "臺灣中醫實作指引"
 description: Taiwan Chinese MedicineImplementation Guide
