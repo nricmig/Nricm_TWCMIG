@@ -57,8 +57,8 @@ pages:
     title: 專門術語
   capabilitystatements.md:
     title: 能力聲明
-  #downloads.xml:
-    #title: 結構定義與範例檔下載
+  downloads.md:
+    title: 結構定義與範例檔下載
   security.md:
     title: 安全性
   examples.md:

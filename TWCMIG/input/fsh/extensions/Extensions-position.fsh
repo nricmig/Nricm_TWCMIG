@@ -1,16 +1,17 @@
-Extension: ChildNumberTWCM
-Id: childnumber-twcm
-Title: "病人子女數(ChildNumber)"
-Description: "病人子女數"
-* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/childnumber-twcm"
+Extension: PositionTWCM
+Id: position-twcm
+Title: "牙位(Position)"
+Description: "牙位"
+* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/position-twcm"
 * ^version = "0.1.0"
 * ^status = #active
 * ^context.type = #element
-* ^context.expression = "Patient"
-* value[x] only integer
+* ^context.expression = "DocumentReference.content.attachment"
+* value[x] only CodeableConcept
+  * ^short = "[應填入門診病摘之圖檔報告牙位Image Position]"
+  * coding from http://hl7.org/fhir/ValueSet/teeth
 
-
-* . ^short = "病人子女數"
+* . ^short = "牙位"
 * id ^short = "唯一可識別ID，以供資料項目間相互參照。"
 * id ^definition = "resource中資料項目的唯一ID（用於內部參照）。這可以是任何不含空格的字串。"
 * url ^short = "擴充的資料項目名稱"

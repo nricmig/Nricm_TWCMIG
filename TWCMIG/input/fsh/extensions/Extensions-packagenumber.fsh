@@ -1,16 +1,16 @@
-Extension: ChildNumberTWCM
-Id: childnumber-twcm
-Title: "病人子女數(ChildNumber)"
-Description: "病人子女數"
-* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/childnumber-twcm"
+Extension: PackageNumberTWCM
+Id: packagenumber-twcm
+Title: "包數(PackageNumber)"
+Description: "包數"
+* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/packagenumber-twcm"
 * ^version = "0.1.0"
 * ^status = #active
 * ^context.type = #element
-* ^context.expression = "Patient"
+* ^context.expression = "MedicationRequest"
 * value[x] only integer
 
 
-* . ^short = "病人子女數"
+* . ^short = "包數"
 * id ^short = "唯一可識別ID，以供資料項目間相互參照。"
 * id ^definition = "resource中資料項目的唯一ID（用於內部參照）。這可以是任何不含空格的字串。"
 * url ^short = "擴充的資料項目名稱"

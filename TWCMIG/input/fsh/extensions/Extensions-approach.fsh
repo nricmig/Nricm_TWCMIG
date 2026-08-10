@@ -1,16 +1,17 @@
-Extension: ChildNumberTWCM
-Id: childnumber-twcm
-Title: "病人子女數(ChildNumber)"
-Description: "病人子女數"
-* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/childnumber-twcm"
+Extension: ApproachTWCM
+Id: approach-twcm
+Title: "方法(Approach)"
+Description: "方法"
+* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
 * ^version = "0.1.0"
 * ^status = #active
 * ^context.type = #element
-* ^context.expression = "Patient"
-* value[x] only integer
+* ^context.expression = "Procedure.bodySite"
+* value[x] only string
+  * ^short = "應填入中醫門診單之針灸穴位/傷科手法/脫臼整復處理方法"
 
 
-* . ^short = "病人子女數"
+* . ^short = "方法"
 * id ^short = "唯一可識別ID，以供資料項目間相互參照。"
 * id ^definition = "resource中資料項目的唯一ID（用於內部參照）。這可以是任何不含空格的字串。"
 * url ^short = "擴充的資料項目名稱"

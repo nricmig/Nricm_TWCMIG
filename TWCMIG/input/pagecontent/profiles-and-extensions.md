@@ -1,86 +1,79 @@
-### 診所病摘Profiles
-以下為診所門診病摘使用到的所有Profiles。
+### 中醫門診單Profiles
+以下為中醫門診單使用到的所有Profiles。
 
 #### AllergyIntolerance
-- [過敏或不耐症(AllergyIntolerance ClinEMR)](StructureDefinition-allergyintolerance-clinemr.html) 
+- [過敏或不耐症(AllergyIntolerance TWCM)](StructureDefinition-allergyintolerance-twcm.html)
 
 #### Bundle
-- [西醫-資料交換基本單位(Bundle MCR)](StructureDefinition-bundle-mcr.html)
-- [牙醫-資料交換基本單位(Bundle DCR)](StructureDefinition-bundle-dcr.html)
-- [中醫-資料交換基本單位(Bundle TCMCR)](StructureDefinition-bundle-tcmcr.html)
+- [中醫-資料交換基本單位(Bundle TWCM)](StructureDefinition-bundle-twcm.html)
 
 #### CarePlan
-- [關懷計畫(CarePlan ClinEMR)](StructureDefinition-careplan-clinemr.html)
+- [關懷計畫(CarePlan TWCM)](StructureDefinition-careplan-twcm.html)
 
 #### Composition
-- [西醫-臨床文件架構(Composition MCR)](StructureDefinition-composition-mcr.html)
-- [牙醫-臨床文件架構(Composition DCR)](StructureDefinition-composition-dcr.html)
-- [中醫-臨床文件架構(Composition TCMCR)](StructureDefinition-composition-tcmcr.html)
+- [中醫-臨床文件架構(Composition TWCM)](StructureDefinition-composition-twcm.html)
 
 #### Condition
-- [病人主訴(ConditionChiefComplaint ClinEMR)](StructureDefinition-conditionchiefcomplaint-clinemr.html)
-- [病情、問題或診斷(ConditionDiagnosis ClinEMR)](StructureDefinition-conditiondiagnosis-clinemr.html)
-- [重大傷病(ConditionMajorIllness ClinEMR)](StructureDefinition-conditionmajorillness-clinemr.html)
-- [過去病史(ConditionPastMedicalHistory ClinEMR)](StructureDefinition-conditionpastmedicalhistory-clinemr.html)
+- [病人主訴(ConditionChiefComplaint TWCM)](StructureDefinition-conditionchiefcomplaint-twcm.html)
+- [病情、問題或診斷(ConditionDiagnosis TWCM)](StructureDefinition-conditiondiagnosis-twcm.html)
+- [重大傷病(ConditionMajorIllness TWCM)](StructureDefinition-conditionmajorillness-twcm.html)
+- [過去病史(ConditionPastMedicalHistory TWCM)](StructureDefinition-conditionpastmedicalhistory-twcm.html)
 
 #### DiagnosticReport
-- [診斷報告(DiagnosticReport ClinEMR)](StructureDefinition-diagnosticreport-clinemr.html)
+- [診斷報告(DiagnosticReport TWCM)](StructureDefinition-diagnosticreport-twcm.html)
 
 #### DocumentReference
-- [文件參照(DocumentReference ClinEMR)](StructureDefinition-documentreference-clinemr.html) 
+- [文件參照(DocumentReference TWCM)](StructureDefinition-documentreference-twcm.html)
 
 #### Encounter
-- [就醫事件(Encounter ClinEMR)](StructureDefinition-encounter-clinemr.html)
+- [就醫事件(Encounter TWCM)](StructureDefinition-encounter-twcm.html)
 
 #### Medication
-- [藥品(Medication ClinEMR)](StructureDefinition-medication-clinemr.html) 
+- [藥品(Medication TWCM)](StructureDefinition-medication-twcm.html)
 
 #### MedicationRequest
-- [藥品請求(MedicationRequest ClinEMR)](StructureDefinition-medicationrequest-clinemr.html) 
-- [中醫-藥品請求(MedicationRequest TCMCR)](StructureDefinition-medicationrequest-tcmcr.html) 
+- [中醫-藥品請求(MedicationRequest TWCM)](StructureDefinition-medicationrequest-twcm.html)
 
 #### Observation
-- [血型(ObservationBloodtype ClinEMR)](StructureDefinition-observationbloodtype-clinemr.html) 
-- [教育程度(ObservationEducationLevel ClinEMR)](StructureDefinition-observationeducationlevel-clinemr.html) 
-- [重大傷病註記(ObservationMajorIllness ClinEMR)](StructureDefinition-observationmajorillness-clinemr.html)
-- [檢驗檢查(Observation ClinEMR)](StructureDefinition-observation-clinemr.html)
-- [職業(ObservationOccupation ClinEMR)](StructureDefinition-observationoccupation-clinemr.html) 
-- [生命徵象(ObservationVitalSigns ClinEMR)](StructureDefinition-observationvitalsign-clinemr.html) 
-    - [血壓(ObservationBloodPressure ClinEMR)](StructureDefinition-observationbloodpressure-clinemr.html) 
-    - [脈搏(ObservationHeartRate ClinEMR)](StructureDefinition-observationheartrate-clinemr.html) 
-    - [身高(ObservationBodyHeight ClinEMR)](StructureDefinition-observationbodyheight-clinemr.html) 
-    - [體重(ObservationBodyWeight ClinEMR)](StructureDefinition-observationbodyweight-clinemr.html) 
-    - [體溫(ObservationBodyTemp ClinEMR)](StructureDefinition-observationbodytemp-clinemr.html) 
-- [病人舌象(ObservationTongueCondition TCMCR)](StructureDefinition-observationtonguecondition-tcmcr.html) 
-- [病人脈象(ObservationPulseCondition TCMCR)](StructureDefinition-observationpulsecondition-tcmcr.html) 
-- [病人證型(ObservationManifestation TCMCR)](StructureDefinition-observationmanifestation-tcmcr.html) 
-- [病人治則(ObservationTherapeuticDiscipline TCMCR)](StructureDefinition-observationtherapeuticdiscipline-tcmcr.html) 
+- [血型(ObservationBloodtype TWCM)](StructureDefinition-observationbloodtype-twcm.html)
+- [教育程度(ObservationEducationLevel TWCM)](StructureDefinition-observationeducationlevel-twcm.html)
+- [重大傷病註記(ObservationMajorIllness TWCM)](StructureDefinition-observationmajorillness-twcm.html)
+- [檢驗檢查(Observation TWCM)](StructureDefinition-observation-twcm.html)
+- [職業(ObservationOccupation TWCM)](StructureDefinition-observationoccupation-twcm.html)
+- [生命徵象(ObservationVitalSigns TWCM)](StructureDefinition-observationvitalsign-twcm.html)
+    - [血壓(ObservationBloodPressure TWCM)](StructureDefinition-observationbloodpressure-twcm.html)
+    - [脈搏(ObservationHeartRate TWCM)](StructureDefinition-observationheartrate-twcm.html)
+    - [身高(ObservationBodyHeight TWCM)](StructureDefinition-observationbodyheight-twcm.html)
+    - [體重(ObservationBodyWeight TWCM)](StructureDefinition-observationbodyweight-twcm.html)
+    - [體溫(ObservationBodyTemp TWCM)](StructureDefinition-observationbodytemp-twcm.html)
+- [病人舌象(ObservationTongueCondition TWCM)](StructureDefinition-observationtonguecondition-twcm.html)
+- [病人脈象(ObservationPulseCondition TWCM)](StructureDefinition-observationpulsecondition-twcm.html)
+- [病人證型(ObservationManifestation TWCM)](StructureDefinition-observationmanifestation-twcm.html)
+- [病人治則(ObservationTherapeuticDiscipline TWCM)](StructureDefinition-observationtherapeuticdiscipline-twcm.html)
 
 #### Organization
-- [醫事機構(Organization ClinEMR)](StructureDefinition-organization-clinemr.html) 
-- [檢驗檢查機構(OrganizationInspection ClinEMR)](StructureDefinition-organizationinspection-clinemr.html) 
+- [醫事機構(Organization TWCM)](StructureDefinition-organization-twcm.html)
+- [檢驗檢查機構(OrganizationInspection TWCM)](StructureDefinition-organizationinspection-twcm.html)
 
 #### Patient
-- [病人資料(Patient ClinEMR)](StructureDefinition-patient-clinemr.html)
+- [病人資料(Patient TWCM)](StructureDefinition-patient-twcm.html)
 
 #### Practitioner
-- [健康照護服務提供人員資料(Practitioner ClinEMR)](StructureDefinition-practitioner-clinemr.html)
+- [健康照護服務提供人員資料(Practitioner TWCM)](StructureDefinition-practitioner-twcm.html)
 
 #### Procedure
-- [西醫-處置或手術(Procedure MCR)](StructureDefinition-procedure-mcr.html) 
-- [牙醫-處置或手術(Procedure DCR)](StructureDefinition-procedure-dcr.html) 
-- [中醫-處置或手術(Procedure TCMCR)](StructureDefinition-procedure-tcmcr.html) 
+- [中醫-處置或手術(Procedure TWCM)](StructureDefinition-procedure-twcm.html)
 
 #### ServiceRequest
-- [服務請求(ServiceRequest ClinEMR)](StructureDefinition-servicerequest-clinemr.html) 
+- [服務請求(ServiceRequest TWCM)](StructureDefinition-servicerequest-twcm.html)
 
 ---
 
 ### Extensions
-以下[Extensions]({{site.data.fhir.path}}extensibility.html)已定義為診所門診病摘實作指引的一部分。
-- [病人子女數(ChildNumber)](StructureDefinition-cohesion-childnumber.html)
-- [就醫身分(MedicalIdentity)](StructureDefinition-cohesion-medicalidentity.html)
-- [包數(PackageNumber)](StructureDefinition-cohesion-packageNumber.html)
-- [方法(Approach)](StructureDefinition-cohesion-approach.html)
-- [描述(description)](StructureDefinition-cohesion-description.html)
-- [牙位(Position)](StructureDefinition-cohesion-position.html)
+以下[Extensions]({{site.data.fhir.path}}extensibility.html)已定義為中醫門診單實作指引的一部分。
+- [病人子女數(ChildNumber)](StructureDefinition-childnumber-twcm.html)
+- [就醫身分(MedicalIdentity)](StructureDefinition-medicalidentity-twcm.html)
+- [包數(PackageNumber)](StructureDefinition-packagenumber-twcm.html)
+- [方法(Approach)](StructureDefinition-approach-twcm.html)
+- [描述(description)](StructureDefinition-description-twcm.html)
+- [牙位(Position)](StructureDefinition-position-twcm.html)
