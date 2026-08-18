@@ -7,9 +7,11 @@ Description: "此病人舌象(ObservationTongueCondition TWCM)Profile說明本IG
 * status = #final
 * code = $SCT#249378009 "Tongue finding"
 * value[x] MS
-* value[x] only string
-* valueString 1..1 MS
-  * ^short = "[應填入中醫門診病摘之病人舌象Tongue Condition]"
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1 MS
+  * ^short = "[應填入中醫門診單之病人舌象Tongue Condition]"
+  * coding 1..1 MS
+  * coding from twcm-tonguecondition (required)
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 

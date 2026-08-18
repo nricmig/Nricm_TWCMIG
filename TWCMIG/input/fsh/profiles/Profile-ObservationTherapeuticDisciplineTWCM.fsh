@@ -7,9 +7,11 @@ Description: "此病人治則(ObservationTherapeuticDiscipline TWCM)Profile說�
 * status = #final
 * code = $SCT#314705003 "Treatment plan given (finding)"
 * value[x] MS
-* value[x] only string
-* valueString 1..1 MS
-  * ^short = "[應填入中醫門診病摘之病人治則Therapeutic Discipline]"
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1 MS
+  * ^short = "[應填入中醫門診單之病人治則Therapeutic Discipline]"
+  * coding 0..* MS
+  * coding from twcm-therapeuticdiscipline (required)
 
 * subject MS
 * encounter MS

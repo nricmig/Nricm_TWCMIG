@@ -7,9 +7,11 @@ Description: "此病人證型(ObservationManifestation TWCM)Profile說明本IG�
 * status = #final
 * code = $SCT#38276004 "Multiple symptoms (finding)"
 * value[x] MS
-* value[x] only string
-* valueString 1..1 MS
-  * ^short = "[應填入中醫門診病摘之病人證型Manifestation]"
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1 MS
+  * ^short = "[應填入中醫門診單之病人證型Manifestation]"
+  * coding 0..* MS
+  * coding from twcm-manifestation (required)
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)

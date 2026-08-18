@@ -74,7 +74,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 
 * section[ConditionPastMedicalHistory].title 1..1
 * section[ConditionPastMedicalHistory].code 1..1
-* section[ConditionPastMedicalHistory].code = http://loinc.org#11348-0 "History of Past illness Narrative"
+* section[ConditionPastMedicalHistory].code = http://loinc.org#11348-0 "History of Past illness note"
 * section[ConditionPastMedicalHistory].entry only Reference(conditionpastmedicalhistory-twcm)
   * reference 1..1
 * section[ConditionMajorIllness].title 1..1
@@ -164,7 +164,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 
 * section[ObservationVitalSign].title 1..1
 * section[ObservationVitalSign].code 1..1
-* section[ObservationVitalSign].code = http://loinc.org#8716-3 "Vital signs"
+* section[ObservationVitalSign].code = http://loinc.org#8716-3 "Vital signs note"
 * section[ObservationVitalSign].entry only Reference(observationvitalsign-twcm)
   * reference 1..1
 
@@ -177,7 +177,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 
 * section[ObservationLabResults].title 1..1
 * section[ObservationLabResults].code 1..1
-* section[ObservationLabResults].code = http://loinc.org#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
+* section[ObservationLabResults].code = http://loinc.org#30954-2 "Relevant diagnostic tests/laboratory data note"
 * section[ObservationLabResults].section ^slicing.discriminator.type = #profile
 * section[ObservationLabResults].section ^slicing.discriminator.path = "entry.resolve()"
 * section[ObservationLabResults].section ^slicing.rules = #open

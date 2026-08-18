@@ -7,9 +7,11 @@ Description: "此病人脈象(ObservationPulseCondition TWCM)Profile說明本IG�
 * status = #final
 * code = $SCT#421608007 "Finding of pulse taking by palpation (finding)"
 * value[x] MS
-* value[x] only string
-* valueString 1..1 MS
-  * ^short = "[應填入中醫門診病摘之病人脈象Pulse Condition]"
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1 MS
+  * ^short = "[應填入中醫門診單之病人脈象Pulse Condition]"
+  * coding 1..1 MS
+  * coding from twcm-pulsecondition (required)
 
 * subject MS
 * encounter MS

@@ -9,8 +9,8 @@
 ### CarePlan
 - [中醫-醫師囑咐範例](CarePlan-CarePlanTWCM-min.html)：依據關懷計畫(CarePlan TWCM)Profile呈現中醫診所門診病摘中醫師囑咐的範例
 
-### Compostion
-- [西醫-診所門診病摘架構](Composition-CompositionMCR-min.html)：依據Composition MCR 
+### Composition
+- [中醫-門診單架構](Composition-CompositionTWCM-min.html)：依據中醫-臨床文件架構(Composition TWCM)Profile呈現中醫門診單
 
 ### Condition
 - [中醫-病人主訴範例](Condition-ConditionChiefComplaintTWCM-min.html)：依據病人主訴(ConditionChiefComplaint TWCM)Profile呈現中醫診所門診病摘中病人主訴的範例

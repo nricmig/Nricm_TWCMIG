@@ -16,7 +16,7 @@
 
 <ul>
 	<li><strong><a href="index.html">應用說明</a></strong>：診所門診病摘實作指引介紹及背景說明。</li>
-	<li><strong><a href="vision.html">視覺化邏輯模型</a></strong>：ClinEMR IG邏輯模型架構視覺化圖。</li>
+	<li><strong><a href="models.html">視覺化邏輯模型</a></strong>：TWCM IG邏輯模型架構視覺化圖。</li>
 	<li><strong><a href="artifacts.html">規範文件</a></strong>
 	<ul>
 		<li><strong><a href="capabilitystatements.html">能力聲明</a>

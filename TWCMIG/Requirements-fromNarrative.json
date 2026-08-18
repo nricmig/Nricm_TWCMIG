@@ -1,7 +1,7 @@
 {
   "resourceType" : "Requirements",
   "id" : "fromNarrative",
-  "url" : "https://EXAMPLE.org/twcm/Requirements/fromNarrative",
+  "url" : "https://www.nricm.edu.tw/twcm/Requirements/fromNarrative",
   "name" : "FromNarrative",
   "title" : "Narrative Conformance Statements",
   "status" : "active",
