@@ -13,7 +13,7 @@ Description: "此病人脈象(ObservationPulseCondition TWCM)Profile說明本IG�
   * coding 1..1 MS
   * coding from twcm-pulsecondition (required)
 
-* subject MS
+* subject 1..1 MS
 * encounter MS
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or NutritionOrder)

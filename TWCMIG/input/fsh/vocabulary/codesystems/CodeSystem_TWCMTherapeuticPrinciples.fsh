@@ -1,7 +1,7 @@
-CodeSystem: TWCMManifestation
-Id: twcm-manifestation
-Title: "病人證型"
-Description: "病人證型。
+CodeSystem: TWCMTherapeuticPrinciples
+Id: twcm-therapeuticprinciples
+Title: "病人治則"
+Description: "病人治則。
 代碼出版日期：{{TODO}}；資料所屬單位：衛生福利部國家中醫藥研究所。
 
 *此代碼系統內容待補，將由使用者另行提供。*"

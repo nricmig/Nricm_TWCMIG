@@ -63,11 +63,11 @@ Usage: #example
 * entry[ObservationPulseCondition].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationPulseConditionTWCM-min"
 * entry[ObservationPulseCondition].resource = ObservationPulseConditionTWCM-min
 
-* entry[ObservationManifestation].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationManifestationTWCM-min"
-* entry[ObservationManifestation].resource = ObservationManifestationTWCM-min
+* entry[ObservationSyndromeType].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationSyndromeTypeTWCM-min"
+* entry[ObservationSyndromeType].resource = ObservationSyndromeTypeTWCM-min
 
-* entry[ObservationTherapeuticDiscipline].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationTherapeuticDisciplineTWCM-min"
-* entry[ObservationTherapeuticDiscipline].resource = ObservationTherapeuticDisciplineTWCM-min
+* entry[ObservationTherapeuticPrinciples].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationTherapeuticPrinciplesTWCM-min"
+* entry[ObservationTherapeuticPrinciples].resource = ObservationTherapeuticPrinciplesTWCM-min
 
 * entry[ConditionChiefComplaint].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionChiefComplaintTWCM-min"
 * entry[ConditionChiefComplaint].resource = ConditionChiefComplaintTWCM-min

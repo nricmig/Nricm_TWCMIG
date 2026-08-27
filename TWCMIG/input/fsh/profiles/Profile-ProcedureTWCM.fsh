@@ -8,16 +8,18 @@ Description: "此中醫-處置或手術(Procedure TWCM)Profile說明本IG如何�
 * status = #completed
 * category 1..1 MS
 * category from twcm-procedurecategory
-* subject MS
+* subject 1..1 MS
 * subject only Reference(patient-twcm)
-* code MS
+* code 1..1 MS
   * ^short = "處置的識別碼。[應填入門診病摘之處置健保碼(Code)與處置說明(display)]"
-  * coding
-    * code MS
+  * coding 1..1 MS
+    * code 1..1 MS
     * code ^short = "[應填入門診病摘之處置健保碼]"
-    * display MS
+    * display 1..1 MS
     * display ^short = "[應填入門診病摘之處置說明]"
 * bodySite 1..* MS
+  * coding 1..1 MS
+  * coding from twcm-treatmentregion (required)
   * extension contains $approach named approach 1..1 MS
 * bodySite.extension[approach] ^short = "[應填入中醫門診單之針灸穴位/傷科手法/脫臼整復處理方法]"
 * bodySite.extension contains $description named description 0..1 MS

@@ -10,7 +10,7 @@ Usage: #example
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#AMB "ambulatory"
 * subject = Reference(Patient/PatientTWCM-min)
-* serviceType = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-nhi-tw#60 "中醫科"
+* serviceType = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-nhi-tw#60 "中醫一般科"
 * period.start = "2010-10-10T17:30:00-05:00"
 * participant
   * individual = Reference(Practitioner/PractitionerTWCM-pro)

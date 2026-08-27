@@ -8,6 +8,7 @@ Description: "此職業(ObservationOccupation TWCM)Profile說明本IG如何進�
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 
+* value[x] only CodeableConceptTW
 * valueCodeableConcept 1..1 MS
   * ^short = "[應填入門診病摘之職業Occuation]"
 
@@ -20,5 +21,5 @@ Description: "此職業(ObservationOccupation TWCM)Profile說明本IG如何進�
 * derivedFrom only Reference(documentreference-twcm or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or observation-twcm or MolecularSequence)
 * specimen only Reference(TWCoreSpecimen)
 
-* subject MS
+* subject 1..1 MS
 * encounter MS

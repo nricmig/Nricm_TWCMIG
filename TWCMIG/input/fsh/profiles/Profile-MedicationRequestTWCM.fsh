@@ -9,7 +9,7 @@ Description: "此中醫-藥品請求(MedicationRequest TWCM)Profile說明本IG�
 * medicationReference only Reference(medication-twcm)
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
-* subject MS
+* subject 1..1 MS
 * encounter MS
 * note MS
 * note ^short = "關於處方的資訊。[應填入門診病摘之藥品調劑方式Prescription Method]"

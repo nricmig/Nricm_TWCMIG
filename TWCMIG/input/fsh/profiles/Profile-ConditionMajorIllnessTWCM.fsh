@@ -3,6 +3,7 @@ Parent: TWCoreCondition
 Id: conditionmajorillness-twcm
 Title: "重大傷病(ConditionMajorIllness TWCM)"
 Description: "此重大傷病(ConditionMajorIllness TWCM)Profile說明本IG如何進一步定義臺灣核心-臺灣核心-病情、問題或診斷(TW Core Condition)Profile以呈現中醫門診單之重大傷病的詳細資料。"
+* clinicalStatus 1..1 MS
 * category = http://loinc.org#11338-1 "History of Major illnesses and injuries Narrative"
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
@@ -18,5 +19,5 @@ Description: "此重大傷病(ConditionMajorIllness TWCM)Profile說明本IG如�
 * stage
   * assessment only Reference(ClinicalImpression or diagnosticreport-twcm or observation-twcm or Observation-vitalSigns-twcore)
 
-* subject MS
+* subject 1..1 MS
 * encounter MS

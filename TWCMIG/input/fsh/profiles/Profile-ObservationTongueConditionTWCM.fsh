@@ -15,7 +15,7 @@ Description: "此病人舌象(ObservationTongueCondition TWCM)Profile說明本IG
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 
-* subject MS
+* subject 1..1 MS
 * encounter MS
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)

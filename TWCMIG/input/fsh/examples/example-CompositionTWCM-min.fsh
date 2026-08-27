@@ -64,10 +64,10 @@ Usage: #example
 * section[ConditionDiagnosis].section[observationtonguecondition].entry.reference = "Observation/ObservationTongueConditionTWCM-min"
 * section[ConditionDiagnosis].section[observationpulsecondition].code = http://loinc.org#29548-5 "Diagnosis Narrative"
 * section[ConditionDiagnosis].section[observationpulsecondition].entry.reference = "Observation/ObservationPulseConditionTWCM-min"
-* section[ConditionDiagnosis].section[observationmanifestation].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[observationmanifestation].entry.reference = "Observation/ObservationManifestationTWCM-min"
-* section[ConditionDiagnosis].section[observationtherapeuticdiscipline].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[observationtherapeuticdiscipline].entry.reference = "Observation/ObservationTherapeuticDisciplineTWCM-min"
+* section[ConditionDiagnosis].section[observationsyndrometype].code = http://loinc.org#29548-5 "Diagnosis Narrative"
+* section[ConditionDiagnosis].section[observationsyndrometype].entry.reference = "Observation/ObservationSyndromeTypeTWCM-min"
+* section[ConditionDiagnosis].section[observationtherapeuticprinciples].code = http://loinc.org#29548-5 "Diagnosis Narrative"
+* section[ConditionDiagnosis].section[observationtherapeuticprinciples].entry.reference = "Observation/ObservationTherapeuticPrinciplesTWCM-min"
 
 
 * section[ConditionChiefComplaint].title = "病人主訴"
@@ -185,9 +185,9 @@ Usage: #example
       <br />
       <b>section[observationpulsecondition]</b>： <a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>
       <br />
-      <b>section[observationmanifestation]</b>： <a href=\"Observation-ObservationManifestationTWCM-min.html\">Observation/ObservationManifestationTWCM-min</a>
+      <b>section[observationsyndrometype]</b>： <a href=\"Observation-ObservationSyndromeTypeTWCM-min.html\">Observation/ObservationSyndromeTypeTWCM-min</a>
       <br />
-      <b>section[observationtherapeuticdiscipline]</b>： <a href=\"Observation-ObservationTherapeuticDisciplineTWCM-min.html\">Observation/ObservationTherapeuticDisciplineTWCM-min</a>
+      <b>section[observationtherapeuticprinciples]</b>： <a href=\"Observation-ObservationTherapeuticPrinciplesTWCM-min.html\">Observation/ObservationTherapeuticPrinciplesTWCM-min</a>
       <br />
       </span>
     </p>

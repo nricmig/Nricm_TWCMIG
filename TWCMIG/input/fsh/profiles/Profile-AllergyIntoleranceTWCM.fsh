@@ -14,6 +14,6 @@ Description: "此過敏或不耐症(AllergyIntolerance TWCM)Profile說明本IG�
 
 
 * code MS
-  * text MS
-* patient MS
+  * text 1..1 MS
+* patient 1..1 MS
 * encounter MS

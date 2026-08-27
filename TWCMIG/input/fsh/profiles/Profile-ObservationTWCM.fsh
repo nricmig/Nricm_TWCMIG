@@ -4,13 +4,16 @@ Id: observation-twcm
 Title: "檢驗檢查(Observation TWCM)"
 Description: "此檢驗檢查(Observation TWCM)Profile說明本IG如何進一步定義臺灣核心-檢驗檢查(TW Core Observation Laboratory Result)Profile以呈現中醫門診單之檢驗檢查的詳細資料。"
 * status = #final
+* category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
+* category[twcore] 1..1 MS
 * code 1..1 MS
-  * ^short = "概念(concept)－參照一個專門術語或只是純文字。[應填入門診病摘健保檢驗檢查代碼Test NHICode(code)及檢驗檢查名稱Test Name(text)]"
+  * ^short = "概念(concept)－參照一個專門術語或只是純文字。[應填入門診病摘健保檢驗檢查代碼Test NHICode(code)及檢驗檢查名稱Test Name(text)。若為非健保署規範的院內碼，可另加一組coding表示，system請填入醫事機構自訂的代碼系統]"
+  * coding 1..2 MS
   * text 1..1 MS
 * performer 1..1 MS
   * ^short = "[應填入檢驗檢查執行醫事機構代碼Exam Hospital ID與檢驗檢查執行醫事機構名稱Exam Hospital Name]"
 * performer only Reference(organizationinspection-twcm)
-* effectiveDateTime MS
+* effectiveDateTime 1..1 MS
   * ^short = "檢驗檢查執行日期或時間區間。[應填入門診病摘之檢查日期Exam Date]"
 * issued 1..1 MS
   * ^short = "[應填入檢驗檢查完成的日期或時間]"
@@ -34,6 +37,7 @@ Description: "此檢驗檢查(Observation TWCM)Profile說明本IG如何進一步
 * obeys observation-code-match
 
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)
+* subject 1..1 MS
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * hasMember only Reference(observation-twcm or TWCoreQuestionnaireResponse or MolecularSequence)

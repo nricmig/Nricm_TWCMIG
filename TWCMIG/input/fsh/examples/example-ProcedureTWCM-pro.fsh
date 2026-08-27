@@ -11,6 +11,7 @@ Usage: #example
 * bodySite.extension[0].valueString = "端、提法"
 * bodySite.extension[1].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
 * bodySite.extension[1].valueCodeableConcept.text = "包紮"
+* bodySite.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#TODO
 * bodySite.text = "F"
 
 * subject = Reference(Patient/PatientTWCM-min)

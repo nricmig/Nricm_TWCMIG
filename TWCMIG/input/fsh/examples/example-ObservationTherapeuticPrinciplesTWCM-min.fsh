@@ -1,13 +1,13 @@
 Alias: $SCT = http://snomed.info/sct
-Instance: ObservationTherapeuticDisciplineTWCM-min
-InstanceOf: observationtherapeuticdiscipline-twcm
+Instance: ObservationTherapeuticPrinciplesTWCM-min
+InstanceOf: observationtherapeuticprinciples-twcm
 Title: "中醫-病人治則範例"
-Description: "依據病人治則(ObservationTherapeuticDiscipline TWCM)Profile呈現中醫門診單中病人治則的範例"
+Description: "依據病人治則(ObservationTherapeuticPrinciples TWCM)Profile呈現中醫門診單中病人治則的範例"
 Usage: #example
 * status = #final
 * code = $SCT#314705003 "Treatment plan given (finding)"
-* valueCodeableConcept.coding[0] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-therapeuticdiscipline#TODO "補氣調中"
-* valueCodeableConcept.coding[1] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-therapeuticdiscipline#TODO "補氣活血"
+* valueCodeableConcept.coding[0] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-therapeuticprinciples#TODO
+* valueCodeableConcept.coding[1] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-therapeuticprinciples#TODO
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * text.status = #generated

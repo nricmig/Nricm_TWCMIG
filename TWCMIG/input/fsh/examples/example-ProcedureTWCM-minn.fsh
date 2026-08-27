@@ -12,10 +12,12 @@ Usage: #example
 * bodySite[0].extension[0].valueString = "承靈"
 * bodySite[0].extension[1].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
 * bodySite[0].extension[1].valueCodeableConcept.text = "承靈，下針4公分"
+* bodySite[0].coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#TODO
 * bodySite[0].text = "A"
 
 * bodySite[1].extension[0].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
 * bodySite[1].extension[0].valueString = "按摩法"
+* bodySite[1].coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#TODO
 * bodySite[1].text = "H"
 
 * subject = Reference(Patient/PatientTWCM-min)

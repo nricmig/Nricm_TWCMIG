@@ -1,21 +1,17 @@
 Alias: $SCT = http://snomed.info/sct
-Profile: ObservationTherapeuticDisciplineTWCM
+Profile: ObservationSyndromeTypeTWCM
 Parent: Observation
-Id: observationtherapeuticdiscipline-twcm
-Title: "病人治則(ObservationTherapeuticDiscipline TWCM)"
-Description: "此病人治則(ObservationTherapeuticDiscipline TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現中醫門診單之病人治則的詳細資料。"
+Id: observationsyndrometype-twcm
+Title: "病人證型(ObservationSyndromeType TWCM)"
+Description: "此病人證型(ObservationSyndromeType TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現中醫門診單之病人證型的詳細資料。"
 * status = #final
-* code = $SCT#314705003 "Treatment plan given (finding)"
+* code = $SCT#38276004 "Multiple symptoms (finding)"
 * value[x] MS
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
-  * ^short = "[應填入中醫門診單之病人治則Therapeutic Discipline]"
+  * ^short = "[應填入中醫門診單之病人證型Manifestation]"
   * coding 0..* MS
-  * coding from twcm-therapeuticdiscipline (required)
-
-* subject MS
-* encounter MS
-
+  * coding from twcm-syndrometype (required)
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)
@@ -25,3 +21,6 @@ Description: "此病人治則(ObservationTherapeuticDiscipline TWCM)Profile說�
 * hasMember only Reference(observation-twcm or QuestionnaireResponse or MolecularSequence)
 * derivedFrom only Reference(documentreference-twcm or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or observation-twcm or MolecularSequence)
 * specimen only Reference(TWCoreSpecimen)
+
+* subject 1..1 MS
+* encounter MS

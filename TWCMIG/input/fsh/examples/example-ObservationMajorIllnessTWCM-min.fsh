@@ -6,6 +6,7 @@ Usage: #example
 * status = #final
 * code = http://loinc.org#11338-1 "History of Major illnesses and injuries Narrative"
 * subject = Reference(Patient/PatientTWCM-min)
+* encounter = Reference(Encounter/EncounterTWCM-min)
 * valueBoolean = false
 
 * text.status = #generated

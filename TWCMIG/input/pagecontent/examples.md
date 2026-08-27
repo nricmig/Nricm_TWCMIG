@@ -49,8 +49,8 @@
     - [中醫-體溫範例](Observation-obs-bodytemp-example-TWCM.html)：依據體溫(ObservationBodyTemp) Profile呈現體溫範例
 - [中醫-病人舌象範例](Observation-ObservationTongueConditionTWCM-min.html)：依據病人舌象(ObservationTongueCondition TWCM)Profile呈現中醫診所門診病摘中病人舌象範例
 - [中醫-病人脈象範例](Observation-ObservationPulseConditionTWCM-min.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫診所門診病摘中病人脈象範例
-- [中醫-病人證型範例](Observation-ObservationManifestationTWCM-min.html)：依據病人證型(ObservationManifestation TWCM)Profile呈現中醫診所門診病摘中病人證型範例
-- [中醫-病人治則範例](Observation-ObservationTherapeuticDisciplineTWCM-min.html)：依據病人治則(ObservationTherapeuticDiscipline TWCM)Profile呈現中醫診所門診病摘中病人治則範例
+- [中醫-病人證型範例](Observation-ObservationSyndromeTypeTWCM-min.html)：依據病人證型(ObservationSyndromeType TWCM)Profile呈現中醫診所門診病摘中病人證型範例
+- [中醫-病人治則範例](Observation-ObservationTherapeuticPrinciplesTWCM-min.html)：依據病人治則(ObservationTherapeuticPrinciples TWCM)Profile呈現中醫診所門診病摘中病人治則範例
 
 ### Organization
 - [中醫-醫事機構基本資料-捷達世中醫診所](Organization-OrganizationTWCM-min.html)：依據醫事機構(Organization TWCM)Profile呈現中醫診所門診病摘中醫事機構範例

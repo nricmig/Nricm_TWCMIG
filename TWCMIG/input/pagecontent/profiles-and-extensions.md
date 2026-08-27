@@ -48,8 +48,8 @@
     - [體溫(ObservationBodyTemp TWCM)](StructureDefinition-observationbodytemp-twcm.html)
 - [病人舌象(ObservationTongueCondition TWCM)](StructureDefinition-observationtonguecondition-twcm.html)
 - [病人脈象(ObservationPulseCondition TWCM)](StructureDefinition-observationpulsecondition-twcm.html)
-- [病人證型(ObservationManifestation TWCM)](StructureDefinition-observationmanifestation-twcm.html)
-- [病人治則(ObservationTherapeuticDiscipline TWCM)](StructureDefinition-observationtherapeuticdiscipline-twcm.html)
+- [病人證型(ObservationSyndromeType TWCM)](StructureDefinition-observationsyndrometype-twcm.html)
+- [病人治則(ObservationTherapeuticPrinciples TWCM)](StructureDefinition-observationtherapeuticprinciples-twcm.html)
 
 #### Organization
 - [醫事機構(Organization TWCM)](StructureDefinition-organization-twcm.html)

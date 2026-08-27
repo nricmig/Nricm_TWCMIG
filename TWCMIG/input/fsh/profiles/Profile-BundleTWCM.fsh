@@ -27,8 +27,8 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         CarePlan 0..1 MS and
         ObservationTongueCondition 0..1 MS and
         ObservationPulseCondition 0..1 MS and
-        ObservationManifestation 0..1 MS and
-        ObservationTherapeuticDiscipline 0..1 MS and
+        ObservationSyndromeType 0..1 MS and
+        ObservationTherapeuticPrinciples 0..1 MS and
         ConditionChiefComplaint 1..1 MS and
         ObservationVitalSign 0..1 MS and
         ObservationBloodPressureTWCM 0..1 MS and
@@ -36,12 +36,12 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         ObservationBodyHeight 0..1 MS and
         ObservationBodyWeight 0..1 MS and
         ObservationBodyTemp 0..1 MS and
-        Procedure 0..* MS and
+        Procedure 1..* MS and
         ServiceRequest 0..* MS and
         Observation 0..* MS and
         DiagnosticReport 0..1 MS and
         OrganizationInspection 0..* MS and
-        DocumentReference 0..1 MS
+        DocumentReference 1..1 MS
 
 * entry[TWCoreComposition].resource 1..1
 * entry[TWCoreComposition].resource only composition-twcm
@@ -114,13 +114,13 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
   * ^short = "病人脈象"
 * entry[ObservationPulseCondition].resource only observationpulsecondition-twcm
 
-* entry[ObservationManifestation].resource 1..1
+* entry[ObservationSyndromeType].resource 1..1
   * ^short = "病人證型"
-* entry[ObservationManifestation].resource only observationmanifestation-twcm
+* entry[ObservationSyndromeType].resource only observationsyndrometype-twcm
 
-* entry[ObservationTherapeuticDiscipline].resource 1..1
+* entry[ObservationTherapeuticPrinciples].resource 1..1
   * ^short = "病人治則"
-* entry[ObservationTherapeuticDiscipline].resource only observationtherapeuticdiscipline-twcm
+* entry[ObservationTherapeuticPrinciples].resource only observationtherapeuticprinciples-twcm
 
 * entry[ConditionChiefComplaint].resource 1..1
   * ^short = "病人主訴"

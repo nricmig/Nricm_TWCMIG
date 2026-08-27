@@ -7,9 +7,10 @@ Description: "此血型(ObservationBloodtype TWCM)Profile說明本IG如何進一
 * code 1..1 MS
 * code = http://loinc.org#882-1 "ABO and Rh group [Type] in Blood"
 * encounter 1..1 MS
+* value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
   * ^short = "[應填入門診病摘之自述血型Blood Type]"
-* subject MS
+* subject 1..1 MS
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)

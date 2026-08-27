@@ -38,9 +38,9 @@ Description: "此Profile用於描述中醫門診單的報告文件"
           ConditionDiagnosis  1..1 MS and
           ConditionChiefComplaint 1..1 MS and
           ObservationVitalSign 1..1 MS and
-          Procedure 0..1 MS and
+          Procedure 1..1 MS and
           ObservationLabResults 0..1 MS and
-          DocumentReference 0..1 MS
+          DocumentReference 1..1 MS
 
 * section[PatientInformation].title 1..1
 * section[PatientInformation].code 1..1
@@ -120,8 +120,8 @@ Description: "此Profile用於描述中醫門診單的報告文件"
     careplan 1..1 and
     observationtonguecondition 0..1 and
     observationpulsecondition 0..1 and
-    observationmanifestation 0..1 and
-    observationtherapeuticdiscipline 0..1
+    observationsyndrometype 0..1 and
+    observationtherapeuticprinciples 0..1
 * section[ConditionDiagnosis].section[conditiondiagnosis]
   * code = http://loinc.org#29548-5 "Diagnosis Narrative"
   * entry only Reference(conditiondiagnosis-twcm)
@@ -144,15 +144,15 @@ Description: "此Profile用於描述中醫門診單的報告文件"
   * entry 0..1
   * entry only Reference(observationpulsecondition-twcm)
     * reference 1..1
-* section[ConditionDiagnosis].section[observationmanifestation]
+* section[ConditionDiagnosis].section[observationsyndrometype]
   * code = http://loinc.org#29548-5 "Diagnosis Narrative"
   * entry 0..1
-  * entry only Reference(observationmanifestation-twcm)
+  * entry only Reference(observationsyndrometype-twcm)
     * reference 1..1
-* section[ConditionDiagnosis].section[observationtherapeuticdiscipline]
+* section[ConditionDiagnosis].section[observationtherapeuticprinciples]
   * code = http://loinc.org#29548-5 "Diagnosis Narrative"
   * entry 0..1
-  * entry only Reference(observationtherapeuticdiscipline-twcm)
+  * entry only Reference(observationtherapeuticprinciples-twcm)
     * reference 1..1
 
 

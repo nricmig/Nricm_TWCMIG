@@ -12,6 +12,7 @@ Usage: #example
 * bodySite.extension[0].valueCodeableConcept.text = "承靈，下針3公分"
 * bodySite.extension[1].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
 * bodySite.extension[1].valueString = "承靈"
+* bodySite.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#TODO
 * bodySite.text = "A"
 
 * subject = Reference(Patient/PatientTWCM-min)

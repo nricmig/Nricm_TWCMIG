@@ -42,8 +42,9 @@ Description: "此血壓(ObservationBloodPressure TWCM) Profile說明本IG如何�
 * derivedFrom only Reference(documentreference-twcm or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or TWCoreObservationVitalSigns or MolecularSequence)
 * specimen only Reference(TWCoreSpecimen)
 
-* subject MS
+* subject 1..1 MS
 * encounter MS
+* effectiveDateTime 1..1 MS
 
 Profile: ObservationHeartRateTWCM
 Parent: TWCoreObservationHeartRate
@@ -56,8 +57,9 @@ Description: "此脈搏(ObservationHeartRate TWCM) Profile說明本IG如何進�
 * value[x] only Quantity
 * valueQuantity 1.. MS
   * ^short = "[應填入門診病摘之病人脈博Pulse]"
-* subject MS
+* subject 1..1 MS
 * encounter MS
+* effectiveDateTime 1..1 MS
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)
 * subject only Reference(patient-twcm)
@@ -78,8 +80,9 @@ Description: "此身高(ObservationBodyHeight TWCM) Profile說明本IG如何進�
 * value[x] only Quantity
 * valueQuantity 1.. MS
   * ^short = "[應填入門診病摘之病人身高Height及病人身高單位Height Unit]"
-* subject MS
+* subject 1..1 MS
 * encounter MS
+* effectiveDateTime 1..1 MS
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)
@@ -101,8 +104,9 @@ Description: "此體重(ObservationBodyWeight TWCM) Profile說明本IG如何進�
 * value[x] only Quantity
 * valueQuantity 1.. MS
   * ^short = "[應填入門診病摘之病人體重Weight及病人體重單位Weight Unit]"
-* subject MS
+* subject 1..1 MS
 * encounter MS
+* effectiveDateTime 1..1 MS
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)
@@ -125,8 +129,9 @@ Description: "此體溫(ObservationBodyTemp TWCM) Profile說明本IG如何進一
 * valueQuantity 1.. MS
   * ^short = "[應填入門診病摘之病人體溫Body Temperature]"
 
-* subject MS
+* subject 1..1 MS
 * encounter MS
+* effectiveDateTime 1..1 MS
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)

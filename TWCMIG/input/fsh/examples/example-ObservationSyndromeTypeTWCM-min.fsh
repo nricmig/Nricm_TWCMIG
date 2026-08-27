@@ -1,13 +1,13 @@
 Alias: $SCT = http://snomed.info/sct
-Instance: ObservationManifestationTWCM-min
-InstanceOf: observationmanifestation-twcm
+Instance: ObservationSyndromeTypeTWCM-min
+InstanceOf: observationsyndrometype-twcm
 Title: "中醫-病人證型範例"
-Description: "依據病人證型(ObservationManifestation TWCM)Profile呈現中醫門診單中病人證型的範例"
+Description: "依據病人證型(ObservationSyndromeType TWCM)Profile呈現中醫門診單中病人證型的範例"
 Usage: #example
 * status = #final
 * code = $SCT#38276004 "Multiple symptoms (finding)"
-* valueCodeableConcept.coding[0] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-manifestation#TODO "外感風寒"
-* valueCodeableConcept.coding[1] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-manifestation#TODO "脾失健運"
+* valueCodeableConcept.coding[0] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-syndrometype#TODO
+* valueCodeableConcept.coding[1] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-syndrometype#TODO
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * text.status = #generated

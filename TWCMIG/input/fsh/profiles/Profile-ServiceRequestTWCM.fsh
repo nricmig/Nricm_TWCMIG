@@ -10,14 +10,14 @@ Description: "此服務請求(ServiceRequest TWCM)Profile說明本IG如何進一
     TWLaboratoryCategory 0..1 MS
   * coding[TWLaboratoryCategory] from https://twcore.mohw.gov.tw/ig/twcore/ValueSet/laboratory-category-tw
   * coding[TWLaboratoryCategory] ^short = "此為中央健康保險署(NHI)維護之醫療服務給付項目-檢驗相關代碼，主要針對申報使用，更新頻率相對頻繁，可免費使用，可依情境選用此代碼。"
-* requester MS
+* requester 1..1 MS
 * requester only Reference(organization-twcm)
   * ^short = "[應填入門診病摘之檢驗檢查開單醫事機構代碼Order Hospital ID及檢驗檢查開單醫事機構名稱Order Hospital Name]"
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * occurrenceDateTime 1..1 MS
   * ^short = "[應填入門診病摘之檢驗檢查開單日期Exam Order Date]"
-* subject MS
+* subject 1..1 MS
 * encounter 1..1 MS
 
 * basedOn only Reference(careplan-twcm or servicerequest-twcm or medicationrequest-twcm)

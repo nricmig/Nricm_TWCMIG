@@ -18,7 +18,8 @@ Description: "此教育程度(ObservationEducationLevel TWCM)Profile說明本IG�
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)
-* subject only Reference(patient-twcm or Group or TWCoreImplantableDevice or TWCoreLocation)
+* subject 1..1 MS
+* subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * performer only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or TWCoreCareTeam or patient-twcm or TWCoreRelatedPerson)
 * hasMember only Reference(observation-twcm or QuestionnaireResponse or MolecularSequence)

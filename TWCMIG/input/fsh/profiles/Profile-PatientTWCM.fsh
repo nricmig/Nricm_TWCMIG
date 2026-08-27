@@ -56,7 +56,7 @@ Description: "此病人資料(Patient TWCM)Profile說明本IG如何進一步定�
 * address[billing].use 1..1
 * address[billing].use = #billing
 * address[billing] ^short = "此地址用途為[病人聯絡地址]"
-//* extension contains $childnumber named childnumber 0..1 MS
+* extension contains $childnumber named childnumber 0..1 MS
 
 * contact.telecom ^slicing.discriminator.type = #pattern
 * contact.telecom ^slicing.discriminator.path = "use"

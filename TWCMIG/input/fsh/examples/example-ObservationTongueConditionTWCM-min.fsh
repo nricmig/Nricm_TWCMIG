@@ -6,7 +6,7 @@ Description: "依據病人舌象(ObservationTongueCondition TWCM)Profile呈現�
 Usage: #example
 * status = #final
 * code = $SCT#249378009 "Tongue finding"
-* valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-tonguecondition#TODO "苔白"
+* valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-tonguecondition#TODO
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * text.status = #generated

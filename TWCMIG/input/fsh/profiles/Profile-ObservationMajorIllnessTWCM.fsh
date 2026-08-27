@@ -10,12 +10,12 @@ Description: "此重大傷病註記(ObservationMajorIllness TWCM)Profile說明�
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)
-* subject only Reference(patient-twcm or Group or TWCoreImplantableDevice or TWCoreLocation)
+* subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * performer only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or TWCoreCareTeam or patient-twcm or TWCoreRelatedPerson)
 * hasMember only Reference(observation-twcm or QuestionnaireResponse or MolecularSequence)
 * derivedFrom only Reference(documentreference-twcm or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or observation-twcm or MolecularSequence)
 * specimen only Reference(TWCoreSpecimen)
 
-* subject MS
-* encounter MS
+* subject 1..1 MS
+* encounter 1..1 MS
