@@ -9,8 +9,8 @@ Description: "此病人脈象(ObservationPulseCondition TWCM)Profile說明本IG�
 * value[x] MS
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
-  * ^short = "[應填入中醫門診單之病人脈象Pulse Condition]"
-  * coding 1..1 MS
+  * ^short = "[應填入中醫門診單之病人脈象Pulse Condition。可對應之WHO傳統醫學術語應優先使用coding；無法對應時僅填text即可]"
+  * coding 0..1 MS
   * coding from twcm-pulsecondition (required)
 
 * subject 1..1 MS

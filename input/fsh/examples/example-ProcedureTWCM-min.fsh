@@ -11,7 +11,8 @@ Usage: #example
 * bodySite.extension[0].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
 * bodySite.extension[0].valueCodeableConcept.text = "承靈，下針3公分"
 * bodySite.extension[1].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
-* bodySite.extension[1].valueString = "承靈"
+* bodySite.extension[1].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-acupuncturepoint#GB18 "承靈"
+* bodySite.extension[1].valueCodeableConcept.text = "承靈"
 * bodySite.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CA
 * bodySite.text = "A"
 

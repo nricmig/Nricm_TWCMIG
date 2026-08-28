@@ -18,7 +18,7 @@ Description: "此中醫-處置或手術(Procedure TWCM)Profile說明本IG如何�
     * display 1..1 MS
     * display ^short = "[應填入門診病摘之處置說明]"
 * bodySite 1..* MS
-  * coding 1..1 MS
+  * coding 0..1 MS
   * coding from twcm-treatmentregion (required)
   * extension contains $approach named approach 1..1 MS
 * bodySite.extension[approach] ^short = "[應填入中醫門診單之針灸穴位/傷科手法/脫臼整復處理方法]"

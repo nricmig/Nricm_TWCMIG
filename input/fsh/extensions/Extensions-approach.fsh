@@ -7,8 +7,9 @@ Description: "方法"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Procedure.bodySite"
-* value[x] only string
-  * ^short = "應填入中醫門診單之針灸穴位/傷科手法/脫臼整復處理方法"
+* value[x] only CodeableConcept
+  * ^short = "應填入中醫門診單之針灸穴位/傷科手法/脫臼整復處理方法。若為針灸處置，應優先使用 coding 帶入 TWCMAcupuncturePoint 穴位代碼；傷科手法、脫臼整復處理方法目前無對應代碼系統，僅填 text 即可。"
+* value[x] from TWCMAcupuncturePoint (extensible)
 
 
 * . ^short = "方法"

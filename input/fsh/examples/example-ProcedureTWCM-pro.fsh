@@ -8,7 +8,7 @@ Usage: #example
 * code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw#E09
 * code.coding.display = "高度複雜性傷科－起始次-3.脫臼整復復位－起始次－另開內服藥"
 * bodySite.extension[0].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
-* bodySite.extension[0].valueString = "端、提法"
+* bodySite.extension[0].valueCodeableConcept.text = "端、提法"
 * bodySite.extension[1].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
 * bodySite.extension[1].valueCodeableConcept.text = "包紮"
 * bodySite.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CG
