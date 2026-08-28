@@ -6,8 +6,8 @@ Description: "依據病人治則(ObservationTherapeuticPrinciples TWCM)Profile�
 Usage: #example
 * status = #final
 * code = $SCT#314705003 "Treatment plan given (finding)"
-* valueCodeableConcept.coding[0] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-therapeuticprinciples#TODO
-* valueCodeableConcept.coding[1] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-therapeuticprinciples#TODO
+* valueCodeableConcept.coding[0] = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2429 "補氣；益氣；扶正益氣；扶正補氣"
+* valueCodeableConcept.coding[1] = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2462 "補益氣血；補氣養血"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * text.status = #generated

@@ -6,7 +6,7 @@ Description: "依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中
 Usage: #example
 * status = #final
 * code = $SCT#421608007 "Finding of pulse taking by palpation (finding)"
-* valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-pulsecondition#TODO
+* valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#889 "浮脈"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * text.status = #generated
