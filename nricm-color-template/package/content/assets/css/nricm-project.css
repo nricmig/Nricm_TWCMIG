@@ -1,0 +1,17 @@
+/*
+  NRICM TWCM IG 配色覆蓋檔。
+
+  透過 includes/_append.fragment-css.html 在範本原本的 project.css 之後載入,
+  只針對「選單列(navbar)」與「頁尾(footer)」兩個區塊套用 NRICM 官網
+  .footBg 漸層色系(#1c95e5 -> #0d76bf -> #025fa1),其餘元件(連結、
+  按鈕 hover/active、TOC 框、Publish 框、麵包屑等)維持範本預設顏色。
+*/
+
+:root {
+  --navbar-bg-color: #025fa1; /* 選單列背景色 */
+  --footer-bg-color: #0d76bf; /* 頁尾背景色(fallback,實際頁尾用下方漸層) */
+}
+
+#segment-footer > .container {
+  background: linear-gradient(to bottom, #1c95e5 2%, #0d76bf 55%, #025fa1 100%);
+}
