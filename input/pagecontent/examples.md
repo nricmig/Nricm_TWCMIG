@@ -1,4 +1,4 @@
-以下為台灣中醫實作指引所有Profiles的範例。
+以下為臺灣中醫實作指引所有Profiles的範例。
 
 ### AllergyIntolerance
 - [過敏或不耐症範例](AllergyIntolerance-AllergyIntoleranceTWCM-min.html)：依據過敏或不耐症(AllergyIntolerance TWCM)Profile呈現中醫門診單中過敏與不耐症範例
