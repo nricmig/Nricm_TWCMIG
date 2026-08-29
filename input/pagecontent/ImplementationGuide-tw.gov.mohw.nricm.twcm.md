@@ -1,18 +1,18 @@
 <table class="grid rwd-table" style="background-color:#ffffe6;width: 100%;">
     <tbody>
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://fhir.cohesiondata.com/clinemr/ImplementationGuide/tw.cohesion.fhir.clinemr<button title="" class="btn-copy" data-clipboard-text="https://fhir.cohesiondata.com/clinemr/ImplementationGuide/tw.cohesion.fhir.clinemr" data-original-title="複製URL"></button></span></td>
-      <td><i>Version</i>:<span class="copy-text">1.0.1 <button title="" class="btn-copy" data-clipboard-text="https://fhir.cohesiondata.com/clinemr/ImplementationGuide/tw.cohesion.fhir.clinemr|1.0.1" data-original-title="複製含版本資訊的URL"></button></span></td>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://www.nricm.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm<button title="" class="btn-copy" data-clipboard-text="https://www.nricm.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm" data-original-title="複製URL"></button></span></td>
+      <td><i>Version</i>:<span class="copy-text">1.0.1 <button title="" class="btn-copy" data-clipboard-text="https://www.nricm.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm|1.0.1" data-original-title="複製含版本資訊的URL"></button></span></td>
     </tr>
     <tr>
-      <td colspan="4"><i>NPM package name</i>: tw.cohesion.fhir.clinemr</td>
-      <td><i>Computable Name</i>: <span style="font-family: monospace;">ClinEMR</span></td>
+      <td colspan="4"><i>NPM package name</i>: tw.gov.mohw.nricm.twcm</td>
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">twcm</span></td>
     </tr>
   </tbody>
 </table>
 
-- [XML](ImplementationGuide-tw.cohesion.fhir.clinemr.xml)
-- [JSON](ImplementationGuide-tw.cohesion.fhir.clinemr.json)
+- [XML](ImplementationGuide-tw.gov.mohw.nricm.twcm.xml)
+- [JSON](ImplementationGuide-tw.gov.mohw.nricm.twcm.json)
 
 #### Cross Version Analysis
 

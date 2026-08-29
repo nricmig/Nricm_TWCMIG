@@ -8,7 +8,7 @@
 -   [安全標籤(Security Labels)](http://hl7.org/fhir/R4/security-labels.html)
 -   [說明(Narrative)](http://hl7.org/fhir/R4/security.html#narrative)
 
-就診所門診病摘實作指引而言，安全一致性要求如下。
+就台灣中醫實作指引而言，安全一致性要求如下。
 
 - 系統**必須(SHALL)** 保留各種交易的稽核日誌(audit logs)
 - 系統**必須(SHALL)** 符合[FHIR通訊安全(Communications Security)](http://hl7.org/fhir/R4/security.html#http)要求

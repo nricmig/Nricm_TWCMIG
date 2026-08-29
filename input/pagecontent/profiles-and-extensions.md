@@ -5,13 +5,13 @@
 - [過敏或不耐症(AllergyIntolerance TWCM)](StructureDefinition-allergyintolerance-twcm.html)
 
 #### Bundle
-- [中醫-資料交換基本單位(Bundle TWCM)](StructureDefinition-bundle-twcm.html)
+- [資料交換基本單位(Bundle TWCM)](StructureDefinition-bundle-twcm.html)
 
 #### CarePlan
 - [關懷計畫(CarePlan TWCM)](StructureDefinition-careplan-twcm.html)
 
 #### Composition
-- [中醫-臨床文件架構(Composition TWCM)](StructureDefinition-composition-twcm.html)
+- [臨床文件架構(Composition TWCM)](StructureDefinition-composition-twcm.html)
 
 #### Condition
 - [病人主訴(ConditionChiefComplaint TWCM)](StructureDefinition-conditionchiefcomplaint-twcm.html)
@@ -32,7 +32,7 @@
 - [藥品(Medication TWCM)](StructureDefinition-medication-twcm.html)
 
 #### MedicationRequest
-- [中醫-藥品請求(MedicationRequest TWCM)](StructureDefinition-medicationrequest-twcm.html)
+- [藥品請求(MedicationRequest TWCM)](StructureDefinition-medicationrequest-twcm.html)
 
 #### Observation
 - [血型(ObservationBloodtype TWCM)](StructureDefinition-observationbloodtype-twcm.html)
@@ -62,7 +62,7 @@
 - [健康照護服務提供人員資料(Practitioner TWCM)](StructureDefinition-practitioner-twcm.html)
 
 #### Procedure
-- [中醫-處置或手術(Procedure TWCM)](StructureDefinition-procedure-twcm.html)
+- [處置或手術(Procedure TWCM)](StructureDefinition-procedure-twcm.html)
 
 #### ServiceRequest
 - [服務請求(ServiceRequest TWCM)](StructureDefinition-servicerequest-twcm.html)

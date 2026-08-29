@@ -13,37 +13,37 @@
 
 ### 如何閱讀這個實作指引(IG)
 <div  style="padding-left: 10px;"> 
-<p>診所門診病摘實作指引之網站架構圖如下圖所示。各功能說明如下：</p>
+<p>台灣中醫實作指引之網站架構圖如下圖所示。各功能說明如下：</p>
 
 <img class="figure-img img-responsive img-rounded center-block" src="structure.jpg" alt="IG架構圖" style="display: block;margin-left: auto;margin-right: auto;width: 80%;"/>
 <div style="clear:both;"></div>
 
 <ul>
-	<li><strong><a href="index.html">應用說明</a></strong>：診所門診病摘實作指引介紹及背景說明。</li>
+	<li><strong><a href="index.html">應用說明</a></strong>：台灣中醫實作指引介紹及背景說明。</li>
 	<li><strong><a href="models.html">視覺化邏輯模型</a></strong>：TWCM IG邏輯模型架構視覺化圖。</li>
 	<li><strong><a href="artifacts.html">規範文件</a></strong>
 	<ul>
 		<li><strong><a href="capabilitystatements.html">能力聲明</a>
-			</strong>：應用診所門診病摘實作指引於建置業務目的使用的FHIR Server時，該FHIR Server必須及建議應該支援的操作功能。
+			</strong>：應用台灣中醫實作指引於建置業務目的使用的FHIR Server時，該FHIR Server必須及建議應該支援的操作功能。
 		</li>
 		<li><strong><a href="models.html">邏輯模型</a>
-			</strong>：診所門診病摘實作指引的所有邏輯模型(Logical Models)，邏輯模型會定義相應情境下使用的所有資料欄位。為了便於實作者快速理解，資料欄位會使用易於理解的命名，實作者再透過邏輯模型中的功能頁籤「Mappings」瞭解各資料欄位實際使用本IG的哪個Profiles的哪個資料項目(element)。
+			</strong>：台灣中醫實作指引的所有邏輯模型(Logical Models)，邏輯模型會定義相應情境下使用的所有資料欄位。為了便於實作者快速理解，資料欄位會使用易於理解的命名，實作者再透過邏輯模型中的功能頁籤「Mappings」瞭解各資料欄位實際使用本IG的哪個Profiles的哪個資料項目(element)。
 		</li>
     	<li><strong><a href="profiles-and-extensions.html">FHIR Profiles和Extension</a></strong>：
         	<ul>
-          		<li>診所門診病摘實作指引的所有Profiles之定義與範例及Extensions。</li>
+          		<li>台灣中醫實作指引的所有Profiles之定義與範例及Extensions。</li>
           		<li>各資料項目不同實作強制程度的Terminology。</li>
         	</ul>
       	</li>
 		<li><strong><a href="terminologies.html">專門術語</a>
-			</strong>：診所門診病摘實作指引網站所使用的專門術語，包括代碼系統（Code Systems）及值集（Value Sets）。
+			</strong>：台灣中醫實作指引網站所使用的專門術語，包括代碼系統（Code Systems）及值集（Value Sets）。
 		</li>
 	</ul>
 	</li>
-	<li><strong><a href="examples.html">範例</a></strong>：符合診所門診病摘實作指引所定義Profiles之範例檔。</li>
+	<li><strong><a href="examples.html">範例</a></strong>：符合台灣中醫實作指引所定義Profiles之範例檔。</li>
 	<li><strong><a href="downloads.html">結構定義與範例檔下載</a></strong>：實作者若不偏好使用FHIR RESTful API驗證資料是否符合Profiles，可直接下載所需的格式驗證檔，包括XML、JSON及Turtle三種格式，亦可於此下載完整範例檔。</li>
-	<li><strong><a href="security.html">安全性</a></strong>：主要說明採用診所門診病摘實作指引網站進行實作時，有關資料存取授權的作法。</li>
-	<li><strong><a href="https://fhir.cohesiondata.com/clinemr/history.html">版本異動</a></strong>：若診所門診病摘實作指引網站的版本有所異動，皆可透過<a href="https://fhir.cohesiondata.com/clinemr/history.html">異動說明頁</a>得以瞭解版本間的異動差異。</li>
+	<li><strong><a href="security.html">安全性</a></strong>：主要說明採用台灣中醫實作指引網站進行實作時，有關資料存取授權的作法。</li>
+	<li><strong><a href="https://fhir.cohesiondata.com/clinemr/history.html">版本異動</a></strong>：若台灣中醫實作指引網站的版本有所異動，皆可透過<a href="https://fhir.cohesiondata.com/clinemr/history.html">異動說明頁</a>得以瞭解版本間的異動差異。</li>
 </ul>
 </div>
 
@@ -65,12 +65,12 @@
 <td>作者-IG</td>
 <td>鄭嘉儀</td>
 <td rowspan="3">衛生福利部國家中醫藥研究所</td>
-<td><a href="mailto:amy960038@gmail.com">amy960038@gmail.com</a><br>
+<td><a href="mailto:amy960038@gmail.com">amy960038@gmail.com</a></td>
 </tr>
 <tr>
 <td>作者-IG</td>
 <td>楊宜蓁</td>
-<td><a href="mailto:yyz030630@gmail.com">yyz030630@gmail.com</a><br>
+<td><a href="mailto:yyz030630@gmail.com">yyz030630@gmail.com</a></td>
 </tr>
 <tr>
 <td>作者-IG</td>
