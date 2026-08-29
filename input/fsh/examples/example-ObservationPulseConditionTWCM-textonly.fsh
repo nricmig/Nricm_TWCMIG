@@ -1,7 +1,7 @@
 Alias: $SCT = http://snomed.info/sct
 Instance: ObservationPulseConditionTWCM-textonly
 InstanceOf: observationpulsecondition-twcm
-Title: "中醫-病人脈象範例(僅文字,無對應代碼)"
+Title: "病人脈象範例(僅文字,無對應代碼)"
 Description: "依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫門診單中病人脈象的範例。示範當來源文字無法對應到WHOICTMTerminology代碼系統中任何詞條時,valueCodeableConcept僅填text、不填coding的寫法。"
 Usage: #example
 * status = #final

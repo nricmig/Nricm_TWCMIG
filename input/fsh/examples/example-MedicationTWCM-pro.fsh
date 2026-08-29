@@ -1,7 +1,7 @@
 Alias: $mnhi = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-nhi-tw
 Instance: MedicationTWCM-pro
 InstanceOf: medication-twcm
-Title: "中醫-藥品資訊範例"
+Title: "藥品資訊範例"
 Description: "依據藥品(Medication TWCM)Profile呈現中醫門診單中藥品範例"
 Usage: #example
 * code.coding[0] = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/nhi-medication-ch-herb-tw#A061308 "\"順天堂\"紅耆濃縮顆粒"

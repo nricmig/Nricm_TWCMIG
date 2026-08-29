@@ -1,6 +1,6 @@
 Instance: CompositionTWCM-min
 InstanceOf: composition-twcm
-Title: "中醫-門診單架構"
+Title: "門診單架構"
 Description: "依據中醫-臨床文件架構(Composition TWCM)Profile呈現中醫門診單"
 Usage: #example
 * meta.versionId = "1"

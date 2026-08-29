@@ -1,6 +1,6 @@
 Instance: ObservationOccupationTWCM-min
 InstanceOf: observationoccupation-twcm
-Title: "中醫-職業範例"
+Title: "職業範例"
 Description: "依據職業(ObservationOccupation TWCM)Profile呈現中醫門診單中職業的範例"
 Usage: #example
 * status = #final

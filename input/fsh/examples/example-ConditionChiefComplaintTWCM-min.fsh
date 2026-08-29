@@ -1,6 +1,6 @@
 Instance: ConditionChiefComplaintTWCM-min
 InstanceOf: conditionchiefcomplaint-twcm
-Title: "中醫-病人主訴範例"
+Title: "病人主訴範例"
 Description: "依據病人主訴(ConditionChiefComplaint TWCM)Profile呈現中醫門診單中病人主訴的範例"
 Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active "Active"

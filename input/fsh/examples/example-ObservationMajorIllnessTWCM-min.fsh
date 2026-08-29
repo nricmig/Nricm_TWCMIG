@@ -1,6 +1,6 @@
 Instance: ObservationMajorIllnessTWCM-min
 InstanceOf: observationmajorillness-twcm
-Title: "中醫-重大傷病註記範例"
+Title: "重大傷病註記範例"
 Description: "依據重大傷病註記(ObservationMajorIllness TWCM)Profile呈現中醫門診單中重大傷病註記範例"
 Usage: #example
 * status = #final

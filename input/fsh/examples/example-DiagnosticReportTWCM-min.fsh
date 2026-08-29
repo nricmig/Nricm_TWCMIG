@@ -1,6 +1,6 @@
 Instance: DiagnosticReportTWCM-min
 InstanceOf: diagnosticreport-twcm
-Title: "中醫-診斷報告參照範例"
+Title: "診斷報告參照範例"
 Description: "依據診斷報告(DiagnosticReport TWCM)Profile呈現中醫門診單中診斷報告的範例"
 Usage: #example
 * status = #final

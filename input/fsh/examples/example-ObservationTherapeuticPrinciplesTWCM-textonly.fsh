@@ -1,7 +1,7 @@
 Alias: $SCT = http://snomed.info/sct
 Instance: ObservationTherapeuticPrinciplesTWCM-textonly
 InstanceOf: observationtherapeuticprinciples-twcm
-Title: "中醫-病人治則範例(僅文字,無對應代碼)"
+Title: "病人治則範例(僅文字,無對應代碼)"
 Description: "依據病人治則(ObservationTherapeuticPrinciples TWCM)Profile呈現中醫門診單中病人治則的範例。示範當來源文字無法對應到WHOICTMTerminology代碼系統中任何詞條時,valueCodeableConcept僅填text、不填coding的寫法。"
 Usage: #example
 * status = #final

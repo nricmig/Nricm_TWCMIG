@@ -1,6 +1,6 @@
 Instance: BundleTWCM-min
 InstanceOf: bundle-twcm
-Title: "中醫-診所門診病摘"
+Title: "診所門診病摘"
 Description: "依據中醫門診單(Bundle TWCM)Profile呈現中醫門診單範例"
 Usage: #example
 * identifier.system = "https://www.nricm.edu.tw/twcm"

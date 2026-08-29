@@ -1,6 +1,6 @@
 Instance: ObservationBloodtypeTWCM-min
 InstanceOf: observationbloodtype-twcm
-Title: "中醫-血型範例"
+Title: "血型範例"
 Description: "依據血型(ObservationBloodtype TWCM)Profile呈現中醫門診單中血型的範例"
 Usage: #example
 * status = #final

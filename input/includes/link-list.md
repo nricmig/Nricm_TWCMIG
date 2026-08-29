@@ -1,2 +1,2 @@
 
-[ClinEMR CapabilityStatement]: CapabilityStatement-CapabilityStatementClinEMR.html
+[TWCM CapabilityStatement]: CapabilityStatement-CapabilityStatementTWCM.html

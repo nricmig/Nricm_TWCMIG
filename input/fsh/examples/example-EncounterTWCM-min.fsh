@@ -1,6 +1,6 @@
 Instance: EncounterTWCM-min
 InstanceOf: encounter-twcm
-Title: "中醫-就醫事件"
+Title: "就醫事件"
 Description: "依據就醫事件(Encounter TWCM)Profile呈現中醫門診單中就醫事件範例"
 Usage: #example
 * identifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"

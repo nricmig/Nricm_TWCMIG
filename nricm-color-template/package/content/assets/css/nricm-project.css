@@ -15,3 +15,8 @@
 #segment-footer > .container {
   background: linear-gradient(to bottom, #1c95e5 2%, #0d76bf 55%, #025fa1 100%);
 }
+
+/* 「規範文件」選單：滑鼠移上去顯示子選單，點擊則直接前往 artifacts.html */
+.twcm-hover-dropdown:hover > .dropdown-menu {
+  display: block;
+}

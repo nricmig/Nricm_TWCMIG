@@ -1,6 +1,6 @@
 Instance: ServiceRequestTWCM-pro
 InstanceOf: servicerequest-twcm
-Title: "中醫-服務請求範例"
+Title: "服務請求範例"
 Description: "依據服務請求(ServiceRequest TWCM)Profile呈現中醫門診單中服務請求的範例"
 Usage: #example
 * status = #completed

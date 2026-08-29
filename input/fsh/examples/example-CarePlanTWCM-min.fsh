@@ -1,6 +1,6 @@
 Instance: CarePlanTWCM-min
 InstanceOf: careplan-twcm
-Title: "中醫-醫師囑咐範例"
+Title: "醫師囑咐範例"
 Description: "依據關懷計畫(CarePlan TWCM)Profile呈現中醫門診單中醫師囑咐的範例"
 Usage: #example
 * status = #completed

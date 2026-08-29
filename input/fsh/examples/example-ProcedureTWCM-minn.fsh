@@ -1,6 +1,6 @@
 Instance: ProcedureTWCM-minn
 InstanceOf: procedure-twcm
-Title: "中醫-傷科處置範例"
+Title: "傷科處置範例"
 Description: "依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中傷科處置範例"
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed

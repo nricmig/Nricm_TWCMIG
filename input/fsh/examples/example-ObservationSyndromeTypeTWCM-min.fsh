@@ -1,7 +1,7 @@
 Alias: $SCT = http://snomed.info/sct
 Instance: ObservationSyndromeTypeTWCM-min
 InstanceOf: observationsyndrometype-twcm
-Title: "中醫-病人證型範例"
+Title: "病人證型範例"
 Description: "依據病人證型(ObservationSyndromeType TWCM)Profile呈現中醫門診單中病人證型的範例"
 Usage: #example
 * status = #final

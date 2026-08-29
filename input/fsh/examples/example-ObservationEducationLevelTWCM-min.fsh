@@ -1,6 +1,6 @@
 Instance: ObservationEducationLevelTWCM-min
 InstanceOf: observationeducationlevel-twcm
-Title: "中醫-教育程度範例"
+Title: "教育程度範例"
 Description: "依據教育程度(ObservationEducationLevel TWCM)Profile呈現中醫門診單中教育程度的範例"
 Usage: #example
 * status = #final

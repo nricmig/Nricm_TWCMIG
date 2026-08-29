@@ -1,6 +1,6 @@
 Instance: OrganizationTWCM-min
 InstanceOf: organization-twcm
-Title: "中醫-醫事機構基本資料-捷達世中醫診所"
+Title: "醫事機構基本資料-捷達世中醫診所"
 Description: "依據醫事機構(Organization TWCM)Profile呈現中醫門診單中醫事機構範例"
 Usage: #example
 * identifier.use = #official

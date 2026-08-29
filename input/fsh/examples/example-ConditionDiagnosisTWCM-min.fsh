@@ -1,6 +1,6 @@
 Instance: ConditionDiagnosisTWCM-min
 InstanceOf: conditiondiagnosis-twcm
-Title: "中醫-病情、問題或診斷範例"
+Title: "病情、問題或診斷範例"
 Description: "依據診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例"
 Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active "Active"

@@ -1,6 +1,6 @@
 Instance: ObservationVitalSignTWCM-min
 InstanceOf: observationvitalsign-twcm
-Title: "中醫-生命徵象範例"
+Title: "生命徵象範例"
 Description: "依據生命徵象(ObservationVitalSign TWCM)Profile呈現中醫門診單中生命徵象範例"
 Usage: #example
 * status = #final
@@ -51,7 +51,7 @@ Usage: #example
 
 Instance: obs-bloodPressure-example-TWCM
 InstanceOf: observationbloodpressure-twcm
-Title: "中醫-血壓範例"
+Title: "血壓範例"
 Description: "依據臺灣核心-血壓(TW Core Observation Blood Pressure) Profile呈現血壓範例"
 Usage: #example
 * status = #final
@@ -110,7 +110,7 @@ Usage: #example
 
 Instance: obs-heartrate-example-TWCM
 InstanceOf: observationheartrate-twcm
-Title: "中醫-脈搏範例"
+Title: "脈搏範例"
 Description: "依據脈搏(ObservationHeartRate TWCM) Profile呈現脈搏範例"
 Usage: #example
 * status = #final
@@ -153,7 +153,7 @@ Usage: #example
 
 Instance: obs-bodyheight-example-TWCM
 InstanceOf: observationbodyheight-twcm
-Title: "中醫-身高範例"
+Title: "身高範例"
 Description: "依據身高(ObservationBodyHeight TWCM) Profile呈現身高範例"
 Usage: #example
 * status = #final
@@ -196,7 +196,7 @@ Usage: #example
 
 Instance: obs-bodyweight-example-TWCM
 InstanceOf: observationbodyweight-twcm
-Title: "中醫-體重範例"
+Title: "體重範例"
 Description: "依據體重(ObservationBodyWeight TWCM) Profile呈現體重範例"
 Usage: #example
 * status = #final
@@ -239,7 +239,7 @@ Usage: #example
 
 Instance: obs-bodytemp-example-TWCM
 InstanceOf: observationbodytemp-twcm
-Title: "中醫-體溫範例"
+Title: "體溫範例"
 Description: "依據體溫(ObservationBodyTemp TWCM) Profile呈現體溫範例"
 Usage: #example
 * status = #final

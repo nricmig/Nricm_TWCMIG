@@ -1,6 +1,6 @@
 Instance: ObservationTWCM-min
 InstanceOf: observation-twcm
-Title: "中醫-檢驗檢查範例"
+Title: "檢驗檢查範例"
 Description: "依據檢驗檢查(Observation TWCM)Profile呈現中醫門診單中檢驗檢查範例"
 Usage: #example
 * status = #final

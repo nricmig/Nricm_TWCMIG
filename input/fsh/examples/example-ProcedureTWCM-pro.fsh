@@ -1,6 +1,6 @@
 Instance: ProcedureTWCM-pro
 InstanceOf: procedure-twcm
-Title: "中醫-脫臼整復處置範例"
+Title: "脫臼整復處置範例"
 Description: "依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中脫臼整復處置範例"
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed

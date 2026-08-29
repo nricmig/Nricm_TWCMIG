@@ -1,6 +1,6 @@
 Instance: PatientTWCM-min
 InstanceOf: patient-twcm
-Title: "中醫-病人基本資料-陳美真"
+Title: "病人基本資料-陳美真"
 Description: "依據病人資料(Patient TWCM)Profile呈現中醫門診單中之病人資料範例"
 Usage: #example
 

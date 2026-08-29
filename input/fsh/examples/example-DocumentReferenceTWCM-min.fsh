@@ -1,6 +1,6 @@
 Instance: DocumentReferenceTWCM-min
 InstanceOf: documentreference-twcm
-Title: "中醫-文件參照範例"
+Title: "文件參照範例"
 Description: "依據文件參照(DocumentReference TWCM)Profile呈現中醫門診單中文件參照的範例"
 Usage: #example
 * status = #current

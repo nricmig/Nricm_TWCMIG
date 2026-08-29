@@ -1,7 +1,7 @@
 Alias: $SCT = http://snomed.info/sct
 Instance: ObservationTongueConditionTWCM-min
 InstanceOf: observationtonguecondition-twcm
-Title: "中醫-病人舌象範例"
+Title: "病人舌象範例"
 Description: "依據病人舌象(ObservationTongueCondition TWCM)Profile呈現中醫門診單中病人舌象的範例"
 Usage: #example
 * status = #final

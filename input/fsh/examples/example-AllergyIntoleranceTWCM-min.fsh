@@ -1,6 +1,6 @@
 Instance: AllergyIntoleranceTWCM-min
 InstanceOf: allergyintolerance-twcm
-Title: "中醫-過敏或不耐症範例"
+Title: "過敏或不耐症範例"
 Description: "依據過敏或不耐症(AllergyIntolerance TWCM)Profile呈現中醫門診單中過敏與不耐症範例"
 Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical#active "Active"

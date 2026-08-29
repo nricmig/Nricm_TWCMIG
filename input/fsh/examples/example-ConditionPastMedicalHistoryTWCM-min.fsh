@@ -1,6 +1,6 @@
 Instance: ConditionPastMedicalHistoryTWCM-min
 InstanceOf: conditionpastmedicalhistory-twcm
-Title: "中醫-過去病史範例"
+Title: "過去病史範例"
 Description: "依據過去病史(ConditionPastMedicalHistory TWCM)Profile呈現中醫門診單中過去病史範例"
 Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved
