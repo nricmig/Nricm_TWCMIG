@@ -15,5 +15,6 @@ Description: "此過敏或不耐症(AllergyIntolerance TWCM)Profile說明本IG�
 
 * code MS
   * text 1..1 MS
+* code from https://twcore.mohw.gov.tw/ig/twcore/ValueSet/icd-10-cm-2023-tw (extensible)
 * patient 1..1 MS
 * encounter MS
