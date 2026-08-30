@@ -11,6 +11,7 @@ Description: "臺灣衛福部中醫藥品許可證，參照至[https://service.m
 * ^experimental = false
 * ^date = "2026-08-28"
 * ^caseSensitive = true
+* #衛署成輸字第000005號 "〝津村〞康蓓芙濃縮顆粒 TSUMURA CHARMFORFRAU EXTRACT GRANULES"
 * #衛部成輸字第000007號 "“樋屋”特撰金粒樋屋奇應丸 HIYA KIOGAN GOLD"
 * #衛署成製字第000020號 "“人壽”人參補養丸 BUYANG-G PILL \"J.S.\""
 * #衛署成製字第000090號 "“萬國”十全大補丸"
