@@ -10,6 +10,7 @@ Description: "此血型(ObservationBloodtype TWCM)Profile說明本IG如何進一
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
   * ^short = "[應填入門診病摘之自述血型Blood Type]"
+* valueCodeableConcept from http://hl7.org/fhir/uv/ips/ValueSet/results-blood-group-uv-ips|2.0.1 (extensible)
 * subject 1..1 MS
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
