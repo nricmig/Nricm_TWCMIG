@@ -6,8 +6,8 @@ Description: "依據病人證型(ObservationSyndromeType TWCM)Profile呈現中�
 Usage: #example
 * status = #final
 * code = $SCT#38276004 "Multiple symptoms (finding)"
-* valueCodeableConcept.coding[0] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-syndrometype#TODO
-* valueCodeableConcept.coding[1] = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-syndrometype#TODO
+* valueCodeableConcept.coding[0] = http://id.who.int/icd/release/11/mms#SF8C "風寒束肺證"
+* valueCodeableConcept.coding[1] = http://id.who.int/icd/release/11/mms#SF70 "脾氣虛證"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * text.status = #generated
