@@ -40,7 +40,12 @@ Description: "此Profile用於描述中醫門診單的報告文件"
           ObservationVitalSign 1..1 MS and
           Procedure 1..1 MS and
           ObservationLabResults 0..1 MS and
-          DocumentReference 1..1 MS
+          DocumentReference 1..1 MS and
+          FamilyMemberHistory 0..1 MS and
+          SocialHistory 0..1 MS and
+          MenstrualHistory 0..1 MS and
+          ObstetricHistory 0..1 MS and
+          Objective 1..1 MS
 
 * section[PatientInformation].title 1..1
 * section[PatientInformation].code 1..1
@@ -120,8 +125,8 @@ Description: "此Profile用於描述中醫門診單的報告文件"
     careplan 1..1 and
     observationtonguecondition 0..1 and
     observationpulsecondition 0..1 and
-    observationsyndrometype 0..1 and
-    observationtherapeuticprinciples 0..1
+    conditionsyndrometype 0..1 and
+    proceduretherapeuticprinciples 0..1
 * section[ConditionDiagnosis].section[conditiondiagnosis]
   * code = http://loinc.org#29548-5 "Diagnosis Narrative"
   * entry only Reference(conditiondiagnosis-twcm)
@@ -144,15 +149,15 @@ Description: "此Profile用於描述中醫門診單的報告文件"
   * entry 0..1
   * entry only Reference(observationpulsecondition-twcm)
     * reference 1..1
-* section[ConditionDiagnosis].section[observationsyndrometype]
+* section[ConditionDiagnosis].section[conditionsyndrometype]
   * code = http://loinc.org#29548-5 "Diagnosis Narrative"
   * entry 0..1
-  * entry only Reference(observationsyndrometype-twcm)
+  * entry only Reference(conditionsyndrometype-twcm)
     * reference 1..1
-* section[ConditionDiagnosis].section[observationtherapeuticprinciples]
+* section[ConditionDiagnosis].section[proceduretherapeuticprinciples]
   * code = http://loinc.org#29548-5 "Diagnosis Narrative"
   * entry 0..1
-  * entry only Reference(observationtherapeuticprinciples-twcm)
+  * entry only Reference(proceduretherapeuticprinciples-twcm)
     * reference 1..1
 
 
@@ -208,6 +213,41 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[DocumentReference].code = http://loinc.org#75310-3 "Health concerns Document"
 * section[DocumentReference].entry 1..1
 * section[DocumentReference].entry only Reference(documentreference-twcm)
+  * reference 1..1
+
+* section[FamilyMemberHistory].title 1..1
+* section[FamilyMemberHistory].code 1..1
+* section[FamilyMemberHistory].code = http://loinc.org#10157-6 "History of family member diseases note"
+* section[FamilyMemberHistory].entry 1..*
+* section[FamilyMemberHistory].entry only Reference(familymemberhistory-twcm)
+  * reference 1..1
+
+* section[SocialHistory].title 1..1
+* section[SocialHistory].code 1..1
+* section[SocialHistory].code = http://loinc.org#29762-2 "Social history note"
+* section[SocialHistory].entry 1..1
+* section[SocialHistory].entry only Reference(observationsocialhistory-twcm)
+  * reference 1..1
+
+* section[MenstrualHistory].title 1..1
+* section[MenstrualHistory].code 1..1
+* section[MenstrualHistory].code = http://loinc.org#49033-4 "Menstrual History - Reported"
+* section[MenstrualHistory].entry 1..1
+* section[MenstrualHistory].entry only Reference(observationmenstrualhistory-twcm)
+  * reference 1..1
+
+* section[ObstetricHistory].title 1..1
+* section[ObstetricHistory].code 1..1
+* section[ObstetricHistory].code = http://loinc.org#10162-6 "History of pregnancies Narrative"
+* section[ObstetricHistory].entry 1..1
+* section[ObstetricHistory].entry only Reference(observationobstetrichistory-twcm)
+  * reference 1..1
+
+* section[Objective].title 1..1
+* section[Objective].code 1..1
+* section[Objective].code = http://loinc.org#61149-1 "Objective Narrative"
+* section[Objective].entry 1..1
+* section[Objective].entry only Reference(observationobjectivefindings-twcm)
   * reference 1..1
 
 * identifier

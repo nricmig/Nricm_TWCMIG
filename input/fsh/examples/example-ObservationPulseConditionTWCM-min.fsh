@@ -8,6 +8,7 @@ Usage: #example
 * code = $SCT#421608007 "Finding of pulse taking by palpation (finding)"
 * valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#889 "浮脈"
 * subject = Reference(Patient/PatientTWCM-min)
+* effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

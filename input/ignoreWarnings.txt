@@ -1,5 +1,26 @@
 == Suppressed Messages ==
 
-# Add warning and/or information messages here after you've confirmed that they aren't really a problem
-# (And include comments like this justifying why)
-# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+# 提醒slice的pattern寫法將於R5版本不再支援，不影響驗證。
+% The discriminator type 'pattern' is deprecated in R5%
+
+# 本IG自訂代碼系統目前為草案(draft)狀態，待正式發布後改為active，不影響驗證。
+% Reference to draft CodeSystem%
+
+# 建議Observation皆須要填寫performer，但此專案情境不需要。
+% Best Practice Recommendation: In general, all observations should have a performer%
+
+# validator無法辨識URL，不影響驗證。
+% No definition could be found for URL value%
+
+# 使用預設的HL7值集，但HL7 validator無法辨識版本，此屬於HL7 validator程式本身問題，非IG設計問題。
+% There are multiple different potential matches for the url%
+
+# 最新版本的代碼不齊全，無法直接繼承，故先繼續使用0.3.2版。
+% The ImplementationGuide uses package tw.gov.mohw.twcore#0.3.2%
+
+# deprecated extension，IG中未使用，不影響驗證。
+% The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated%
+% The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated%
+
+# 來自相依套件(IPS)內部的連結，非本IG內容，不影響驗證。
+% Hyperlink scheme 'file'%

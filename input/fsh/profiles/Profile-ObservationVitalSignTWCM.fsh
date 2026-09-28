@@ -53,6 +53,7 @@ Title: "脈搏(ObservationHeartRate TWCM)"
 Description: "此脈搏(ObservationHeartRate TWCM) Profile說明本IG如何進一步定義臺灣核心-心率（TW Core Observation Heart Rate） Profile以呈現中醫門診單之病人脈搏的詳細資料。"
 * code.coding ^slicing.rules = #closed
 * code.coding 1..1 MS
+* code.coding[HeartRateCode] MS
 * code.coding = http://loinc.org#8867-4 "Heart rate"
 * value[x] only Quantity
 * valueQuantity 1.. MS
@@ -76,6 +77,7 @@ Title: "身高(ObservationBodyHeight TWCM)"
 Description: "此身高(ObservationBodyHeight TWCM) Profile說明本IG如何進一步定義臺灣核心-身高（TW Core Observation Body Height） Profile以呈現中醫門診單之病人身高的詳細資料。"
 * code.coding ^slicing.rules = #closed
 * code.coding 1..1 MS
+* code.coding[BodyHeightCode] MS
 * code.coding = http://loinc.org#8302-2 "Body height"
 * value[x] only Quantity
 * valueQuantity 1.. MS
@@ -100,6 +102,7 @@ Title: "體重(ObservationBodyWeight TWCM)"
 Description: "此體重(ObservationBodyWeight TWCM) Profile說明本IG如何進一步定義臺灣核心-體重（TW Core Observation Body Weight） Profile以呈現中醫門診單之病人體重的詳細資料。"
 * code.coding ^slicing.rules = #closed
 * code.coding 1..1 MS
+* code.coding[BodyWeightCode] MS
 * code.coding = http://loinc.org#29463-7 "Body weight"
 * value[x] only Quantity
 * valueQuantity 1.. MS
@@ -124,6 +127,7 @@ Title: "體溫(ObservationBodyTemp TWCM)"
 Description: "此體溫(ObservationBodyTemp TWCM) Profile說明本IG如何進一步定義臺灣核心-體溫（TW Core Observation Body Temperature） Profile以呈現中醫門診單之病人體溫的詳細資料。"
 * code.coding ^slicing.rules = #closed
 * code.coding 1..1 MS
+* code.coding[BodyTempCode] MS
 * code.coding = http://loinc.org#8310-5 "Body temperature"
 * value[x] only Quantity
 * valueQuantity 1.. MS

@@ -9,8 +9,8 @@ Description: "此病人舌象(ObservationTongueCondition TWCM)Profile說明本IG
 * value[x] MS
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
-  * ^short = "[應填入中醫門診單之病人舌象Tongue Condition]"
-  * coding 1..1 MS
+  * ^short = "[應填入中醫門診單之病人舌象Tongue Condition。可對應之SNOMED CT代碼應優先使用coding；無法對應時僅填text即可]"
+  * coding 0..1 MS
   * coding from twcm-tonguecondition (required)
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)

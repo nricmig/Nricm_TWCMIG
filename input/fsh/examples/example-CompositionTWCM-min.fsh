@@ -64,10 +64,10 @@ Usage: #example
 * section[ConditionDiagnosis].section[observationtonguecondition].entry.reference = "Observation/ObservationTongueConditionTWCM-min"
 * section[ConditionDiagnosis].section[observationpulsecondition].code = http://loinc.org#29548-5 "Diagnosis Narrative"
 * section[ConditionDiagnosis].section[observationpulsecondition].entry.reference = "Observation/ObservationPulseConditionTWCM-min"
-* section[ConditionDiagnosis].section[observationsyndrometype].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[observationsyndrometype].entry.reference = "Observation/ObservationSyndromeTypeTWCM-min"
-* section[ConditionDiagnosis].section[observationtherapeuticprinciples].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[observationtherapeuticprinciples].entry.reference = "Observation/ObservationTherapeuticPrinciplesTWCM-min"
+* section[ConditionDiagnosis].section[conditionsyndrometype].code = http://loinc.org#29548-5 "Diagnosis Narrative"
+* section[ConditionDiagnosis].section[conditionsyndrometype].entry.reference = "Condition/ConditionSyndromeTypeTWCM-min"
+* section[ConditionDiagnosis].section[proceduretherapeuticprinciples].code = http://loinc.org#29548-5 "Diagnosis Narrative"
+* section[ConditionDiagnosis].section[proceduretherapeuticprinciples].entry.reference = "Procedure/ProcedureTherapeuticPrinciplesTWCM-min"
 
 
 * section[ConditionChiefComplaint].title = "病人主訴"
@@ -102,6 +102,26 @@ Usage: #example
 * section[DocumentReference].title = "健康問題文件"
 * section[DocumentReference].code = http://loinc.org#75310-3 "Health concerns Document"
 * section[DocumentReference].entry.reference = "DocumentReference/DocumentReferenceTWCM-min"
+
+* section[FamilyMemberHistory].title = "家族史"
+* section[FamilyMemberHistory].code = http://loinc.org#10157-6 "History of family member diseases note"
+* section[FamilyMemberHistory].entry.reference = "FamilyMemberHistory/FamilyMemberHistoryTWCM-min"
+
+* section[SocialHistory].title = "個人史"
+* section[SocialHistory].code = http://loinc.org#29762-2 "Social history note"
+* section[SocialHistory].entry.reference = "Observation/ObservationSocialHistoryTWCM-min"
+
+* section[MenstrualHistory].title = "月經史"
+* section[MenstrualHistory].code = http://loinc.org#49033-4 "Menstrual History - Reported"
+* section[MenstrualHistory].entry.reference = "Observation/ObservationMenstrualHistoryTWCM-min"
+
+* section[ObstetricHistory].title = "產科史"
+* section[ObstetricHistory].code = http://loinc.org#10162-6 "History of pregnancies Narrative"
+* section[ObstetricHistory].entry.reference = "Observation/ObservationObstetricHistoryTWCM-min"
+
+* section[Objective].title = "客觀描述"
+* section[Objective].code = http://loinc.org#61149-1 "Objective Narrative"
+* section[Objective].entry.reference = "Observation/ObservationObjectiveFindingsTWCM-min"
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -185,9 +205,9 @@ Usage: #example
       <br />
       <b>section[observationpulsecondition]</b>： <a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>
       <br />
-      <b>section[observationsyndrometype]</b>： <a href=\"Observation-ObservationSyndromeTypeTWCM-min.html\">Observation/ObservationSyndromeTypeTWCM-min</a>
+      <b>section[conditionsyndrometype]</b>： <a href=\"Condition-ConditionSyndromeTypeTWCM-min.html\">Condition/ConditionSyndromeTypeTWCM-min</a>
       <br />
-      <b>section[observationtherapeuticprinciples]</b>： <a href=\"Observation-ObservationTherapeuticPrinciplesTWCM-min.html\">Observation/ObservationTherapeuticPrinciplesTWCM-min</a>
+      <b>section[proceduretherapeuticprinciples]</b>： <a href=\"Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html\">Procedure/ProcedureTherapeuticPrinciplesTWCM-min</a>
       <br />
       </span>
     </p>
@@ -222,6 +242,16 @@ Usage: #example
     </p>
 
     <p><b>section[DocumentReference]</b>： <a href=\"DocumentReference-DocumentReferenceTWCM-min.html\">DocumentReference/DocumentReferenceTWCM-min</a></p>
+
+    <p><b>section[FamilyMemberHistory]</b>： <a href=\"FamilyMemberHistory-FamilyMemberHistoryTWCM-min.html\">FamilyMemberHistory/FamilyMemberHistoryTWCM-min</a></p>
+
+    <p><b>section[SocialHistory]</b>： <a href=\"Observation-ObservationSocialHistoryTWCM-min.html\">Observation/ObservationSocialHistoryTWCM-min</a></p>
+
+    <p><b>section[MenstrualHistory]</b>： <a href=\"Observation-ObservationMenstrualHistoryTWCM-min.html\">Observation/ObservationMenstrualHistoryTWCM-min</a></p>
+
+    <p><b>section[ObstetricHistory]</b>： <a href=\"Observation-ObservationObstetricHistoryTWCM-min.html\">Observation/ObservationObstetricHistoryTWCM-min</a></p>
+
+    <p><b>section[Objective]</b>： <a href=\"Observation-ObservationObjectiveFindingsTWCM-min.html\">Observation/ObservationObjectiveFindingsTWCM-min</a></p>
 
     </blockquote>
 

@@ -20,3 +20,48 @@
 .twcm-hover-dropdown:hover > .dropdown-menu {
   display: block;
 }
+
+/* 頁首 logo:以絕對定位固定在左側,讓 IG 標題維持整列置中、不被 logo 擠開 */
+#segment-header > .container {
+  position: relative;
+}
+#hl7-nav {
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 0;
+  line-height: normal;
+}
+#hl7-logo {
+  margin-left: 0;
+}
+#hl7-logo img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+@media (max-width: 991px) {
+  #hl7-logo img {
+    height: 34px;
+  }
+}
+/* 手機寬度:logo 改放在標題上方置中 */
+@media (max-width: 600px) {
+  #hl7-nav {
+    position: static;
+    transform: none;
+    padding-top: 8px;
+  }
+  #hl7-logo {
+    float: none;
+    display: inline-block;
+  }
+  #segment-header > .container {
+    text-align: center;
+  }
+  #hl7-logo img {
+    height: 30px;
+    margin: 0 auto;
+  }
+}

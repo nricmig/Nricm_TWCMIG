@@ -8,6 +8,7 @@
 <li><a href="CodeSystem-who-ictm-terminology.html">WHO傳統醫學國際標準術語(中醫)</a></li>
 <li><a href="CodeSystem-twcm-acupuncturepoint.html">中醫針灸經絡穴位代碼</a></li>
 <li><a href="CodeSystem-twcm-treatmentregion.html">針灸傷科脫臼整復部位</a></li>
+<li><a href="CodeSystem-ICD11MMS.html">ICD-11 MMS(第26章傳統醫學病證片段)</a></li>
 </ul>
 
 ### 值集
@@ -18,5 +19,7 @@
 <li><a href="ValueSet-twcm-therapeuticprinciples.html">病人治則值集</a></li>
 <li><a href="ValueSet-twcm-acupuncturepoint.html">中醫針灸經絡穴位值集</a></li>
 <li><a href="ValueSet-twcm-treatmentregion.html">針灸傷科脫臼整復部位值集</a></li>
+<li><a href="ValueSet-twcm-syndrometype.html">病人證型值集</a></li>
+<li><a href="ValueSet-twcm-icd11-disease.html">ICD-11中醫病名</a></li>
 </ul>
 ---

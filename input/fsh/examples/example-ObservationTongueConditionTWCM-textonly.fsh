@@ -1,13 +1,12 @@
 Alias: $SCT = http://snomed.info/sct
-Instance: ObservationTongueConditionTWCM-min
+Instance: ObservationTongueConditionTWCM-textonly
 InstanceOf: observationtonguecondition-twcm
-Title: "病人舌象範例"
-Description: "依據病人舌象(ObservationTongueCondition TWCM)Profile呈現中醫門診單中病人舌象的範例"
+Title: "病人舌象範例(僅文字,無對應代碼)"
+Description: "依據病人舌象(ObservationTongueCondition TWCM)Profile呈現中醫門診單中病人舌象的範例。示範當來源文字無法對應到TWCMTongueCondition代碼系統中任何詞條時,valueCodeableConcept僅填text、不填coding的寫法。"
 Usage: #example
 * status = #final
 * code = $SCT#249378009 "Tongue finding"
-* valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-tonguecondition#698193000 "Coating of mucous membrane of tongue"
-* valueCodeableConcept.text = "苔白"
+* valueCodeableConcept.text = "舌淡紅，苔薄白，舌邊有齒痕"
 * subject = Reference(Patient/PatientTWCM-min)
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
@@ -26,7 +25,7 @@ Usage: #example
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"
     </p>
     <p>
-    <b>病人舌象</b>：苔白（Coating of mucous membrane of tongue <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-tonguecondition.html\">病人舌象</a>#698193000) </span>）
+    <b>病人舌象</b>：舌淡紅，苔薄白，舌邊有齒痕（此描述無法對應至單一SNOMED CT代碼，故僅記錄文字）
     </p>
      <p>
 		<b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

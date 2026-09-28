@@ -18,6 +18,7 @@
 - [病情、問題或診斷(ConditionDiagnosis TWCM)](StructureDefinition-conditiondiagnosis-twcm.html)
 - [重大傷病(ConditionMajorIllness TWCM)](StructureDefinition-conditionmajorillness-twcm.html)
 - [過去病史(ConditionPastMedicalHistory TWCM)](StructureDefinition-conditionpastmedicalhistory-twcm.html)
+- [病人證型(ConditionSyndromeType TWCM)](StructureDefinition-conditionsyndrometype-twcm.html)
 
 #### DiagnosticReport
 - [診斷報告(DiagnosticReport TWCM)](StructureDefinition-diagnosticreport-twcm.html)
@@ -27,6 +28,9 @@
 
 #### Encounter
 - [就醫事件(Encounter TWCM)](StructureDefinition-encounter-twcm.html)
+
+#### FamilyMemberHistory
+- [家族史(FamilyMemberHistory TWCM)](StructureDefinition-familymemberhistory-twcm.html)
 
 #### Medication
 - [藥品(Medication TWCM)](StructureDefinition-medication-twcm.html)
@@ -48,8 +52,10 @@
     - [體溫(ObservationBodyTemp TWCM)](StructureDefinition-observationbodytemp-twcm.html)
 - [病人舌象(ObservationTongueCondition TWCM)](StructureDefinition-observationtonguecondition-twcm.html)
 - [病人脈象(ObservationPulseCondition TWCM)](StructureDefinition-observationpulsecondition-twcm.html)
-- [病人證型(ObservationSyndromeType TWCM)](StructureDefinition-observationsyndrometype-twcm.html)
-- [病人治則(ObservationTherapeuticPrinciples TWCM)](StructureDefinition-observationtherapeuticprinciples-twcm.html)
+- [個人史(ObservationSocialHistory TWCM)](StructureDefinition-observationsocialhistory-twcm.html)
+- [月經史(ObservationMenstrualHistory TWCM)](StructureDefinition-observationmenstrualhistory-twcm.html)
+- [產科史(ObservationObstetricHistory TWCM)](StructureDefinition-observationobstetrichistory-twcm.html)
+- [客觀描述(ObservationObjectiveFindings TWCM)](StructureDefinition-observationobjectivefindings-twcm.html)
 
 #### Organization
 - [醫事機構(Organization TWCM)](StructureDefinition-organization-twcm.html)
@@ -63,6 +69,10 @@
 
 #### Procedure
 - [處置或手術(Procedure TWCM)](StructureDefinition-procedure-twcm.html)
+- [病人治則(ProcedureTherapeuticPrinciples TWCM)](StructureDefinition-proceduretherapeuticprinciples-twcm.html)
+
+#### Provenance
+- [醫師簽章(Provenance TWCM)](StructureDefinition-provenance-twcm.html)
 
 #### ServiceRequest
 - [服務請求(ServiceRequest TWCM)](StructureDefinition-servicerequest-twcm.html)

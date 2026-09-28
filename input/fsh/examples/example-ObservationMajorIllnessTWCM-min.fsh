@@ -6,6 +6,7 @@ Usage: #example
 * status = #final
 * code = http://loinc.org#11338-1 "History of Major illnesses and injuries Narrative"
 * subject = Reference(Patient/PatientTWCM-min)
+* effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueBoolean = false
 

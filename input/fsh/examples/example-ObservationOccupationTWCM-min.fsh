@@ -7,6 +7,7 @@ Usage: #example
 * code = http://loinc.org#11341-5 "History of Occupation"
 * code.text = "History of Occupation"
 * subject = Reference(Patient/PatientTWCM-min)
+* effectivePeriod.start = "2005-08-01"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueCodeableConcept.text = "醫療業"
 * text.status = #generated

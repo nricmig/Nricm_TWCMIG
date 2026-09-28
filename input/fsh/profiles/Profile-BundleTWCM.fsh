@@ -27,8 +27,8 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         CarePlan 0..1 MS and
         ObservationTongueCondition 0..1 MS and
         ObservationPulseCondition 0..1 MS and
-        ObservationSyndromeType 0..1 MS and
-        ObservationTherapeuticPrinciples 0..1 MS and
+        ConditionSyndromeType 0..1 MS and
+        ProcedureTherapeuticPrinciples 0..1 MS and
         ConditionChiefComplaint 1..1 MS and
         ObservationVitalSign 0..1 MS and
         ObservationBloodPressureTWCM 0..1 MS and
@@ -41,7 +41,13 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         Observation 0..* MS and
         DiagnosticReport 0..1 MS and
         OrganizationInspection 0..* MS and
-        DocumentReference 1..1 MS
+        DocumentReference 1..1 MS and
+        FamilyMemberHistory 0..* MS and
+        ObservationSocialHistory 0..1 MS and
+        ObservationMenstrualHistory 0..1 MS and
+        ObservationObstetricHistory 0..1 MS and
+        ObservationObjectiveFindings 1..1 MS and
+        Provenance 1..1 MS
 
 * entry[TWCoreComposition].resource 1..1
 * entry[TWCoreComposition].resource only composition-twcm
@@ -114,13 +120,13 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
   * ^short = "病人脈象"
 * entry[ObservationPulseCondition].resource only observationpulsecondition-twcm
 
-* entry[ObservationSyndromeType].resource 1..1
+* entry[ConditionSyndromeType].resource 1..1
   * ^short = "病人證型"
-* entry[ObservationSyndromeType].resource only observationsyndrometype-twcm
+* entry[ConditionSyndromeType].resource only conditionsyndrometype-twcm
 
-* entry[ObservationTherapeuticPrinciples].resource 1..1
+* entry[ProcedureTherapeuticPrinciples].resource 1..1
   * ^short = "病人治則"
-* entry[ObservationTherapeuticPrinciples].resource only observationtherapeuticprinciples-twcm
+* entry[ProcedureTherapeuticPrinciples].resource only proceduretherapeuticprinciples-twcm
 
 * entry[ConditionChiefComplaint].resource 1..1
   * ^short = "病人主訴"
@@ -173,3 +179,27 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
 * entry[DocumentReference].resource 1..1
   * ^short = "健康相關文件"
 * entry[DocumentReference].resource only documentreference-twcm
+
+* entry[FamilyMemberHistory].resource 1..1
+  * ^short = "家族史"
+* entry[FamilyMemberHistory].resource only familymemberhistory-twcm
+
+* entry[ObservationSocialHistory].resource 1..1
+  * ^short = "個人史"
+* entry[ObservationSocialHistory].resource only observationsocialhistory-twcm
+
+* entry[ObservationMenstrualHistory].resource 1..1
+  * ^short = "月經史"
+* entry[ObservationMenstrualHistory].resource only observationmenstrualhistory-twcm
+
+* entry[ObservationObstetricHistory].resource 1..1
+  * ^short = "產科史"
+* entry[ObservationObstetricHistory].resource only observationobstetrichistory-twcm
+
+* entry[ObservationObjectiveFindings].resource 1..1
+  * ^short = "客觀描述"
+* entry[ObservationObjectiveFindings].resource only observationobjectivefindings-twcm
+
+* entry[Provenance].resource 1..1
+  * ^short = "醫師簽章"
+* entry[Provenance].resource only provenance-twcm

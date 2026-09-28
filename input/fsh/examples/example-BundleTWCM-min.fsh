@@ -63,11 +63,11 @@ Usage: #example
 * entry[ObservationPulseCondition].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationPulseConditionTWCM-min"
 * entry[ObservationPulseCondition].resource = ObservationPulseConditionTWCM-min
 
-* entry[ObservationSyndromeType].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationSyndromeTypeTWCM-min"
-* entry[ObservationSyndromeType].resource = ObservationSyndromeTypeTWCM-min
+* entry[ConditionSyndromeType].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionSyndromeTypeTWCM-min"
+* entry[ConditionSyndromeType].resource = ConditionSyndromeTypeTWCM-min
 
-* entry[ObservationTherapeuticPrinciples].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationTherapeuticPrinciplesTWCM-min"
-* entry[ObservationTherapeuticPrinciples].resource = ObservationTherapeuticPrinciplesTWCM-min
+* entry[ProcedureTherapeuticPrinciples].fullUrl = "https://www.nricm.edu.tw/twcm/Procedure/ProcedureTherapeuticPrinciplesTWCM-min"
+* entry[ProcedureTherapeuticPrinciples].resource = ProcedureTherapeuticPrinciplesTWCM-min
 
 * entry[ConditionChiefComplaint].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionChiefComplaintTWCM-min"
 * entry[ConditionChiefComplaint].resource = ConditionChiefComplaintTWCM-min
@@ -114,3 +114,21 @@ Usage: #example
 
 * entry[DocumentReference].fullUrl = "https://www.nricm.edu.tw/twcm/DocumentReference/DocumentReferenceTWCM-min"
 * entry[DocumentReference].resource = DocumentReferenceTWCM-min
+
+* entry[FamilyMemberHistory].fullUrl = "https://www.nricm.edu.tw/twcm/FamilyMemberHistory/FamilyMemberHistoryTWCM-min"
+* entry[FamilyMemberHistory].resource = FamilyMemberHistoryTWCM-min
+
+* entry[ObservationSocialHistory].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationSocialHistoryTWCM-min"
+* entry[ObservationSocialHistory].resource = ObservationSocialHistoryTWCM-min
+
+* entry[ObservationMenstrualHistory].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationMenstrualHistoryTWCM-min"
+* entry[ObservationMenstrualHistory].resource = ObservationMenstrualHistoryTWCM-min
+
+* entry[ObservationObstetricHistory].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationObstetricHistoryTWCM-min"
+* entry[ObservationObstetricHistory].resource = ObservationObstetricHistoryTWCM-min
+
+* entry[ObservationObjectiveFindings].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationObjectiveFindingsTWCM-min"
+* entry[ObservationObjectiveFindings].resource = ObservationObjectiveFindingsTWCM-min
+
+* entry[Provenance].fullUrl = "https://www.nricm.edu.tw/twcm/Provenance/ProvenanceTWCM-min"
+* entry[Provenance].resource = ProvenanceTWCM-min

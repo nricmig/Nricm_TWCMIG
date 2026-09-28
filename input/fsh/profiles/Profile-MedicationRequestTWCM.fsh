@@ -7,6 +7,8 @@ Description: "此中醫-藥品請求(MedicationRequest TWCM)Profile說明本IG�
 * status = #completed
 * intent = #order
 * medicationReference only Reference(medication-twcm)
+* medicationReference MS
+* medicationCodeableConcept MS
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * subject 1..1 MS

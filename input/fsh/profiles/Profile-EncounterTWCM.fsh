@@ -10,7 +10,8 @@ Description: "此就醫事件(Encounter TWCM)Profile說明本IG如何進一步�
   * value 1..1 MS
     * ^short = "唯一值。[應填入門診病摘之掛號序號Visit Seq]"
 * class MS
-* class = http://terminology.hl7.org/CodeSystem/v3-ActCode#AMB
+  * ^short = "病人來源(就醫類型)。[應填入中醫門診單之病人來源Patient Come From，如門診AMB、急診EMER、住院IMP等]"
+* class from http://terminology.hl7.org/ValueSet/v3-ActEncounterCode (extensible)
 * status = #finished
 * period 1..1 MS
   * start 1..1 MS

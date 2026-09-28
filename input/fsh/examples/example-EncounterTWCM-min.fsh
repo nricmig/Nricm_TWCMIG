@@ -28,7 +28,7 @@ Usage: #example
 		<b>掛號序號</b>：0035
 	</p>
 	<p>
-		<b>就醫分類</b>：ambulatory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://terminology.hl7.org/4.0.0/ValueSet-v3-ActEncounterCode.html\">ActEncounterCode</a>#AMB) </span>
+		<b>病人來源(就醫分類)</b>：ambulatory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://terminology.hl7.org/4.0.0/ValueSet-v3-ActEncounterCode.html\">ActEncounterCode</a>#AMB) </span>
 	</p>
 	<p>
 		<b>就醫現況</b>：Finished  <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/encounter-status\">EncounterStatus</a>#finished) </span>

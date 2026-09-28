@@ -16,6 +16,8 @@
 - [病人主訴範例](Condition-ConditionChiefComplaintTWCM-min.html)：依據病人主訴(ConditionChiefComplaint TWCM)Profile呈現中醫門診單中病人主訴的範例
 - [病情、問題或診斷範例](Condition-ConditionDiagnosisTWCM-min.html)：依據診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例
 - [過去病史範例](Condition-ConditionPastMedicalHistoryTWCM-min.html)：依據過去病史(ConditionPastMedicalHistory TWCM)Profile呈現中醫門診單中過去病史範例
+- [病人證型範例](Condition-ConditionSyndromeTypeTWCM-min.html)：依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型範例
+- [病人證型範例(僅文字,無對應代碼)](Condition-ConditionSyndromeTypeTWCM-textonly.html)：依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型無法對應代碼時僅填文字的範例
 
 ### DiagnosticReport 
 - [診斷報告參照範例](DiagnosticReport-DiagnosticReportTWCM-min.html)：依據診斷報告(DiagnosticReport TWCM)Profile呈現中醫門診單中診斷報告的範例
@@ -26,6 +28,9 @@
 
 ### Encounter
 - [就醫事件範例](Encounter-EncounterTWCM-min.html)：依據就醫事件(Encounter TWCM)Profile呈現中醫門診單中就醫事件範例
+
+### FamilyMemberHistory
+- [家族史範例](FamilyMemberHistory-FamilyMemberHistoryTWCM-min.html)：依據家族史(FamilyMemberHistory TWCM)Profile呈現中醫門診單中家族史的範例
 
 ### Medication
 - [藥品資訊範例](Medication-MedicationTWCM-min.html)：依據藥品(Medication TWCM)Profile呈現中醫門診單中藥品範例
@@ -49,8 +54,10 @@
     - [體溫範例](Observation-obs-bodytemp-example-TWCM.html)：依據體溫(ObservationBodyTemp) Profile呈現體溫範例
 - [病人舌象範例](Observation-ObservationTongueConditionTWCM-min.html)：依據病人舌象(ObservationTongueCondition TWCM)Profile呈現中醫門診單中病人舌象範例
 - [病人脈象範例](Observation-ObservationPulseConditionTWCM-min.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫門診單中病人脈象範例
-- [病人證型範例](Observation-ObservationSyndromeTypeTWCM-min.html)：依據病人證型(ObservationSyndromeType TWCM)Profile呈現中醫門診單中病人證型範例
-- [病人治則範例](Observation-ObservationTherapeuticPrinciplesTWCM-min.html)：依據病人治則(ObservationTherapeuticPrinciples TWCM)Profile呈現中醫門診單中病人治則範例
+- [個人史範例](Observation-ObservationSocialHistoryTWCM-min.html)：依據個人史(ObservationSocialHistory TWCM)Profile呈現中醫門診單中個人史的範例
+- [月經史範例](Observation-ObservationMenstrualHistoryTWCM-min.html)：依據月經史(ObservationMenstrualHistory TWCM)Profile呈現中醫門診單中月經史的範例
+- [產科史範例](Observation-ObservationObstetricHistoryTWCM-min.html)：依據產科史(ObservationObstetricHistory TWCM)Profile呈現中醫門診單中產科史的範例
+- [客觀描述範例](Observation-ObservationObjectiveFindingsTWCM-min.html)：依據客觀描述(ObservationObjectiveFindings TWCM)Profile呈現中醫門診單中客觀描述的範例
 
 ### Organization
 - [醫事機構基本資料-捷達世中醫診所](Organization-OrganizationTWCM-min.html)：依據醫事機構(Organization TWCM)Profile呈現中醫門診單中醫事機構範例
@@ -66,6 +73,11 @@
 - [針灸處置範例](Procedure-ProcedureTWCM-min.html)：依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中針灸處置範例
 - [傷科處置範例](Procedure-ProcedureTWCM-minn.html)：依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中傷科處置範例
 - [脫臼整復處置範例](Procedure-ProcedureTWCM-pro.html)：依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中脫臼整復處置範例
+- [病人治則範例](Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html)：依據病人治則(ProcedureTherapeuticPrinciples TWCM)Profile呈現中醫門診單中病人治則範例
+- [病人治則範例(僅文字,無對應代碼)](Procedure-ProcedureTherapeuticPrinciplesTWCM-textonly.html)：依據病人治則(ProcedureTherapeuticPrinciples TWCM)Profile呈現中醫門診單中病人治則無法對應代碼時僅填文字的範例
+
+### Provenance
+- [醫師簽章範例](Provenance-ProvenanceTWCM-min.html)：依據醫師簽章(Provenance TWCM)Profile呈現中醫門診單中醫師電子病歷簽章的範例
 
 ### ServiceRequest
 - [服務請求範例](ServiceRequest-ServiceRequestTWCM-min.html)：依據服務請求(SerciceRequest TWCM)Profile呈現中醫門診單中服務請求的範例
