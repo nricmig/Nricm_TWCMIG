@@ -1,17 +1,16 @@
 Alias: $SCT = http://snomed.info/sct
-Instance: ObservationPulseConditionTWCM-textonly
+Instance: ObservationPulseConditionTWCM-lefthand
 InstanceOf: observationpulsecondition-twcm
-Title: "病人脈象範例(僅文字,無對應代碼)"
-Description: "依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫門診單中病人脈象的範例。示範當來源文字無法對應到WHOICTMTerminology代碼系統中任何詞條時,component.valueCodeableConcept僅填text、不填coding的寫法。"
+Title: "病人脈象範例(左手,未分寸關尺)"
+Description: "依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫門診單中病人脈象的範例。示範醫師只記錄到左右手、未區分寸關尺時的寫法：bodySite填左腕，脈象填於valueCodeableConcept，不填component。"
 Usage: #example
 * status = #final
 * code = $SCT#421608007 "Finding of pulse taking by palpation (finding)"
 * subject = Reference(Patient/PatientTWCM-min)
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
-* bodySite = $SCT#9736006 "Structure of right wrist region"
-* component[cun].code = WHOICTMTerminology#WGM2#884 "寸脈"
-* component[cun].valueCodeableConcept.text = "浮而無力，兼有結代"
+* bodySite = $SCT#5951000 "Structure of left wrist region"
+* valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#904 "弦脈"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
   <h3>
@@ -27,10 +26,10 @@ Usage: #example
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"
     </p>
     <p>
-    <b>把脈手別</b>：右腕 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#9736006) </span>
+    <b>把脈手別</b>：左腕 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#5951000) </span>
     </p>
     <p>
-    <b>病人脈象</b>：寸：浮而無力，兼有結代（此描述無法對應至WHO傳統醫學術語代碼，故僅記錄文字）
+    <b>病人脈象</b>：弦脈
     </p>
      <p>
 		<b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

@@ -10,6 +10,9 @@
 #### CarePlan
 - [關懷計畫(CarePlan TWCM)](StructureDefinition-careplan-twcm.html)
 
+#### ClinicalImpression
+- [中醫辨證評估(ClinicalImpression TWCM)](StructureDefinition-clinicalimpression-twcm.html)
+
 #### Composition
 - [臨床文件架構(Composition TWCM)](StructureDefinition-composition-twcm.html)
 
@@ -50,12 +53,14 @@
     - [身高(ObservationBodyHeight TWCM)](StructureDefinition-observationbodyheight-twcm.html)
     - [體重(ObservationBodyWeight TWCM)](StructureDefinition-observationbodyweight-twcm.html)
     - [體溫(ObservationBodyTemp TWCM)](StructureDefinition-observationbodytemp-twcm.html)
-- [病人舌象(ObservationTongueCondition TWCM)](StructureDefinition-observationtonguecondition-twcm.html)
+- [望診(ObservationInspection TWCM)](StructureDefinition-observationinspection-twcm.html)
+- [聞診(ObservationListeningSmelling TWCM)](StructureDefinition-observationlisteningsmelling-twcm.html)
+- [問診(ObservationInquiry TWCM)](StructureDefinition-observationinquiry-twcm.html)
+- [切診(ObservationPalpation TWCM)](StructureDefinition-observationpalpation-twcm.html)
 - [病人脈象(ObservationPulseCondition TWCM)](StructureDefinition-observationpulsecondition-twcm.html)
 - [個人史(ObservationSocialHistory TWCM)](StructureDefinition-observationsocialhistory-twcm.html)
 - [月經史(ObservationMenstrualHistory TWCM)](StructureDefinition-observationmenstrualhistory-twcm.html)
 - [產科史(ObservationObstetricHistory TWCM)](StructureDefinition-observationobstetrichistory-twcm.html)
-- [客觀描述(ObservationObjectiveFindings TWCM)](StructureDefinition-observationobjectivefindings-twcm.html)
 
 #### Organization
 - [醫事機構(Organization TWCM)](StructureDefinition-organization-twcm.html)
@@ -86,4 +91,3 @@
 - [包數(PackageNumber)](StructureDefinition-packagenumber-twcm.html)
 - [方法(Approach)](StructureDefinition-approach-twcm.html)
 - [描述(description)](StructureDefinition-description-twcm.html)
-- [牙位(Position)](StructureDefinition-position-twcm.html)

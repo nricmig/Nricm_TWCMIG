@@ -6,12 +6,39 @@ Title: "病人脈象(ObservationPulseCondition TWCM)"
 Description: "此病人脈象(ObservationPulseCondition TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現中醫門診單之病人脈象的詳細資料。"
 * status = #final
 * code = $SCT#421608007 "Finding of pulse taking by palpation (finding)"
+* obeys pulsecondition-value-or-component and pulsecondition-component-bodysite
 * value[x] MS
 * value[x] only CodeableConcept
-* valueCodeableConcept 1..1 MS
-  * ^short = "[應填入中醫門診單之病人脈象Pulse Condition。可對應之WHO傳統醫學術語應優先使用coding；無法對應時僅填text即可]"
+* valueCodeableConcept 0..1 MS
+  * ^short = "[應填入中醫門診單之病人整體脈象（未區分寸關尺時使用）。可對應之WHO傳統醫學術語應優先使用coding；無法對應時僅填text即可]"
   * coding 0..1 MS
   * coding from twcm-pulsecondition (required)
+
+* bodySite 0..1 MS
+  * ^short = "[應填入把脈手別：左腕或右腕。有記錄左右手時，左、右手各建立一筆Observation；未記錄左右手時可不填]"
+* bodySite from twcm-pulsebodysite (required)
+
+* component MS
+  * ^short = "[依寸、關、尺部位分別填入脈象；同一部位有多種脈象時，每種脈象各填一筆component]"
+* component.code from twcm-pulseposition (required)
+* component.value[x] 1..1 MS
+* component.value[x] only CodeableConcept
+* component.valueCodeableConcept.coding 0..1 MS
+* component.valueCodeableConcept.coding from twcm-pulsecondition (required)
+* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.path = "code"
+* component ^slicing.rules = #closed
+* component ^slicing.description = "依寸、關、尺部位切分"
+* component contains
+    cun 0..* MS and
+    guan 0..* MS and
+    chi 0..* MS
+* component[cun].code = WHOICTMTerminology#WGM2#884 "寸脈"
+* component[cun] ^short = "寸部脈象"
+* component[guan].code = WHOICTMTerminology#WGM2#885 "關脈"
+* component[guan] ^short = "關部脈象"
+* component[chi].code = WHOICTMTerminology#WGM2#886 "尺脈"
+* component[chi] ^short = "尺部脈象"
 
 * subject 1..1 MS
 * encounter MS
@@ -24,3 +51,13 @@ Description: "此病人脈象(ObservationPulseCondition TWCM)Profile說明本IG�
 * hasMember only Reference(observation-twcm or QuestionnaireResponse or MolecularSequence)
 * derivedFrom only Reference(documentreference-twcm or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or observation-twcm or MolecularSequence)
 * specimen only Reference(TWCoreSpecimen)
+
+Invariant: pulsecondition-value-or-component
+Description: "病人脈象須至少填寫整體脈象（valueCodeableConcept）或寸關尺分部位脈象（component）其中之一"
+Expression: "value.exists() or component.exists()"
+Severity: #error
+
+Invariant: pulsecondition-component-bodysite
+Description: "填寫寸關尺分部位脈象（component）時，須同時填寫把脈手別（bodySite）"
+Expression: "component.exists() implies bodySite.exists()"
+Severity: #error

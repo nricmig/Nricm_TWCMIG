@@ -9,6 +9,9 @@
 ### CarePlan
 - [醫師囑咐範例](CarePlan-CarePlanTWCM-min.html)：依據關懷計畫(CarePlan TWCM)Profile呈現中醫門診單中醫師囑咐的範例
 
+### ClinicalImpression
+- [中醫辨證評估範例](ClinicalImpression-ClinicalImpressionTWCM-min.html)：依據中醫辨證評估(ClinicalImpression TWCM)Profile呈現中醫門診單中望聞問切客觀描述、四診紀錄參照及辨證結果的範例
+
 ### Composition
 - [門診單架構](Composition-CompositionTWCM-min.html)：依據中醫-臨床文件架構(Composition TWCM)Profile呈現中醫門診單
 
@@ -52,12 +55,15 @@
     - [身高範例](Observation-obs-bodyheight-example-TWCM.html)：依據身高(ObservationBodyHeight TWCM) Profile呈現身高範例
     - [體重範例](Observation-obs-bodyweight-example-TWCM.html)：依據體重(ObservationBodyWeight TWCM) Profile呈現體重範例
     - [體溫範例](Observation-obs-bodytemp-example-TWCM.html)：依據體溫(ObservationBodyTemp) Profile呈現體溫範例
-- [病人舌象範例](Observation-ObservationTongueConditionTWCM-min.html)：依據病人舌象(ObservationTongueCondition TWCM)Profile呈現中醫門診單中病人舌象範例
-- [病人脈象範例](Observation-ObservationPulseConditionTWCM-min.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫門診單中病人脈象範例
+- [望診範例](Observation-ObservationInspectionTWCM-min.html)：依據望診(ObservationInspection TWCM)Profile呈現中醫門診單中望診範例（病人舌象以component記錄）
+- [聞診範例](Observation-ObservationListeningSmellingTWCM-min.html)：依據聞診(ObservationListeningSmelling TWCM)Profile呈現中醫門診單中聞診範例
+- [問診範例](Observation-ObservationInquiryTWCM-min.html)：依據問診(ObservationInquiry TWCM)Profile呈現中醫門診單中問診範例
+- [切診範例](Observation-ObservationPalpationTWCM-min.html)：依據切診(ObservationPalpation TWCM)Profile呈現中醫門診單中切診範例（以hasMember參照病人脈象）
+- [病人脈象範例(右手,分寸關尺)](Observation-ObservationPulseConditionTWCM-min.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師記錄到寸關尺時的病人脈象範例
+- [病人脈象範例(左手,未分寸關尺)](Observation-ObservationPulseConditionTWCM-lefthand.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師只記錄到左右手時的病人脈象範例
 - [個人史範例](Observation-ObservationSocialHistoryTWCM-min.html)：依據個人史(ObservationSocialHistory TWCM)Profile呈現中醫門診單中個人史的範例
 - [月經史範例](Observation-ObservationMenstrualHistoryTWCM-min.html)：依據月經史(ObservationMenstrualHistory TWCM)Profile呈現中醫門診單中月經史的範例
 - [產科史範例](Observation-ObservationObstetricHistoryTWCM-min.html)：依據產科史(ObservationObstetricHistory TWCM)Profile呈現中醫門診單中產科史的範例
-- [客觀描述範例](Observation-ObservationObjectiveFindingsTWCM-min.html)：依據客觀描述(ObservationObjectiveFindings TWCM)Profile呈現中醫門診單中客觀描述的範例
 
 ### Organization
 - [醫事機構基本資料-捷達世中醫診所](Organization-OrganizationTWCM-min.html)：依據醫事機構(Organization TWCM)Profile呈現中醫門診單中醫事機構範例

@@ -25,8 +25,7 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         ConditionDiagnosis 1..* MS and
         Practitioner 1..1 MS and
         CarePlan 0..1 MS and
-        ObservationTongueCondition 0..1 MS and
-        ObservationPulseCondition 0..1 MS and
+        ObservationPulseCondition 0..2 MS and
         ConditionSyndromeType 0..1 MS and
         ProcedureTherapeuticPrinciples 0..1 MS and
         ConditionChiefComplaint 1..1 MS and
@@ -46,7 +45,11 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         ObservationSocialHistory 0..1 MS and
         ObservationMenstrualHistory 0..1 MS and
         ObservationObstetricHistory 0..1 MS and
-        ObservationObjectiveFindings 1..1 MS and
+        ClinicalImpression 1..1 MS and
+        ObservationInspection 0..1 MS and
+        ObservationListeningSmelling 0..1 MS and
+        ObservationInquiry 0..1 MS and
+        ObservationPalpation 0..1 MS and
         Provenance 1..1 MS
 
 * entry[TWCoreComposition].resource 1..1
@@ -111,10 +114,6 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
 * entry[CarePlan].resource 1..1
   * ^short = "關懷計畫"
 * entry[CarePlan].resource only careplan-twcm
-
-* entry[ObservationTongueCondition].resource 1..1
-  * ^short = "病人舌象"
-* entry[ObservationTongueCondition].resource only observationtonguecondition-twcm
 
 * entry[ObservationPulseCondition].resource 1..1
   * ^short = "病人脈象"
@@ -196,9 +195,25 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
   * ^short = "產科史"
 * entry[ObservationObstetricHistory].resource only observationobstetrichistory-twcm
 
-* entry[ObservationObjectiveFindings].resource 1..1
-  * ^short = "客觀描述"
-* entry[ObservationObjectiveFindings].resource only observationobjectivefindings-twcm
+* entry[ClinicalImpression].resource 1..1
+  * ^short = "中醫辨證評估（含望聞問切客觀描述）"
+* entry[ClinicalImpression].resource only clinicalimpression-twcm
+
+* entry[ObservationInspection].resource 1..1
+  * ^short = "望診"
+* entry[ObservationInspection].resource only observationinspection-twcm
+
+* entry[ObservationListeningSmelling].resource 1..1
+  * ^short = "聞診"
+* entry[ObservationListeningSmelling].resource only observationlisteningsmelling-twcm
+
+* entry[ObservationInquiry].resource 1..1
+  * ^short = "問診"
+* entry[ObservationInquiry].resource only observationinquiry-twcm
+
+* entry[ObservationPalpation].resource 1..1
+  * ^short = "切診"
+* entry[ObservationPalpation].resource only observationpalpation-twcm
 
 * entry[Provenance].resource 1..1
   * ^short = "醫師簽章"

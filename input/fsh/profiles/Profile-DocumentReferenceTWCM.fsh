@@ -1,4 +1,3 @@
-Alias: $position = https://www.nricm.edu.tw/twcm/StructureDefinition/position-twcm
 Profile: DocumentReferenceTWCM
 Parent: TWCoreDocumentReference
 Id: documentreference-twcm
@@ -9,8 +8,6 @@ Description: "此文件參照(DocumentReference TWCM)Profile說明本IG如何進
 * content MS
   * ^short = "被參照的文件。[應填入門診病摘之圖檔報告檔名或附件檔名(title)]"
   * attachment MS
-    * extension contains $position named position 0..1 MS
-    * extension[position] ^short = "[如圖檔涉及牙位，應填入圖檔報告牙位Image Position]"
     * title 1..1
       * ^short = "檔案名稱應包含副檔名。[應填入門診病摘之圖檔報告檔名Image File Name或附件檔名Reference Doc File Name]"
     * data 1..1 MS

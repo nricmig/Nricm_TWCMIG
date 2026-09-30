@@ -57,11 +57,10 @@ Usage: #example
 * entry[CarePlan].fullUrl = "https://www.nricm.edu.tw/twcm/CarePlan/CarePlanTWCM-min"
 * entry[CarePlan].resource = CarePlanTWCM-min
 
-* entry[ObservationTongueCondition].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationTongueConditionTWCM-min"
-* entry[ObservationTongueCondition].resource = ObservationTongueConditionTWCM-min
-
-* entry[ObservationPulseCondition].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationPulseConditionTWCM-min"
-* entry[ObservationPulseCondition].resource = ObservationPulseConditionTWCM-min
+* entry[ObservationPulseCondition][0].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationPulseConditionTWCM-min"
+* entry[ObservationPulseCondition][0].resource = ObservationPulseConditionTWCM-min
+* entry[ObservationPulseCondition][1].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationPulseConditionTWCM-lefthand"
+* entry[ObservationPulseCondition][1].resource = ObservationPulseConditionTWCM-lefthand
 
 * entry[ConditionSyndromeType].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionSyndromeTypeTWCM-min"
 * entry[ConditionSyndromeType].resource = ConditionSyndromeTypeTWCM-min
@@ -127,8 +126,20 @@ Usage: #example
 * entry[ObservationObstetricHistory].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationObstetricHistoryTWCM-min"
 * entry[ObservationObstetricHistory].resource = ObservationObstetricHistoryTWCM-min
 
-* entry[ObservationObjectiveFindings].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationObjectiveFindingsTWCM-min"
-* entry[ObservationObjectiveFindings].resource = ObservationObjectiveFindingsTWCM-min
+* entry[ClinicalImpression].fullUrl = "https://www.nricm.edu.tw/twcm/ClinicalImpression/ClinicalImpressionTWCM-min"
+* entry[ClinicalImpression].resource = ClinicalImpressionTWCM-min
+
+* entry[ObservationInspection].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationInspectionTWCM-min"
+* entry[ObservationInspection].resource = ObservationInspectionTWCM-min
+
+* entry[ObservationListeningSmelling].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationListeningSmellingTWCM-min"
+* entry[ObservationListeningSmelling].resource = ObservationListeningSmellingTWCM-min
+
+* entry[ObservationInquiry].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationInquiryTWCM-min"
+* entry[ObservationInquiry].resource = ObservationInquiryTWCM-min
+
+* entry[ObservationPalpation].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationPalpationTWCM-min"
+* entry[ObservationPalpation].resource = ObservationPalpationTWCM-min
 
 * entry[Provenance].fullUrl = "https://www.nricm.edu.tw/twcm/Provenance/ProvenanceTWCM-min"
 * entry[Provenance].resource = ProvenanceTWCM-min

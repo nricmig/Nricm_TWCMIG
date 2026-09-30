@@ -123,7 +123,6 @@ Description: "此Profile用於描述中醫門診單的報告文件"
     conditiondiagnosis 1..* and
     practitioner 1..1 and
     careplan 1..1 and
-    observationtonguecondition 0..1 and
     observationpulsecondition 0..1 and
     conditionsyndrometype 0..1 and
     proceduretherapeuticprinciples 0..1
@@ -139,14 +138,10 @@ Description: "此Profile用於描述中醫門診單的報告文件"
   * code = http://loinc.org#101541-1 "Multidisciplinary Comprehensive plan of care note"
   * entry only Reference(careplan-twcm)
     * reference 1..1
-* section[ConditionDiagnosis].section[observationtonguecondition]
-  * code = http://loinc.org#29548-5 "Diagnosis Narrative"
-  * entry 0..1
-  * entry only Reference(observationtonguecondition-twcm)
-    * reference 1..1
 * section[ConditionDiagnosis].section[observationpulsecondition]
   * code = http://loinc.org#29548-5 "Diagnosis Narrative"
-  * entry 0..1
+  * entry 0..2
+  * entry ^short = "病人脈象（有記錄左右手時，左、右手各一筆）"
   * entry only Reference(observationpulsecondition-twcm)
     * reference 1..1
 * section[ConditionDiagnosis].section[conditionsyndrometype]
@@ -246,9 +241,28 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[Objective].title 1..1
 * section[Objective].code 1..1
 * section[Objective].code = http://loinc.org#61149-1 "Objective Narrative"
-* section[Objective].entry 1..1
-* section[Objective].entry only Reference(observationobjectivefindings-twcm)
+* section[Objective].entry 1..5
+* section[Objective].entry only Reference(clinicalimpression-twcm or observationinspection-twcm or observationlisteningsmelling-twcm or observationinquiry-twcm or observationpalpation-twcm)
   * reference 1..1
+* section[Objective].entry ^slicing.discriminator.type = #profile
+* section[Objective].entry ^slicing.discriminator.path = "resolve()"
+* section[Objective].entry ^slicing.rules = #open
+* section[Objective].entry contains
+    clinicalImpression 1..1 and
+    inspection 0..1 and
+    listeningSmelling 0..1 and
+    inquiry 0..1 and
+    palpation 0..1
+* section[Objective].entry[clinicalImpression] only Reference(clinicalimpression-twcm)
+* section[Objective].entry[clinicalImpression] ^short = "中醫辨證評估（含望聞問切客觀描述）"
+* section[Objective].entry[inspection] only Reference(observationinspection-twcm)
+* section[Objective].entry[inspection] ^short = "望診"
+* section[Objective].entry[listeningSmelling] only Reference(observationlisteningsmelling-twcm)
+* section[Objective].entry[listeningSmelling] ^short = "聞診"
+* section[Objective].entry[inquiry] only Reference(observationinquiry-twcm)
+* section[Objective].entry[inquiry] ^short = "問診"
+* section[Objective].entry[palpation] only Reference(observationpalpation-twcm)
+* section[Objective].entry[palpation] ^short = "切診"
 
 * identifier
   * assigner only Reference(TWCoreOrganization)

@@ -60,10 +60,9 @@ Usage: #example
 * section[ConditionDiagnosis].section[practitioner].entry.reference = "Practitioner/PractitionerTWCM-pro"
 * section[ConditionDiagnosis].section[careplan].code = http://loinc.org#101541-1 "Multidisciplinary Comprehensive plan of care note"
 * section[ConditionDiagnosis].section[careplan].entry.reference = "CarePlan/CarePlanTWCM-min"
-* section[ConditionDiagnosis].section[observationtonguecondition].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[observationtonguecondition].entry.reference = "Observation/ObservationTongueConditionTWCM-min"
 * section[ConditionDiagnosis].section[observationpulsecondition].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[observationpulsecondition].entry.reference = "Observation/ObservationPulseConditionTWCM-min"
+* section[ConditionDiagnosis].section[observationpulsecondition].entry[0].reference = "Observation/ObservationPulseConditionTWCM-min"
+* section[ConditionDiagnosis].section[observationpulsecondition].entry[1].reference = "Observation/ObservationPulseConditionTWCM-lefthand"
 * section[ConditionDiagnosis].section[conditionsyndrometype].code = http://loinc.org#29548-5 "Diagnosis Narrative"
 * section[ConditionDiagnosis].section[conditionsyndrometype].entry.reference = "Condition/ConditionSyndromeTypeTWCM-min"
 * section[ConditionDiagnosis].section[proceduretherapeuticprinciples].code = http://loinc.org#29548-5 "Diagnosis Narrative"
@@ -119,9 +118,13 @@ Usage: #example
 * section[ObstetricHistory].code = http://loinc.org#10162-6 "History of pregnancies Narrative"
 * section[ObstetricHistory].entry.reference = "Observation/ObservationObstetricHistoryTWCM-min"
 
-* section[Objective].title = "客觀描述"
+* section[Objective].title = "望聞問切客觀描述"
 * section[Objective].code = http://loinc.org#61149-1 "Objective Narrative"
-* section[Objective].entry.reference = "Observation/ObservationObjectiveFindingsTWCM-min"
+* section[Objective].entry[clinicalImpression].reference = "ClinicalImpression/ClinicalImpressionTWCM-min"
+* section[Objective].entry[inspection].reference = "Observation/ObservationInspectionTWCM-min"
+* section[Objective].entry[listeningSmelling].reference = "Observation/ObservationListeningSmellingTWCM-min"
+* section[Objective].entry[inquiry].reference = "Observation/ObservationInquiryTWCM-min"
+* section[Objective].entry[palpation].reference = "Observation/ObservationPalpationTWCM-min"
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -201,9 +204,7 @@ Usage: #example
       <br />
       <b>section[careplan]</b>： <a href=\"CarePlan-CarePlanTWCM-min.html\">CarePlan/CarePlanTWCM-min</a>
       <br />
-      <b>section[observationtonguecondition]</b>： <a href=\"Observation-ObservationTongueConditionTWCM-min.html\">Observation/ObservationTongueConditionTWCM-min</a>
-      <br />
-      <b>section[observationpulsecondition]</b>： <a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>
+      <b>section[observationpulsecondition]</b>： <a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>、<a href=\"Observation-ObservationPulseConditionTWCM-lefthand.html\">Observation/ObservationPulseConditionTWCM-lefthand</a>
       <br />
       <b>section[conditionsyndrometype]</b>： <a href=\"Condition-ConditionSyndromeTypeTWCM-min.html\">Condition/ConditionSyndromeTypeTWCM-min</a>
       <br />
@@ -251,7 +252,20 @@ Usage: #example
 
     <p><b>section[ObstetricHistory]</b>： <a href=\"Observation-ObservationObstetricHistoryTWCM-min.html\">Observation/ObservationObstetricHistoryTWCM-min</a></p>
 
-    <p><b>section[Objective]</b>： <a href=\"Observation-ObservationObjectiveFindingsTWCM-min.html\">Observation/ObservationObjectiveFindingsTWCM-min</a></p>
+    <p>
+    <b>section[Objective]</b>：<br />
+    <span style=\"display: block; margin-left: 20px;\">
+    <a href=\"ClinicalImpression-ClinicalImpressionTWCM-min.html\">ClinicalImpression/ClinicalImpressionTWCM-min</a>
+    <br />
+    <a href=\"Observation-ObservationInspectionTWCM-min.html\">Observation/ObservationInspectionTWCM-min</a>
+    <br />
+    <a href=\"Observation-ObservationListeningSmellingTWCM-min.html\">Observation/ObservationListeningSmellingTWCM-min</a>
+    <br />
+    <a href=\"Observation-ObservationInquiryTWCM-min.html\">Observation/ObservationInquiryTWCM-min</a>
+    <br />
+    <a href=\"Observation-ObservationPalpationTWCM-min.html\">Observation/ObservationPalpationTWCM-min</a>
+    </span>
+    </p>
 
     </blockquote>
 
