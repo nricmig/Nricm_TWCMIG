@@ -11,6 +11,7 @@
 <li><a href="CodeSystem-ICD11MMS.html">ICD-11 MMS(第26章傳統醫學病證片段)</a></li>
 <li><a href="CodeSystem-twcm-clinicalfinding.html">中醫臨床表現詞彙</a></li>
 <li><a href="CodeSystem-twcm-fourdiagnosis-category.html">中醫四診分類</a></li>
+<li><a href="CodeSystem-twcm-medicalhistory-category.html">中醫病史分類</a></li>
 </ul>
 
 ### 值集
@@ -25,6 +26,12 @@
 <li><a href="ValueSet-twcm-treatmentregion.html">針灸傷科脫臼整復部位值集</a></li>
 <li><a href="ValueSet-twcm-syndrometype.html">病人證型值集</a></li>
 <li><a href="ValueSet-twcm-icd11-disease.html">ICD-11中醫病名</a></li>
+<li><a href="ValueSet-twcm-medicalhistory-category.html">中醫病史分類值集</a></li>
+<li><a href="ValueSet-twcm-medicalhistory-recordtype.html">病史紀錄類型值集</a></li>
+<li><a href="ValueSet-twcm-chronic-disease.html">慢性疾病值集</a></li>
+<li><a href="ValueSet-twcm-medicalhistory-finding.html">病史臨床表現值集</a></li>
+<li><a href="ValueSet-twcm-menstrualhistory.html">月經史值集</a></li>
+<li><a href="ValueSet-twcm-obstetrichistory.html">產科史值集</a></li>
 <li><a href="ValueSet-twcm-inspection-spirit.html">精神／意識／行為／情緒／性格(望神)值集</a></li>
 <li><a href="ValueSet-twcm-inspection-body.html">體(望)值集</a></li>
 <li><a href="ValueSet-twcm-inspection-headface.html">頭面部(望)值集</a></li>

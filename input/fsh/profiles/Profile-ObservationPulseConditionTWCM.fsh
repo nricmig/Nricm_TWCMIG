@@ -21,10 +21,6 @@ Description: "此病人脈象(ObservationPulseCondition TWCM)Profile說明本IG�
 * component MS
   * ^short = "[依寸、關、尺部位分別填入脈象；同一部位有多種脈象時，每種脈象各填一筆component]"
 * component.code from twcm-pulseposition (required)
-* component.value[x] 1..1 MS
-* component.value[x] only CodeableConcept
-* component.valueCodeableConcept.coding 0..1 MS
-* component.valueCodeableConcept.coding from twcm-pulsecondition (required)
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #closed
@@ -39,6 +35,18 @@ Description: "此病人脈象(ObservationPulseCondition TWCM)Profile說明本IG�
 * component[guan] ^short = "關部脈象"
 * component[chi].code = WHOICTMTerminology#WGM2#886 "尺脈"
 * component[chi] ^short = "尺部脈象"
+* component[cun].value[x] 1..1 MS
+* component[cun].value[x] only CodeableConcept
+* component[cun].valueCodeableConcept.coding 0..1 MS
+* component[cun].valueCodeableConcept.coding from twcm-pulsecondition (required)
+* component[guan].value[x] 1..1 MS
+* component[guan].value[x] only CodeableConcept
+* component[guan].valueCodeableConcept.coding 0..1 MS
+* component[guan].valueCodeableConcept.coding from twcm-pulsecondition (required)
+* component[chi].value[x] 1..1 MS
+* component[chi].value[x] only CodeableConcept
+* component[chi].valueCodeableConcept.coding 0..1 MS
+* component[chi].valueCodeableConcept.coding from twcm-pulsecondition (required)
 
 * subject 1..1 MS
 * encounter MS

@@ -32,44 +32,26 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section contains
           PatientInformation 0..1 MS and
           AllergyIntolerance 0..1 MS and
-          ConditionPastMedicalHistory 0..1 MS and
+          MedicalHistory 0..1 MS and
           ConditionMajorIllness 1..1 MS and
           Medication 0..1 MS and
           ConditionDiagnosis  1..1 MS and
           ConditionChiefComplaint 1..1 MS and
+          PresentIllness 0..1 MS and
           ObservationVitalSign 1..1 MS and
           Procedure 1..1 MS and
           ObservationLabResults 0..1 MS and
           DocumentReference 1..1 MS and
           FamilyMemberHistory 0..1 MS and
           SocialHistory 0..1 MS and
-          MenstrualHistory 0..1 MS and
-          ObstetricHistory 0..1 MS and
           Objective 1..1 MS
 
 * section[PatientInformation].title 1..1
 * section[PatientInformation].code 1..1
-* section[PatientInformation].code = http://loinc.org#52460-3 "Patient Information"
-* section[PatientInformation].section 0..3
-* section[PatientInformation].section ^slicing.discriminator.type = #profile
-* section[PatientInformation].section ^slicing.discriminator.path = "entry.resolve()"
-* section[PatientInformation].section ^slicing.rules = #open
-* section[PatientInformation].section contains
-    educationlevel 0..1 and
-    occupation 0..1 and
-    bloodtype 0..1
-* section[PatientInformation].section[educationlevel]
-  * code = http://loinc.org#80913-7 "Highest level of education [US Standard Certificate of Death]"
-  * entry only Reference(observationeducationlevel-twcm)
-    * reference 1..1
-* section[PatientInformation].section[occupation]
-  * code = http://loinc.org#85658-3 "Occupation [Type]"
-  * entry only Reference(observationoccupation-twcm)
-    * reference 1..1
-* section[PatientInformation].section[bloodtype]
-  * code = http://loinc.org#882-1 "ABO and Rh group [Type] in Blood"
-  * entry only Reference(observationbloodtype-twcm)
-    * reference 1..1
+* section[PatientInformation].code = http://loinc.org#79191-3 "Patient demographics panel"
+* section[PatientInformation].entry 1..1
+* section[PatientInformation].entry only Reference(patient-twcm)
+  * reference 1..1
 
 * section[AllergyIntolerance].title 1..1
 * section[AllergyIntolerance].code 1..1
@@ -77,10 +59,10 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[AllergyIntolerance].entry only Reference(allergyintolerance-twcm)
   * reference 1..1
 
-* section[ConditionPastMedicalHistory].title 1..1
-* section[ConditionPastMedicalHistory].code 1..1
-* section[ConditionPastMedicalHistory].code = http://loinc.org#11348-0 "History of Past illness note"
-* section[ConditionPastMedicalHistory].entry only Reference(conditionpastmedicalhistory-twcm)
+* section[MedicalHistory].title 1..1
+* section[MedicalHistory].code 1..1
+* section[MedicalHistory].code = http://loinc.org#11348-0 "History of Past illness note"
+* section[MedicalHistory].entry only Reference(conditionmedicalhistory-twcm)
   * reference 1..1
 * section[ConditionMajorIllness].title 1..1
 * section[ConditionMajorIllness].code 1..1
@@ -161,6 +143,11 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[ConditionChiefComplaint].code = http://loinc.org#10154-3 "Chief complaint Narrative - Reported"
 * section[ConditionChiefComplaint].entry only Reference(conditionchiefcomplaint-twcm)
   * reference 1..1
+* section[PresentIllness].title 1..1
+* section[PresentIllness].code 1..1
+* section[PresentIllness].code = http://loinc.org#10164-2 "History of Present illness Narrative"
+* section[PresentIllness].entry only Reference(conditionmedicalhistory-twcm)
+  * reference 1..1
 
 * section[ObservationVitalSign].title 1..1
 * section[ObservationVitalSign].code 1..1
@@ -185,7 +172,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
     observation 1..* and
     servicerequest 1..* and
     diagnosticreport 0..* and
-    organizationinspection 1..*
+    bloodtype 0..1
 * section[ObservationLabResults].section[observation]
   * code = http://loinc.org#19146-0 "Referral lab test results"
   * entry only Reference(observation-twcm)
@@ -198,9 +185,10 @@ Description: "此Profile用於描述中醫門診單的報告文件"
   * code = http://loinc.org#50398-7 "Narrative diagnostic report [Interpretation]"
   * entry only Reference(diagnosticreport-twcm)
     * reference 1..1
-* section[ObservationLabResults].section[organizationinspection]
-  * code = http://loinc.org#52482-7 "Laboratory"
-  * entry only Reference(organizationinspection-twcm)
+
+* section[ObservationLabResults].section[bloodtype]
+  * code = http://loinc.org#883-9 "ABO group [Type] in Blood"
+  * entry only Reference(observationbloodtype-twcm)
     * reference 1..1
 
 * section[DocumentReference].title 1..1
@@ -220,23 +208,23 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[SocialHistory].title 1..1
 * section[SocialHistory].code 1..1
 * section[SocialHistory].code = http://loinc.org#29762-2 "Social history note"
-* section[SocialHistory].entry 1..1
+* section[SocialHistory].entry 0..1
 * section[SocialHistory].entry only Reference(observationsocialhistory-twcm)
   * reference 1..1
-
-* section[MenstrualHistory].title 1..1
-* section[MenstrualHistory].code 1..1
-* section[MenstrualHistory].code = http://loinc.org#49033-4 "Menstrual History - Reported"
-* section[MenstrualHistory].entry 1..1
-* section[MenstrualHistory].entry only Reference(observationmenstrualhistory-twcm)
-  * reference 1..1
-
-* section[ObstetricHistory].title 1..1
-* section[ObstetricHistory].code 1..1
-* section[ObstetricHistory].code = http://loinc.org#10162-6 "History of pregnancies Narrative"
-* section[ObstetricHistory].entry 1..1
-* section[ObstetricHistory].entry only Reference(observationobstetrichistory-twcm)
-  * reference 1..1
+* section[SocialHistory].section ^slicing.discriminator.type = #profile
+* section[SocialHistory].section ^slicing.discriminator.path = "entry.resolve()"
+* section[SocialHistory].section ^slicing.rules = #open
+* section[SocialHistory].section contains
+    occupation 0..1 and
+    educationlevel 0..1
+* section[SocialHistory].section[occupation]
+  * code = http://loinc.org#11341-5 "History of Occupation"
+  * entry only Reference(observationoccupation-twcm)
+    * reference 1..1
+* section[SocialHistory].section[educationlevel]
+  * code = http://loinc.org#82589-3 "Highest level of education"
+  * entry only Reference(observationeducationlevel-twcm)
+    * reference 1..1
 
 * section[Objective].title 1..1
 * section[Objective].code 1..1

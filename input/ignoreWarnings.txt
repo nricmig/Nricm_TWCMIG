@@ -24,3 +24,20 @@
 
 # 來自相依套件(IPS)內部的連結，非本IG內容，不影響驗證。
 % Hyperlink scheme 'file'%
+
+# 建議使用OID，但目前暫無需求，不影響驗證。
+% have an OID%
+
+# 值集中的代碼量太多，Expansion僅列出部分代碼，不影響驗證。
+% The value set expansion is too large, and only a subset has been displayed%
+
+# 中醫處置分類值集沿用FHIR R4 procedure-category值集之SNOMED CT代碼，103693007於SNOMED CT 2023年版停用且無官方替代碼，為與FHIR標準值集一致故保留，不影響驗證。
+% The concept '103693007' has a status of inactive%
+
+# 提醒slice雖有多筆，但實際只能填一筆，不影響驗證。
+The slice definition for Condition.code.coding has a maximum of 1 but the slices add up to a maximum of 6. Check that this is what is intended
+The slice definition for Encounter.serviceType.coding has a maximum of 1 but the slices add up to a maximum of 3. Check that this is what is intended
+The slice definition for Medication.code.coding has a maximum of 2 but the slices add up to a maximum of 7. Check that this is what is intended
+The slice definition for Patient.identifier has a maximum of 2 but the slices add up to a maximum of 3. Check that this is what is intended
+The slice definition for Patient.name has a maximum of 1 but the slices add up to a maximum of 4. Check that this is what is intended
+The slice definition for Procedure.code.coding has a maximum of 1 but the slices add up to a maximum of 6. Check that this is what is intended

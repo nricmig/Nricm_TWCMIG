@@ -20,7 +20,7 @@
 - [病人主訴(ConditionChiefComplaint TWCM)](StructureDefinition-conditionchiefcomplaint-twcm.html)
 - [病情、問題或診斷(ConditionDiagnosis TWCM)](StructureDefinition-conditiondiagnosis-twcm.html)
 - [重大傷病(ConditionMajorIllness TWCM)](StructureDefinition-conditionmajorillness-twcm.html)
-- [過去病史(ConditionPastMedicalHistory TWCM)](StructureDefinition-conditionpastmedicalhistory-twcm.html)
+- [病史(ConditionMedicalHistory TWCM)](StructureDefinition-conditionmedicalhistory-twcm.html)
 - [病人證型(ConditionSyndromeType TWCM)](StructureDefinition-conditionsyndrometype-twcm.html)
 
 #### DiagnosticReport
@@ -59,8 +59,6 @@
 - [切診(ObservationPalpation TWCM)](StructureDefinition-observationpalpation-twcm.html)
 - [病人脈象(ObservationPulseCondition TWCM)](StructureDefinition-observationpulsecondition-twcm.html)
 - [個人史(ObservationSocialHistory TWCM)](StructureDefinition-observationsocialhistory-twcm.html)
-- [月經史(ObservationMenstrualHistory TWCM)](StructureDefinition-observationmenstrualhistory-twcm.html)
-- [產科史(ObservationObstetricHistory TWCM)](StructureDefinition-observationobstetrichistory-twcm.html)
 
 #### Organization
 - [醫事機構(Organization TWCM)](StructureDefinition-organization-twcm.html)
