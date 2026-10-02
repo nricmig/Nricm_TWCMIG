@@ -4,7 +4,7 @@ Title: "教育程度範例"
 Description: "依據教育程度(ObservationEducationLevel TWCM)Profile呈現中醫門診單中教育程度的範例"
 Usage: #example
 * status = #final
-* code = http://loinc.org#80913-7 "Highest level of education [US Standard Certificate of Death]"
+* code = http://loinc.org#82589-3 "Highest level of education"
 * code.text = "最高教育程度"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
@@ -19,7 +19,7 @@ Usage: #example
         <b>狀態</b>：Final <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/observation-status\">ObservationStatus</a>#final) </span>
     </p>
     <p>
-      <b>項目</b>：最高教育程度 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://loinc.org\">LOINCCodes</a>#80913-7) </span>
+      <b>項目</b>：最高教育程度 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://loinc.org\">LOINCCodes</a>#82589-3) </span>
     </p>
     <p>
 	    <b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"

@@ -19,21 +19,19 @@ Usage: #example
 * confidentiality = http://terminology.hl7.org/CodeSystem/v3-Confidentiality#N "normal"
 
 * section[PatientInformation].title = "病人資料"
-* section[PatientInformation].code = http://loinc.org#52460-3 "Patient Information"
-* section[PatientInformation].section[educationlevel].code = http://loinc.org#80913-7 "Highest level of education [US Standard Certificate of Death]"
-* section[PatientInformation].section[educationlevel].entry.reference = "Observation/ObservationEducationLevelTWCM-min"
-* section[PatientInformation].section[occupation].code = http://loinc.org#85658-3 "Occupation [Type]"
-* section[PatientInformation].section[occupation].entry.reference = "Observation/ObservationOccupationTWCM-min"
-* section[PatientInformation].section[bloodtype].code = http://loinc.org#882-1 "ABO and Rh group [Type] in Blood"
-* section[PatientInformation].section[bloodtype].entry.reference = "Observation/ObservationBloodtypeTWCM-min"
+* section[PatientInformation].code = http://loinc.org#79191-3 "Patient demographics panel"
+* section[PatientInformation].entry.reference = "Patient/PatientTWCM-min"
 
 * section[AllergyIntolerance].title = "過敏史"
 * section[AllergyIntolerance].code = http://loinc.org#48765-2 "Allergies and adverse reactions Document"
 * section[AllergyIntolerance].entry.reference = "AllergyIntolerance/AllergyIntoleranceTWCM-min"
 
-* section[ConditionPastMedicalHistory].title = "過去病史"
-* section[ConditionPastMedicalHistory].code = http://loinc.org#11348-0 "History of Past illness note"
-* section[ConditionPastMedicalHistory].entry.reference = "Condition/ConditionPastMedicalHistoryTWCM-min"
+* section[MedicalHistory].title = "病史"
+* section[MedicalHistory].code = http://loinc.org#11348-0 "History of Past illness note"
+* section[MedicalHistory].entry[0].reference = "Condition/ConditionMedicalHistoryTWCM-min"
+* section[MedicalHistory].entry[1].reference = "Condition/ConditionMedicalHistoryTWCM-menstrual"
+* section[MedicalHistory].entry[2].reference = "Condition/ConditionMedicalHistoryTWCM-obstetric"
+* section[MedicalHistory].entry[3].reference = "Condition/ConditionMedicalHistoryTWCM-pediatric"
 
 * section[ConditionMajorIllness].title = "重大傷病"
 * section[ConditionMajorIllness].code = http://loinc.org#11338-1 "History of Major illnesses and injuries Narrative"
@@ -73,6 +71,10 @@ Usage: #example
 * section[ConditionChiefComplaint].code = http://loinc.org#10154-3 "Chief complaint Narrative - Reported"
 * section[ConditionChiefComplaint].entry.reference = "Condition/ConditionChiefComplaintTWCM-min"
 
+* section[PresentIllness].title = "現病史"
+* section[PresentIllness].code = http://loinc.org#10164-2 "History of Present illness Narrative"
+* section[PresentIllness].entry.reference = "Condition/ConditionMedicalHistoryTWCM-present"
+
 * section[ObservationVitalSign].title = "生命徵象"
 * section[ObservationVitalSign].code = http://loinc.org#8716-3 "Vital signs note"
 * section[ObservationVitalSign].entry.reference = "Observation/ObservationVitalSignTWCM-min"
@@ -95,8 +97,8 @@ Usage: #example
 * section[ObservationLabResults].section[servicerequest][1].entry.reference = "ServiceRequest/ServiceRequestTWCM-pro"
 * section[ObservationLabResults].section[diagnosticreport].code = http://loinc.org#50398-7 "Narrative diagnostic report [Interpretation]"
 * section[ObservationLabResults].section[diagnosticreport].entry.reference = "DiagnosticReport/DiagnosticReportTWCM-min"
-* section[ObservationLabResults].section[organizationinspection].code = http://loinc.org#52482-7 "Laboratory"
-* section[ObservationLabResults].section[organizationinspection].entry.reference = "Organization/OrganizationInspectionTWCM-min"
+* section[ObservationLabResults].section[bloodtype].code = http://loinc.org#883-9 "ABO group [Type] in Blood"
+* section[ObservationLabResults].section[bloodtype].entry.reference = "Observation/ObservationBloodtypeTWCM-min"
 
 * section[DocumentReference].title = "健康問題文件"
 * section[DocumentReference].code = http://loinc.org#75310-3 "Health concerns Document"
@@ -109,14 +111,12 @@ Usage: #example
 * section[SocialHistory].title = "個人史"
 * section[SocialHistory].code = http://loinc.org#29762-2 "Social history note"
 * section[SocialHistory].entry.reference = "Observation/ObservationSocialHistoryTWCM-min"
+* section[SocialHistory].section[occupation].code = http://loinc.org#11341-5 "History of Occupation"
+* section[SocialHistory].section[occupation].entry.reference = "Observation/ObservationOccupationTWCM-min"
+* section[SocialHistory].section[educationlevel].code = http://loinc.org#82589-3 "Highest level of education"
+* section[SocialHistory].section[educationlevel].entry.reference = "Observation/ObservationEducationLevelTWCM-min"
 
-* section[MenstrualHistory].title = "月經史"
-* section[MenstrualHistory].code = http://loinc.org#49033-4 "Menstrual History - Reported"
-* section[MenstrualHistory].entry.reference = "Observation/ObservationMenstrualHistoryTWCM-min"
 
-* section[ObstetricHistory].title = "產科史"
-* section[ObstetricHistory].code = http://loinc.org#10162-6 "History of pregnancies Narrative"
-* section[ObstetricHistory].entry.reference = "Observation/ObservationObstetricHistoryTWCM-min"
 
 * section[Objective].title = "望聞問切客觀描述"
 * section[Objective].code = http://loinc.org#61149-1 "Objective Narrative"
@@ -165,19 +165,12 @@ Usage: #example
     <blockquote>
 
     <p>
-      <b>section[PatientInformation]：</b><br />
-       <span style=\"display: block; margin-left: 20px;\">
-      <b>section[educationlevel]</b>： <a href=\"Observation-ObservationEducationLevelTWCM-min.html\">Observation/ObservationEducationLevelTWCM-min</a>
-      <br />
-      <b>section[occupation]</b>： <a href=\"Observation-ObservationOccupationTWCM-min.html\">Observation/ObservationOccupationTWCM-min</a>
-      <br />
-      <b>section[bloodtype]</b>： <a href=\"Observation-ObservationBloodtypeTWCM-min.html\">Observation/ObservationBloodtypeTWCM-min</a>
-      </span>
+      <b>section[PatientInformation]</b>： <a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a>
     </p>
 
     <p><b>section[AllergyIntolerance]</b>： <a href=\"AllergyIntolerance-AllergyIntoleranceTWCM-min.html\">AllergyIntolerance/AllergyIntoleranceTWCM-min</a></p>
 
-    <p><b>section[ConditionPastMedicalHistory]</b>： <a href=\"Condition-ConditionPastMedicalHistoryTWCM-min.html\">Condition/ConditionPastMedicalHistoryTWCM-min</a></p>
+    <p><b>section[MedicalHistory]</b>： <a href=\"Condition-ConditionMedicalHistoryTWCM-min.html\">Condition/ConditionMedicalHistoryTWCM-min</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-menstrual.html\">Condition/ConditionMedicalHistoryTWCM-menstrual</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-obstetric.html\">Condition/ConditionMedicalHistoryTWCM-obstetric</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-pediatric.html\">Condition/ConditionMedicalHistoryTWCM-pediatric</a></p>
 
     <p>
       <b>section[ConditionMajorIllness]</b>： <a href=\"Observation-ObservationMajorIllnessTWCM-min.html\">Observation/ObservationMajorIllnessTWCM-min</a>
@@ -215,6 +208,8 @@ Usage: #example
 
     <p><b>section[ConditionChiefComplaint]</b>： <a href=\"Condition-ConditionChiefComplaintTWCM-min.html\">Condition/ConditionChiefComplaintTWCM-min</a></p>
 
+    <p><b>section[PresentIllness]</b>： <a href=\"Condition-ConditionMedicalHistoryTWCM-present.html\">Condition/ConditionMedicalHistoryTWCM-present</a></p>
+
     <p><b>section[ObservationVitalSign]</b>： <a href=\"Observation-ObservationVitalSignTWCM-min.html\">Observation/ObservationVitalSignTWCM-min</a></p>
 
     <p>
@@ -238,7 +233,7 @@ Usage: #example
     <br />
     <b>section[diagnosticreport]</b>： <a href=\"DiagnosticReport-DiagnosticReportTWCM-min.html\">DiagnosticReport/DiagnosticReportTWCM-min</a>
     <br />
-    <b>section[organizationinspection]</b>： <a href=\"Organization-OrganizationInspectionTWCM-min.html\">Organization/OrganizationInspectionTWCM-min</a>
+    <b>section[bloodtype]</b>： <a href=\"Observation-ObservationBloodtypeTWCM-min.html\">Observation/ObservationBloodtypeTWCM-min</a>
     </span>
     </p>
 
@@ -246,11 +241,14 @@ Usage: #example
 
     <p><b>section[FamilyMemberHistory]</b>： <a href=\"FamilyMemberHistory-FamilyMemberHistoryTWCM-min.html\">FamilyMemberHistory/FamilyMemberHistoryTWCM-min</a></p>
 
-    <p><b>section[SocialHistory]</b>： <a href=\"Observation-ObservationSocialHistoryTWCM-min.html\">Observation/ObservationSocialHistoryTWCM-min</a></p>
-
-    <p><b>section[MenstrualHistory]</b>： <a href=\"Observation-ObservationMenstrualHistoryTWCM-min.html\">Observation/ObservationMenstrualHistoryTWCM-min</a></p>
-
-    <p><b>section[ObstetricHistory]</b>： <a href=\"Observation-ObservationObstetricHistoryTWCM-min.html\">Observation/ObservationObstetricHistoryTWCM-min</a></p>
+    <p>
+    <b>section[SocialHistory]</b>： <a href=\"Observation-ObservationSocialHistoryTWCM-min.html\">Observation/ObservationSocialHistoryTWCM-min</a><br />
+    <span style=\"display: block; margin-left: 20px;\">
+    <b>section[occupation]</b>： <a href=\"Observation-ObservationOccupationTWCM-min.html\">Observation/ObservationOccupationTWCM-min</a>
+    <br />
+    <b>section[educationlevel]</b>： <a href=\"Observation-ObservationEducationLevelTWCM-min.html\">Observation/ObservationEducationLevelTWCM-min</a>
+    </span>
+    </p>
 
     <p>
     <b>section[Objective]</b>：<br />

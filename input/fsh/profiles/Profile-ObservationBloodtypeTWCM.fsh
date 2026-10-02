@@ -5,11 +5,11 @@ Title: "血型(ObservationBloodtype TWCM)"
 Description: "此血型(ObservationBloodtype TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource用以紀錄中醫門診單中的病人血型。"
 * status = #final
 * code 1..1 MS
-* code = http://loinc.org#882-1 "ABO and Rh group [Type] in Blood"
+* code = http://loinc.org#883-9 "ABO group [Type] in Blood"
 * encounter 1..1 MS
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
-  * ^short = "[應填入門診病摘之自述血型Blood Type]"
+  * ^short = "[應填入門診病摘之自述ABO血型Blood Type，如A、B、O、AB；不含Rh血型]"
 * valueCodeableConcept from http://hl7.org/fhir/uv/ips/ValueSet/results-blood-group-uv-ips|2.0.1 (extensible)
 * subject 1..1 MS
 

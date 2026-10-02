@@ -18,7 +18,11 @@
 ### Condition
 - [病人主訴範例](Condition-ConditionChiefComplaintTWCM-min.html)：依據病人主訴(ConditionChiefComplaint TWCM)Profile呈現中醫門診單中病人主訴的範例
 - [病情、問題或診斷範例](Condition-ConditionDiagnosisTWCM-min.html)：依據診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例
-- [過去病史範例](Condition-ConditionPastMedicalHistoryTWCM-min.html)：依據過去病史(ConditionPastMedicalHistory TWCM)Profile呈現中醫門診單中過去病史範例
+- [病史範例(過去病史)](Condition-ConditionMedicalHistoryTWCM-min.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中一般過去病史範例
+- [病史範例(現病史)](Condition-ConditionMedicalHistoryTWCM-present.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中現病史範例
+- [病史範例(月經史)](Condition-ConditionMedicalHistoryTWCM-menstrual.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中月經史範例
+- [病史範例(產科史)](Condition-ConditionMedicalHistoryTWCM-obstetric.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中產科史範例
+- [病史範例(小兒病史)](Condition-ConditionMedicalHistoryTWCM-pediatric.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中小兒病史範例
 - [病人證型範例](Condition-ConditionSyndromeTypeTWCM-min.html)：依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型範例
 - [病人證型範例(僅文字,無對應代碼)](Condition-ConditionSyndromeTypeTWCM-textonly.html)：依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型無法對應代碼時僅填文字的範例
 
@@ -62,8 +66,6 @@
 - [病人脈象範例(右手,分寸關尺)](Observation-ObservationPulseConditionTWCM-min.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師記錄到寸關尺時的病人脈象範例
 - [病人脈象範例(左手,未分寸關尺)](Observation-ObservationPulseConditionTWCM-lefthand.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師只記錄到左右手時的病人脈象範例
 - [個人史範例](Observation-ObservationSocialHistoryTWCM-min.html)：依據個人史(ObservationSocialHistory TWCM)Profile呈現中醫門診單中個人史的範例
-- [月經史範例](Observation-ObservationMenstrualHistoryTWCM-min.html)：依據月經史(ObservationMenstrualHistory TWCM)Profile呈現中醫門診單中月經史的範例
-- [產科史範例](Observation-ObservationObstetricHistoryTWCM-min.html)：依據產科史(ObservationObstetricHistory TWCM)Profile呈現中醫門診單中產科史的範例
 
 ### Organization
 - [醫事機構基本資料-捷達世中醫診所](Organization-OrganizationTWCM-min.html)：依據醫事機構(Organization TWCM)Profile呈現中醫門診單中醫事機構範例

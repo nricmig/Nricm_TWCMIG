@@ -17,7 +17,7 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         ObservationOccupation 0..1 MS and
         ObservationBloodtype 0..1 MS and
         AllergyIntolerance 0..* MS and
-        ConditionPastMedicalHistory 0..* MS and
+        ConditionMedicalHistory 0..* MS and
         ObservationMajorIllness 1..* MS and
         ConditionMajorIllness 0..* MS and
         Medication 0..* MS and
@@ -43,8 +43,6 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         DocumentReference 1..1 MS and
         FamilyMemberHistory 0..* MS and
         ObservationSocialHistory 0..1 MS and
-        ObservationMenstrualHistory 0..1 MS and
-        ObservationObstetricHistory 0..1 MS and
         ClinicalImpression 1..1 MS and
         ObservationInspection 0..1 MS and
         ObservationListeningSmelling 0..1 MS and
@@ -83,9 +81,9 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
   * ^short = "過敏史"
 * entry[AllergyIntolerance].resource only allergyintolerance-twcm
 
-* entry[ConditionPastMedicalHistory].resource 1..1
-  * ^short = "過去病史"
-* entry[ConditionPastMedicalHistory].resource only conditionpastmedicalhistory-twcm
+* entry[ConditionMedicalHistory].resource 1..1
+  * ^short = "病史(過去病史、現病史、小兒病史、產科史、月經史、男科史)"
+* entry[ConditionMedicalHistory].resource only conditionmedicalhistory-twcm
 
 * entry[ObservationMajorIllness].resource 1..1
   * ^short = "重大傷病註記"
@@ -186,14 +184,6 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
 * entry[ObservationSocialHistory].resource 1..1
   * ^short = "個人史"
 * entry[ObservationSocialHistory].resource only observationsocialhistory-twcm
-
-* entry[ObservationMenstrualHistory].resource 1..1
-  * ^short = "月經史"
-* entry[ObservationMenstrualHistory].resource only observationmenstrualhistory-twcm
-
-* entry[ObservationObstetricHistory].resource 1..1
-  * ^short = "產科史"
-* entry[ObservationObstetricHistory].resource only observationobstetrichistory-twcm
 
 * entry[ClinicalImpression].resource 1..1
   * ^short = "中醫辨證評估（含望聞問切客觀描述）"

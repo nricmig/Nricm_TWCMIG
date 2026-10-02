@@ -32,8 +32,16 @@ Usage: #example
 * entry[AllergyIntolerance].fullUrl = "https://www.nricm.edu.tw/twcm/AllergyIntolerance/AllergyIntoleranceTWCM-min"
 * entry[AllergyIntolerance].resource = AllergyIntoleranceTWCM-min
 
-* entry[ConditionPastMedicalHistory].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionPastMedicalHistoryTWCM-min"
-* entry[ConditionPastMedicalHistory].resource = ConditionPastMedicalHistoryTWCM-min
+* entry[ConditionMedicalHistory][0].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionMedicalHistoryTWCM-min"
+* entry[ConditionMedicalHistory][0].resource = ConditionMedicalHistoryTWCM-min
+* entry[ConditionMedicalHistory][1].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionMedicalHistoryTWCM-menstrual"
+* entry[ConditionMedicalHistory][1].resource = ConditionMedicalHistoryTWCM-menstrual
+* entry[ConditionMedicalHistory][2].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionMedicalHistoryTWCM-obstetric"
+* entry[ConditionMedicalHistory][2].resource = ConditionMedicalHistoryTWCM-obstetric
+* entry[ConditionMedicalHistory][3].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionMedicalHistoryTWCM-pediatric"
+* entry[ConditionMedicalHistory][3].resource = ConditionMedicalHistoryTWCM-pediatric
+* entry[ConditionMedicalHistory][4].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionMedicalHistoryTWCM-present"
+* entry[ConditionMedicalHistory][4].resource = ConditionMedicalHistoryTWCM-present
 
 * entry[ObservationMajorIllness].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationMajorIllnessTWCM-min"
 * entry[ObservationMajorIllness].resource = ObservationMajorIllnessTWCM-min
@@ -119,12 +127,6 @@ Usage: #example
 
 * entry[ObservationSocialHistory].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationSocialHistoryTWCM-min"
 * entry[ObservationSocialHistory].resource = ObservationSocialHistoryTWCM-min
-
-* entry[ObservationMenstrualHistory].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationMenstrualHistoryTWCM-min"
-* entry[ObservationMenstrualHistory].resource = ObservationMenstrualHistoryTWCM-min
-
-* entry[ObservationObstetricHistory].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationObstetricHistoryTWCM-min"
-* entry[ObservationObstetricHistory].resource = ObservationObstetricHistoryTWCM-min
 
 * entry[ClinicalImpression].fullUrl = "https://www.nricm.edu.tw/twcm/ClinicalImpression/ClinicalImpressionTWCM-min"
 * entry[ClinicalImpression].resource = ClinicalImpressionTWCM-min

@@ -8,7 +8,7 @@ Description: "此教育程度(ObservationEducationLevel TWCM)Profile說明本IG�
 * category.coding 1..1
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * code 1..1 MS
-* code = http://loinc.org#80913-7 "Highest level of education [US Standard Certificate of Death]"
+* code = http://loinc.org#82589-3 "Highest level of education"
 * encounter 1..1 MS
 * value[x] MS
 * value[x] only CodeableConcept
