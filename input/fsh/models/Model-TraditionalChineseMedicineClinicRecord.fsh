@@ -150,7 +150,7 @@ Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料�
 Mapping: TraditionalChineseMedicineClinicRecord
 Title: "TWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://www.nricm.edu.tw/twcm/"
+Target: "index.html"
 * -> "BundleTWCM"
 
 * documentInfo -> "(病歷文件資料)"

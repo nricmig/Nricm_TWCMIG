@@ -36,6 +36,8 @@ Usage: #example
 * section[ConditionMajorIllness].title = "重大傷病"
 * section[ConditionMajorIllness].code = http://loinc.org#11338-1 "History of Major illnesses and injuries Narrative"
 * section[ConditionMajorIllness].entry.reference = "Observation/ObservationMajorIllnessTWCM-min"
+* section[ConditionMajorIllness].section.code = http://loinc.org#11338-1 "History of Major illnesses and injuries Narrative"
+* section[ConditionMajorIllness].section.entry.reference = "Condition/ConditionMajorIllnessTWCM-min"
 
 
 
@@ -59,8 +61,9 @@ Usage: #example
 * section[ConditionDiagnosis].section[careplan].code = http://loinc.org#101541-1 "Multidisciplinary Comprehensive plan of care note"
 * section[ConditionDiagnosis].section[careplan].entry.reference = "CarePlan/CarePlanTWCM-min"
 * section[ConditionDiagnosis].section[observationpulsecondition].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[observationpulsecondition].entry[0].reference = "Observation/ObservationPulseConditionTWCM-min"
-* section[ConditionDiagnosis].section[observationpulsecondition].entry[1].reference = "Observation/ObservationPulseConditionTWCM-lefthand"
+* section[ConditionDiagnosis].section[observationpulsecondition][0].entry.reference = "Observation/ObservationPulseConditionTWCM-min"
+* section[ConditionDiagnosis].section[observationpulsecondition][1].code = http://loinc.org#29548-5 "Diagnosis Narrative"
+* section[ConditionDiagnosis].section[observationpulsecondition][1].entry.reference = "Observation/ObservationPulseConditionTWCM-lefthand"
 * section[ConditionDiagnosis].section[conditionsyndrometype].code = http://loinc.org#29548-5 "Diagnosis Narrative"
 * section[ConditionDiagnosis].section[conditionsyndrometype].entry.reference = "Condition/ConditionSyndromeTypeTWCM-min"
 * section[ConditionDiagnosis].section[proceduretherapeuticprinciples].code = http://loinc.org#29548-5 "Diagnosis Narrative"
@@ -173,7 +176,8 @@ Usage: #example
     <p><b>section[MedicalHistory]</b>： <a href=\"Condition-ConditionMedicalHistoryTWCM-min.html\">Condition/ConditionMedicalHistoryTWCM-min</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-menstrual.html\">Condition/ConditionMedicalHistoryTWCM-menstrual</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-obstetric.html\">Condition/ConditionMedicalHistoryTWCM-obstetric</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-pediatric.html\">Condition/ConditionMedicalHistoryTWCM-pediatric</a></p>
 
     <p>
-      <b>section[ConditionMajorIllness]</b>： <a href=\"Observation-ObservationMajorIllnessTWCM-min.html\">Observation/ObservationMajorIllnessTWCM-min</a>
+      <b>section[ConditionMajorIllness]</b>： <a href=\"Observation-ObservationMajorIllnessTWCM-min.html\">Observation/ObservationMajorIllnessTWCM-min</a><br />
+      <span style=\"display: block; margin-left: 20px;\"><b>section</b>： <a href=\"Condition-ConditionMajorIllnessTWCM-min.html\">Condition/ConditionMajorIllnessTWCM-min</a></span>
     </p>
     <p>
     <b>section[Medication]</b>：<br />

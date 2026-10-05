@@ -105,7 +105,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
     conditiondiagnosis 1..* and
     practitioner 1..1 and
     careplan 1..1 and
-    observationpulsecondition 0..1 and
+    observationpulsecondition 0..2 and
     conditionsyndrometype 0..1 and
     proceduretherapeuticprinciples 0..1
 * section[ConditionDiagnosis].section[conditiondiagnosis]
@@ -121,9 +121,9 @@ Description: "此Profile用於描述中醫門診單的報告文件"
   * entry only Reference(careplan-twcm)
     * reference 1..1
 * section[ConditionDiagnosis].section[observationpulsecondition]
+  * ^short = "病人脈象（有記錄左右手時，左、右手各一個小章節）"
   * code = http://loinc.org#29548-5 "Diagnosis Narrative"
-  * entry 0..2
-  * entry ^short = "病人脈象（有記錄左右手時，左、右手各一筆）"
+  * entry 1..1
   * entry only Reference(observationpulsecondition-twcm)
     * reference 1..1
 * section[ConditionDiagnosis].section[conditionsyndrometype]

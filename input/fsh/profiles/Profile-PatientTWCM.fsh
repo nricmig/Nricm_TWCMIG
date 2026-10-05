@@ -29,7 +29,7 @@ Description: "此病人資料(Patient TWCM)Profile說明本IG如何進一步定�
 * telecom[homephone].use = #home
 * telecom[workphone].use = #work         
 * telecom[mobilephone].use = #mobile
-//* telecom[email].use = #email
+* telecom[email].use = #home
 
 
 * telecom[email] ^short = "應填入門診病摘之病人電子郵件地址Email"
