@@ -33,6 +33,7 @@ Usage: #example
 
 * telecom[email].system = #email
 * telecom[email].value = "lucky@gmail.com"
+* telecom[email].use = #home
 
 * gender = #female
 

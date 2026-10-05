@@ -8,7 +8,7 @@ Usage: #example
 * subject = Reference(Patient/PatientTWCM-min)
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
-* valueBoolean = false
+* valueBoolean = true
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -25,6 +25,6 @@ Usage: #example
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"
   </p>
     <p>
-    <b>重大傷病註記</b>：否
+    <b>重大傷病註記</b>：是
   </p>
 </div>"

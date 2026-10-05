@@ -45,6 +45,8 @@ Usage: #example
 
 * entry[ObservationMajorIllness].fullUrl = "https://www.nricm.edu.tw/twcm/Observation/ObservationMajorIllnessTWCM-min"
 * entry[ObservationMajorIllness].resource = ObservationMajorIllnessTWCM-min
+* entry[ConditionMajorIllness].fullUrl = "https://www.nricm.edu.tw/twcm/Condition/ConditionMajorIllnessTWCM-min"
+* entry[ConditionMajorIllness].resource = ConditionMajorIllnessTWCM-min
 
 * entry[Medication][0].fullUrl = "https://www.nricm.edu.tw/twcm/Medication/MedicationTWCM-min"
 * entry[Medication][0].resource = MedicationTWCM-min

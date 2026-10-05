@@ -16,6 +16,7 @@
 - [門診單架構](Composition-CompositionTWCM-min.html)：依據中醫-臨床文件架構(Composition TWCM)Profile呈現中醫門診單
 
 ### Condition
+- [重大傷病範例](Condition-ConditionMajorIllnessTWCM-min.html)：依據重大傷病(ConditionMajorIllness TWCM)Profile呈現中醫門診單中重大傷病代碼與病名的範例
 - [病人主訴範例](Condition-ConditionChiefComplaintTWCM-min.html)：依據病人主訴(ConditionChiefComplaint TWCM)Profile呈現中醫門診單中病人主訴的範例
 - [病情、問題或診斷範例](Condition-ConditionDiagnosisTWCM-min.html)：依據診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例
 - [病史範例(過去病史)](Condition-ConditionMedicalHistoryTWCM-min.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中一般過去病史範例

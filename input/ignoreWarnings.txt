@@ -41,3 +41,15 @@ The slice definition for Medication.code.coding has a maximum of 2 but the slice
 The slice definition for Patient.identifier has a maximum of 2 but the slices add up to a maximum of 3. Check that this is what is intended
 The slice definition for Patient.name has a maximum of 1 but the slices add up to a maximum of 4. Check that this is what is intended
 The slice definition for Procedure.code.coding has a maximum of 1 but the slices add up to a maximum of 6. Check that this is what is intended
+
+# 慢性疾病值集之代碼名稱照錄臺灣核心(TW Core)2023年版ICD-10-CM原文，Q90、Q91部分名稱於原始資料即帶前導空白，為與TW Core一致故保留，不影響驗證。
+%value should not start or finish with whitespace ' 第%
+
+# 慢性疾病值集逐碼收錄約1.2萬筆ICD-10-CM代碼，超過IG Publisher單一值集展開與逐碼檢查之上限(1,000筆)，代碼已另行逐筆比對TW Core 2023年版，不影響驗證。
+%expansion has too many codes to produce (>1000)%
+%The value set include has too many concepts to validate%
+
+# 病史、證型及治則之coding可來自本IG詞彙或ICD-11，不屬TW Core Condition/Procedure預設之code.coding slice(open slicing)，不影響驗證。
+%This element does not match any known slice defined in the profile https://www.nricm.edu.tw/twcm/StructureDefinition/conditionmedicalhistory-twcm%
+%This element does not match any known slice defined in the profile https://www.nricm.edu.tw/twcm/StructureDefinition/conditionsyndrometype-twcm%
+%This element does not match any known slice defined in the profile https://www.nricm.edu.tw/twcm/StructureDefinition/proceduretherapeuticprinciples-twcm%
