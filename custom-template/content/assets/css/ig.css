@@ -10,6 +10,7 @@
 :root {
   --navbar-bg-color: #025fa1; /* 選單列背景色 */
   --footer-bg-color: #0d76bf; /* 頁尾背景色(fallback,實際頁尾用下方漸層) */
+  --ig-status-text-color: #025fa1; /* 頁首 IG 標題與版本文字,與選單列同色 */
 }
 
 #segment-footer > .container {
