@@ -12,6 +12,10 @@ Description: "此病人治則(ProcedureTherapeuticPrinciples TWCM)Profile說明�
   * ^short = "[應填入中醫門診單之病人治則Therapeutic Discipline。可對應之WHO傳統醫學術語應優先使用coding；無法對應時僅填text即可]"
   * coding 0..* MS
   * coding from twcm-therapeuticprinciples (required)
+* code.coding contains whoIctm 0..* MS
+* code.coding[whoIctm] ^patternCoding.system = "https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology"
+* code.coding[whoIctm] from twcm-therapeuticprinciples (required)
+* code.coding[whoIctm] ^short = "[應填入WHO傳統醫學國際標準術語之治則、治法代碼]"
 
 * subject 1..1 MS
 * encounter MS
