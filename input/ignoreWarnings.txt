@@ -28,8 +28,10 @@
 # 建議使用OID，但目前暫無需求，不影響驗證。
 % have an OID%
 
-# 值集中的代碼量太多，Expansion僅列出部分代碼，不影響驗證。
+# 部分值集(如慢性疾病值集約1.2萬筆ICD-10-CM代碼)代碼量超過IG Publisher展開與逐碼檢查之上限(1,000筆)，Expansion僅列出部分代碼，代碼已另行比對TW Core 2023年版，不影響驗證。
 % The value set expansion is too large, and only a subset has been displayed%
+%expansion has too many codes to produce (>1000)%
+%The value set include has too many concepts to validate%
 
 # 中醫處置分類值集沿用FHIR R4 procedure-category值集之SNOMED CT代碼，103693007於SNOMED CT 2023年版停用且無官方替代碼，為與FHIR標準值集一致故保留，不影響驗證。
 % The concept '103693007' has a status of inactive%
@@ -45,11 +47,5 @@ The slice definition for Procedure.code.coding has a maximum of 1 but the slices
 # 慢性疾病值集之代碼名稱照錄臺灣核心(TW Core)2023年版ICD-10-CM原文，Q90、Q91部分名稱於原始資料即帶前導空白，為與TW Core一致故保留，不影響驗證。
 %value should not start or finish with whitespace ' 第%
 
-# 慢性疾病值集逐碼收錄約1.2萬筆ICD-10-CM代碼，超過IG Publisher單一值集展開與逐碼檢查之上限(1,000筆)，代碼已另行逐筆比對TW Core 2023年版，不影響驗證。
-%expansion has too many codes to produce (>1000)%
-%The value set include has too many concepts to validate%
-
-# 病史、證型及治則之coding可來自本IG詞彙或ICD-11，不屬TW Core Condition/Procedure預設之code.coding slice(open slicing)，不影響驗證。
-%This element does not match any known slice defined in the profile https://www.nricm.edu.tw/twcm/StructureDefinition/conditionmedicalhistory-twcm%
-%This element does not match any known slice defined in the profile https://www.nricm.edu.tw/twcm/StructureDefinition/conditionsyndrometype-twcm%
-%This element does not match any known slice defined in the profile https://www.nricm.edu.tw/twcm/StructureDefinition/proceduretherapeuticprinciples-twcm%
+# 病史、證型及治則之code.coding依代碼系統切分slice(本IG詞彙、ICD-11)，各slice以pattern指定代碼系統，套用至該slice之每一筆coding為預期設計，不影響驗證。
+%The repeating element has a pattern. The pattern will apply to all the repeats%

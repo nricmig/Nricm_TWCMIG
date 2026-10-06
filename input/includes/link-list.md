@@ -1,2 +1,2 @@
 
-[TWCM CapabilityStatement]: CapabilityStatement-CapabilityStatementTWCM.html
+[TWCM CapabilityStatement]: CapabilityStatement-CapabilityStatementTWCMServer.html
