@@ -1,6 +1,6 @@
 Alias: $SCT = http://snomed.info/sct
 
-ValueSet: TWCMProcedureCategory
+ValueSet: TWCMProcedureCategoryVS
 Id: twcm-procedurecategory
 Title: "SNOMED CT + 衛福部中醫診所EMR單張-中醫處置分類值集"
 Description: "SNOMED CT + 衛福部中醫診所EMR單張-中醫處置分類值集。
@@ -20,3 +20,4 @@ Description: "SNOMED CT + 衛福部中醫診所EMR單張-中醫處置分類值�
 * $SCT#103693007
 * $SCT#46947000
 * $SCT#410606002
+* ^name = "TWCMProcedureCategory"
