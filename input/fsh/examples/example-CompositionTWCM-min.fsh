@@ -55,19 +55,20 @@ Usage: #example
 * section[ConditionDiagnosis].title = "診斷"
 * section[ConditionDiagnosis].code = http://loinc.org#11450-4 "Problem list - Reported"
 * section[ConditionDiagnosis].section[conditiondiagnosis].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[conditiondiagnosis].entry.reference = "Condition/ConditionDiagnosisTWCM-min"
+* section[ConditionDiagnosis].section[conditiondiagnosis].entry[conditiondiagnosis].reference = "Condition/ConditionDiagnosisTWCM-min"
+* section[ConditionDiagnosis].section[conditiondiagnosis].entry[conditionsyndrometype].reference = "Condition/ConditionSyndromeTypeTWCM-min"
 * section[ConditionDiagnosis].section[practitioner].code = http://loinc.org#18600-7 "Primary practitioner identifier"
 * section[ConditionDiagnosis].section[practitioner].entry.reference = "Practitioner/PractitionerTWCM-pro"
-* section[ConditionDiagnosis].section[careplan].code = http://loinc.org#101541-1 "Multidisciplinary Comprehensive plan of care note"
-* section[ConditionDiagnosis].section[careplan].entry.reference = "CarePlan/CarePlanTWCM-min"
-* section[ConditionDiagnosis].section[observationpulsecondition].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[observationpulsecondition][0].entry.reference = "Observation/ObservationPulseConditionTWCM-min"
-* section[ConditionDiagnosis].section[observationpulsecondition][1].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[observationpulsecondition][1].entry.reference = "Observation/ObservationPulseConditionTWCM-lefthand"
-* section[ConditionDiagnosis].section[conditionsyndrometype].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[conditionsyndrometype].entry.reference = "Condition/ConditionSyndromeTypeTWCM-min"
-* section[ConditionDiagnosis].section[proceduretherapeuticprinciples].code = http://loinc.org#29548-5 "Diagnosis Narrative"
-* section[ConditionDiagnosis].section[proceduretherapeuticprinciples].entry.reference = "Procedure/ProcedureTherapeuticPrinciplesTWCM-min"
+
+* section[PhysicalFindings].title = "理學檢查發現"
+* section[PhysicalFindings].code = http://loinc.org#29545-1 "Physical findings note"
+* section[PhysicalFindings].entry[0].reference = "Observation/ObservationPulseConditionTWCM-min"
+* section[PhysicalFindings].entry[1].reference = "Observation/ObservationPulseConditionTWCM-lefthand"
+
+* section[PlanOfCare].title = "照護計畫"
+* section[PlanOfCare].code = http://loinc.org#18776-5 "Plan of care note"
+* section[PlanOfCare].entry[careplan].reference = "CarePlan/CarePlanTWCM-min"
+* section[PlanOfCare].entry[proceduretherapeuticprinciples].reference = "Procedure/ProcedureTherapeuticPrinciplesTWCM-min"
 
 
 * section[ConditionChiefComplaint].title = "病人主訴"
@@ -195,20 +196,15 @@ Usage: #example
     <p>
       <b>section[ConditionDiagnosis]</b>：<br />
       <span style=\"display: block; margin-left: 20px;\">
-      <b>section[conditiondiagnosis]</b>： <a href=\"Condition-ConditionDiagnosisTWCM-min.html\">Condition/ConditionDiagnosisTWCM-min</a>
+      <b>section[conditiondiagnosis]</b>： <a href=\"Condition-ConditionDiagnosisTWCM-min.html\">Condition/ConditionDiagnosisTWCM-min</a>、<a href=\"Condition-ConditionSyndromeTypeTWCM-min.html\">Condition/ConditionSyndromeTypeTWCM-min</a>
       <br />
       <b>section[practitioner]</b>： <a href=\"Practitioner-PractitionerTWCM-pro.html\">Practitioner/PractitionerTWCM-pro</a>
-      <br />
-      <b>section[careplan]</b>： <a href=\"CarePlan-CarePlanTWCM-min.html\">CarePlan/CarePlanTWCM-min</a>
-      <br />
-      <b>section[observationpulsecondition]</b>： <a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>、<a href=\"Observation-ObservationPulseConditionTWCM-lefthand.html\">Observation/ObservationPulseConditionTWCM-lefthand</a>
-      <br />
-      <b>section[conditionsyndrometype]</b>： <a href=\"Condition-ConditionSyndromeTypeTWCM-min.html\">Condition/ConditionSyndromeTypeTWCM-min</a>
-      <br />
-      <b>section[proceduretherapeuticprinciples]</b>： <a href=\"Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html\">Procedure/ProcedureTherapeuticPrinciplesTWCM-min</a>
-      <br />
       </span>
     </p>
+
+    <p><b>section[PhysicalFindings]</b>： <a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>、<a href=\"Observation-ObservationPulseConditionTWCM-lefthand.html\">Observation/ObservationPulseConditionTWCM-lefthand</a></p>
+
+    <p><b>section[PlanOfCare]</b>： <a href=\"CarePlan-CarePlanTWCM-min.html\">CarePlan/CarePlanTWCM-min</a>、<a href=\"Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html\">Procedure/ProcedureTherapeuticPrinciplesTWCM-min</a></p>
 
     <p><b>section[ConditionChiefComplaint]</b>： <a href=\"Condition-ConditionChiefComplaintTWCM-min.html\">Condition/ConditionChiefComplaintTWCM-min</a></p>
 

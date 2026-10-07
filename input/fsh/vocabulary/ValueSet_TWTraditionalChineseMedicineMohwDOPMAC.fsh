@@ -1,4 +1,4 @@
-ValueSet: MohwDopmacTcmMedication
+ValueSet: MohwDopmacTcmMedicationVS
 Id: mohw-dopmac-tcmmedication
 Title: "臺灣衛福部中醫藥品許可證值集"
 Description: "臺灣衛福部中醫藥品許可證值集，參照至[https://service.mohw.gov.tw/DOCMAP/CusSite/TCMLQueryForm.aspx](https://service.mohw.gov.tw/DOCMAP/CusSite/TCMLQueryForm.aspx)
@@ -10,3 +10,4 @@ Description: "臺灣衛福部中醫藥品許可證值集，參照至[https://ser
 * ^experimental = false
 * ^date = "2024-07-22"
 * include codes from system MohwDopmacTcmMedication
+* ^name = "MohwDopmacTcmMedication"

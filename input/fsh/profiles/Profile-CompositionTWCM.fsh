@@ -36,6 +36,8 @@ Description: "此Profile用於描述中醫門診單的報告文件"
           ConditionMajorIllness 1..1 MS and
           Medication 0..1 MS and
           ConditionDiagnosis  1..1 MS and
+          PhysicalFindings 0..1 MS and
+          PlanOfCare 1..1 MS and
           ConditionChiefComplaint 1..1 MS and
           PresentIllness 0..1 MS and
           ObservationVitalSign 1..1 MS and
@@ -97,45 +99,60 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[ConditionDiagnosis].title 1..1
 * section[ConditionDiagnosis].code 1..1
 * section[ConditionDiagnosis].code = http://loinc.org#11450-4 "Problem list - Reported"
-* section[ConditionDiagnosis].section 3..*
-* section[ConditionDiagnosis].section ^slicing.discriminator.type = #profile
-* section[ConditionDiagnosis].section ^slicing.discriminator.path = "entry.resolve()"
+* section[ConditionDiagnosis].section 2..*
+* section[ConditionDiagnosis].section ^slicing.discriminator.type = #value
+* section[ConditionDiagnosis].section ^slicing.discriminator.path = "code"
 * section[ConditionDiagnosis].section ^slicing.rules = #open
 * section[ConditionDiagnosis].section contains
-    conditiondiagnosis 1..* and
-    practitioner 1..1 and
-    careplan 1..1 and
-    observationpulsecondition 0..2 and
-    conditionsyndrometype 0..1 and
-    proceduretherapeuticprinciples 0..1
+    conditiondiagnosis 1..1 and
+    practitioner 1..1
 * section[ConditionDiagnosis].section[conditiondiagnosis]
+  * ^short = "診斷(診斷Condition與中醫證型Condition)；同一層section.code不可重複，故合併為單一section，由entry引用不同資源"
+  * code 1..1
   * code = http://loinc.org#29548-5 "Diagnosis Narrative"
-  * entry only Reference(conditiondiagnosis-twcm)
+  * entry 1..*
+  * entry only Reference(conditiondiagnosis-twcm or conditionsyndrometype-twcm)
+  * entry ^slicing.discriminator.type = #profile
+  * entry ^slicing.discriminator.path = "resolve()"
+  * entry ^slicing.rules = #closed
+  * entry contains
+      conditiondiagnosis 1..* and
+      conditionsyndrometype 0..1
+  * entry[conditiondiagnosis] only Reference(conditiondiagnosis-twcm)
+    * reference 1..1
+  * entry[conditionsyndrometype] only Reference(conditionsyndrometype-twcm)
     * reference 1..1
 * section[ConditionDiagnosis].section[practitioner]
+  * code 1..1
   * code = http://loinc.org#18600-7 "Primary practitioner identifier"
   * entry only Reference(practitioner-twcm)
     * reference 1..1
-* section[ConditionDiagnosis].section[careplan]
-  * code = http://loinc.org#101541-1 "Multidisciplinary Comprehensive plan of care note"
-  * entry only Reference(careplan-twcm)
-    * reference 1..1
-* section[ConditionDiagnosis].section[observationpulsecondition]
-  * ^short = "病人脈象（有記錄左右手時，左、右手各一個小章節）"
-  * code = http://loinc.org#29548-5 "Diagnosis Narrative"
-  * entry 1..1
-  * entry only Reference(observationpulsecondition-twcm)
-    * reference 1..1
-* section[ConditionDiagnosis].section[conditionsyndrometype]
-  * code = http://loinc.org#29548-5 "Diagnosis Narrative"
-  * entry 0..1
-  * entry only Reference(conditionsyndrometype-twcm)
-    * reference 1..1
-* section[ConditionDiagnosis].section[proceduretherapeuticprinciples]
-  * code = http://loinc.org#29548-5 "Diagnosis Narrative"
-  * entry 0..1
-  * entry only Reference(proceduretherapeuticprinciples-twcm)
-    * reference 1..1
+
+* section[PhysicalFindings] ^short = "四診：理學檢查發現(脈象)"
+* section[PhysicalFindings].title 1..1
+* section[PhysicalFindings].code 1..1
+* section[PhysicalFindings].code = http://loinc.org#29545-1 "Physical findings note"
+* section[PhysicalFindings].entry 1..2
+* section[PhysicalFindings].entry ^short = "病人脈象（有記錄左右手時，左、右手各一筆）"
+* section[PhysicalFindings].entry only Reference(observationpulsecondition-twcm)
+  * reference 1..1
+
+* section[PlanOfCare] ^short = "論治：照護計畫(CarePlan)與中醫治則"
+* section[PlanOfCare].title 1..1
+* section[PlanOfCare].code 1..1
+* section[PlanOfCare].code = http://loinc.org#18776-5 "Plan of care note"
+* section[PlanOfCare].entry 1..*
+* section[PlanOfCare].entry only Reference(careplan-twcm or proceduretherapeuticprinciples-twcm)
+* section[PlanOfCare].entry ^slicing.discriminator.type = #profile
+* section[PlanOfCare].entry ^slicing.discriminator.path = "resolve()"
+* section[PlanOfCare].entry ^slicing.rules = #closed
+* section[PlanOfCare].entry contains
+    careplan 1..1 and
+    proceduretherapeuticprinciples 0..1
+* section[PlanOfCare].entry[careplan] only Reference(careplan-twcm)
+  * reference 1..1
+* section[PlanOfCare].entry[proceduretherapeuticprinciples] only Reference(proceduretherapeuticprinciples-twcm)
+  * reference 1..1
 
 
 * section[ConditionChiefComplaint].title 1..1
