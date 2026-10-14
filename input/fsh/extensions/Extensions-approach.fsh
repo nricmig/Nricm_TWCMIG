@@ -2,7 +2,7 @@ Extension: ApproachTWCM
 Id: approach-twcm
 Title: "方法(Approach)"
 Description: "方法"
-* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
+* ^url = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/approach-twcm"
 * ^version = "0.1.0"
 * ^status = #active
 * ^context.type = #element

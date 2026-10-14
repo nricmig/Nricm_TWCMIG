@@ -1,4 +1,4 @@
-Alias: $packageNumber = https://www.nricm.edu.tw/twcm/StructureDefinition/packagenumber-twcm
+Alias: $packageNumber = https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/packagenumber-twcm
 Profile: MedicationRequestTWCM
 Parent: TWCoreMedicationRequest
 Id: medicationrequest-twcm

@@ -6,7 +6,7 @@ Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active
 * category.coding[recordType] = http://loinc.org#11348-0 "History of Past illness note"
 * category.coding[historyType] = TWCMMedicalHistoryCategory#"月經史" "月經史"
-* code.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"血塊" "血塊"
+* code.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"血塊" "血塊"
 * code.text = "初經13歲，週期約28天，經期5天，經色暗紅夾血塊，經前乳房脹痛"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)

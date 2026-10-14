@@ -12,6 +12,7 @@
 <li><a href="CodeSystem-twcm-clinicalfinding.html">中醫臨床表現詞彙</a></li>
 <li><a href="CodeSystem-twcm-fourdiagnosis-category.html">中醫四診分類</a></li>
 <li><a href="CodeSystem-twcm-medicalhistory-category.html">中醫病史分類</a></li>
+<li><a href="CodeSystem-twcm-therapeutic-category.html">中醫論治分類</a></li>
 </ul>
 
 ### 值集
@@ -22,6 +23,7 @@
 <li><a href="ValueSet-twcm-pulseposition.html">中醫脈診部位值集(寸關尺)</a></li>
 <li><a href="ValueSet-twcm-pulsebodysite.html">中醫脈診左右手值集</a></li>
 <li><a href="ValueSet-twcm-therapeuticprinciples.html">病人治則值集</a></li>
+<li><a href="ValueSet-twcm-therapeuticmethod.html">病人治法值集</a></li>
 <li><a href="ValueSet-twcm-acupuncturepoint.html">中醫針灸經絡穴位值集</a></li>
 <li><a href="ValueSet-twcm-treatmentregion.html">針灸傷科脫臼整復部位值集</a></li>
 <li><a href="ValueSet-twcm-syndrometype.html">病人證型值集</a></li>
@@ -30,29 +32,30 @@
 <li><a href="ValueSet-twcm-medicalhistory-recordtype.html">病史紀錄類型值集</a></li>
 <li><a href="ValueSet-twcm-chronic-disease.html">慢性疾病值集</a></li>
 <li><a href="ValueSet-twcm-medicalhistory-finding.html">病史臨床表現值集</a></li>
+<li><a href="ValueSet-twcm-medicalhistory-clinicalfinding.html">病史中醫臨床表現值集</a></li>
 <li><a href="ValueSet-twcm-menstrualhistory.html">月經史值集</a></li>
 <li><a href="ValueSet-twcm-obstetrichistory.html">產科史值集</a></li>
-<li><a href="ValueSet-twcm-inspection-spirit.html">精神／意識／行為／情緒／性格(望神)值集</a></li>
-<li><a href="ValueSet-twcm-inspection-body.html">體(望)值集</a></li>
-<li><a href="ValueSet-twcm-inspection-headface.html">頭面部(望)值集</a></li>
-<li><a href="ValueSet-twcm-inspection-eye.html">目部(望)值集</a></li>
-<li><a href="ValueSet-twcm-inspection-skin.html">皮膚(望)值集</a></li>
-<li><a href="ValueSet-twcm-listening-voice.html">語音(聞)值集</a></li>
-<li><a href="ValueSet-twcm-smelling-odor.html">氣味(聞)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-coldheat.html">寒熱(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-sweat.html">汗(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-body.html">體(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-headface.html">頭面部(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-eye.html">目部(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-ear.html">耳朵(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-nosethroat.html">鼻咽部(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-diettaste.html">飲食／口味(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-sleep.html">睡眠(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-urine.html">小便(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-stool.html">大便(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-mental.html">精神／意識／行為／情緒／性格(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-female.html">婦女相關(問)值集</a></li>
-<li><a href="ValueSet-twcm-inquiry-male.html">男性相關(問)值集</a></li>
-<li><a href="ValueSet-twcm-palpation-pressing.html">按診(切)值集</a></li>
+<li><a href="ValueSet-twcm-inspection-spirit.html">望神值集</a></li>
+<li><a href="ValueSet-twcm-inspection-body.html">望體值集</a></li>
+<li><a href="ValueSet-twcm-inspection-headface.html">望頭面值集</a></li>
+<li><a href="ValueSet-twcm-inspection-eye.html">望目值集</a></li>
+<li><a href="ValueSet-twcm-inspection-skin.html">望皮膚值集</a></li>
+<li><a href="ValueSet-twcm-listening-voice.html">聞語音值集</a></li>
+<li><a href="ValueSet-twcm-smelling-odor.html">聞氣味值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-coldheat.html">問寒熱值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-sweat.html">問汗值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-body.html">問體值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-headface.html">問頭面值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-eye.html">問目值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-ear.html">問耳值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-nosethroat.html">問鼻咽值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-diettaste.html">問飲食口味值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-sleep.html">問睡眠值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-urine.html">問小便值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-stool.html">問大便值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-mental.html">問精神值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-female.html">問婦女值集</a></li>
+<li><a href="ValueSet-twcm-inquiry-male.html">問男性值集</a></li>
+<li><a href="ValueSet-twcm-palpation-pressing.html">按診值集</a></li>
 </ul>
 ---

@@ -1,4 +1,4 @@
-Alias: $childnumber = https://www.nricm.edu.tw/twcm/StructureDefinition/childnumber-twcm
+Alias: $childnumber = https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/childnumber-twcm
 Profile: PatientTWCM
 Parent: TWCorePatient
 Id: patient-twcm

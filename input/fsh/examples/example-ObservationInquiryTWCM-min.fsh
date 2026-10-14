@@ -10,17 +10,17 @@ Usage: #example
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueString = "惡寒發熱，鼻塞流清涕，納差，大便溏，夜寐尚可"
-* component[coldHeat].code = TWCMFourDiagnosisCategory#"問寒熱" "寒熱(問)"
-* component[coldHeat].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"惡寒發熱" "惡寒發熱"
+* component[coldHeat].code = TWCMFourDiagnosisCategory#"問寒熱" "問寒熱"
+* component[coldHeat].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"惡寒發熱" "惡寒發熱"
 * component[coldHeat].valueCodeableConcept.text = "惡寒發熱"
-* component[noseThroat].code = TWCMFourDiagnosisCategory#"問鼻咽" "鼻咽部(問)"
-* component[noseThroat].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"鼻塞" "鼻塞"
+* component[noseThroat].code = TWCMFourDiagnosisCategory#"問鼻咽" "問鼻咽"
+* component[noseThroat].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"鼻塞" "鼻塞"
 * component[noseThroat].valueCodeableConcept.text = "鼻塞"
-* component[dietTaste].code = TWCMFourDiagnosisCategory#"問飲食口味" "飲食／口味(問)"
-* component[dietTaste].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"納呆(納差、納少)" "納呆(納差、納少)"
+* component[dietTaste].code = TWCMFourDiagnosisCategory#"問飲食口味" "問飲食口味"
+* component[dietTaste].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"納呆(納差、納少)" "納呆(納差、納少)"
 * component[dietTaste].valueCodeableConcept.text = "納呆(納差、納少)"
-* component[stool].code = TWCMFourDiagnosisCategory#"問大便" "大便(問)"
-* component[stool].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"大便溏" "大便溏"
+* component[stool].code = TWCMFourDiagnosisCategory#"問大便" "問大便"
+* component[stool].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"大便溏" "大便溏"
 * component[stool].valueCodeableConcept.text = "大便溏"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -44,10 +44,10 @@ Usage: #example
     </p>
     <p>
     <b>問診分類紀錄</b>：<br />
-    寒熱(問)：惡寒發熱 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#惡寒發熱) </span><br />
-    鼻咽部(問)：鼻塞 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#鼻塞) </span><br />
-    飲食／口味(問)：納呆(納差、納少) <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#納呆(納差、納少)) </span><br />
-    大便(問)：大便溏 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#大便溏) </span>
+    問寒熱：惡寒發熱 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#惡寒發熱) </span><br />
+    問鼻咽：鼻塞 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#鼻塞) </span><br />
+    問飲食口味：納呆(納差、納少) <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#納呆(納差、納少)) </span><br />
+    問大便：大便溏 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#大便溏) </span>
     </p>
     <p>
     <b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

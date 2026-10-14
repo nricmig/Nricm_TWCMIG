@@ -4,7 +4,7 @@ Title: "門診單架構"
 Description: "依據中醫-臨床文件架構(Composition TWCM)Profile呈現中醫門診單"
 Usage: #example
 * meta.versionId = "1"
-* meta.profile[0] = "https://www.nricm.edu.tw/twcm/StructureDefinition/composition-twcm"
+* meta.profile[0] = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/composition-twcm"
 * meta.profile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Composition-twcore"
 * identifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * identifier.type.coding.code = #SNO
@@ -32,6 +32,7 @@ Usage: #example
 * section[MedicalHistory].entry[1].reference = "Condition/ConditionMedicalHistoryTWCM-menstrual"
 * section[MedicalHistory].entry[2].reference = "Condition/ConditionMedicalHistoryTWCM-obstetric"
 * section[MedicalHistory].entry[3].reference = "Condition/ConditionMedicalHistoryTWCM-pediatric"
+* section[MedicalHistory].entry[4].reference = "Condition/ConditionChronicDiseaseTWCM-min"
 
 * section[ConditionMajorIllness].title = "重大傷病"
 * section[ConditionMajorIllness].code = http://loinc.org#11338-1 "History of Major illnesses and injuries Narrative"
@@ -69,6 +70,7 @@ Usage: #example
 * section[PlanOfCare].code = http://loinc.org#18776-5 "Plan of care note"
 * section[PlanOfCare].entry[careplan].reference = "CarePlan/CarePlanTWCM-min"
 * section[PlanOfCare].entry[proceduretherapeuticprinciples].reference = "Procedure/ProcedureTherapeuticPrinciplesTWCM-min"
+* section[PlanOfCare].entry[proceduretherapeuticmethod].reference = "Procedure/ProcedureTherapeuticMethodTWCM-min"
 
 
 * section[ConditionChiefComplaint].title = "病人主訴"
@@ -174,7 +176,7 @@ Usage: #example
 
     <p><b>section[AllergyIntolerance]</b>： <a href=\"AllergyIntolerance-AllergyIntoleranceTWCM-min.html\">AllergyIntolerance/AllergyIntoleranceTWCM-min</a></p>
 
-    <p><b>section[MedicalHistory]</b>： <a href=\"Condition-ConditionMedicalHistoryTWCM-min.html\">Condition/ConditionMedicalHistoryTWCM-min</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-menstrual.html\">Condition/ConditionMedicalHistoryTWCM-menstrual</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-obstetric.html\">Condition/ConditionMedicalHistoryTWCM-obstetric</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-pediatric.html\">Condition/ConditionMedicalHistoryTWCM-pediatric</a></p>
+    <p><b>section[MedicalHistory]</b>： <a href=\"Condition-ConditionMedicalHistoryTWCM-min.html\">Condition/ConditionMedicalHistoryTWCM-min</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-menstrual.html\">Condition/ConditionMedicalHistoryTWCM-menstrual</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-obstetric.html\">Condition/ConditionMedicalHistoryTWCM-obstetric</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-pediatric.html\">Condition/ConditionMedicalHistoryTWCM-pediatric</a>、<a href=\"Condition-ConditionChronicDiseaseTWCM-min.html\">Condition/ConditionChronicDiseaseTWCM-min</a></p>
 
     <p>
       <b>section[ConditionMajorIllness]</b>： <a href=\"Observation-ObservationMajorIllnessTWCM-min.html\">Observation/ObservationMajorIllnessTWCM-min</a><br />
@@ -204,7 +206,7 @@ Usage: #example
 
     <p><b>section[PhysicalFindings]</b>： <a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>、<a href=\"Observation-ObservationPulseConditionTWCM-lefthand.html\">Observation/ObservationPulseConditionTWCM-lefthand</a></p>
 
-    <p><b>section[PlanOfCare]</b>： <a href=\"CarePlan-CarePlanTWCM-min.html\">CarePlan/CarePlanTWCM-min</a>、<a href=\"Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html\">Procedure/ProcedureTherapeuticPrinciplesTWCM-min</a></p>
+    <p><b>section[PlanOfCare]</b>： <a href=\"CarePlan-CarePlanTWCM-min.html\">CarePlan/CarePlanTWCM-min</a>、<a href=\"Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html\">Procedure/ProcedureTherapeuticPrinciplesTWCM-min</a>、<a href=\"Procedure-ProcedureTherapeuticMethodTWCM-min.html\">Procedure/ProcedureTherapeuticMethodTWCM-min</a></p>
 
     <p><b>section[ConditionChiefComplaint]</b>： <a href=\"Condition-ConditionChiefComplaintTWCM-min.html\">Condition/ConditionChiefComplaintTWCM-min</a></p>
 

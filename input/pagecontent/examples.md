@@ -24,6 +24,7 @@
 - [病史範例(月經史)](Condition-ConditionMedicalHistoryTWCM-menstrual.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中月經史範例
 - [病史範例(產科史)](Condition-ConditionMedicalHistoryTWCM-obstetric.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中產科史範例
 - [病史範例(小兒病史)](Condition-ConditionMedicalHistoryTWCM-pediatric.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中小兒病史範例
+- [慢性疾病範例](Condition-ConditionChronicDiseaseTWCM-min.html)：依據慢性疾病(ConditionChronicDisease TWCM)Profile呈現中醫門診單中慢性疾病的範例
 - [病人證型範例](Condition-ConditionSyndromeTypeTWCM-min.html)：依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型範例
 - [病人證型範例(僅文字,無對應代碼)](Condition-ConditionSyndromeTypeTWCM-textonly.html)：依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型無法對應代碼時僅填文字的範例
 
@@ -51,6 +52,7 @@
 ### Observation 
 - [血型範例](Observation-ObservationBloodtypeTWCM-min.html)：依據血型(ObservationBloodtype TWCM)Profile呈現中醫門診單中血型的範例
 - [教育程度範例](Observation-ObservationEducationLevelTWCM-min.html)：依據教育程度(ObservationEducationLevel TWCM)Profile呈現中醫門診單中教育程度的範例
+- [重大傷病註記範例](Observation-ObservationMajorIllnessTWCM-min.html)：依據重大傷病註記(ObservationMajorIllness TWCM)Profile呈現中醫門診單中重大傷病註記範例
 - [檢驗檢查範例](Observation-ObservationTWCM-min.html)：依據檢驗檢查(Observation TWCM)Profile呈現中醫門診單中檢驗檢查範例
 - [檢驗檢查範例](Observation-ObservationTWCM-pro.html)：依據檢驗檢查(Observation TWCM)Profile呈現中醫門診單中檢驗檢查範例
 - [職業範例](Observation-ObservationOccupationTWCM-min.html)：依據職業(ObservationOccupation TWCM)Profile呈現中醫門診單中職業的範例
@@ -66,6 +68,7 @@
 - [切診範例](Observation-ObservationPalpationTWCM-min.html)：依據切診(ObservationPalpation TWCM)Profile呈現中醫門診單中切診範例（以hasMember參照病人脈象）
 - [病人脈象範例(右手,分寸關尺)](Observation-ObservationPulseConditionTWCM-min.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師記錄到寸關尺時的病人脈象範例
 - [病人脈象範例(左手,未分寸關尺)](Observation-ObservationPulseConditionTWCM-lefthand.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師只記錄到左右手時的病人脈象範例
+- [病人脈象範例(僅文字,無對應代碼)](Observation-ObservationPulseConditionTWCM-textonly.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫門診單中病人脈象無法對應代碼時僅填文字的範例
 - [個人史範例](Observation-ObservationSocialHistoryTWCM-min.html)：依據個人史(ObservationSocialHistory TWCM)Profile呈現中醫門診單中個人史的範例
 
 ### Organization
@@ -84,6 +87,7 @@
 - [脫臼整復處置範例](Procedure-ProcedureTWCM-pro.html)：依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中脫臼整復處置範例
 - [病人治則範例](Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html)：依據病人治則(ProcedureTherapeuticPrinciples TWCM)Profile呈現中醫門診單中病人治則範例
 - [病人治則範例(僅文字,無對應代碼)](Procedure-ProcedureTherapeuticPrinciplesTWCM-textonly.html)：依據病人治則(ProcedureTherapeuticPrinciples TWCM)Profile呈現中醫門診單中病人治則無法對應代碼時僅填文字的範例
+- [病人治法範例](Procedure-ProcedureTherapeuticMethodTWCM-min.html)：依據病人治法(ProcedureTherapeuticMethod TWCM)Profile呈現中醫門診單中病人治法範例
 
 ### Provenance
 - [醫師簽章範例](Provenance-ProvenanceTWCM-min.html)：依據醫師簽章(Provenance TWCM)Profile呈現中醫門診單中醫師電子病歷簽章的範例

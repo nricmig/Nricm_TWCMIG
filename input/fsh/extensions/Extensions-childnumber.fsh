@@ -2,7 +2,7 @@ Extension: ChildNumberTWCM
 Id: childnumber-twcm
 Title: "病人子女數(ChildNumber)"
 Description: "病人子女數"
-* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/childnumber-twcm"
+* ^url = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/childnumber-twcm"
 * ^version = "0.1.0"
 * ^status = #active
 * ^context.type = #element

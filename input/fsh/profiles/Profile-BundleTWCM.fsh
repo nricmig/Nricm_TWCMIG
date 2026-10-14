@@ -18,6 +18,7 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         ObservationBloodtype 0..1 MS and
         AllergyIntolerance 0..* MS and
         ConditionMedicalHistory 0..* MS and
+        ConditionChronicDisease 0..* MS and
         ObservationMajorIllness 1..* MS and
         ConditionMajorIllness 0..* MS and
         Medication 0..* MS and
@@ -28,6 +29,7 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         ObservationPulseCondition 0..2 MS and
         ConditionSyndromeType 0..1 MS and
         ProcedureTherapeuticPrinciples 0..1 MS and
+        ProcedureTherapeuticMethod 0..1 MS and
         ConditionChiefComplaint 1..1 MS and
         ObservationVitalSign 0..1 MS and
         ObservationBloodPressureTWCM 0..1 MS and
@@ -84,6 +86,9 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
 * entry[ConditionMedicalHistory].resource 1..1
   * ^short = "病史(過去病史、現病史、小兒病史、產科史、月經史、男科史)"
 * entry[ConditionMedicalHistory].resource only conditionmedicalhistory-twcm
+* entry[ConditionChronicDisease].resource 1..1
+  * ^short = "慢性疾病"
+* entry[ConditionChronicDisease].resource only conditionchronicdisease-twcm
 
 * entry[ObservationMajorIllness].resource 1..1
   * ^short = "重大傷病註記"
@@ -124,6 +129,10 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
 * entry[ProcedureTherapeuticPrinciples].resource 1..1
   * ^short = "病人治則"
 * entry[ProcedureTherapeuticPrinciples].resource only proceduretherapeuticprinciples-twcm
+
+* entry[ProcedureTherapeuticMethod].resource 1..1
+  * ^short = "病人治法"
+* entry[ProcedureTherapeuticMethod].resource only proceduretherapeuticmethod-twcm
 
 * entry[ConditionChiefComplaint].resource 1..1
   * ^short = "病人主訴"

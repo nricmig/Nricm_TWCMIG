@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2510" height="4694" viewBox="0 0 2510 4694" font-family="'Microsoft JhengHei','Noto Sans TC','PingFang TC','Heiti TC',Arial,sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E00000"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+<linearGradient id="gGray" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F5F5F5"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+<linearGradient id="gPink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8CECC"/><stop offset="1" stop-color="#EA6B66"/></linearGradient>
+<g id="mag"><circle cx="6" cy="6" r="5" fill="none" stroke="#000" stroke-width="1.6"/><line x1="9.6" y1="9.6" x2="14" y2="14" stroke="#000" stroke-width="2"/></g>
+</defs>
+<rect x="0" y="0" width="2510" height="4694" fill="#FFFFFF"/>
+<text x="1255.0" y="46" font-size="28" font-weight="bold" text-anchor="middle" fill="#000" >中醫門診單 視覺化邏輯模型（Bundle.type = document）</text>
+<text x="1255.0" y="76" font-size="15" font-weight="normal" text-anchor="middle" fill="#444" >左：中醫門診單邏輯模型欄位　→　中：主要資料集 Bundle TWCM / Composition TWCM　→　右：參照的 Profiles</text>
+<a href="StructureDefinition-TraditionalChineseMedicineClinicRecordModel.html" target="_top">
+<text x="190.0" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="#1F4E79" >中醫門診單邏輯模型</text>
+</a>
+<text x="1905.0" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="#1F4E79" >參照的 Profiles</text>
+<text x="2330.0" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="#1F4E79" >參照的 Profiles（第二層）</text>
+<rect x="20" y="144" width="340" height="480" rx="14" fill="#DAE8FC" fill-opacity="0.55" stroke="#6C8EBF" stroke-width="1.5"/>
+<text x="34" y="165" font-size="14" font-weight="bold" text-anchor="start" fill="#333" >病歷文件資料 documentInfo</text>
+<rect x="20" y="640" width="340" height="998" rx="14" fill="#FFE6CC" fill-opacity="0.55" stroke="#D79B00" stroke-width="1.5"/>
+<text x="34" y="661" font-size="14" font-weight="bold" text-anchor="start" fill="#333" >病人基本資料 patientInfo</text>
+<rect x="20" y="1648" width="340" height="1822" rx="14" fill="#E1D5E7" fill-opacity="0.55" stroke="#9673A6" stroke-width="1.5"/>
+<text x="34" y="1669" font-size="14" font-weight="bold" text-anchor="start" fill="#333" >病人當次看診之相關資訊 encounter</text>
+<rect x="20" y="3496" width="340" height="406" rx="14" fill="#D5E8D4" fill-opacity="0.55" stroke="#82B366" stroke-width="1.5"/>
+<text x="34" y="3517" font-size="14" font-weight="bold" text-anchor="start" fill="#333" >用藥紀錄相關內容 drugInfo</text>
+<rect x="20" y="3928" width="340" height="406" rx="14" fill="#FFF2CC" fill-opacity="0.55" stroke="#D6B656" stroke-width="1.5"/>
+<text x="34" y="3949" font-size="14" font-weight="bold" text-anchor="start" fill="#333" >檢驗檢查相關內容 examiationInfo</text>
+<rect x="20" y="4360" width="340" height="98" rx="14" fill="#F5F5F5" fill-opacity="0.55" stroke="#666666" stroke-width="1.5"/>
+<text x="34" y="4381" font-size="14" font-weight="bold" text-anchor="start" fill="#333" >圖檔報告內容 imageInfo</text>
+<rect x="20" y="4468" width="340" height="98" rx="14" fill="#F5F5F5" fill-opacity="0.55" stroke="#666666" stroke-width="1.5"/>
+<text x="34" y="4489" font-size="14" font-weight="bold" text-anchor="start" fill="#333" >參考附件資料內容 referenceInfo</text>
+<rect x="720" y="98" width="780" height="4546" fill="#F9F7ED" stroke="#36393D" stroke-width="1.5"/>
+<a href="StructureDefinition-bundle-twcm.html" target="_top">
+<text x="732" y="122" font-size="17" font-weight="bold" text-anchor="start" fill="#000" >中醫-資料交換基本單位 Bundle TWCM</text>
+</a>
+<text x="732" y="140" font-size="12" font-weight="normal" text-anchor="start" fill="#666" >其餘 Bundle.entry 皆為 Composition.section.entry 所參照之 Resource</text>
+<rect x="745" y="282" width="730" height="4298" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.5"/>
+<a href="StructureDefinition-composition-twcm.html" target="_top">
+<text x="757" y="304" font-size="15" font-weight="bold" text-anchor="start" fill="#000" >entry[TWCoreComposition].resource：中醫-臨床文件架構 Composition TWCM</text>
+</a>
+<rect x="760" y="1236" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="1312" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="1388" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="1464" width="701" height="122" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="1796" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="2036" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="2112" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="2268" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="2344" width="701" height="182" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="2640" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="2716" width="701" height="152" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="2882" width="701" height="122" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="3018" width="701" height="92" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="3124" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="3528" width="701" height="92" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="3960" width="701" height="152" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="760" y="4392" width="701" height="62" fill="#EEF4FD" stroke="#A9C4EB" stroke-dasharray="4 3"/>
+<rect x="770" y="180" width="330" height="24" fill="#F8CECC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="197" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >identifier</text>
+<use href="#mag" xlink:href="#mag" x="1080" y="185"/>
+<rect x="770" y="214" width="330" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="231" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >type</text>
+<rect x="1110" y="216" width="276" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="230" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >= document</text>
+<rect x="1390" y="216" width="60" height="20" fill="#FFFFFF" stroke="#E6E6E6"/>
+<text x="1394" y="230" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal" fill="#E44D26"> FHIR</tspan></text>
+<rect x="770" y="248" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="265" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >timestamp</text>
+<rect x="770" y="326" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="343" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >meta.versionId</text>
+<rect x="770" y="360" width="330" height="24" fill="#F8CECC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="377" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >identifier</text>
+<rect x="770" y="394" width="330" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="411" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >status</text>
+<use href="#mag" xlink:href="#mag" x="1080" y="399"/>
+<rect x="1110" y="396" width="276" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="410" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >= final</text>
+<rect x="1390" y="396" width="60" height="20" fill="#FFFFFF" stroke="#E6E6E6"/>
+<text x="1394" y="410" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal" fill="#E44D26"> FHIR</tspan></text>
+<rect x="770" y="428" width="330" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="445" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >type</text>
+<use href="#mag" xlink:href="#mag" x="1080" y="433"/>
+<rect x="1110" y="430" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="444" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >= LOINC#34108-1 Outpatient Note</text>
+<rect x="770" y="462" width="330" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="479" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >date</text>
+<rect x="770" y="496" width="330" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="513" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >author</text>
+<rect x="770" y="556" width="330" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="573" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >title</text>
+<rect x="1110" y="558" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="572" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >= 中醫門診單</text>
+<rect x="770" y="590" width="330" height="24" fill="url(#gPink)" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="607" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >confidentiality</text>
+<rect x="1110" y="592" width="60" height="20" fill="#FFFFFF" stroke="#E6E6E6"/>
+<text x="1114" y="606" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal" fill="#E44D26"> FHIR</tspan></text>
+<rect x="770" y="676" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="693" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >subject</text>
+<use href="#mag" xlink:href="#mag" x="1080" y="681"/>
+<rect x="794" y="1270" width="306" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="802" y="1287" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="1346" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="1363" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="1422" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="1439" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="1498" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="1515" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="1528" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="1545" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[occupation].entry</text>
+<rect x="1110" y="1530" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="1544" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#11341-5</text>
+<rect x="794" y="1558" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="1575" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[educationlevel].entry</text>
+<rect x="1110" y="1560" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="1574" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#82589-3</text>
+<rect x="770" y="1604" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="1621" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >encounter</text>
+<rect x="794" y="1830" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="1847" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="2070" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="2087" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="2146" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="2163" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="2302" width="306" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="802" y="2319" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="2378" width="306" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="802" y="2395" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[clinicalImpression]</text>
+<rect x="794" y="2408" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="2425" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[inspection]</text>
+<rect x="794" y="2438" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="2455" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[listeningSmelling]</text>
+<rect x="794" y="2468" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="2485" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[inquiry]</text>
+<rect x="794" y="2498" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="2515" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[palpation]</text>
+<rect x="794" y="2674" width="306" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="802" y="2691" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="2750" width="306" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="802" y="2767" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[conditiondiagnosis]</text>
+<rect x="1110" y="2752" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="2766" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#29548-5</text>
+<rect x="818" y="2780" width="282" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="826" y="2797" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[conditiondiagnosis]</text>
+<rect x="818" y="2810" width="282" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="826" y="2827" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[conditionsyndrometype]</text>
+<rect x="794" y="2840" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="2857" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[practitioner].entry</text>
+<rect x="1110" y="2842" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="2856" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#18600-7</text>
+<rect x="794" y="2916" width="306" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="802" y="2933" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[careplan]</text>
+<rect x="794" y="2946" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="2963" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[proceduretherapeuticprinciples]</text>
+<rect x="794" y="2976" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="2993" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[proceduretherapeuticmethod]</text>
+<rect x="794" y="3052" width="306" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="802" y="3069" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="3082" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="3099" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section.entry</text>
+<rect x="1110" y="3084" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="3098" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#11338-1</text>
+<rect x="794" y="3158" width="306" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="802" y="3175" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="794" y="3562" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="3579" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[medication].entry</text>
+<rect x="1110" y="3564" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="3578" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#87232-5</text>
+<rect x="794" y="3592" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="3609" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[medicationrequest].entry</text>
+<rect x="1110" y="3594" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="3608" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#57833-6</text>
+<rect x="794" y="3994" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="4011" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[servicerequest].entry</text>
+<rect x="1110" y="3996" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="4010" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#77597-3</text>
+<rect x="794" y="4024" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="4041" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[observation].entry</text>
+<rect x="1110" y="4026" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="4040" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#19146-0</text>
+<rect x="794" y="4054" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="4071" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[diagnosticreport].entry</text>
+<rect x="1110" y="4056" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="4070" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#50398-7</text>
+<rect x="794" y="4084" width="306" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="802" y="4101" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section[bloodtype].entry</text>
+<rect x="1110" y="4086" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="4100" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#883-9</text>
+<rect x="794" y="4426" width="306" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="802" y="4443" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry</text>
+<rect x="770" y="4600" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="4617" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >entry[Provenance].resource</text>
+<rect x="770" y="1240" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="1257" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:PatientInformation</text>
+<rect x="1110" y="1242" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="1256" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#79191-3 Patient demographics panel</text>
+<rect x="770" y="1316" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="1333" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:AllergyIntolerance</text>
+<rect x="1110" y="1318" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="1332" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#48765-2 Allergies and adverse reactions</text>
+<rect x="770" y="1392" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="1409" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:MedicalHistory</text>
+<rect x="1110" y="1394" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="1408" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#11348-0 History of Past illness note</text>
+<rect x="770" y="1468" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="1485" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:SocialHistory</text>
+<rect x="1110" y="1470" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="1484" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#29762-2 Social history note</text>
+<rect x="770" y="1800" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="1817" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:ObservationVitalSign</text>
+<rect x="1110" y="1802" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="1816" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#8716-3 Vital signs note</text>
+<rect x="770" y="2040" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="2057" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:ConditionChiefComplaint</text>
+<rect x="1110" y="2042" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="2056" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#10154-3 Chief complaint</text>
+<rect x="770" y="2116" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="2133" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:PresentIllness</text>
+<rect x="1110" y="2118" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="2132" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#10164-2 History of Present illness</text>
+<rect x="770" y="2272" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="2289" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:FamilyMemberHistory</text>
+<rect x="1110" y="2274" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="2288" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#10157-6 History of family member diseases</text>
+<rect x="770" y="2348" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="2365" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:Objective</text>
+<rect x="1110" y="2350" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="2364" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#61149-1 Objective Narrative</text>
+<rect x="770" y="2644" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="2661" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:PhysicalFindings</text>
+<rect x="1110" y="2646" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="2660" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#29545-1 Physical findings note</text>
+<rect x="770" y="2720" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="2737" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:ConditionDiagnosis</text>
+<rect x="1110" y="2722" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="2736" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#11450-4 Problem list - Reported</text>
+<rect x="770" y="2886" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="2903" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:PlanOfCare</text>
+<rect x="1110" y="2888" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="2902" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#18776-5 Plan of care note</text>
+<rect x="770" y="3022" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="3039" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:ConditionMajorIllness</text>
+<rect x="1110" y="3024" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="3038" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#11338-1 History of Major illnesses</text>
+<rect x="770" y="3128" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="3145" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:Procedure</text>
+<rect x="1110" y="3130" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="3144" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#29554-3 Procedure Narrative</text>
+<rect x="770" y="3532" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="3549" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:Medication</text>
+<rect x="1110" y="3534" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="3548" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#10160-0 History of Medication use</text>
+<rect x="770" y="3964" width="330" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="778" y="3981" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:ObservationLabResults</text>
+<rect x="1110" y="3966" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="3980" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#30954-2 Relevant diagnostic tests/laboratory data</text>
+<rect x="770" y="4396" width="330" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.4"/>
+<text x="778" y="4413" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >section:DocumentReference</text>
+<rect x="1110" y="4398" width="340" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1116" y="4412" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >code = LOINC#75310-3 Health concerns Document</text>
+<path d="M340,192.0 L770,192.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,338.0 L770,338.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,372.0 L770,372.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,474.0 L770,474.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,508.0 L770,508.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,536.0 L686,536.0 L686,508.0 L770,508.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,568.0 L770,568.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,602.0 L770,602.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,716.0 L686,716.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,744.0 L686,744.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,772.0 L686,772.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,800.0 L686,800.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,828.0 L686,828.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,856.0 L686,856.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,884.0 L686,884.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,912.0 L686,912.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,940.0 L686,940.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,968.0 L686,968.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,996.0 L686,996.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1024.0 L686,1024.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1052.0 L686,1052.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1080.0 L686,1080.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1108.0 L686,1108.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1136.0 L686,1136.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1164.0 L686,1164.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1192.0 L686,1192.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1220.0 L686,1220.0 L686,688.0 L770,688.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1328.0 L686,1328.0 L686,1358.0 L794,1358.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1404.0 L686,1404.0 L686,1434.0 L794,1434.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1432.0 L686,1432.0 L686,1434.0 L794,1434.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1480.0 L672,1480.0 L672,1540.0 L794,1540.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1508.0 L658,1508.0 L658,1570.0 L794,1570.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1536.0 L630,1536.0 L630,4096.0 L794,4096.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1616.0 L770,1616.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,1696.0 L672,1696.0 L672,1616.0 L770,1616.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,1724.0 L672,1724.0 L672,1616.0 L770,1616.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,1752.0 L672,1752.0 L672,1616.0 L770,1616.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,1780.0 L672,1780.0 L672,1616.0 L770,1616.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,1812.0 L672,1812.0 L672,1842.0 L794,1842.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1840.0 L672,1840.0 L672,1842.0 L794,1842.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1868.0 L672,1868.0 L672,1842.0 L794,1842.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1896.0 L672,1896.0 L672,1842.0 L794,1842.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1924.0 L672,1924.0 L672,1842.0 L794,1842.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1952.0 L672,1952.0 L672,1842.0 L794,1842.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,1980.0 L672,1980.0 L672,1842.0 L794,1842.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2008.0 L672,2008.0 L672,1842.0 L794,1842.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2052.0 L672,2052.0 L672,2082.0 L794,2082.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,2128.0 L672,2128.0 L672,2158.0 L794,2158.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2156.0 L686,2156.0 L686,1434.0 L794,1434.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2184.0 L686,2184.0 L686,1434.0 L794,1434.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2212.0 L686,2212.0 L686,1434.0 L794,1434.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2240.0 L686,2240.0 L686,1434.0 L794,1434.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2284.0 L686,2284.0 L686,2314.0 L794,2314.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2312.0 L644,2312.0 L644,1510.0 L794,1510.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2360.0 L686,2360.0 L686,2390.0 L794,2390.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,2388.0 L686,2388.0 L686,2390.0 L794,2390.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2416.0 L686,2416.0 L686,2390.0 L794,2390.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2444.0 L686,2444.0 L686,2390.0 L794,2390.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2472.0 L686,2472.0 L686,2390.0 L794,2390.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2500.0 L672,2500.0 L672,2420.0 L794,2420.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2528.0 L672,2528.0 L672,2420.0 L794,2420.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2556.0 L658,2556.0 L658,2450.0 L794,2450.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2584.0 L644,2584.0 L644,2480.0 L794,2480.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2612.0 L686,2612.0 L686,2510.0 L794,2510.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2656.0 L686,2656.0 L686,2686.0 L794,2686.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2732.0 L686,2732.0 L686,2792.0 L818,2792.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,2760.0 L686,2760.0 L686,2792.0 L818,2792.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,2788.0 L672,2788.0 L672,2822.0 L818,2822.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2816.0 L686,2816.0 L686,2852.0 L794,2852.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,2844.0 L686,2844.0 L686,2852.0 L794,2852.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,2898.0 L686,2898.0 L686,2928.0 L794,2928.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2926.0 L672,2926.0 L672,2958.0 L794,2958.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,2954.0 L686,2954.0 L686,2988.0 L794,2988.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3034.0 L686,3034.0 L686,3064.0 L794,3064.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3062.0 L672,3062.0 L672,3094.0 L794,3094.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3090.0 L672,3090.0 L672,3094.0 L794,3094.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3140.0 L686,3140.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3168.0 L686,3168.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3196.0 L686,3196.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3224.0 L686,3224.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3252.0 L686,3252.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3280.0 L686,3280.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3308.0 L686,3308.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3336.0 L686,3336.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3364.0 L686,3364.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3392.0 L686,3392.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3420.0 L686,3420.0 L686,3170.0 L794,3170.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3448.0 L686,3448.0 L686,4612.0 L770,4612.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3544.0 L672,3544.0 L672,3574.0 L794,3574.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3572.0 L672,3572.0 L672,3574.0 L794,3574.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3600.0 L672,3600.0 L672,3574.0 L794,3574.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3628.0 L658,3628.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3656.0 L658,3656.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3684.0 L658,3684.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3712.0 L658,3712.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3740.0 L658,3740.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3768.0 L658,3768.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3796.0 L658,3796.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3824.0 L658,3824.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,3852.0 L658,3852.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3880.0 L658,3880.0 L658,3604.0 L794,3604.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,3976.0 L672,3976.0 L672,4006.0 L794,4006.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,4004.0 L672,4004.0 L672,4006.0 L794,4006.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,4032.0 L672,4032.0 L672,4006.0 L794,4006.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,4060.0 L658,4060.0 L658,4036.0 L794,4036.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,4088.0 L658,4088.0 L658,4036.0 L794,4036.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,4116.0 L658,4116.0 L658,4036.0 L794,4036.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,4144.0 L658,4144.0 L658,4036.0 L794,4036.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,4172.0 L658,4172.0 L658,4036.0 L794,4036.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,4200.0 L658,4200.0 L658,4036.0 L794,4036.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,4228.0 L658,4228.0 L658,4036.0 L794,4036.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,4256.0 L658,4256.0 L658,4036.0 L794,4036.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,4284.0 L658,4284.0 L658,4036.0 L794,4036.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,4312.0 L672,4312.0 L672,4066.0 L794,4066.0" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,4408.0 L672,4408.0 L672,4438.0 L794,4438.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,4436.0 L672,4436.0 L672,4438.0 L794,4438.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,4516.0 L672,4516.0 L672,4438.0 L794,4438.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,4544.0 L672,4544.0 L672,4438.0 L794,4438.0" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="40" y="180" width="300" height="24" fill="#E6E6E6" stroke="#333" stroke-width="2.2"/>
+<text x="48" y="197" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >HIS病歷唯一碼</text>
+<text x="332" y="197" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >hisdocPK</text>
+<rect x="40" y="326" width="300" height="24" fill="#E6E6E6" stroke="#333" stroke-width="2.2"/>
+<text x="48" y="343" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病歷表單版本</text>
+<text x="332" y="343" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >sheetVersion</text>
+<rect x="40" y="360" width="300" height="24" fill="#E6E6E6" stroke="#333" stroke-width="2.2"/>
+<text x="48" y="377" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病歷表單編號</text>
+<text x="332" y="377" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >sheetId</text>
+<rect x="40" y="462" width="300" height="24" fill="#E6E6E6" stroke="#333" stroke-width="2.2"/>
+<text x="48" y="479" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >文件產生時間</text>
+<text x="332" y="479" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >createTime</text>
+<rect x="40" y="496" width="300" height="24" fill="#B3D9FF" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="513" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >醫事機構代碼</text>
+<text x="332" y="513" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >hospitalId</text>
+<rect x="40" y="524" width="300" height="24" fill="#B3D9FF" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="541" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >醫事機構名稱</text>
+<text x="332" y="541" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >hospitalName</text>
+<rect x="40" y="556" width="300" height="24" fill="#E6E6E6" stroke="#333" stroke-width="2.2"/>
+<text x="48" y="573" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病歷表單名稱</text>
+<text x="332" y="573" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >sheetName</text>
+<rect x="40" y="590" width="300" height="24" fill="#E6E6E6" stroke="#333" stroke-width="2.2"/>
+<text x="48" y="607" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >文件敏感性</text>
+<text x="332" y="607" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >docConfidentialityCode</text>
+<rect x="40" y="676" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="693" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病歷號</text>
+<text x="332" y="693" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >chatNo</text>
+<rect x="40" y="704" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="721" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >身分證號</text>
+<text x="332" y="721" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >personalIDNumber</text>
+<rect x="40" y="732" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="749" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人姓名</text>
+<text x="332" y="749" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >patientName</text>
+<rect x="40" y="760" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="777" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >出生日期</text>
+<text x="332" y="777" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >birthDate</text>
+<rect x="40" y="788" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="805" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >性別</text>
+<text x="332" y="805" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >gender</text>
+<rect x="40" y="816" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="833" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >住宅電話</text>
+<text x="332" y="833" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >homeTel</text>
+<rect x="40" y="844" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="861" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >公司電話</text>
+<text x="332" y="861" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >officeTel</text>
+<rect x="40" y="872" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="889" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >行動電話</text>
+<text x="332" y="889" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >mobile</text>
+<rect x="40" y="900" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="917" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人電子郵件地址</text>
+<text x="332" y="917" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >email</text>
+<rect x="40" y="928" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="945" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >婚姻</text>
+<text x="332" y="945" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >marriageStatus</text>
+<rect x="40" y="956" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="973" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人戶籍地址郵遞區號</text>
+<text x="332" y="973" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >originalAddressZipCode</text>
+<rect x="40" y="984" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1001" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人戶籍地址</text>
+<text x="332" y="1001" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >originalAddresLocation</text>
+<rect x="40" y="1012" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1029" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人聯絡地址郵遞區號</text>
+<text x="332" y="1029" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >contactAddressZipCode</text>
+<rect x="40" y="1040" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1057" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人聯絡地址</text>
+<text x="332" y="1057" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >contactAddressLocation</text>
+<rect x="40" y="1068" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1085" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >緊急聯絡人姓名</text>
+<text x="332" y="1085" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >emName</text>
+<rect x="40" y="1096" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1113" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >緊急聯絡人與病人關係</text>
+<text x="332" y="1113" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >emrelationshp</text>
+<rect x="40" y="1124" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1141" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >緊急聯絡人住宅電話</text>
+<text x="332" y="1141" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >emHomeTel</text>
+<rect x="40" y="1152" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1169" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >緊急聯絡人公司電話</text>
+<text x="332" y="1169" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >emOfficeTel</text>
+<rect x="40" y="1180" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1197" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >緊急聯絡人行動電話</text>
+<text x="332" y="1197" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >emMobile</text>
+<rect x="40" y="1208" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1225" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人子女數</text>
+<text x="332" y="1225" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >childNumber</text>
+<rect x="40" y="1316" width="300" height="24" fill="#FFE6CC" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1333" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >過敏記錄</text>
+<text x="332" y="1333" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >allergy</text>
+<rect x="40" y="1392" width="300" height="24" fill="#F0E68C" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1409" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >過去病史</text>
+<text x="332" y="1409" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >history</text>
+<rect x="40" y="1420" width="300" height="24" fill="#F0E68C" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1437" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >慢性疾病</text>
+<text x="332" y="1437" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >chronicDisease</text>
+<rect x="40" y="1468" width="300" height="24" fill="#BCAAA4" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1485" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >職業</text>
+<text x="332" y="1485" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >occupation</text>
+<rect x="40" y="1496" width="300" height="24" fill="#CFD8DC" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1513" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人教育程度</text>
+<text x="332" y="1513" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >education</text>
+<rect x="40" y="1524" width="300" height="24" fill="#F48FB1" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1541" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >自述血型</text>
+<text x="332" y="1541" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >bloodtype</text>
+<rect x="40" y="1604" width="300" height="24" fill="#E1D5E7" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="1621" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >就醫身份</text>
+<text x="332" y="1621" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >visitIdentity</text>
+<rect x="40" y="1684" width="300" height="24" fill="#E1D5E7" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="1701" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >掛號(報到)日期時間</text>
+<text x="332" y="1701" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >visitDate</text>
+<rect x="40" y="1712" width="300" height="24" fill="#E1D5E7" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="1729" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >掛號序號</text>
+<text x="332" y="1729" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >visitSeq</text>
+<rect x="40" y="1740" width="300" height="24" fill="#E1D5E7" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="1757" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >看診科別</text>
+<text x="332" y="1757" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >department</text>
+<rect x="40" y="1768" width="300" height="24" fill="#E1D5E7" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="1785" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人來源</text>
+<text x="332" y="1785" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >patientComeFrom</text>
+<rect x="40" y="1800" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1817" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >收縮壓</text>
+<text x="332" y="1817" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >systolicPressure</text>
+<rect x="40" y="1828" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1845" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >舒張壓</text>
+<text x="332" y="1845" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >diastoicPressure</text>
+<rect x="40" y="1856" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1873" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人脈搏</text>
+<text x="332" y="1873" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >pulse</text>
+<rect x="40" y="1884" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1901" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人身高</text>
+<text x="332" y="1901" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >height</text>
+<rect x="40" y="1912" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1929" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人身高單位</text>
+<text x="332" y="1929" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >heightUnit</text>
+<rect x="40" y="1940" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1957" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人體重</text>
+<text x="332" y="1957" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >weight</text>
+<rect x="40" y="1968" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="1985" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人體重單位</text>
+<text x="332" y="1985" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >weightUnit</text>
+<rect x="40" y="1996" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2013" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人體溫</text>
+<text x="332" y="2013" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >bodytemperature</text>
+<rect x="40" y="2040" width="300" height="24" fill="#FFD966" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="2057" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人主訴</text>
+<text x="332" y="2057" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >chiefComplain</text>
+<rect x="40" y="2116" width="300" height="24" fill="#F0E68C" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2133" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >現病史</text>
+<text x="332" y="2133" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >presentIllness</text>
+<rect x="40" y="2144" width="300" height="24" fill="#F0E68C" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2161" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >小兒病史</text>
+<text x="332" y="2161" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >pediatricHistory</text>
+<rect x="40" y="2172" width="300" height="24" fill="#F0E68C" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2189" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >月經史</text>
+<text x="332" y="2189" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >menstrualHistory</text>
+<rect x="40" y="2200" width="300" height="24" fill="#F0E68C" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2217" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >產科史</text>
+<text x="332" y="2217" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >obstetricHistory</text>
+<rect x="40" y="2228" width="300" height="24" fill="#F0E68C" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2245" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >男科史</text>
+<text x="332" y="2245" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >andrologyHistory</text>
+<rect x="40" y="2272" width="300" height="24" fill="#C8E6C9" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2289" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >家族史</text>
+<text x="332" y="2289" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >familyHistory</text>
+<rect x="40" y="2300" width="300" height="24" fill="#D7CCC8" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2317" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >個人史</text>
+<text x="332" y="2317" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >personalHistory</text>
+<rect x="40" y="2348" width="300" height="24" fill="#B2DFDB" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="2365" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >望聞問切客觀描述</text>
+<text x="332" y="2365" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >objectiveDescription</text>
+<rect x="40" y="2376" width="300" height="24" fill="#B2DFDB" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2393" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病因</text>
+<text x="332" y="2393" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >diseaseCause</text>
+<rect x="40" y="2404" width="300" height="24" fill="#B2DFDB" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2421" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病性</text>
+<text x="332" y="2421" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >diseaseNature</text>
+<rect x="40" y="2432" width="300" height="24" fill="#B2DFDB" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2449" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病位</text>
+<text x="332" y="2449" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >diseaseLocation</text>
+<rect x="40" y="2460" width="300" height="24" fill="#B2DFDB" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2477" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病勢</text>
+<text x="332" y="2477" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >diseaseTrend</text>
+<rect x="40" y="2488" width="300" height="24" fill="#B2EBF2" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2505" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >望診</text>
+<text x="332" y="2505" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >inspection</text>
+<rect x="40" y="2516" width="300" height="24" fill="#B2EBF2" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2533" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人舌象</text>
+<text x="332" y="2533" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >tongueCondition</text>
+<rect x="40" y="2544" width="300" height="24" fill="#B3E5FC" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2561" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >聞診</text>
+<text x="332" y="2561" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >listeningSmelling</text>
+<rect x="40" y="2572" width="300" height="24" fill="#BBDEFB" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2589" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >問診</text>
+<text x="332" y="2589" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >inquiry</text>
+<rect x="40" y="2600" width="300" height="24" fill="#C5E1A5" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2617" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >切診</text>
+<text x="332" y="2617" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >palpation</text>
+<rect x="40" y="2644" width="300" height="24" fill="#AED581" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2661" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人脈象</text>
+<text x="332" y="2661" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >pulseCondition</text>
+<rect x="40" y="2720" width="300" height="24" fill="#F8BBD0" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="2737" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >診斷代碼</text>
+<text x="332" y="2737" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >diagcode</text>
+<rect x="40" y="2748" width="300" height="24" fill="#F8BBD0" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="2765" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >診斷名稱</text>
+<text x="332" y="2765" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >diagName</text>
+<rect x="40" y="2776" width="300" height="24" fill="#E1BEE7" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2793" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人證型</text>
+<text x="332" y="2793" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >manifestation</text>
+<rect x="40" y="2804" width="300" height="24" fill="#C5CAE9" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="2821" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >看診醫師身分證號</text>
+<text x="332" y="2821" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >doctorId</text>
+<rect x="40" y="2832" width="300" height="24" fill="#C5CAE9" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="2849" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >看診醫師姓名</text>
+<text x="332" y="2849" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >doctorName</text>
+<rect x="40" y="2886" width="300" height="24" fill="#FFE0B2" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2903" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >醫師囑咐</text>
+<text x="332" y="2903" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >doctorAdvise</text>
+<rect x="40" y="2914" width="300" height="24" fill="#FFCCBC" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2931" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人治則</text>
+<text x="332" y="2931" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >therapeuticDiscipline</text>
+<rect x="40" y="2942" width="300" height="24" fill="#FFAB91" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="2959" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >病人治法</text>
+<text x="332" y="2959" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >therapeuticMethod</text>
+<rect x="40" y="3022" width="300" height="24" fill="#EF9A9A" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3039" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >重大傷病註記</text>
+<text x="332" y="3039" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >majorInjuryFlag</text>
+<rect x="40" y="3050" width="300" height="24" fill="#E57373" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3067" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >重大傷病代碼</text>
+<text x="332" y="3067" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >majorInjuryCode</text>
+<rect x="40" y="3078" width="300" height="24" fill="#E57373" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3095" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >重大傷病名稱</text>
+<text x="332" y="3095" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >majorInjuryName</text>
+<rect x="40" y="3128" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3145" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >處置健保碼</text>
+<text x="332" y="3145" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >treatmentNHICCode</text>
+<rect x="40" y="3156" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3173" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >處置說明</text>
+<text x="332" y="3173" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >treatmentDescription</text>
+<rect x="40" y="3184" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3201" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >針灸部位</text>
+<text x="332" y="3201" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >acupunctureRegionNHICode</text>
+<rect x="40" y="3212" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3229" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >針灸穴位</text>
+<text x="332" y="3229" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >acupuncturePointName</text>
+<rect x="40" y="3240" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3257" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >針灸補充說明</text>
+<text x="332" y="3257" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >acpuncturePointComment</text>
+<rect x="40" y="3268" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3285" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >傷科部位</text>
+<text x="332" y="3285" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >contusionRegionNHICode</text>
+<rect x="40" y="3296" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3313" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >傷科手法</text>
+<text x="332" y="3313" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >contusionTechnique</text>
+<rect x="40" y="3324" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3341" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >傷科補充說明</text>
+<text x="332" y="3341" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >contusionComment</text>
+<rect x="40" y="3352" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3369" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >脫臼整復部位</text>
+<text x="332" y="3369" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >dislocationRegionNHICode</text>
+<rect x="40" y="3380" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3397" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >脫臼整復處理方法</text>
+<text x="332" y="3397" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >dislocationTreatmentMethod</text>
+<rect x="40" y="3408" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3425" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >脫臼整復的補充說明</text>
+<text x="332" y="3425" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >dislocationComment</text>
+<rect x="40" y="3436" width="300" height="24" fill="#90A4AE" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3453" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >醫師簽章</text>
+<text x="332" y="3453" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >doctorSign</text>
+<rect x="40" y="3532" width="300" height="24" fill="#A5D6A7" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3549" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >藥品健保碼</text>
+<text x="332" y="3549" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >drugNHICCode</text>
+<rect x="40" y="3560" width="300" height="24" fill="#A5D6A7" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3577" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >藥品藥品碼</text>
+<text x="332" y="3577" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >drugCode</text>
+<rect x="40" y="3588" width="300" height="24" fill="#A5D6A7" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3605" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >藥品商品名</text>
+<text x="332" y="3605" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >drugName</text>
+<rect x="40" y="3616" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3633" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >用量</text>
+<text x="332" y="3633" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >dose</text>
+<rect x="40" y="3644" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3661" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >用量單位</text>
+<text x="332" y="3661" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >doseUnit</text>
+<rect x="40" y="3672" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3689" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >藥品服用方法</text>
+<text x="332" y="3689" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >route</text>
+<rect x="40" y="3700" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3717" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >藥品的使用頻率</text>
+<text x="332" y="3717" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >frequency</text>
+<rect x="40" y="3728" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3745" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >用藥開始日期</text>
+<text x="332" y="3745" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >drugStartDate</text>
+<rect x="40" y="3756" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3773" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >用藥結束日期</text>
+<text x="332" y="3773" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >drugEndDate</text>
+<rect x="40" y="3784" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3801" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >服藥天數</text>
+<text x="332" y="3801" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >days</text>
+<rect x="40" y="3812" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="3829" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >藥品總劑量</text>
+<text x="332" y="3829" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >totalAmount</text>
+<rect x="40" y="3840" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3857" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >藥品調劑方式</text>
+<text x="332" y="3857" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >prescriptionMethod</text>
+<rect x="40" y="3868" width="300" height="24" fill="#80CBC4" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3885" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >包數</text>
+<text x="332" y="3885" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >packageNumber</text>
+<rect x="40" y="3964" width="300" height="24" fill="#FFF59D" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="3981" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >檢驗檢查開單日期</text>
+<text x="332" y="3981" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >examOrderDate</text>
+<rect x="40" y="3992" width="300" height="24" fill="#FFF59D" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4009" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >開單醫事機構代碼</text>
+<text x="332" y="4009" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >orderHospitalID</text>
+<rect x="40" y="4020" width="300" height="24" fill="#FFF59D" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4037" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >開單醫事機構名稱</text>
+<text x="332" y="4037" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >orderHospitalName</text>
+<rect x="40" y="4048" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4065" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >執行醫事機構代碼</text>
+<text x="332" y="4065" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >examHospitalID</text>
+<rect x="40" y="4076" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4093" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >執行醫事機構名稱</text>
+<text x="332" y="4093" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >examHospitalName</text>
+<rect x="40" y="4104" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4121" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >檢查日期</text>
+<text x="332" y="4121" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >examDate</text>
+<rect x="40" y="4132" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="4149" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >健保檢驗檢查代碼</text>
+<text x="332" y="4149" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >testNHICode</text>
+<rect x="40" y="4160" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4177" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >檢驗檢查名稱</text>
+<text x="332" y="4177" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >testName</text>
+<rect x="40" y="4188" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="4205" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >檢驗檢查結果值</text>
+<text x="332" y="4205" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >testResult</text>
+<rect x="40" y="4216" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="4233" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >檢驗檢查結果單位</text>
+<text x="332" y="4233" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >resultUnit</text>
+<rect x="40" y="4244" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="4261" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >檢驗檢查結果判斷註記</text>
+<text x="332" y="4261" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >resultFlag</text>
+<rect x="40" y="4272" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="4289" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >檢驗檢查結果備註說明</text>
+<text x="332" y="4289" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >resultComment</text>
+<rect x="40" y="4300" width="300" height="24" fill="#FFCA28" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="48" y="4317" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >報告日期</text>
+<text x="332" y="4317" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >verifyDate</text>
+<rect x="40" y="4396" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4413" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >圖檔報告名稱</text>
+<text x="332" y="4413" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >imageFileName</text>
+<rect x="40" y="4424" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4441" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >圖檔報告內容</text>
+<text x="332" y="4441" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >imageContent</text>
+<rect x="40" y="4504" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4521" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >附件檔名</text>
+<text x="332" y="4521" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >referenceDocFileName</text>
+<rect x="40" y="4532" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="48" y="4549" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000" >附件內容</text>
+<text x="332" y="4549" font-size="11" font-weight="normal" text-anchor="end" fill="#555" >referenceDocContent</text>
+<path d="M1100,508.0 L1740,508.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,688.0 L1740,688.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,1282.0 L1706,1282.0 L1706,688.0 L1740,688.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,1358.0 L1740,1358.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,1434.0 L1740,1434.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,1434.0 L1692,1434.0 L1692,1476.0 L1740,1476.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,1510.0 L1692,1510.0 L1692,1518.0 L1740,1518.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,1540.0 L1692,1540.0 L1692,1560.0 L1740,1560.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,1570.0 L1678,1570.0 L1678,1602.0 L1740,1602.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,1616.0 L1692,1616.0 L1692,1644.0 L1740,1644.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,1842.0 L1740,1842.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2082.0 L1740,2082.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2158.0 L1706,2158.0 L1706,1434.0 L1740,1434.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2314.0 L1740,2314.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2390.0 L1740,2390.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2420.0 L1706,2420.0 L1706,2432.0 L1740,2432.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2450.0 L1706,2450.0 L1706,2474.0 L1740,2474.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2480.0 L1692,2480.0 L1692,2516.0 L1740,2516.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2510.0 L1706,2510.0 L1706,2558.0 L1740,2558.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2686.0 L1740,2686.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2792.0 L1740,2792.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2822.0 L1706,2822.0 L1706,2834.0 L1740,2834.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,2852.0 L1706,2852.0 L1706,2876.0 L1740,2876.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2928.0 L1740,2928.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2958.0 L1706,2958.0 L1706,2970.0 L1740,2970.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,2988.0 L1706,2988.0 L1706,3012.0 L1740,3012.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,3064.0 L1740,3064.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,3094.0 L1706,3094.0 L1706,3106.0 L1740,3106.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,3170.0 L1740,3170.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,3574.0 L1740,3574.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,3604.0 L1706,3604.0 L1706,3616.0 L1740,3616.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,4006.0 L1740,4006.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,4036.0 L1706,4036.0 L1706,4048.0 L1740,4048.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,4066.0 L1706,4066.0 L1706,4090.0 L1740,4090.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1450,4096.0 L1692,4096.0 L1692,4132.0 L1740,4132.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,4438.0 L1740,4438.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<path d="M1100,4612.0 L1740,4612.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-organization-twcm.html" target="_top">
+<rect x="1740" y="490.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="498.0" width="10" height="20" fill="#B3D9FF" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="507.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >醫事機構</text>
+<text x="1764" y="521.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >Organization TWCM</text>
+</a>
+<a href="StructureDefinition-patient-twcm.html" target="_top">
+<rect x="1740" y="670.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="678.0" width="10" height="20" fill="#FFCC99" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="687.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >病人資料</text>
+<text x="1764" y="701.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >Patient TWCM</text>
+</a>
+<a href="StructureDefinition-allergyintolerance-twcm.html" target="_top">
+<rect x="1740" y="1340.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="1348.0" width="10" height="20" fill="#FFE6CC" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="1357.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >過敏或不耐症</text>
+<text x="1764" y="1371.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >AllergyIntolerance TWCM</text>
+</a>
+<a href="StructureDefinition-conditionmedicalhistory-twcm.html" target="_top">
+<rect x="1740" y="1416.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="1424.0" width="10" height="20" fill="#F0E68C" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="1433.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >病史</text>
+<text x="1764" y="1447.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ConditionMedicalHistory TWCM</text>
+</a>
+<a href="StructureDefinition-conditionchronicdisease-twcm.html" target="_top">
+<rect x="1740" y="1458.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="1466.0" width="10" height="20" fill="#E6EE9C" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="1475.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >慢性疾病</text>
+<text x="1764" y="1489.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ConditionChronicDisease TWCM</text>
+</a>
+<a href="StructureDefinition-observationsocialhistory-twcm.html" target="_top">
+<rect x="1740" y="1500.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="1508.0" width="10" height="20" fill="#D7CCC8" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="1517.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >個人史</text>
+<text x="1764" y="1531.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationSocialHistory TWCM</text>
+</a>
+<a href="StructureDefinition-observationoccupation-twcm.html" target="_top">
+<rect x="1740" y="1542.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="1550.0" width="10" height="20" fill="#BCAAA4" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="1559.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >職業</text>
+<text x="1764" y="1573.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationOccupation TWCM</text>
+</a>
+<a href="StructureDefinition-observationeducationlevel-twcm.html" target="_top">
+<rect x="1740" y="1584.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="1592.0" width="10" height="20" fill="#CFD8DC" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="1601.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >教育程度</text>
+<text x="1764" y="1615.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationEducationLevel TWCM</text>
+</a>
+<a href="StructureDefinition-encounter-twcm.html" target="_top">
+<rect x="1740" y="1626.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="1634.0" width="10" height="20" fill="#E1D5E7" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="1643.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >就醫事件</text>
+<text x="1764" y="1657.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >Encounter TWCM</text>
+</a>
+<a href="StructureDefinition-observationvitalsign-twcm.html" target="_top">
+<rect x="1740" y="1824.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="1832.0" width="10" height="20" fill="#FFB3B3" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="1841.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >生命徵象</text>
+<text x="1764" y="1855.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationVitalSigns TWCM</text>
+</a>
+<a href="StructureDefinition-conditionchiefcomplaint-twcm.html" target="_top">
+<rect x="1740" y="2064.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2072.0" width="10" height="20" fill="#FFD966" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2081.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >病人主訴</text>
+<text x="1764" y="2095.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ConditionChiefComplaint TWCM</text>
+</a>
+<a href="StructureDefinition-familymemberhistory-twcm.html" target="_top">
+<rect x="1740" y="2296.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2304.0" width="10" height="20" fill="#C8E6C9" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2313.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >家族史</text>
+<text x="1764" y="2327.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >FamilyMemberHistory TWCM</text>
+</a>
+<a href="StructureDefinition-clinicalimpression-twcm.html" target="_top">
+<rect x="1740" y="2372.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2380.0" width="10" height="20" fill="#B2DFDB" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2389.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >中醫辨證評估</text>
+<text x="1764" y="2403.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ClinicalImpression TWCM</text>
+</a>
+<a href="StructureDefinition-observationinspection-twcm.html" target="_top">
+<rect x="1740" y="2414.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2422.0" width="10" height="20" fill="#B2EBF2" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2431.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >望診</text>
+<text x="1764" y="2445.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationInspection TWCM</text>
+</a>
+<a href="StructureDefinition-observationlisteningsmelling-twcm.html" target="_top">
+<rect x="1740" y="2456.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2464.0" width="10" height="20" fill="#B3E5FC" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2473.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >聞診</text>
+<text x="1764" y="2487.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationListeningSmelling TWCM</text>
+</a>
+<a href="StructureDefinition-observationinquiry-twcm.html" target="_top">
+<rect x="1740" y="2498.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2506.0" width="10" height="20" fill="#BBDEFB" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2515.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >問診</text>
+<text x="1764" y="2529.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationInquiry TWCM</text>
+</a>
+<a href="StructureDefinition-observationpalpation-twcm.html" target="_top">
+<rect x="1740" y="2540.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2548.0" width="10" height="20" fill="#C5E1A5" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2557.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >切診</text>
+<text x="1764" y="2571.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationPalpation TWCM</text>
+</a>
+<a href="StructureDefinition-observationpulsecondition-twcm.html" target="_top">
+<rect x="1740" y="2668.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2676.0" width="10" height="20" fill="#AED581" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2685.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >病人脈象</text>
+<text x="1764" y="2699.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationPulseCondition TWCM</text>
+</a>
+<a href="StructureDefinition-conditiondiagnosis-twcm.html" target="_top">
+<rect x="1740" y="2774.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2782.0" width="10" height="20" fill="#F8BBD0" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2791.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >病情、問題或診斷</text>
+<text x="1764" y="2805.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ConditionDiagnosis TWCM</text>
+</a>
+<a href="StructureDefinition-conditionsyndrometype-twcm.html" target="_top">
+<rect x="1740" y="2816.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2824.0" width="10" height="20" fill="#E1BEE7" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2833.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >病人證型</text>
+<text x="1764" y="2847.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ConditionSyndromeType TWCM</text>
+</a>
+<a href="StructureDefinition-practitioner-twcm.html" target="_top">
+<rect x="1740" y="2858.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2866.0" width="10" height="20" fill="#C5CAE9" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2875.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >醫師基本資料</text>
+<text x="1764" y="2889.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >Practitioner TWCM</text>
+</a>
+<a href="StructureDefinition-careplan-twcm.html" target="_top">
+<rect x="1740" y="2910.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2918.0" width="10" height="20" fill="#FFE0B2" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2927.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >關懷計畫</text>
+<text x="1764" y="2941.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >CarePlan TWCM</text>
+</a>
+<a href="StructureDefinition-proceduretherapeuticprinciples-twcm.html" target="_top">
+<rect x="1740" y="2952.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="2960.0" width="10" height="20" fill="#FFCCBC" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="2969.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >病人治則</text>
+<text x="1764" y="2983.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ProcedureTherapeuticPrinciples TWCM</text>
+</a>
+<a href="StructureDefinition-proceduretherapeuticmethod-twcm.html" target="_top">
+<rect x="1740" y="2994.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="3002.0" width="10" height="20" fill="#FFAB91" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="3011.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >病人治法</text>
+<text x="1764" y="3025.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ProcedureTherapeuticMethod TWCM</text>
+</a>
+<a href="StructureDefinition-observationmajorillness-twcm.html" target="_top">
+<rect x="1740" y="3046.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="3054.0" width="10" height="20" fill="#EF9A9A" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="3063.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >重大傷病註記</text>
+<text x="1764" y="3077.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationMajorIllness TWCM</text>
+</a>
+<a href="StructureDefinition-conditionmajorillness-twcm.html" target="_top">
+<rect x="1740" y="3088.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="3096.0" width="10" height="20" fill="#E57373" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="3105.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >重大傷病</text>
+<text x="1764" y="3119.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ConditionMajorIllness TWCM</text>
+</a>
+<a href="StructureDefinition-procedure-twcm.html" target="_top">
+<rect x="1740" y="3152.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="3160.0" width="10" height="20" fill="#9FA8DA" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="3169.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >中醫-處置或手術</text>
+<text x="1764" y="3183.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >Procedure TWCM</text>
+</a>
+<a href="StructureDefinition-medication-twcm.html" target="_top">
+<rect x="1740" y="3556.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="3564.0" width="10" height="20" fill="#A5D6A7" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="3573.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >藥品</text>
+<text x="1764" y="3587.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >Medication TWCM</text>
+</a>
+<a href="StructureDefinition-medicationrequest-twcm.html" target="_top">
+<rect x="1740" y="3598.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="3606.0" width="10" height="20" fill="#80CBC4" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="3615.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >中醫-藥品請求</text>
+<text x="1764" y="3629.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >MedicationRequest TWCM</text>
+</a>
+<a href="StructureDefinition-servicerequest-twcm.html" target="_top">
+<rect x="1740" y="3988.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="3996.0" width="10" height="20" fill="#FFF59D" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="4005.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >服務請求</text>
+<text x="1764" y="4019.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ServiceRequest TWCM</text>
+</a>
+<a href="StructureDefinition-observation-twcm.html" target="_top">
+<rect x="1740" y="4030.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="4038.0" width="10" height="20" fill="#FFE082" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="4047.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >檢驗檢查</text>
+<text x="1764" y="4061.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >Observation TWCM</text>
+</a>
+<a href="StructureDefinition-diagnosticreport-twcm.html" target="_top">
+<rect x="1740" y="4072.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="4080.0" width="10" height="20" fill="#FFCA28" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="4089.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >診斷報告</text>
+<text x="1764" y="4103.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >DiagnosticReport TWCM</text>
+</a>
+<a href="StructureDefinition-observationbloodtype-twcm.html" target="_top">
+<rect x="1740" y="4114.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="4122.0" width="10" height="20" fill="#F48FB1" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="4131.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >血型</text>
+<text x="1764" y="4145.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationBloodtype TWCM</text>
+</a>
+<a href="StructureDefinition-documentreference-twcm.html" target="_top">
+<rect x="1740" y="4420.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="4428.0" width="10" height="20" fill="#B0BEC5" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="4437.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >文件參照</text>
+<text x="1764" y="4451.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >DocumentReference TWCM</text>
+</a>
+<a href="StructureDefinition-provenance-twcm.html" target="_top">
+<rect x="1740" y="4594.0" width="330" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="1746" y="4602.0" width="10" height="20" fill="#90A4AE" stroke="#666" stroke-width="0.6"/>
+<text x="1764" y="4611.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >醫師簽章</text>
+<text x="1764" y="4625.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >Provenance TWCM</text>
+</a>
+<path d="M2070,1842.0 L2140,1842.0 L2140,1842.0 L2180,1842.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-observationbloodpressure-twcm.html" target="_top">
+<rect x="2180" y="1824.0" width="300" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="2186" y="1832.0" width="10" height="20" fill="#FFB3B3" stroke="#666" stroke-width="0.6"/>
+<text x="2204" y="1841.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >血壓</text>
+<text x="2204" y="1855.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationBloodPressure TWCM</text>
+</a>
+<path d="M2070,1842.0 L2140,1842.0 L2140,1886.0 L2180,1886.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-observationheartrate-twcm.html" target="_top">
+<rect x="2180" y="1868.0" width="300" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="2186" y="1876.0" width="10" height="20" fill="#FFB3B3" stroke="#666" stroke-width="0.6"/>
+<text x="2204" y="1885.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >脈搏</text>
+<text x="2204" y="1899.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationHeartRate TWCM</text>
+</a>
+<path d="M2070,1842.0 L2140,1842.0 L2140,1930.0 L2180,1930.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-observationbodyheight-twcm.html" target="_top">
+<rect x="2180" y="1912.0" width="300" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="2186" y="1920.0" width="10" height="20" fill="#FFB3B3" stroke="#666" stroke-width="0.6"/>
+<text x="2204" y="1929.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >身高</text>
+<text x="2204" y="1943.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationBodyHeight TWCM</text>
+</a>
+<path d="M2070,1842.0 L2140,1842.0 L2140,1974.0 L2180,1974.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-observationbodyweight-twcm.html" target="_top">
+<rect x="2180" y="1956.0" width="300" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="2186" y="1964.0" width="10" height="20" fill="#FFB3B3" stroke="#666" stroke-width="0.6"/>
+<text x="2204" y="1973.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >體重</text>
+<text x="2204" y="1987.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationBodyWeight TWCM</text>
+</a>
+<path d="M2070,1842.0 L2140,1842.0 L2140,2018.0 L2180,2018.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-observationbodytemp-twcm.html" target="_top">
+<rect x="2180" y="2000.0" width="300" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="2186" y="2008.0" width="10" height="20" fill="#FFB3B3" stroke="#666" stroke-width="0.6"/>
+<text x="2204" y="2017.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >體溫</text>
+<text x="2204" y="2031.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >ObservationBodyTemp TWCM</text>
+</a>
+<path d="M2070,4048.0 L2140,4048.0 L2140,4048.0 L2180,4048.0" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-organizationinspection-twcm.html" target="_top">
+<rect x="2180" y="4030.0" width="300" height="36" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6" stroke-dasharray="6 3"/>
+<rect x="2186" y="4038.0" width="10" height="20" fill="#B3D9FF" stroke="#666" stroke-width="0.6"/>
+<text x="2204" y="4047.0" font-size="13" font-weight="bold" text-anchor="start" fill="#000" >檢驗檢查機構</text>
+<text x="2204" y="4061.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333" >OrganizationInspection TWCM</text>
+</a>
+<text x="2076" y="1837.0" font-size="11" font-weight="normal" text-anchor="start" fill="#333" >hasMember</text>
+<text x="2076" y="4043.0" font-size="11" font-weight="normal" text-anchor="start" fill="#333" >performer</text>
+<path d="M2070,4012.0 L2099,4012.0 L2099,514.0 L2070,514.0" fill="none" stroke="#000" stroke-width="1.4" marker-end="url(#ab)"/>
+<text x="2074" y="4025.0" font-size="10" font-weight="normal" text-anchor="start" fill="#333" >requester</text>
+<path d="M2070,4096.0 L2099,4096.0 L2099,4054.0 L2070,4054.0" fill="none" stroke="#000" stroke-width="1.4" marker-end="url(#ab)"/>
+<text x="2074" y="4109.0" font-size="10" font-weight="normal" text-anchor="start" fill="#333" >result</text>
+<path d="M2070,2396.0 L2113,2396.0 L2113,2840.0 L2070,2840.0" fill="none" stroke="#000" stroke-width="1.4" marker-end="url(#ab)"/>
+<text x="2074" y="2409.0" font-size="10" font-weight="normal" text-anchor="start" fill="#333" >finding.itemReference</text>
+<path d="M2070,2564.0 L2127,2564.0 L2127,2692.0 L2070,2692.0" fill="none" stroke="#000" stroke-width="1.4" marker-end="url(#ab)"/>
+<text x="2074" y="2577.0" font-size="10" font-weight="normal" text-anchor="start" fill="#333" >hasMember</text>
+</svg>

@@ -32,86 +32,86 @@ Description: "此問診(ObservationInquiry TWCM)Profile說明本IG如何進一�
     mental 0..* MS and
     female 0..* MS and
     male 0..* MS
-* component[coldHeat] ^short = "[應填入寒熱(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[coldHeat].code = TWCMFourDiagnosisCategory#"問寒熱" "寒熱(問)"
+* component[coldHeat] ^short = "[應填入問寒熱；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[coldHeat].code = TWCMFourDiagnosisCategory#"問寒熱" "問寒熱"
 * component[coldHeat].value[x] 1..1 MS
 * component[coldHeat].value[x] only CodeableConcept
 * component[coldHeat].valueCodeableConcept.coding 0..1 MS
 * component[coldHeat].valueCodeableConcept.coding from twcm-inquiry-coldheat (required)
-* component[sweat] ^short = "[應填入汗(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[sweat].code = TWCMFourDiagnosisCategory#"問汗" "汗(問)"
+* component[sweat] ^short = "[應填入問汗；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[sweat].code = TWCMFourDiagnosisCategory#"問汗" "問汗"
 * component[sweat].value[x] 1..1 MS
 * component[sweat].value[x] only CodeableConcept
 * component[sweat].valueCodeableConcept.coding 0..1 MS
 * component[sweat].valueCodeableConcept.coding from twcm-inquiry-sweat (required)
-* component[body] ^short = "[應填入體(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[body].code = TWCMFourDiagnosisCategory#"問體" "體(問)"
+* component[body] ^short = "[應填入問體；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[body].code = TWCMFourDiagnosisCategory#"問體" "問體"
 * component[body].value[x] 1..1 MS
 * component[body].value[x] only CodeableConcept
 * component[body].valueCodeableConcept.coding 0..1 MS
 * component[body].valueCodeableConcept.coding from twcm-inquiry-body (required)
-* component[headFace] ^short = "[應填入頭面部(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[headFace].code = TWCMFourDiagnosisCategory#"問頭面" "頭面部(問)"
+* component[headFace] ^short = "[應填入問頭面；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[headFace].code = TWCMFourDiagnosisCategory#"問頭面" "問頭面"
 * component[headFace].value[x] 1..1 MS
 * component[headFace].value[x] only CodeableConcept
 * component[headFace].valueCodeableConcept.coding 0..1 MS
 * component[headFace].valueCodeableConcept.coding from twcm-inquiry-headface (required)
-* component[eye] ^short = "[應填入目部(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[eye].code = TWCMFourDiagnosisCategory#"問目" "目部(問)"
+* component[eye] ^short = "[應填入問目；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[eye].code = TWCMFourDiagnosisCategory#"問目" "問目"
 * component[eye].value[x] 1..1 MS
 * component[eye].value[x] only CodeableConcept
 * component[eye].valueCodeableConcept.coding 0..1 MS
 * component[eye].valueCodeableConcept.coding from twcm-inquiry-eye (required)
-* component[ear] ^short = "[應填入耳朵(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[ear].code = TWCMFourDiagnosisCategory#"問耳" "耳朵(問)"
+* component[ear] ^short = "[應填入問耳；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[ear].code = TWCMFourDiagnosisCategory#"問耳" "問耳"
 * component[ear].value[x] 1..1 MS
 * component[ear].value[x] only CodeableConcept
 * component[ear].valueCodeableConcept.coding 0..1 MS
 * component[ear].valueCodeableConcept.coding from twcm-inquiry-ear (required)
-* component[noseThroat] ^short = "[應填入鼻咽部(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[noseThroat].code = TWCMFourDiagnosisCategory#"問鼻咽" "鼻咽部(問)"
+* component[noseThroat] ^short = "[應填入問鼻咽；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[noseThroat].code = TWCMFourDiagnosisCategory#"問鼻咽" "問鼻咽"
 * component[noseThroat].value[x] 1..1 MS
 * component[noseThroat].value[x] only CodeableConcept
 * component[noseThroat].valueCodeableConcept.coding 0..1 MS
 * component[noseThroat].valueCodeableConcept.coding from twcm-inquiry-nosethroat (required)
-* component[dietTaste] ^short = "[應填入飲食／口味(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[dietTaste].code = TWCMFourDiagnosisCategory#"問飲食口味" "飲食／口味(問)"
+* component[dietTaste] ^short = "[應填入問飲食口味；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[dietTaste].code = TWCMFourDiagnosisCategory#"問飲食口味" "問飲食口味"
 * component[dietTaste].value[x] 1..1 MS
 * component[dietTaste].value[x] only CodeableConcept
 * component[dietTaste].valueCodeableConcept.coding 0..1 MS
 * component[dietTaste].valueCodeableConcept.coding from twcm-inquiry-diettaste (required)
-* component[sleep] ^short = "[應填入睡眠(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[sleep].code = TWCMFourDiagnosisCategory#"問睡眠" "睡眠(問)"
+* component[sleep] ^short = "[應填入問睡眠；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[sleep].code = TWCMFourDiagnosisCategory#"問睡眠" "問睡眠"
 * component[sleep].value[x] 1..1 MS
 * component[sleep].value[x] only CodeableConcept
 * component[sleep].valueCodeableConcept.coding 0..1 MS
 * component[sleep].valueCodeableConcept.coding from twcm-inquiry-sleep (required)
-* component[urine] ^short = "[應填入小便(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[urine].code = TWCMFourDiagnosisCategory#"問小便" "小便(問)"
+* component[urine] ^short = "[應填入問小便；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[urine].code = TWCMFourDiagnosisCategory#"問小便" "問小便"
 * component[urine].value[x] 1..1 MS
 * component[urine].value[x] only CodeableConcept
 * component[urine].valueCodeableConcept.coding 0..1 MS
 * component[urine].valueCodeableConcept.coding from twcm-inquiry-urine (required)
-* component[stool] ^short = "[應填入大便(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[stool].code = TWCMFourDiagnosisCategory#"問大便" "大便(問)"
+* component[stool] ^short = "[應填入問大便；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[stool].code = TWCMFourDiagnosisCategory#"問大便" "問大便"
 * component[stool].value[x] 1..1 MS
 * component[stool].value[x] only CodeableConcept
 * component[stool].valueCodeableConcept.coding 0..1 MS
 * component[stool].valueCodeableConcept.coding from twcm-inquiry-stool (required)
-* component[mental] ^short = "[應填入精神／意識／行為／情緒／性格(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[mental].code = TWCMFourDiagnosisCategory#"問精神" "精神／意識／行為／情緒／性格(問)"
+* component[mental] ^short = "[應填入問精神；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[mental].code = TWCMFourDiagnosisCategory#"問精神" "問精神"
 * component[mental].value[x] 1..1 MS
 * component[mental].value[x] only CodeableConcept
 * component[mental].valueCodeableConcept.coding 0..1 MS
 * component[mental].valueCodeableConcept.coding from twcm-inquiry-mental (required)
-* component[female] ^short = "[應填入婦女相關(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[female].code = TWCMFourDiagnosisCategory#"問婦女" "婦女相關(問)"
+* component[female] ^short = "[應填入問婦女；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[female].code = TWCMFourDiagnosisCategory#"問婦女" "問婦女"
 * component[female].value[x] 1..1 MS
 * component[female].value[x] only CodeableConcept
 * component[female].valueCodeableConcept.coding 0..1 MS
 * component[female].valueCodeableConcept.coding from twcm-inquiry-female (required)
-* component[male] ^short = "[應填入男性相關(問)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[male].code = TWCMFourDiagnosisCategory#"問男性" "男性相關(問)"
+* component[male] ^short = "[應填入問男性；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[male].code = TWCMFourDiagnosisCategory#"問男性" "問男性"
 * component[male].value[x] 1..1 MS
 * component[male].value[x] only CodeableConcept
 * component[male].valueCodeableConcept.coding 0..1 MS

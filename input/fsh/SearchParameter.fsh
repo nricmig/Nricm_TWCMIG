@@ -2,7 +2,7 @@
 Instance: Bundle-id
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.nricm.edu.tw/twcm/SearchParameter/Bundle-id"
+* url = "https://hitstdio.ntunhs.edu.tw/twcm/SearchParameter/Bundle-id"
 * name = "BundleId"
 * status = #active
 * version = "0.1.0"
@@ -17,7 +17,7 @@ Usage: #definition
 Instance: Bundle-identifier
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.nricm.edu.tw/twcm/SearchParameter/Bundle-identifier"
+* url = "https://hitstdio.ntunhs.edu.tw/twcm/SearchParameter/Bundle-identifier"
 * name = "BundleIdentifier"
 * status = #active
 * version = "0.1.0"
@@ -32,7 +32,7 @@ Usage: #definition
 Instance: Bundle-composition
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.nricm.edu.tw/twcm/SearchParameter/Bundle-composition"
+* url = "https://hitstdio.ntunhs.edu.tw/twcm/SearchParameter/Bundle-composition"
 * name = "BundleComposition"
 * status = #active
 * version = "0.1.0"
@@ -48,7 +48,7 @@ Usage: #definition
 Instance: Composition-status
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.nricm.edu.tw/twcm/SearchParameter/Composition-status"
+* url = "https://hitstdio.ntunhs.edu.tw/twcm/SearchParameter/Composition-status"
 * name = "CompositionStatus"
 * status = #active
 * version = "0.1.0"
@@ -63,7 +63,7 @@ Usage: #definition
 Instance: Composition-type
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.nricm.edu.tw/twcm/SearchParameter/Composition-type"
+* url = "https://hitstdio.ntunhs.edu.tw/twcm/SearchParameter/Composition-type"
 * name = "CompositionType"
 * status = #active
 * version = "0.1.0"
@@ -78,7 +78,7 @@ Usage: #definition
 Instance: Composition-subject
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.nricm.edu.tw/twcm/SearchParameter/Composition-subject"
+* url = "https://hitstdio.ntunhs.edu.tw/twcm/SearchParameter/Composition-subject"
 * name = "CompositionSubject"
 * status = #active
 * version = "0.1.0"
@@ -94,7 +94,7 @@ Usage: #definition
 Instance: Patient-identifier
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.nricm.edu.tw/twcm/SearchParameter/Patient-identifier"
+* url = "https://hitstdio.ntunhs.edu.tw/twcm/SearchParameter/Patient-identifier"
 * name = "PatientIdentifier"
 * status = #active
 * version = "0.1.0"
@@ -109,7 +109,7 @@ Usage: #definition
 Instance: Patient-name
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.nricm.edu.tw/twcm/SearchParameter/Patient-name"
+* url = "https://hitstdio.ntunhs.edu.tw/twcm/SearchParameter/Patient-name"
 * name = "PatientName"
 * status = #active
 * version = "0.1.0"

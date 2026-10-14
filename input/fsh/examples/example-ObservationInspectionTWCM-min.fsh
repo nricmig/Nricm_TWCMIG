@@ -10,14 +10,14 @@ Usage: #example
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueString = "神清，面色萎黃，形體偏瘦"
-* component[spirit].code = TWCMFourDiagnosisCategory#"望神" "精神／意識／行為／情緒／性格(望神)"
-* component[spirit].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"神疲" "神疲"
+* component[spirit].code = TWCMFourDiagnosisCategory#"望神" "望神"
+* component[spirit].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"神疲" "神疲"
 * component[spirit].valueCodeableConcept.text = "神疲"
-* component[headFace].code = TWCMFourDiagnosisCategory#"望頭面" "頭面部(望)"
-* component[headFace].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"面色萎黃" "面色萎黃"
+* component[headFace].code = TWCMFourDiagnosisCategory#"望頭面" "望頭面"
+* component[headFace].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"面色萎黃" "面色萎黃"
 * component[headFace].valueCodeableConcept.text = "面色萎黃"
 * component[tongueCondition][0].code = $SCT#249378009 "Tongue finding"
-* component[tongueCondition][0].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-tonguecondition#698193000 "Coating of mucous membrane of tongue"
+* component[tongueCondition][0].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-tonguecondition#698193000 "Coating of mucous membrane of tongue"
 * component[tongueCondition][0].valueCodeableConcept.text = "苔白"
 * component[tongueCondition][1].code = $SCT#249378009 "Tongue finding"
 * component[tongueCondition][1].valueCodeableConcept.text = "舌淡紅，舌邊有齒痕"
@@ -48,8 +48,8 @@ Usage: #example
     </p>
     <p>
     <b>望診分類紀錄</b>：<br />
-    精神／意識／行為／情緒／性格(望神)：神疲 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#神疲) </span><br />
-    頭面部(望)：面色萎黃 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#面色萎黃) </span>
+    望神：神疲 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#神疲) </span><br />
+    望頭面：面色萎黃 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#面色萎黃) </span>
     </p>
     <p>
     <b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

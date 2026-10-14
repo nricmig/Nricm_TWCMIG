@@ -5,7 +5,7 @@ Description: "臺灣衛福部中醫藥品許可證，參照至[https://service.m
 代碼出版日期：2026-08-28；資料所屬單位：衛生福利部中醫藥司。
 
 *因原始資料無代碼版本資訊，故使用其查詢當下之「更新日期」作為版本資訊。*"
-* ^url = "https://www.nricm.edu.tw/twcm/CodeSystem/mohw-dopmac-tcmmedication"
+* ^url = "https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/mohw-dopmac-tcmmedication"
 * ^version = "2026-08-28"
 * ^status = #active
 * ^experimental = false
