@@ -10,11 +10,11 @@ Usage: #example
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueString = "語聲低微，口中無異味"
-* component[voice].code = TWCMFourDiagnosisCategory#"聞語音" "語音(聞)"
-* component[voice].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"聲低" "聲低"
+* component[voice].code = TWCMFourDiagnosisCategory#"聞語音" "聞語音"
+* component[voice].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"聲低" "聲低"
 * component[voice].valueCodeableConcept.text = "聲低"
-* component[odor].code = TWCMFourDiagnosisCategory#"聞氣味" "氣味(聞)"
-* component[odor].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"無特殊" "無特殊"
+* component[odor].code = TWCMFourDiagnosisCategory#"聞氣味" "聞氣味"
+* component[odor].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"無特殊" "無特殊"
 * component[odor].valueCodeableConcept.text = "無特殊"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -38,8 +38,8 @@ Usage: #example
     </p>
     <p>
     <b>聞診分類紀錄</b>：<br />
-    語音(聞)：聲低 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#聲低) </span><br />
-    氣味(聞)：無特殊 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#無特殊) </span>
+    聞語音：聲低 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#聲低) </span><br />
+    聞氣味：無特殊 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#無特殊) </span>
     </p>
     <p>
     <b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

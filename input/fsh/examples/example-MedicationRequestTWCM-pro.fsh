@@ -20,7 +20,7 @@ Usage: #example
 * dosageInstruction.doseAndRate.doseQuantity.unit = "g"
 * dispenseRequest.quantity.value = 12
 * dispenseRequest.quantity.unit = "g"
-* extension[0].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/packagenumber-twcm"
+* extension[0].url = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/packagenumber-twcm"
 * extension[=].valueInteger = 12
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

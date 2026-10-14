@@ -10,7 +10,7 @@ Description: "病人舌象代碼系統，收錄以「Tongue」於 SNOMED CT 檢�
 * ^experimental = false
 * ^copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * ^property[0].code = #semanticTag
-* ^property[0].uri = "https://www.nricm.edu.tw/twcm/CodeSystem/twcm-tonguecondition#semanticTag"
+* ^property[0].uri = "https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-tonguecondition#semanticTag"
 * ^property[0].description = "SNOMED CT 語意類別（semantic tag）"
 * ^property[0].type = #string
 

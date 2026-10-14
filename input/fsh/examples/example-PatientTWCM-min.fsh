@@ -39,8 +39,8 @@ Usage: #example
 
 * birthDate = "1976-09-06"
 
-* extension[0].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/childnumber-twcm"
-* extension[=].valueInteger = 0
+* extension[0].url = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/childnumber-twcm"
+* extension[=].valueInteger = 2
 
 * address[0].use = #home
 * address[0].district = "台北市"
@@ -65,7 +65,7 @@ Usage: #example
 * address[1].postalCode.extension.valueCodeableConcept.coding.code = #11492
 
 * maritalStatus.coding.system = "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
-* maritalStatus.coding.code = #S
+* maritalStatus.coding.code = #M
 
 * contact.relationship.coding.system = "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
 * contact.relationship.coding.code = #FRND
@@ -122,7 +122,7 @@ Usage: #example
 		<b>出生日期</b>：1976-09-06
 	</p>
 	<p>
-		<b>病人子女數[extension: <a href=\"StructureDefinition-childnumber-twcm.html\">childnumber</a>]</b>：0
+		<b>病人子女數[extension: <a href=\"StructureDefinition-childnumber-twcm.html\">childnumber</a>]</b>：2
 	</p>
 	<p>
 		<b>病人戶籍地址</b>：(Home)(11492)台北市內湖區基湖路32號
@@ -131,7 +131,7 @@ Usage: #example
 		<b>病人聯絡地址</b>：(Billing)(11492)台北市內湖區基湖路32號
 	</p>
 	<p>
-		<b>婚姻</b>：Never Married <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus\">Marital Status Codes</a>#S） </span>
+		<b>婚姻</b>：Married <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus\">Marital Status Codes</a>#M） </span>
 	</p>
 	<p>
 		<b>緊急聯絡人姓名</b>：郭大鵬

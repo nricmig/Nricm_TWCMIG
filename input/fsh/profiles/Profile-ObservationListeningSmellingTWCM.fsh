@@ -20,14 +20,14 @@ Description: "此聞診(ObservationListeningSmelling TWCM)Profile說明本IG如�
 * component contains
     voice 0..* MS and
     odor 0..* MS
-* component[voice] ^short = "[應填入語音(聞)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[voice].code = TWCMFourDiagnosisCategory#"聞語音" "語音(聞)"
+* component[voice] ^short = "[應填入聞語音；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[voice].code = TWCMFourDiagnosisCategory#"聞語音" "聞語音"
 * component[voice].value[x] 1..1 MS
 * component[voice].value[x] only CodeableConcept
 * component[voice].valueCodeableConcept.coding 0..1 MS
 * component[voice].valueCodeableConcept.coding from twcm-listening-voice (required)
-* component[odor] ^short = "[應填入氣味(聞)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[odor].code = TWCMFourDiagnosisCategory#"聞氣味" "氣味(聞)"
+* component[odor] ^short = "[應填入聞氣味；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[odor].code = TWCMFourDiagnosisCategory#"聞氣味" "聞氣味"
 * component[odor].value[x] 1..1 MS
 * component[odor].value[x] only CodeableConcept
 * component[odor].valueCodeableConcept.coding 0..1 MS

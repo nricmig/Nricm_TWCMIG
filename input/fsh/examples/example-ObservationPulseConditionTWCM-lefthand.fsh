@@ -10,7 +10,7 @@ Usage: #example
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * bodySite = $SCT#5951000 "Structure of left wrist region"
-* valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#904 "弦脈"
+* valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#904 "弦脈"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
   <h3>

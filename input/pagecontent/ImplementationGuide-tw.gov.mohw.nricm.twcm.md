@@ -1,8 +1,8 @@
 <table class="grid rwd-table" style="background-color:#ffffe6;width: 100%;">
     <tbody>
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://www.nricm.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm<button title="" class="btn-copy" data-clipboard-text="https://www.nricm.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm" data-original-title="複製URL"></button></span></td>
-      <td><i>Version</i>:<span class="copy-text">1.0.1 <button title="" class="btn-copy" data-clipboard-text="https://www.nricm.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm|1.0.1" data-original-title="複製含版本資訊的URL"></button></span></td>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://hitstdio.ntunhs.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm<button title="" class="btn-copy" data-clipboard-text="https://hitstdio.ntunhs.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm" data-original-title="複製URL"></button></span></td>
+      <td><i>Version</i>:<span class="copy-text">1.0.1 <button title="" class="btn-copy" data-clipboard-text="https://hitstdio.ntunhs.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm|1.0.1" data-original-title="複製含版本資訊的URL"></button></span></td>
     </tr>
     <tr>
       <td colspan="4"><i>NPM package name</i>: tw.gov.mohw.nricm.twcm</td>
@@ -14,21 +14,21 @@
 - [XML](ImplementationGuide-tw.gov.mohw.nricm.twcm.xml)
 - [JSON](ImplementationGuide-tw.gov.mohw.nricm.twcm.json)
 
-#### Cross Version Analysis
+### Cross Version Analysis
 
 {% capture cross-version-analysis %}{% include cross-version-analysis.xhtml %}{% endcapture %}{{ cross-version-analysis | remove: '<p>' | remove: '</p>'}}
 
-#### IG Dependencies
+### IG Dependencies
 
 This IG Contains the following dependencies on other IGs.
 
 {% include dependency-table.xhtml %}
 
-#### Global Profiles
+### Global Profiles
 
 {% include globals-table.xhtml %}
 
-#### Copyrights
+### Copyrights
 
 {% capture ip-statement %}{% include ip-statements.xhtml %}{% endcapture %}
 

@@ -49,3 +49,51 @@ The slice definition for Procedure.code.coding has a maximum of 1 but the slices
 
 # 病史、證型及治則之code.coding依代碼系統切分slice(本IG詞彙、ICD-11)，各slice以pattern指定代碼系統，套用至該slice之每一筆coding為預期設計，不影響驗證。
 %The repeating element has a pattern. The pattern will apply to all the repeats%
+
+# MedicationRequest.medication[x]、CarePlan.activity.detail.product[x]之綁定繼承自臺灣核心(TW Core)父Profile，本IG未另行設定，不影響驗證。
+%The Binding on the type slicer MedicationRequest.medication[x] applies to all its slices, but it only makes sense for some of its types, so it has no effect on the slices for Reference%
+%The Binding on the type slicer CarePlan.activity.detail.product[x] applies to all its slices, but it only makes sense for some of its types, so it has no effect on the slices for Reference%
+
+# searchform.html來自HL7基礎範本(fhir.base.template)，HTML格式問題屬範本本身，非IG內容，不影響驗證。
+%searchform.html: The html source is not well formed%
+
+# 頁面重複錨點由IG Publisher自動產生敘述(如文件型Bundle、邏輯模型的mapping)時造成，非IG內容，不影響驗證。(同PAS IG)
+% The html source has duplicate anchor Ids%
+
+# Bundle範例頁面之h4標題由IG Publisher產生文件型Bundle呈現時自動加入，非IG內容，不影響驗證。
+%Bundle-BundleTWCM-min.html: The page skips a heading level: <h4> '病患基本資料' follows <h2> 'Example Bundle: 診所門診病摘'%
+
+# ===== 以下參考PAS IG(TWNHIFHIR/pas)之ignoreWarnings，與本IG情境相同者 =====
+
+# 引用HL7實驗性(experimental)定義，但本IG結構未標示為experimental，不影響驗證。
+% which is experimental, but this structure is not labeled as experimental%
+
+# UCUM代碼含註記(如{tbl})之提醒，不影響驗證。
+% UCUM Codes that contain human readable annotations like {tbl} can be misleading (e.g. they are ignored when comparing units). Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked, and the Quantity%
+
+# 此條件可能回傳多個集合，但已限制可填次數故不影響驗證。
+% The left side is inherently a collection%
+
+# 值集中的代碼量太多，Expansion僅列出前1,000筆，不影響驗證。
+% The value set include has too many codes to validate %
+% value set is too large to check%
+% expansion (local) took too long to process (>60sec) (and Error from https://tx.fhir.org/r4%
+% could not be expanded%
+
+# validator無法辨識URL，不影響驗證。
+% Canonical URL%
+% URL value%
+A definition for CodeSystem 'urn:ietf:rfc:3986' could not be found, so the code cannot be validated
+
+# 繼承TW Core IG的Profile，無法取消欄位原有的MS(Must Support)註記，不影響驗證。
+% The slice 'medicationReference' on path 'MedicationRequest.medication[x]'%
+
+# TW Core IG的代碼問題，可先手動修改.fhir中的Package相關內容。
+A definition for CodeSystem 'https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw' could not be found, so the code cannot be validated
+A definition for CodeSystem 'https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-pcs-2023-tw' could not be found, so the code cannot be validated
+
+# Publisher自動選擇代碼系統版本，不影響驗證。
+% Pinned the version of %
+
+# 建議使用的值集，但為符合情境使用其他代碼系統的代碼，不影響驗證。
+% and a coding is recommended to come from this value set%

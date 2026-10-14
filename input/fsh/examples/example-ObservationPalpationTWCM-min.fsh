@@ -10,8 +10,8 @@ Usage: #example
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueString = "腹部按之柔軟無壓痛"
-* component[pressing].code = TWCMFourDiagnosisCategory#"按診" "按診(切)"
-* component[pressing].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"腹" "腹"
+* component[pressing].code = TWCMFourDiagnosisCategory#"按診" "按診"
+* component[pressing].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"腹" "腹"
 * component[pressing].valueCodeableConcept.text = "腹"
 * hasMember[0] = Reference(Observation/ObservationPulseConditionTWCM-min)
 * hasMember[1] = Reference(Observation/ObservationPulseConditionTWCM-lefthand)
@@ -37,7 +37,7 @@ Usage: #example
     </p>
     <p>
     <b>按診紀錄</b>：<br />
-    按診(切)：腹 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#腹) </span>
+    按診：腹 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#腹) </span>
     </p>
     <p>
     <b>病人脈象</b>：<a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>（右手）、<a href=\"Observation-ObservationPulseConditionTWCM-lefthand.html\">Observation/ObservationPulseConditionTWCM-lefthand</a>（左手）

@@ -32,32 +32,32 @@ Description: "此望診(ObservationInspection TWCM)Profile說明本IG如何進�
     headFace 0..* MS and
     eye 0..* MS and
     skin 0..* MS
-* component[spirit] ^short = "[應填入精神／意識／行為／情緒／性格(望神)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[spirit].code = TWCMFourDiagnosisCategory#"望神" "精神／意識／行為／情緒／性格(望神)"
+* component[spirit] ^short = "[應填入望神；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[spirit].code = TWCMFourDiagnosisCategory#"望神" "望神"
 * component[spirit].value[x] 1..1 MS
 * component[spirit].value[x] only CodeableConcept
 * component[spirit].valueCodeableConcept.coding 0..1 MS
 * component[spirit].valueCodeableConcept.coding from twcm-inspection-spirit (required)
-* component[body] ^short = "[應填入體(望)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[body].code = TWCMFourDiagnosisCategory#"望體" "體(望)"
+* component[body] ^short = "[應填入望體；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[body].code = TWCMFourDiagnosisCategory#"望體" "望體"
 * component[body].value[x] 1..1 MS
 * component[body].value[x] only CodeableConcept
 * component[body].valueCodeableConcept.coding 0..1 MS
 * component[body].valueCodeableConcept.coding from twcm-inspection-body (required)
-* component[headFace] ^short = "[應填入頭面部(望)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[headFace].code = TWCMFourDiagnosisCategory#"望頭面" "頭面部(望)"
+* component[headFace] ^short = "[應填入望頭面；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[headFace].code = TWCMFourDiagnosisCategory#"望頭面" "望頭面"
 * component[headFace].value[x] 1..1 MS
 * component[headFace].value[x] only CodeableConcept
 * component[headFace].valueCodeableConcept.coding 0..1 MS
 * component[headFace].valueCodeableConcept.coding from twcm-inspection-headface (required)
-* component[eye] ^short = "[應填入目部(望)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[eye].code = TWCMFourDiagnosisCategory#"望目" "目部(望)"
+* component[eye] ^short = "[應填入望目；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[eye].code = TWCMFourDiagnosisCategory#"望目" "望目"
 * component[eye].value[x] 1..1 MS
 * component[eye].value[x] only CodeableConcept
 * component[eye].valueCodeableConcept.coding 0..1 MS
 * component[eye].valueCodeableConcept.coding from twcm-inspection-eye (required)
-* component[skin] ^short = "[應填入皮膚(望)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[skin].code = TWCMFourDiagnosisCategory#"望皮膚" "皮膚(望)"
+* component[skin] ^short = "[應填入望皮膚；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[skin].code = TWCMFourDiagnosisCategory#"望皮膚" "望皮膚"
 * component[skin].value[x] 1..1 MS
 * component[skin].value[x] only CodeableConcept
 * component[skin].valueCodeableConcept.coding 0..1 MS

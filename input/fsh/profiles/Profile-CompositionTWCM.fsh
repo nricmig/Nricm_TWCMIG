@@ -64,7 +64,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[MedicalHistory].title 1..1
 * section[MedicalHistory].code 1..1
 * section[MedicalHistory].code = http://loinc.org#11348-0 "History of Past illness note"
-* section[MedicalHistory].entry only Reference(conditionmedicalhistory-twcm)
+* section[MedicalHistory].entry only Reference(conditionmedicalhistory-twcm or conditionchronicdisease-twcm)
   * reference 1..1
 * section[ConditionMajorIllness].title 1..1
 * section[ConditionMajorIllness].code 1..1
@@ -137,21 +137,24 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[PhysicalFindings].entry only Reference(observationpulsecondition-twcm)
   * reference 1..1
 
-* section[PlanOfCare] ^short = "論治：照護計畫(CarePlan)與中醫治則"
+* section[PlanOfCare] ^short = "論治：照護計畫(CarePlan)與中醫治則、治法"
 * section[PlanOfCare].title 1..1
 * section[PlanOfCare].code 1..1
 * section[PlanOfCare].code = http://loinc.org#18776-5 "Plan of care note"
 * section[PlanOfCare].entry 1..*
-* section[PlanOfCare].entry only Reference(careplan-twcm or proceduretherapeuticprinciples-twcm)
+* section[PlanOfCare].entry only Reference(careplan-twcm or proceduretherapeuticprinciples-twcm or proceduretherapeuticmethod-twcm)
 * section[PlanOfCare].entry ^slicing.discriminator.type = #profile
 * section[PlanOfCare].entry ^slicing.discriminator.path = "resolve()"
 * section[PlanOfCare].entry ^slicing.rules = #closed
 * section[PlanOfCare].entry contains
     careplan 1..1 and
-    proceduretherapeuticprinciples 0..1
+    proceduretherapeuticprinciples 0..1 and
+    proceduretherapeuticmethod 0..1
 * section[PlanOfCare].entry[careplan] only Reference(careplan-twcm)
   * reference 1..1
 * section[PlanOfCare].entry[proceduretherapeuticprinciples] only Reference(proceduretherapeuticprinciples-twcm)
+  * reference 1..1
+* section[PlanOfCare].entry[proceduretherapeuticmethod] only Reference(proceduretherapeuticmethod-twcm)
   * reference 1..1
 
 

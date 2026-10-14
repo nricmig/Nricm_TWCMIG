@@ -2,7 +2,7 @@ Extension: DescriptionTWCM
 Id: description-twcm
 Title: "處置類別描述(description)"
 Description: "處置類別描述"
-* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
+* ^url = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/description-twcm"
 * ^version = "0.1.0"
 * ^status = #active
 * ^context.type = #element

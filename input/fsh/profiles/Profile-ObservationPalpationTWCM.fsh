@@ -20,8 +20,8 @@ Description: "此切診(ObservationPalpation TWCM)Profile說明本IG如何進一
 * component ^slicing.description = "依四診分類切分"
 * component contains
     pressing 0..* MS
-* component[pressing] ^short = "[應填入按診(切)；有多項時每項各填一筆component，無法對應代碼時僅填text]"
-* component[pressing].code = TWCMFourDiagnosisCategory#"按診" "按診(切)"
+* component[pressing] ^short = "[應填入按診；有多項時每項各填一筆component，無法對應代碼時僅填text]"
+* component[pressing].code = TWCMFourDiagnosisCategory#"按診" "按診"
 * component[pressing].value[x] 1..1 MS
 * component[pressing].value[x] only CodeableConcept
 * component[pressing].valueCodeableConcept.coding 0..1 MS

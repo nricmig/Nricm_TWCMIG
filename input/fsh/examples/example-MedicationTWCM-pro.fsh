@@ -5,7 +5,7 @@ Title: "藥品資訊範例"
 Description: "依據藥品(Medication TWCM)Profile呈現中醫門診單中藥品範例"
 Usage: #example
 * code.coding[0] = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/nhi-medication-ch-herb-tw#A061308 "\"順天堂\"紅耆濃縮顆粒"
-* code.coding[1] = https://www.nricm.edu.tw/twcm/CodeSystem/mohw-dopmac-tcmmedication#衛部藥製字第061308號 "“順天堂”紅耆濃縮顆粒 \"Sun Ten\" Hong Qi Extract Granules"
+* code.coding[1] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/mohw-dopmac-tcmmedication#衛部藥製字第061308號 "“順天堂”紅耆濃縮顆粒 \"Sun Ten\" Hong Qi Extract Granules"
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

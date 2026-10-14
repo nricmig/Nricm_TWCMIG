@@ -6,9 +6,9 @@ Description: "依據病人治則(ProcedureTherapeuticPrinciples TWCM)Profile呈�
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
 * category = $SCT#314705003 "Treatment plan given (finding)"
-* code.coding[0] = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2429 "補氣；益氣；扶正益氣；扶正補氣"
-* code.coding[1] = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2462 "補益氣血；補氣養血"
-* code.text = "補氣調中,補氣活血"
+* code.coding[0] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2267 "虛則補之"
+* code.coding[1] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2259 "扶正固本；扶正培本"
+* code.text = "虛則補之，扶正固本"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * text.status = #generated
@@ -26,7 +26,7 @@ Usage: #example
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"
     </p>
     <p>
-    <b>病人治則</b>：補氣調中,補氣活血
+    <b>病人治則</b>：虛則補之，扶正固本
     </p>
      <p>
 		<b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

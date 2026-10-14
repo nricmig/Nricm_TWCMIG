@@ -19,7 +19,7 @@ Description: "此病史(ConditionMedicalHistory TWCM)Profile說明本IG如何進
 * category.coding[recordType].code 1..1
 * category.coding[recordType] ^short = "[應填入病史紀錄類型：過去病史(11348-0)或現病史(10164-2)]"
 * category.coding[historyType].system 1..1
-* category.coding[historyType].system = "https://www.nricm.edu.tw/twcm/CodeSystem/twcm-medicalhistory-category" (exactly)
+* category.coding[historyType].system = "https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-medicalhistory-category" (exactly)
 * category.coding[historyType].code 1..1
 * category.coding[historyType] from twcm-medicalhistory-category (required)
 * category.coding[historyType] ^short = "[應填入病史分類：小兒病史、產科史、月經史或男科史；一般過去病史或現病史不填]"
@@ -32,8 +32,10 @@ Description: "此病史(ConditionMedicalHistory TWCM)Profile說明本IG如何進
   * ^short = "病情、問題或診斷的識別。[應填入門診病摘之過去病史History、現病史Present Illness、小兒病史、產科史Obstetric History、月經史Menstrual History或男科史]"
 * code from twcm-medicalhistory-finding (extensible)
 * code.coding contains twcmClinicalFinding 0..* MS
-* code.coding[twcmClinicalFinding] ^patternCoding.system = "https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding"
-* code.coding[twcmClinicalFinding] ^short = "[可填入本IG中醫臨床表現代碼(月經史、產科史及男科史之臨床表現詞彙)]"
+* code.coding[twcmClinicalFinding] ^patternCoding.system = "https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding"
+* code.coding[twcmClinicalFinding] from twcm-medicalhistory-clinicalfinding (required)
+* code.coding[twcmClinicalFinding] ^short = "[可填入本IG中醫臨床表現代碼(月經史、產科史及男科史之臨床表現詞彙)；月經史應使用月經史值集、產科史應使用產科史值集、男科史應使用問男性值集；無法對應代碼時不填coding，僅填code.text即可]"
+* obeys medicalhistory-menstrual-vs and medicalhistory-obstetric-vs and medicalhistory-male-vs
 * clinicalStatus MS
   * ^short = "[現病史應填入active]"
 * onset[x] MS
@@ -47,4 +49,19 @@ Description: "此病史(ConditionMedicalHistory TWCM)Profile說明本IG如何進
 Invariant: medicalhistory-present-active
 Description: "現病史(category為LOINC 10164-2)之clinicalStatus應為active"
 Expression: "category.coding.where(system = 'http://loinc.org' and code = '10164-2').exists() implies clinicalStatus.coding.where(code = 'active').exists()"
+Severity: #error
+
+Invariant: medicalhistory-menstrual-vs
+Description: "月經史之中醫臨床表現代碼應取自月經史值集"
+Expression: "category.coding.where(system = 'https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-medicalhistory-category' and code = '月經史').exists() implies code.coding.where(system = 'https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding').all(memberOf('https://hitstdio.ntunhs.edu.tw/twcm/ValueSet/twcm-menstrualhistory'))"
+Severity: #error
+
+Invariant: medicalhistory-obstetric-vs
+Description: "產科史之中醫臨床表現代碼應取自產科史值集"
+Expression: "category.coding.where(system = 'https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-medicalhistory-category' and code = '產科史').exists() implies code.coding.where(system = 'https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding').all(memberOf('https://hitstdio.ntunhs.edu.tw/twcm/ValueSet/twcm-obstetrichistory'))"
+Severity: #error
+
+Invariant: medicalhistory-male-vs
+Description: "男科史之中醫臨床表現代碼應取自問男性值集"
+Expression: "category.coding.where(system = 'https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-medicalhistory-category' and code = '男科史').exists() implies code.coding.where(system = 'https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding').all(memberOf('https://hitstdio.ntunhs.edu.tw/twcm/ValueSet/twcm-inquiry-male'))"
 Severity: #error

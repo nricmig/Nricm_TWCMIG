@@ -1,5 +1,5 @@
-Alias: $approach = https://www.nricm.edu.tw/twcm/StructureDefinition/approach-twcm
-Alias: $description = https://www.nricm.edu.tw/twcm/StructureDefinition/description-twcm
+Alias: $approach = https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/approach-twcm
+Alias: $description = https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/description-twcm
 Profile: ProcedureTWCM
 Parent: TWCoreProcedure
 Id: procedure-twcm

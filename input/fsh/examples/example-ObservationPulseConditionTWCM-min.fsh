@@ -11,13 +11,13 @@ Usage: #example
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * bodySite = $SCT#9736006 "Structure of right wrist region"
 * component[cun].code = WHOICTMTerminology#WGM2#884 "寸脈"
-* component[cun].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#889 "浮脈"
+* component[cun].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#889 "浮脈"
 * component[guan][0].code = WHOICTMTerminology#WGM2#885 "關脈"
-* component[guan][0].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#896 "細脈"
+* component[guan][0].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#896 "細脈"
 * component[guan][1].code = WHOICTMTerminology#WGM2#885 "關脈"
-* component[guan][1].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#900 "滑脈"
+* component[guan][1].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#900 "滑脈"
 * component[chi].code = WHOICTMTerminology#WGM2#886 "尺脈"
-* component[chi].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#890 "沉脈"
+* component[chi].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#890 "沉脈"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
   <h3>

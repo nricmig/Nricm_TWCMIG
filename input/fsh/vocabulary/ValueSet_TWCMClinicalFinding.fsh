@@ -118,8 +118,8 @@ Description: "中醫門診單產科史之臨床表現詞彙值集，收錄自TWC
 
 ValueSet: TWCMInspectionSpirit
 Id: twcm-inspection-spirit
-Title: "精神／意識／行為／情緒／性格(望神)值集"
-Description: "中醫門診單精神／意識／行為／情緒／性格(望神)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "望神值集"
+Description: "中醫門診單望神之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"得神(有神)" "得神(有神)"
 * TWCMClinicalFinding#"少神(神氣不足)" "少神(神氣不足)"
@@ -157,8 +157,8 @@ Description: "中醫門診單精神／意識／行為／情緒／性格(望神)�
 
 ValueSet: TWCMInspectionBody
 Id: twcm-inspection-body
-Title: "體(望)值集"
-Description: "中醫門診單體(望)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "望體值集"
+Description: "中醫門診單望體之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"雞胸" "雞胸"
 * TWCMClinicalFinding#"肋如串珠" "肋如串珠"
@@ -185,8 +185,8 @@ Description: "中醫門診單體(望)之臨床表現詞彙值集，收錄自TWCM
 
 ValueSet: TWCMInspectionHeadFace
 Id: twcm-inspection-headface
-Title: "頭面部(望)值集"
-Description: "中醫門診單頭面部(望)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "望頭面值集"
+Description: "中醫門診單望頭面之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"常色" "常色"
 * TWCMClinicalFinding#"主色" "主色"
@@ -282,8 +282,8 @@ Description: "中醫門診單頭面部(望)之臨床表現詞彙值集，收錄�
 
 ValueSet: TWCMInspectionEye
 Id: twcm-inspection-eye
-Title: "目部(望)值集"
-Description: "中醫門診單目部(望)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "望目值集"
+Description: "中醫門診單望目之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"口眼喎斜" "口眼喎斜"
 * TWCMClinicalFinding#"戴眼反折" "戴眼反折"
@@ -299,8 +299,8 @@ Description: "中醫門診單目部(望)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMInspectionSkin
 Id: twcm-inspection-skin
-Title: "皮膚(望)值集"
-Description: "中醫門診單皮膚(望)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "望皮膚值集"
+Description: "中醫門診單望皮膚之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"陰斑" "陰斑"
 * TWCMClinicalFinding#"陽斑" "陽斑"
@@ -349,8 +349,8 @@ Description: "中醫門診單皮膚(望)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMListeningVoice
 Id: twcm-listening-voice
-Title: "語音(聞)值集"
-Description: "中醫門診單語音(聞)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "聞語音值集"
+Description: "中醫門診單聞語音之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"金實不鳴" "金實不鳴"
 * TWCMClinicalFinding#"金破不鳴" "金破不鳴"
@@ -397,8 +397,8 @@ Description: "中醫門診單語音(聞)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMSmellingOdor
 Id: twcm-smelling-odor
-Title: "氣味(聞)值集"
-Description: "中醫門診單氣味(聞)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "聞氣味值集"
+Description: "中醫門診單聞氣味之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"口臭" "口臭"
 * TWCMClinicalFinding#"噯腐" "噯腐"
@@ -413,8 +413,8 @@ Description: "中醫門診單氣味(聞)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMInquiryColdHeat
 Id: twcm-inquiry-coldheat
-Title: "寒熱(問)值集"
-Description: "中醫門診單寒熱(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問寒熱值集"
+Description: "中醫門診單問寒熱之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"惡風" "惡風"
 * TWCMClinicalFinding#"惡寒(恐寒)" "惡寒(恐寒)"
@@ -460,8 +460,8 @@ Description: "中醫門診單寒熱(問)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMInquirySweat
 Id: twcm-inquiry-sweat
-Title: "汗(問)值集"
-Description: "中醫門診單汗(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問汗值集"
+Description: "中醫門診單問汗之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"無汗" "無汗"
 * TWCMClinicalFinding#"自汗" "自汗"
@@ -487,8 +487,8 @@ Description: "中醫門診單汗(問)之臨床表現詞彙值集，收錄自TWCM
 
 ValueSet: TWCMInquiryBody
 Id: twcm-inquiry-body
-Title: "體(問)值集"
-Description: "中醫門診單體(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問體值集"
+Description: "中醫門診單問體之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"身痛" "身痛"
 * TWCMClinicalFinding#"身重" "身重"
@@ -616,8 +616,8 @@ Description: "中醫門診單體(問)之臨床表現詞彙值集，收錄自TWCM
 
 ValueSet: TWCMInquiryHeadFace
 Id: twcm-inquiry-headface
-Title: "頭面部(問)值集"
-Description: "中醫門診單頭面部(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問頭面值集"
+Description: "中醫門診單問頭面之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"頭重如裹" "頭重如裹"
 * TWCMClinicalFinding#"頭脹" "頭脹"
@@ -661,8 +661,8 @@ Description: "中醫門診單頭面部(問)之臨床表現詞彙值集，收錄�
 
 ValueSet: TWCMInquiryEye
 Id: twcm-inquiry-eye
-Title: "目部(問)值集"
-Description: "中醫門診單目部(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問目值集"
+Description: "中醫門診單問目之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"目不澀" "目不澀"
 * TWCMClinicalFinding#"目羞明(畏光)" "目羞明(畏光)"
@@ -683,8 +683,8 @@ Description: "中醫門診單目部(問)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMInquiryEar
 Id: twcm-inquiry-ear
-Title: "耳朵(問)值集"
-Description: "中醫門診單耳朵(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問耳值集"
+Description: "中醫門診單問耳之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"耳痛" "耳痛"
 * TWCMClinicalFinding#"重聽(重耳)" "重聽(重耳)"
@@ -701,8 +701,8 @@ Description: "中醫門診單耳朵(問)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMInquiryNoseThroat
 Id: twcm-inquiry-nosethroat
-Title: "鼻咽部(問)值集"
-Description: "中醫門診單鼻咽部(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問鼻咽值集"
+Description: "中醫門診單問鼻咽之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"咽乾" "咽乾"
 * TWCMClinicalFinding#"鼻塞" "鼻塞"
@@ -739,8 +739,8 @@ Description: "中醫門診單鼻咽部(問)之臨床表現詞彙值集，收錄�
 
 ValueSet: TWCMInquiryDietTaste
 Id: twcm-inquiry-diettaste
-Title: "飲食／口味(問)值集"
-Description: "中醫門診單飲食／口味(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問飲食口味值集"
+Description: "中醫門診單問飲食口味之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"咽乾" "咽乾"
 * TWCMClinicalFinding#"口乾" "口乾"
@@ -783,8 +783,8 @@ Description: "中醫門診單飲食／口味(問)之臨床表現詞彙值集，�
 
 ValueSet: TWCMInquirySleep
 Id: twcm-inquiry-sleep
-Title: "睡眠(問)值集"
-Description: "中醫門診單睡眠(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問睡眠值集"
+Description: "中醫門診單問睡眠之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"鼻鼾" "鼻鼾"
 * TWCMClinicalFinding#"多夢" "多夢"
@@ -805,8 +805,8 @@ Description: "中醫門診單睡眠(問)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMInquiryUrine
 Id: twcm-inquiry-urine
-Title: "小便(問)值集"
-Description: "中醫門診單小便(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問小便值集"
+Description: "中醫門診單問小便之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"小便黃赤(溺赤)" "小便黃赤(溺赤)"
 * TWCMClinicalFinding#"餘瀝不盡" "餘瀝不盡"
@@ -866,8 +866,8 @@ Description: "中醫門診單小便(問)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMInquiryStool
 Id: twcm-inquiry-stool
-Title: "大便(問)值集"
-Description: "中醫門診單大便(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問大便值集"
+Description: "中醫門診單問大便之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"溏結不調" "溏結不調"
 * TWCMClinicalFinding#"里急後重" "里急後重"
@@ -912,8 +912,8 @@ Description: "中醫門診單大便(問)之臨床表現詞彙值集，收錄自T
 
 ValueSet: TWCMInquiryMental
 Id: twcm-inquiry-mental
-Title: "精神／意識／行為／情緒／性格(問)值集"
-Description: "中醫門診單精神／意識／行為／情緒／性格(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問精神值集"
+Description: "中醫門診單問精神之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"乏力" "乏力"
 * TWCMClinicalFinding#"煩熱" "煩熱"
@@ -943,8 +943,8 @@ Description: "中醫門診單精神／意識／行為／情緒／性格(問)之�
 
 ValueSet: TWCMInquiryFemale
 Id: twcm-inquiry-female
-Title: "婦女相關(問)值集"
-Description: "中醫門診單婦女相關(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問婦女值集"
+Description: "中醫門診單問婦女之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"白帶" "白帶"
 * TWCMClinicalFinding#"黃帶" "黃帶"
@@ -964,8 +964,8 @@ Description: "中醫門診單婦女相關(問)之臨床表現詞彙值集，收�
 
 ValueSet: TWCMInquiryMale
 Id: twcm-inquiry-male
-Title: "男性相關(問)值集"
-Description: "中醫門診單男性相關(問)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "問男性值集"
+Description: "中醫門診單問男性之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"精液清冷" "精液清冷"
 * TWCMClinicalFinding#"血精" "血精"
@@ -983,8 +983,8 @@ Description: "中醫門診單男性相關(問)之臨床表現詞彙值集，收�
 
 ValueSet: TWCMPalpationPressing
 Id: twcm-palpation-pressing
-Title: "按診(切)值集"
-Description: "中醫門診單按診(切)之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
+Title: "按診值集"
+Description: "中醫門診單按診之臨床表現詞彙值集，收錄自TWCMClinicalFinding代碼系統。"
 * ^experimental = false
 * TWCMClinicalFinding#"皮膚" "皮膚"
 * TWCMClinicalFinding#"手足" "手足"
@@ -998,9 +998,18 @@ Description: "中醫門診單按診(切)之臨床表現詞彙值集，收錄自T
 ValueSet: TWCMMedicalHistoryFinding
 Id: twcm-medicalhistory-finding
 Title: "病史臨床表現值集"
-Description: "中醫門診單病史(ConditionMedicalHistory TWCM)之建議用詞，合併月經史、產科史及男性相關(問)之臨床表現詞彙，以及慢性疾病值集(ICD-10-CM)。一般過去病史及現病史可使用慢性疾病值集、其他代碼系統或僅填文字。"
+Description: "中醫門診單病史(ConditionMedicalHistory TWCM)之建議用詞，合併月經史、產科史及問男性之臨床表現詞彙，以及慢性疾病值集(ICD-10-CM)。一般過去病史及現病史可使用慢性疾病值集、其他代碼系統或僅填文字。"
 * ^experimental = false
 * include codes from valueset twcm-menstrualhistory
 * include codes from valueset twcm-obstetrichistory
 * include codes from valueset twcm-inquiry-male
 * include codes from valueset twcm-chronic-disease
+
+ValueSet: TWCMMedicalHistoryClinicalFinding
+Id: twcm-medicalhistory-clinicalfinding
+Title: "病史中醫臨床表現值集"
+Description: "中醫門診單病史(ConditionMedicalHistory TWCM)可使用之本IG中醫臨床表現代碼，合併月經史、產科史及問男性之臨床表現詞彙。"
+* ^experimental = false
+* include codes from valueset twcm-menstrualhistory
+* include codes from valueset twcm-obstetrichistory
+* include codes from valueset twcm-inquiry-male

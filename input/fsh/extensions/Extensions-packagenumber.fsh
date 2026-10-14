@@ -2,7 +2,7 @@ Extension: PackageNumberTWCM
 Id: packagenumber-twcm
 Title: "包數(PackageNumber)"
 Description: "包數"
-* ^url = "https://www.nricm.edu.tw/twcm/StructureDefinition/packagenumber-twcm"
+* ^url = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/packagenumber-twcm"
 * ^version = "0.1.0"
 * ^status = #active
 * ^context.type = #element

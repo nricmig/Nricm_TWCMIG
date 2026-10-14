@@ -18,6 +18,7 @@
 
 #### Condition
 - [病人主訴(ConditionChiefComplaint TWCM)](StructureDefinition-conditionchiefcomplaint-twcm.html)
+- [慢性疾病(ConditionChronicDisease TWCM)](StructureDefinition-conditionchronicdisease-twcm.html)
 - [病情、問題或診斷(ConditionDiagnosis TWCM)](StructureDefinition-conditiondiagnosis-twcm.html)
 - [重大傷病(ConditionMajorIllness TWCM)](StructureDefinition-conditionmajorillness-twcm.html)
 - [病史(ConditionMedicalHistory TWCM)](StructureDefinition-conditionmedicalhistory-twcm.html)
@@ -73,6 +74,7 @@
 #### Procedure
 - [處置或手術(Procedure TWCM)](StructureDefinition-procedure-twcm.html)
 - [病人治則(ProcedureTherapeuticPrinciples TWCM)](StructureDefinition-proceduretherapeuticprinciples-twcm.html)
+- [病人治法(ProcedureTherapeuticMethod TWCM)](StructureDefinition-proceduretherapeuticmethod-twcm.html)
 
 #### Provenance
 - [醫師簽章(Provenance TWCM)](StructureDefinition-provenance-twcm.html)

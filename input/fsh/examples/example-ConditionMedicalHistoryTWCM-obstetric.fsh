@@ -6,7 +6,7 @@ Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved
 * category.coding[recordType] = http://loinc.org#11348-0 "History of Past illness note"
 * category.coding[historyType] = TWCMMedicalHistoryCategory#"產科史" "產科史"
-* code.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"妊娠嘔吐" "妊娠嘔吐"
+* code.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"妊娠嘔吐" "妊娠嘔吐"
 * code.text = "G2P2，自然產2胎，第一胎懷孕初期嘔吐明顯"
 * onsetString = "第一胎懷孕期間"
 * subject = Reference(Patient/PatientTWCM-min)
