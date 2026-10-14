@@ -19,7 +19,7 @@
 
 #### Bundle架構圖
 <div style="padding-left: 10px;">
-<p>點選圖片可開啟原始大小之SVG，於原圖中點選右側Profile方塊可連結至該Profile頁面。</p>
+<p>圖中左側為中醫門診單邏輯模型欄位，中間依序展開Bundle、Composition及Bundle.entry中各Profile之資料項目，紅色箭頭表示邏輯模型欄位所對應之FHIR資料項目，黑色箭頭表示Reference所參照之Profile。點選圖片可開啟原始大小之SVG，於原圖中點選Profile標題或右側Profile方塊可連結至該Profile頁面。</p>
 <a href="modle.svg" target="_blank"><img class="figure-img img-responsive img-rounded center-block" src="modle.svg" alt="中醫門診單Bundle架構圖" style="display: block;margin-left: auto;margin-right: auto;width: 100%;"/></a>
 </div>
 <p><br/></p>
