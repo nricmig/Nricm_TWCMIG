@@ -6,9 +6,8 @@ Title: "中醫-藥品請求(MedicationRequest TWCM)"
 Description: "此中醫-藥品請求(MedicationRequest TWCM)Profile說明本IG如何進一步定義臺灣核心-藥品請求（TW Core MedicationRequest)Profile以呈現中醫門診單之藥品請求的詳細資料。"
 * status = #completed
 * intent = #order
-* medicationReference only Reference(medication-twcm)
+* medication[x] only Reference(medication-twcm)
 * medicationReference MS
-* medicationCodeableConcept MS
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * subject 1..1 MS
