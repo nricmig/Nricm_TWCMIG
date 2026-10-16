@@ -4,7 +4,7 @@
 <ul>
 <li>病人資料-Patient TWCM、就醫事件-Encounter TWCM、醫事機構-Organization TWCM、醫師基本資料-Practitioner TWCM</li>
 <li>過敏或不耐症-AllergyIntolerance TWCM、病史-ConditionMedicalHistory TWCM、慢性疾病-ConditionChronicDisease TWCM、家族史-FamilyMemberHistory TWCM</li>
-<li>個人史-ObservationSocialHistory TWCM、職業-ObservationOccupation TWCM、教育程度-ObservationEducationLevel TWCM、血型-ObservationBloodtype TWCM</li>
+<li>職業-ObservationOccupation TWCM、教育程度-ObservationEducationLevel TWCM、血型-ObservationBloodtype TWCM</li>
 <li>生命徵象-ObservationVitalSigns TWCM（血壓、脈搏、身高、體重、體溫）、病人主訴-ConditionChiefComplaint TWCM</li>
 <li>中醫辨證評估-ClinicalImpression TWCM、望診-ObservationInspection TWCM、聞診-ObservationListeningSmelling TWCM、問診-ObservationInquiry TWCM、切診-ObservationPalpation TWCM、病人脈象-ObservationPulseCondition TWCM</li>
 <li>病情、問題或診斷-ConditionDiagnosis TWCM、病人證型-ConditionSyndromeType TWCM</li>

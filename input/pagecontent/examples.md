@@ -69,7 +69,6 @@
 - [病人脈象範例(右手,分寸關尺)](Observation-ObservationPulseConditionTWCM-min.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師記錄到寸關尺時的病人脈象範例
 - [病人脈象範例(左手,未分寸關尺)](Observation-ObservationPulseConditionTWCM-lefthand.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師只記錄到左右手時的病人脈象範例
 - [病人脈象範例(僅文字,無對應代碼)](Observation-ObservationPulseConditionTWCM-textonly.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫門診單中病人脈象無法對應代碼時僅填文字的範例
-- [個人史範例](Observation-ObservationSocialHistoryTWCM-min.html)：依據個人史(ObservationSocialHistory TWCM)Profile呈現中醫門診單中個人史的範例
 
 ### Organization
 - [醫事機構基本資料-捷達世中醫診所](Organization-OrganizationTWCM-min.html)：依據醫事機構(Organization TWCM)Profile呈現中醫門診單中醫事機構範例

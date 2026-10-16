@@ -114,9 +114,8 @@ Usage: #example
 * section[FamilyMemberHistory].code = http://loinc.org#10157-6 "History of family member diseases note"
 * section[FamilyMemberHistory].entry.reference = "FamilyMemberHistory/FamilyMemberHistoryTWCM-min"
 
-* section[SocialHistory].title = "個人史"
+* section[SocialHistory].title = "社會史"
 * section[SocialHistory].code = http://loinc.org#29762-2 "Social history note"
-* section[SocialHistory].entry.reference = "Observation/ObservationSocialHistoryTWCM-min"
 * section[SocialHistory].section[occupation].code = http://loinc.org#11341-5 "History of Occupation"
 * section[SocialHistory].section[occupation].entry.reference = "Observation/ObservationOccupationTWCM-min"
 * section[SocialHistory].section[educationlevel].code = http://loinc.org#82589-3 "Highest level of education"
@@ -244,7 +243,7 @@ Usage: #example
     <p><b>section[FamilyMemberHistory]</b>： <a href=\"FamilyMemberHistory-FamilyMemberHistoryTWCM-min.html\">FamilyMemberHistory/FamilyMemberHistoryTWCM-min</a></p>
 
     <p>
-    <b>section[SocialHistory]</b>： <a href=\"Observation-ObservationSocialHistoryTWCM-min.html\">Observation/ObservationSocialHistoryTWCM-min</a><br />
+    <b>section[SocialHistory]</b><br />
     <span style=\"display: block; margin-left: 20px;\">
     <b>section[occupation]</b>： <a href=\"Observation-ObservationOccupationTWCM-min.html\">Observation/ObservationOccupationTWCM-min</a>
     <br />

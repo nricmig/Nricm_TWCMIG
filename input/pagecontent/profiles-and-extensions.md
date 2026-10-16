@@ -59,7 +59,6 @@
 - [問診(ObservationInquiry TWCM)](StructureDefinition-observationinquiry-twcm.html)
 - [切診(ObservationPalpation TWCM)](StructureDefinition-observationpalpation-twcm.html)
 - [病人脈象(ObservationPulseCondition TWCM)](StructureDefinition-observationpulsecondition-twcm.html)
-- [個人史(ObservationSocialHistory TWCM)](StructureDefinition-observationsocialhistory-twcm.html)
 
 #### Organization
 - [醫事機構(Organization TWCM)](StructureDefinition-organization-twcm.html)

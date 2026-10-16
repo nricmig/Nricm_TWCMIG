@@ -250,7 +250,6 @@ Usage: #definition
 * rest.resource[=].supportedProfile[+] = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/observationoccupation-twcm"
 * rest.resource[=].supportedProfile[+] = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/observationpalpation-twcm"
 * rest.resource[=].supportedProfile[+] = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/observationpulsecondition-twcm"
-* rest.resource[=].supportedProfile[+] = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/observationsocialhistory-twcm"
 * rest.resource[=].supportedProfile[+] = "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/observationvitalsign-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
@@ -579,7 +578,6 @@ Usage: #definition
           <a href=\"StructureDefinition-observationoccupation-twcm.html\">職業(ObservationOccupation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpalpation-twcm.html\">切診(ObservationPalpation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpulsecondition-twcm.html\">病人脈象(ObservationPulseCondition TWCM)</a><br />
-          <a href=\"StructureDefinition-observationsocialhistory-twcm.html\">個人史(ObservationSocialHistory TWCM)</a><br />
           <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象(ObservationVitalSigns TWCM)</a></td>
           <td class=\"text-center\">y</td>
           <td class=\"text-center\">y</td>
@@ -1077,7 +1075,6 @@ Usage: #definition
           <a href=\"StructureDefinition-observationoccupation-twcm.html\">職業(ObservationOccupation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpalpation-twcm.html\">切診(ObservationPalpation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpulsecondition-twcm.html\">病人脈象(ObservationPulseCondition TWCM)</a><br />
-          <a href=\"StructureDefinition-observationsocialhistory-twcm.html\">個人史(ObservationSocialHistory TWCM)</a><br />
           <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象(ObservationVitalSigns TWCM)</a>
           </div>
           <div class=\"col-lg-3\"><span class=\"lead\">Profile預期的遵從度</span><br /><b>建議應該（SHOULD）</b></div>

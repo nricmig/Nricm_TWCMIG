@@ -228,9 +228,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[SocialHistory].title 1..1
 * section[SocialHistory].code 1..1
 * section[SocialHistory].code = http://loinc.org#29762-2 "Social history note"
-* section[SocialHistory].entry 0..1
-* section[SocialHistory].entry only Reference(observationsocialhistory-twcm)
-  * reference 1..1
+* section[SocialHistory].entry 0..0
 * section[SocialHistory].section ^slicing.discriminator.type = #profile
 * section[SocialHistory].section ^slicing.discriminator.path = "entry.resolve()"
 * section[SocialHistory].section ^slicing.rules = #open
