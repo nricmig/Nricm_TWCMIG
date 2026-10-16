@@ -132,8 +132,6 @@ Usage: #example
 * entry[FamilyMemberHistory].fullUrl = "https://hitstdio.ntunhs.edu.tw/twcm/FamilyMemberHistory/FamilyMemberHistoryTWCM-min"
 * entry[FamilyMemberHistory].resource = FamilyMemberHistoryTWCM-min
 
-* entry[ObservationSocialHistory].fullUrl = "https://hitstdio.ntunhs.edu.tw/twcm/Observation/ObservationSocialHistoryTWCM-min"
-* entry[ObservationSocialHistory].resource = ObservationSocialHistoryTWCM-min
 
 * entry[ClinicalImpression].fullUrl = "https://hitstdio.ntunhs.edu.tw/twcm/ClinicalImpression/ClinicalImpressionTWCM-min"
 * entry[ClinicalImpression].resource = ClinicalImpressionTWCM-min

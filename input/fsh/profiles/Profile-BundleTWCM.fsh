@@ -44,7 +44,6 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
         OrganizationInspection 0..* MS and
         DocumentReference 1..1 MS and
         FamilyMemberHistory 0..* MS and
-        ObservationSocialHistory 0..1 MS and
         ClinicalImpression 1..1 MS and
         ObservationInspection 0..1 MS and
         ObservationListeningSmelling 0..1 MS and
@@ -190,9 +189,6 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
   * ^short = "家族史"
 * entry[FamilyMemberHistory].resource only familymemberhistory-twcm
 
-* entry[ObservationSocialHistory].resource 1..1
-  * ^short = "個人史"
-* entry[ObservationSocialHistory].resource only observationsocialhistory-twcm
 
 * entry[ClinicalImpression].resource 1..1
   * ^short = "中醫辨證評估（含望聞問切客觀描述）"
