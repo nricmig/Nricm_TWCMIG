@@ -89,18 +89,9 @@ Description: "此病人資料(Patient TWCM)Profile說明本IG如何進一步定�
 
 
 
-* obeys patientTWCM-gender-match
-* identifier[idCardNumber].value obeys patientTWCM-identifier-idCardNumber
+* obeys patient-gender-match
 
-Invariant: patientTWCM-identifier-idCardNumber
-Description: "身分證號共十碼，首碼以英文字母代表直轄市、縣（市）別，第二碼至第十碼為數字碼。"
-Expression: "value.matches('^[A-Za-z][0-9]{9}$')"
-Severity: #error
-
-
-Invariant: patientTWCM-gender-match
+Invariant: patient-gender-match
 Description: "gender依據identifier:idCardNumber第二位字符檢核男性與女性代碼 (1=male, 2=female)"
-Expression: "(identifier.where(system = 'http://www.moi.gov.tw').value.substring(1, 1) = '1' implies gender = 'male') and (identifier.where(system = 'http://www.moi.gov.tw').value.substring(1, 1) = '2' implies gender = 'female')"
+Expression: "identifier.where(system = 'http://www.moi.gov.tw').value.exists() implies (identifier.where(system = 'http://www.moi.gov.tw').value.substring(1, 1) = '1' implies gender = 'male') and (identifier.where(system = 'http://www.moi.gov.tw').value.substring(1, 1) = '2' implies gender = 'female')"
 Severity: #error
-
-
