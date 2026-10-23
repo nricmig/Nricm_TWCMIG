@@ -31,30 +31,36 @@
 
 <ul>
 	<li><strong><a href="index.html">應用說明</a></strong>：臺灣中醫實作指引介紹及背景說明。</li>
-	<li><strong><a href="models.html">視覺化邏輯模型</a></strong>：TWCM IG邏輯模型架構視覺化圖。</li>
+	<li><strong><a href="vision.html">視覺化邏輯模型</a></strong>：臺灣中醫實作指引邏輯模型架構視覺化圖。</li>
 	<li><strong><a href="artifacts.html">規範文件</a></strong>
 	<ul>
 		<li><strong><a href="capabilitystatements.html">能力聲明</a>
-			</strong>：應用臺灣中醫實作指引於建置業務目的使用的FHIR Server時，該FHIR Server必須及建議應該支援的操作功能。
+			</strong>：應用臺灣中醫實作指引於建置業務目的使用的FHIR Server時，該FHIR Server必須及建議應該支援的資料存取功能。
+		</li>
+		<li><strong><a href="searchparameters.html">查詢參數</a>
+			</strong>：查詢FHIR Server的Profiles時，針對各Profiles可使用的查詢參數。
 		</li>
 		<li><strong><a href="models.html">邏輯模型</a>
 			</strong>：臺灣中醫實作指引的所有邏輯模型(Logical Models)，邏輯模型會定義相應情境下使用的所有資料欄位。為了便於實作者快速理解，資料欄位會使用易於理解的命名，實作者再透過邏輯模型中的功能頁籤「Mappings」瞭解各資料欄位實際使用本IG的哪個Profiles的哪個資料項目(element)。
 		</li>
-    	<li><strong><a href="profiles-and-extensions.html">FHIR Profiles和Extension</a></strong>：
+    	<li><strong><a href="profiles-and-extensions.html">FHIR Profiles及Extensions</a></strong>：
         	<ul>
           		<li>臺灣中醫實作指引的所有Profiles之定義與範例及Extensions。</li>
           		<li>各資料項目不同實作強制程度的Terminology。</li>
+          		<li>各資料項目的限制（Constraints）。</li>
+          		<li>查詢依據臺灣中醫實作指引實作之FHIR Server的特定Profiles時，可使用的查詢參數。</li>
+          		<li>有哪些Profiles具有查詢參數以及Server必須支援哪些必要的查詢參數功能。</li>
         	</ul>
       	</li>
 		<li><strong><a href="terminologies.html">專門術語</a>
-			</strong>：臺灣中醫實作指引網站所使用的專門術語，包括代碼系統（Code Systems）及值集（Value Sets）。
+			</strong>：臺灣中醫實作指引所使用的專門術語，包括代碼系統（Code Systems）及值集（Value Sets）。
 		</li>
 	</ul>
 	</li>
 	<li><strong><a href="examples.html">範例</a></strong>：符合臺灣中醫實作指引所定義Profiles之範例檔。</li>
 	<li><strong><a href="downloads.html">結構定義與範例檔下載</a></strong>：實作者若不偏好使用FHIR RESTful API驗證資料是否符合Profiles，可直接下載所需的格式驗證檔，包括XML、JSON及Turtle三種格式，亦可於此下載完整範例檔。</li>
 	<li><strong><a href="security.html">安全性</a></strong>：主要說明採用臺灣中醫實作指引網站進行實作時，有關資料存取授權的作法。</li>
-	<li><strong><a href="https://hitstdio.ntunhs.edu.tw/twcm/history.html">版本異動</a></strong>：若臺灣中醫實作指引網站的版本有所異動，皆可透過<a href="https://hitstdio.ntunhs.edu.tw/twcm/history.html">異動說明頁</a>得以瞭解版本間的異動差異。</li>
+	<li><strong><a href="https://hitstdio.ntunhs.edu.tw/twcm/history.html">版本異動說明頁</a></strong>：若臺灣中醫實作指引網站的版本有所異動，皆可透過<a href="https://hitstdio.ntunhs.edu.tw/twcm/history.html">異動說明頁</a>得以瞭解版本間的異動差異。</li>
 </ul>
 </div>
 
