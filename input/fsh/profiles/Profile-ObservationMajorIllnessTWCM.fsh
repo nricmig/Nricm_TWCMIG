@@ -6,7 +6,7 @@ Description: "此重大傷病註記(ObservationMajorIllness TWCM)Profile說明�
 * status = #final
 * code = http://loinc.org#11338-1
 * valueBoolean 1..1 MS
-* valueBoolean ^short = "[應填入門診病摘重大傷病註記Major Injury Flag(是/否)]。"
+* valueBoolean ^short = "[應填入中醫門診單重大傷病註記Major Injury Flag(是/否)]。"
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)

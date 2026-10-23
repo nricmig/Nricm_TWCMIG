@@ -10,7 +10,7 @@ Description: "此職業(ObservationOccupation TWCM)Profile說明本IG如何進�
 
 * value[x] only CodeableConceptTW
 * valueCodeableConcept 1..1 MS
-  * ^short = "[應填入門診病摘之職業Occuation]"
+  * ^short = "[應填入中醫門診單之職業Occuation]"
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)

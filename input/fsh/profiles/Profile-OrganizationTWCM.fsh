@@ -8,9 +8,9 @@ Description: "此醫事機構(Organization TWCM)Profile說明本IG如何進一�
   * type = http://terminology.hl7.org/CodeSystem/v2-0203#PRN
   * system 1..1
   * value MS
-    * ^short = "唯一值。例如：醫事機構代碼為0123456789[應填入於門診病摘醫事機構代碼Hospital ID]"
+    * ^short = "唯一值。例如：醫事機構代碼為0123456789[應填入於中醫門診單醫事機構代碼Hospital ID]"
 * name 1..1 MS
-  * ^short = "機構的名稱[應填入於門診病摘醫事機構名稱Hospital Name]。"
+  * ^short = "機構的名稱[應填入於中醫門診單醫事機構名稱Hospital Name]。"
 
 * identifier obeys OrganizationTWCM-identifier
 

@@ -10,7 +10,7 @@ Description: "此關懷計畫(CarePlan TWCM)Profile說明本IG如何進一步定
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * note 1..1 MS
-  * ^short = "[應填入門診病摘之醫師囑咐Doctor Advise]"
+  * ^short = "[應填入中醫門診單之醫師囑咐Doctor Advise]"
 
 * subject 1..1 MS
 * encounter MS

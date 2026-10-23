@@ -53,13 +53,11 @@ The slice definition for Procedure.code.coding has a maximum of 1 but the slices
 # searchform.html來自HL7基礎範本(fhir.base.template)，HTML格式問題屬範本本身，非IG內容，不影響驗證。
 %searchform.html: The html source is not well formed%
 
-# 頁面重複錨點由IG Publisher自動產生敘述(如文件型Bundle、邏輯模型的mapping)時造成，非IG內容，不影響驗證。(同PAS IG)
+# 頁面重複錨點由IG Publisher自動產生敘述(如文件型Bundle、邏輯模型的mapping)時造成，非IG內容，不影響驗證。
 % The html source has duplicate anchor Ids%
 
 # Bundle範例頁面之h4標題由IG Publisher產生文件型Bundle呈現時自動加入，非IG內容，不影響驗證。
-%Bundle-BundleTWCM-min.html: The page skips a heading level: <h4> '病患基本資料' follows <h2> 'Example Bundle: 診所門診病摘'%
-
-# ===== 以下參考PAS IG(TWNHIFHIR/pas)之ignoreWarnings，與本IG情境相同者 =====
+%Bundle-BundleTWCM-min.html: The page skips a heading level: <h4> '病患基本資料' follows <h2> 'Example Bundle: 中醫門診單'%
 
 # 引用HL7實驗性(experimental)定義，但本IG結構未標示為experimental，不影響驗證。
 % which is experimental, but this structure is not labeled as experimental%

@@ -13,7 +13,7 @@ Description: "此教育程度(ObservationEducationLevel TWCM)Profile說明本IG�
 * value[x] MS
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
-  * ^short = "[應填入門診病摘之教育程度Education]"
+  * ^short = "[應填入中醫門診單之教育程度Education]"
 * subject MS
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)

@@ -5,18 +5,18 @@ Title: "服務請求(ServiceRequest TWCM)"
 Description: "此服務請求(ServiceRequest TWCM)Profile說明本IG如何進一步定義FHIR的 ServiceRequest Resource以呈現中醫門診單服務請求的詳細資料。"
 * status = #completed
 * intent = #order
-* code ^short = "應填入門診病摘之檢驗檢查項目代碼。若檢驗項目為單一項，請填入該項目的對應代碼;若檢驗項目包含多個子項，請填入對應的大項代碼，使其涵蓋所有檢查內容。"
+* code ^short = "應填入中醫門診單之檢驗檢查項目代碼。若檢驗項目為單一項，請填入該項目的對應代碼;若檢驗項目包含多個子項，請填入對應的大項代碼，使其涵蓋所有檢查內容。"
   * coding contains
     TWLaboratoryCategory 0..1 MS
   * coding[TWLaboratoryCategory] from https://twcore.mohw.gov.tw/ig/twcore/ValueSet/laboratory-category-tw
   * coding[TWLaboratoryCategory] ^short = "此為中央健康保險署(NHI)維護之醫療服務給付項目-檢驗相關代碼，主要針對申報使用，更新頻率相對頻繁，可免費使用，可依情境選用此代碼。"
 * requester 1..1 MS
 * requester only Reference(organization-twcm)
-  * ^short = "[應填入門診病摘之檢驗檢查開單醫事機構代碼Order Hospital ID及檢驗檢查開單醫事機構名稱Order Hospital Name]"
+  * ^short = "[應填入中醫門診單之檢驗檢查開單醫事機構代碼Order Hospital ID及檢驗檢查開單醫事機構名稱Order Hospital Name]"
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * occurrenceDateTime 1..1 MS
-  * ^short = "[應填入門診病摘之檢驗檢查開單日期Exam Order Date]"
+  * ^short = "[應填入中醫門診單之檢驗檢查開單日期Exam Order Date]"
 * subject 1..1 MS
 * encounter 1..1 MS
 

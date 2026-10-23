@@ -8,16 +8,16 @@ Description: "此就醫事件(Encounter TWCM)Profile說明本IG如何進一步�
   * type 1..1 MS
   * type = http://terminology.hl7.org/CodeSystem/v2-0203#SNO
   * value 1..1 MS
-    * ^short = "唯一值。[應填入門診病摘之掛號序號Visit Seq]"
+    * ^short = "唯一值。[應填入中醫門診單之掛號序號Visit Seq]"
 * class MS
   * ^short = "病人來源(就醫類型)。[應填入中醫門診單之病人來源Patient Come From，如門診AMB、急診EMER、住院IMP等]"
 * class from http://terminology.hl7.org/ValueSet/v3-ActEncounterCode (extensible)
 * status = #finished
 * period 1..1 MS
   * start 1..1 MS
-    * ^short = "就醫的開始時間。[應填入門診病摘之掛號(報到)日期時間Visit Date]"
+    * ^short = "就醫的開始時間。[應填入中醫門診單之掛號(報到)日期時間Visit Date]"
 * serviceType 1..1 MS
-  * ^short = "服務的特定型別。[應填入門診病摘之看診科別Dpartment]"
+  * ^short = "服務的特定型別。[應填入中醫門診單之看診科別Dpartment]"
   * coding 1..1 MS
   * coding = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-nhi-tw#60
 * subject only Reference(patient-twcm)

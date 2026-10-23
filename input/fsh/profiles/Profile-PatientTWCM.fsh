@@ -32,18 +32,18 @@ Description: "此病人資料(Patient TWCM)Profile說明本IG如何進一步定�
 * telecom[email].use = #home
 
 
-* telecom[email] ^short = "應填入門診病摘之病人電子郵件地址Email"
-* telecom[homephone] ^short = "應填入門診病摘之住家電話Home TEL"
-* telecom[workphone] ^short = "應填入門診病摘之公司電話Office TEL"
-* telecom[mobilephone] ^short = "應填入門診病摘之行動電話Mobile"
+* telecom[email] ^short = "應填入中醫門診單之病人電子郵件地址Email"
+* telecom[homephone] ^short = "應填入中醫門診單之住家電話Home TEL"
+* telecom[workphone] ^short = "應填入中醫門診單之公司電話Office TEL"
+* telecom[mobilephone] ^short = "應填入中醫門診單之行動電話Mobile"
 
 
 
 /* telecom[email].system = #email
-* telecom[email].value ^short = "應填入門診病摘之病人電子郵件地址Email"*/
+* telecom[email].value ^short = "應填入中醫門診單之病人電子郵件地址Email"*/
 
 
-* address ^short = "應填入門診病摘之病人戶籍地址或病人聯絡地址。"
+* address ^short = "應填入中醫門診單之病人戶籍地址或病人聯絡地址。"
 * address ^slicing.discriminator.type = #pattern
 * address ^slicing.discriminator.path = "use"
 * address ^slicing.rules = #open
@@ -74,9 +74,9 @@ Description: "此病人資料(Patient TWCM)Profile說明本IG如何進一步定�
 * contact.telecom[workphone].use = #work         
 * contact.telecom[mobilephone].use = #mobile
 
-* contact.telecom[homephone] ^short = "應填入門診病摘之緊急聯絡人住宅電話Em Home TEL"
-* contact.telecom[workphone] ^short = "應填入門診病摘之緊急聯絡人公司電話Em Office TEL"
-* contact.telecom[mobilephone] ^short = "應填入門診病摘之緊急聯絡人行動電話Em Mobile"
+* contact.telecom[homephone] ^short = "應填入中醫門診單之緊急聯絡人住宅電話Em Home TEL"
+* contact.telecom[workphone] ^short = "應填入中醫門診單之緊急聯絡人公司電話Em Office TEL"
+* contact.telecom[mobilephone] ^short = "應填入中醫門診單之緊急聯絡人行動電話Em Mobile"
 
 
 * identifier[medicalRecord]

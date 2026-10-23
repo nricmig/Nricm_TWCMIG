@@ -166,7 +166,7 @@ Usage: #example
 		<b>文件敏感性</b>：normal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v3-Confidentiality/\">v3 Code System Confidentiality</a>#N) </span>
 	</p>
 
-    <p><b>病摘小節內容：</b></p>
+    <p><b>中醫門診單小節內容：</b></p>
     <blockquote>
 
     <p>

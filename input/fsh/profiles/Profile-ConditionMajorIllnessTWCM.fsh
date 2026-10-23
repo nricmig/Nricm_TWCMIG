@@ -8,7 +8,7 @@ Description: "此重大傷病(ConditionMajorIllness TWCM)Profile說明本IG如�
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * code 1..1 MS
-  * ^short = "病情、問題或診斷的識別。[應填入門診病摘之重大傷病代碼(code)與重大傷病名稱(display)]"
+  * ^short = "病情、問題或診斷的識別。[應填入中醫門診單之重大傷病代碼(code)與重大傷病名稱(display)]"
   * coding 1..1  MS
     * system 1..1 MS
     * code 1..1 MS
