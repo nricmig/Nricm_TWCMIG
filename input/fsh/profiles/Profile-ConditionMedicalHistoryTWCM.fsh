@@ -29,7 +29,7 @@ Description: "此病史(ConditionMedicalHistory TWCM)Profile說明本IG如何進
 * encounter MS
 * encounter only Reference(encounter-twcm)
 * code 1..1 MS
-  * ^short = "病情、問題或診斷的識別。[應填入門診病摘之過去病史History、現病史Present Illness、小兒病史、產科史Obstetric History、月經史Menstrual History或男科史]"
+  * ^short = "病情、問題或診斷的識別。[應填入中醫門診單之過去病史History、現病史Present Illness、小兒病史、產科史Obstetric History、月經史Menstrual History或男科史]"
 * code from twcm-medicalhistory-finding (extensible)
 * code.coding contains twcmClinicalFinding 0..* MS
 * code.coding[twcmClinicalFinding] ^patternCoding.system = "https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding"

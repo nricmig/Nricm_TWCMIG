@@ -7,7 +7,7 @@ Description: "此病人主訴(ConditionChiefComplaint TWCM)Profile說明本IG如
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * note 1..1 MS
-  * ^short = "關於此Condition的附加資訊。[應填入門診病摘之病人主訴Chief Complain]"
+  * ^short = "關於此Condition的附加資訊。[應填入中醫門診單之病人主訴Chief Complain]"
 * subject MS
 * encounter MS
 

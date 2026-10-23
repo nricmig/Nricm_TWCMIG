@@ -11,21 +11,21 @@ Description: "此中醫-處置或手術(Procedure TWCM)Profile說明本IG如何�
 * subject 1..1 MS
 * subject only Reference(patient-twcm)
 * code 1..1 MS
-  * ^short = "處置的識別碼。[應填入門診病摘之處置健保碼(Code)與處置說明(display)]"
+  * ^short = "處置的識別碼。[應填入中醫門診單之處置健保碼(Code)與處置說明(display)]"
   * coding 1..1 MS
     * code 1..1 MS
-    * code ^short = "[應填入門診病摘之處置健保碼]"
+    * code ^short = "[應填入中醫門診單之處置健保碼]"
     * display 1..1 MS
-    * display ^short = "[應填入門診病摘之處置說明]"
+    * display ^short = "[應填入中醫門診單之處置說明]"
 * bodySite 1..* MS
   * coding 0..1 MS
   * coding from twcm-treatmentregion (required)
   * extension contains $approach named approach 1..1 MS
 * bodySite.extension[approach] ^short = "[應填入中醫門診單之針灸穴位/傷科手法/脫臼整復處理方法]"
 * bodySite.extension contains $description named description 0..1 MS
-* bodySite.extension[description] ^short = "[應填入中醫門診病摘之針灸補充說明/傷科補充說明/脫臼整復補充說明]"
+* bodySite.extension[description] ^short = "[應填入中醫門診單之針灸補充說明/傷科補充說明/脫臼整復補充說明]"
 * bodySite.text 1..1 MS
-* bodySite.text ^short = "[應填入門診病摘之針灸部位/傷科部位/脫臼整復部位]"
+* bodySite.text ^short = "[應填入中醫門診單之針灸部位/傷科部位/脫臼整復部位]"
 
 
 * basedOn only Reference(careplan-twcm)

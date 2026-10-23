@@ -20,7 +20,7 @@ Description: "此生命徵象(ObservationVitalSign TWCM)Profile說明本IG如何
 * effectiveDateTime 1..1 MS
 * hasMember MS
 * hasMember only Reference(ObservationBloodPressureTWCM or ObservationHeartRateTWCM or ObservationBodyHeightTWCM or ObservationBodyWeightTWCM or ObservationBodyTempTWCM)
-* hasMember ^short = "組成之（部分）檢驗檢查的檢驗結果。[應填入門診病摘之收縮壓、舒張壓、病人脈搏、病人身高、病人體重、病人體溫，可選填。]"
+* hasMember ^short = "組成之（部分）檢驗檢查的檢驗結果。[應填入中醫門診單之收縮壓、舒張壓、病人脈搏、病人身高、病人體重、病人體溫，可選填。]"
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)
@@ -57,7 +57,7 @@ Description: "此脈搏(ObservationHeartRate TWCM) Profile說明本IG如何進�
 * code.coding = http://loinc.org#8867-4 "Heart rate"
 * value[x] only Quantity
 * valueQuantity 1.. MS
-  * ^short = "[應填入門診病摘之病人脈博Pulse]"
+  * ^short = "[應填入中醫門診單之病人脈博Pulse]"
 * subject 1..1 MS
 * encounter MS
 * effectiveDateTime 1..1 MS
@@ -81,7 +81,7 @@ Description: "此身高(ObservationBodyHeight TWCM) Profile說明本IG如何進�
 * code.coding = http://loinc.org#8302-2 "Body height"
 * value[x] only Quantity
 * valueQuantity 1.. MS
-  * ^short = "[應填入門診病摘之病人身高Height及病人身高單位Height Unit]"
+  * ^short = "[應填入中醫門診單之病人身高Height及病人身高單位Height Unit]"
 * subject 1..1 MS
 * encounter MS
 * effectiveDateTime 1..1 MS
@@ -106,7 +106,7 @@ Description: "此體重(ObservationBodyWeight TWCM) Profile說明本IG如何進�
 * code.coding = http://loinc.org#29463-7 "Body weight"
 * value[x] only Quantity
 * valueQuantity 1.. MS
-  * ^short = "[應填入門診病摘之病人體重Weight及病人體重單位Weight Unit]"
+  * ^short = "[應填入中醫門診單之病人體重Weight及病人體重單位Weight Unit]"
 * subject 1..1 MS
 * encounter MS
 * effectiveDateTime 1..1 MS
@@ -131,7 +131,7 @@ Description: "此體溫(ObservationBodyTemp TWCM) Profile說明本IG如何進一
 * code.coding = http://loinc.org#8310-5 "Body temperature"
 * value[x] only Quantity
 * valueQuantity 1.. MS
-  * ^short = "[應填入門診病摘之病人體溫Body Temperature]"
+  * ^short = "[應填入中醫門診單之病人體溫Body Temperature]"
 
 * subject 1..1 MS
 * encounter MS

@@ -8,7 +8,7 @@ Description: "處置類別描述"
 * ^context.type = #element
 * ^context.expression = "Procedure.bodySite"
 * value[x] only CodeableConcept
-  * ^short = "應填入中醫門診病摘之針灸補充說明/傷科補充說明/脫臼整復補充說明"
+  * ^short = "應填入中醫門診單之針灸補充說明/傷科補充說明/脫臼整復補充說明"
 
 
 * . ^short = "處置類別描述"

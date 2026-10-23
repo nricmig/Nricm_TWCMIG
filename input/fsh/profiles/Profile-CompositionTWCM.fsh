@@ -132,7 +132,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[PhysicalFindings].title 1..1
 * section[PhysicalFindings].code 1..1
 * section[PhysicalFindings].code = http://loinc.org#29545-1 "Physical findings note"
-* section[PhysicalFindings].entry 1..2
+* section[PhysicalFindings].entry 0..2
 * section[PhysicalFindings].entry ^short = "病人脈象（有記錄左右手時，左、右手各一筆）"
 * section[PhysicalFindings].entry only Reference(observationpulsecondition-twcm)
   * reference 1..1

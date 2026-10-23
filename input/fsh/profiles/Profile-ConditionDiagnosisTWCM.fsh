@@ -8,7 +8,7 @@ Description: "此診斷(ConditionDiagnosis TWCM)Profile說明本IG如何進一�
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * code 1..1
-  * ^short = "病情、問題或診斷的識別。[應填入門診病摘之診斷代碼(code)與診斷名稱(display)]"
+  * ^short = "病情、問題或診斷的識別。[應填入中醫門診單之診斷代碼(code)與診斷名稱(display)]"
   * coding 1..1 MS
     * system 1..1 MS
     * code 1..1 MS

@@ -4,7 +4,7 @@ Id: bundle-twcm
 Title: "中醫-資料交換基本單位(Bundle TWCM)"
 Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交換基本單位-文件（TW Core Bundle Document）Profile以呈現中醫門診單的詳細資料。"
 * identifier 1..1
-* identifier ^short = "一組Resources的資料交換基本單位(Bundle)的識別碼。[應填入門診病摘之HIS病歷唯一碼HIS DocPK]"
+* identifier ^short = "一組Resources的資料交換基本單位(Bundle)的識別碼。[應填入中醫門診單之HIS病歷唯一碼HIS DocPK]"
 
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"

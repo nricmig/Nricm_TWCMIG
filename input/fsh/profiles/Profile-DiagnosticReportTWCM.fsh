@@ -8,7 +8,7 @@ Description: "此診斷報告(DiagnosticReport TWCM)Profile說明本IG如何進�
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
 * effectiveDateTime 1..1 MS
-* effectiveDateTime ^short = "[應填入門診病摘之報告日期Verify Date]"
+* effectiveDateTime ^short = "[應填入中醫門診單之報告日期Verify Date]"
 
 
 * basedOn only Reference(servicerequest-twcm)
