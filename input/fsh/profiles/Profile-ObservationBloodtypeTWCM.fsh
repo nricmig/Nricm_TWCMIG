@@ -10,7 +10,7 @@ Description: "此血型(ObservationBloodtype TWCM)Profile說明本IG如何進一
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
   * ^short = "[應填入中醫門診單之自述ABO血型Blood Type，如A、B、O、AB；不含Rh血型]"
-* valueCodeableConcept from http://hl7.org/fhir/uv/ips/ValueSet/results-blood-group-uv-ips|2.0.1 (extensible)
+* valueCodeableConcept from http://hl7.org/fhir/uv/ips/ValueSet/results-blood-group-uv-ips|2.0.0 (extensible)
 * subject 1..1 MS
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
