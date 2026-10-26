@@ -22,9 +22,6 @@
 % The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated%
 % The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated%
 
-# IPS 2.0.1版套件之網站路徑誤植為本機路徑，造成連結失效，故使用2.0.0版，兩版本血型值集內容相同，不影響驗證。
-% The ImplementationGuide uses package hl7.fhir.uv.ips#2.0.0%
-
 # 建議使用OID，但目前暫無需求，不影響驗證。
 % have an OID%
 
