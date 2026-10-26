@@ -7,7 +7,7 @@ Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active "Active"
 * category.coding[conditionCategory] = http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * category.coding[recordType] = $SCT#27624003 "Chronic disease (disorder)"
-* code.coding = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw#I10 "本態性(原發性)高血壓"
+* code.coding[icd10-cm-2023] = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw#I10 "本態性(原發性)高血壓"
 * code.text = "高血壓，規則服藥控制中"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
