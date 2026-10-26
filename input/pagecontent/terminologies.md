@@ -31,6 +31,7 @@
 <li><a href="ValueSet-twcm-medicalhistory-category.html">中醫病史分類值集</a></li>
 <li><a href="ValueSet-twcm-medicalhistory-recordtype.html">病史紀錄類型值集</a></li>
 <li><a href="ValueSet-twcm-chronic-disease.html">慢性疾病值集</a></li>
+<li><a href="ValueSet-twcm-bloodtype.html">血型值集</a></li>
 <li><a href="ValueSet-twcm-medicalhistory-finding.html">病史臨床表現值集</a></li>
 <li><a href="ValueSet-twcm-medicalhistory-clinicalfinding.html">病史中醫臨床表現值集</a></li>
 <li><a href="ValueSet-twcm-menstrualhistory.html">月經史值集</a></li>
