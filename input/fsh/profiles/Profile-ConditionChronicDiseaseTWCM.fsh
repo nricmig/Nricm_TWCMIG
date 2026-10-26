@@ -19,7 +19,8 @@ Description: "此慢性疾病(ConditionChronicDisease TWCM)Profile說明本IG如
 * code 1..1 MS
   * ^short = "[應填入中醫門診單之慢性疾病代碼(code)與名稱(display)，完整描述可填於text]"
   * coding 1..* MS
-  * coding from twcm-chronic-disease (required)
+  * coding[icd10-cm-2023] 1..1 MS
+  * coding[icd10-cm-2023] from twcm-chronic-disease (required)
     * system 1..1 MS
     * code 1..1 MS
     * display 1..1 MS
