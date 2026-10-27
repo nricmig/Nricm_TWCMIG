@@ -21,7 +21,7 @@ Description: "此病人證型(ConditionSyndromeType TWCM)Profile說明本IG如�
 * code.coding contains icd11TM 0..* MS
 * code.coding[icd11TM] ^patternCoding.system = "http://id.who.int/icd/release/11/mms"
 * code.coding[icd11TM] from twcm-syndrometype (required)
-* code.coding[icd11TM] ^short = "[應填入ICD-11第26章傳統醫學證候代碼]"
+* code.coding[icd11TM] ^short = "[應填入ICD-11第26章傳統醫學證型代碼]"
 
 * subject only Reference(patient-twcm)
 * encounter only Reference(encounter-twcm)
