@@ -2,7 +2,7 @@ Alias: $SCT = http://snomed.info/sct
 Instance: ConditionSyndromeTypeTWCM-textonly
 InstanceOf: conditionsyndrometype-twcm
 Title: "病人證型範例(僅文字,無對應代碼)"
-Description: "依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型的範例。示範當來源文字無法對應到ICD-11傳統醫學證候代碼時,code僅填text、不填coding的寫法。"
+Description: "依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型的範例。示範當來源文字無法對應到ICD-11傳統醫學證型代碼時,code僅填text、不填coding的寫法。"
 Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active "Active"
 * category.coding[conditionCategory] = http://terminology.hl7.org/CodeSystem/condition-category#encounter-diagnosis "Encounter Diagnosis"

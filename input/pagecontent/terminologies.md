@@ -62,6 +62,6 @@
 
 ### 概念對應表
 <ul>
-<li><a href="ConceptMap-twcm-whoictm-to-icd11.html">WHO傳統醫學國際標準術語(中醫)證候與ICD-11對應表</a></li>
+<li><a href="ConceptMap-twcm-whoictm-to-icd11.html">WHO傳統醫學國際標準術語(中醫)證型與ICD-11對應表</a></li>
 </ul>
 ---

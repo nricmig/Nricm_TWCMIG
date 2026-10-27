@@ -3,7 +3,7 @@ Alias: $ICD11 = http://id.who.int/icd/release/11/mms
 ValueSet: TWCMSyndromeType
 Id: twcm-syndrometype
 Title: "病人證型值集"
-Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證」章節中之證候分類，代碼引用自WHO官方ICD-11 MMS(Mortality and Morbidity Statistics)，網址為[http://id.who.int/icd/release/11/mms](http://id.who.int/icd/release/11/mms)；中文名稱依ICD-11第26章中文譯本(WHO試用版草稿，2022年5月3日製備)，除移除「(TM1)」後綴外，均依原文收錄。"
+Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證」章節中之證型分類，代碼引用自WHO官方ICD-11 MMS(Mortality and Morbidity Statistics)，網址為[http://id.who.int/icd/release/11/mms](http://id.who.int/icd/release/11/mms)；中文名稱依ICD-11第26章中文譯本(WHO試用版草稿，2022年5月3日製備)，除移除「(TM1)」後綴外，均依原文收錄。"
 * ^status = #active
 * ^experimental = false
 * $ICD11#SE70 "Yang pattern (TM1)"
