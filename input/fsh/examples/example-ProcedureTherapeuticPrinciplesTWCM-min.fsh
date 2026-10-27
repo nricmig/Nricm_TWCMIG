@@ -6,8 +6,8 @@ Description: "依據病人治則(ProcedureTherapeuticPrinciples TWCM)Profile呈�
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
 * category = $SCT#314705003 "Treatment plan given (finding)"
-* code.coding[0] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2267 "虛則補之"
-* code.coding[1] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2259 "扶正固本；扶正培本"
+* code.coding[0] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#2267 "虛則補之"
+* code.coding[1] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#2259 "扶正固本；扶正培本"
 * code.text = "虛則補之，扶正固本"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)

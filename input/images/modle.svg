@@ -1354,19 +1354,19 @@
 <rect x="770" y="8880" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
 <text x="777.0" y="8896.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">component:cun.valueCodeableConcept</text>
 <rect x="1150" y="8882" width="140" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="8896.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = WGM2#884 寸脈</text>
+<text x="1157.0" y="8896.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = 884 寸脈</text>
 <rect x="1296" y="8882" width="88" height="20" fill="#FFF2CC" stroke="#FFF2CC"/>
 <text x="1301.0" y="8896.0" font-size="12" font-weight="bold" text-anchor="start" fill="#1F6FB2">專案自訂代碼</text>
 <rect x="770" y="8910" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
 <text x="777.0" y="8926.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">component:guan.valueCodeableConcept</text>
 <rect x="1150" y="8912" width="140" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="8926.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = WGM2#885 關脈</text>
+<text x="1157.0" y="8926.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = 885 關脈</text>
 <rect x="1296" y="8912" width="88" height="20" fill="#FFF2CC" stroke="#FFF2CC"/>
 <text x="1301.0" y="8926.0" font-size="12" font-weight="bold" text-anchor="start" fill="#1F6FB2">專案自訂代碼</text>
 <rect x="770" y="8940" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
 <text x="777.0" y="8956.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">component:chi.valueCodeableConcept</text>
 <rect x="1150" y="8942" width="140" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="8956.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = WGM2#886 尺脈</text>
+<text x="1157.0" y="8956.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = 886 尺脈</text>
 <rect x="1296" y="8942" width="88" height="20" fill="#FFF2CC" stroke="#FFF2CC"/>
 <text x="1301.0" y="8956.0" font-size="12" font-weight="bold" text-anchor="start" fill="#1F6FB2">專案自訂代碼</text>
 <rect x="770" y="8970" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
