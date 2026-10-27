@@ -29,11 +29,11 @@ Description: "此病人脈象(ObservationPulseCondition TWCM)Profile說明本IG�
     cun 0..* MS and
     guan 0..* MS and
     chi 0..* MS
-* component[cun].code = WHOICTMTerminology#WGM2#884 "寸脈"
+* component[cun].code = WHOICTMTerminology#884 "寸脈"
 * component[cun] ^short = "寸部脈象"
-* component[guan].code = WHOICTMTerminology#WGM2#885 "關脈"
+* component[guan].code = WHOICTMTerminology#885 "關脈"
 * component[guan] ^short = "關部脈象"
-* component[chi].code = WHOICTMTerminology#WGM2#886 "尺脈"
+* component[chi].code = WHOICTMTerminology#886 "尺脈"
 * component[chi] ^short = "尺部脈象"
 * component[cun].value[x] 1..1 MS
 * component[cun].value[x] only CodeableConcept

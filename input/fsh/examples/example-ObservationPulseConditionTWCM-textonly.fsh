@@ -10,7 +10,7 @@ Usage: #example
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * bodySite = $SCT#9736006 "Structure of right wrist region"
-* component[cun].code = WHOICTMTerminology#WGM2#884 "寸脈"
+* component[cun].code = WHOICTMTerminology#884 "寸脈"
 * component[cun].valueCodeableConcept.text = "浮而無力，兼有結代"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

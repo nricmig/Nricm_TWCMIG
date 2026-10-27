@@ -8,7 +8,7 @@
 <li><a href="CodeSystem-who-ictm-terminology.html">WHO傳統醫學國際標準術語(中醫)</a></li>
 <li><a href="CodeSystem-twcm-acupuncturepoint.html">中醫針灸經絡穴位代碼</a></li>
 <li><a href="CodeSystem-twcm-treatmentregion.html">針灸傷科脫臼整復部位</a></li>
-<li><a href="https://icd.who.int/browse/2026-01/mms/zh">ICD-11 MMS(WHO官方代碼系統，http://id.who.int/icd/release/11/mms)</a></li>
+<li><a href="https://icd.who.int/browse/2026-01/mms/zh">ICD-11 MMS</a>(WHO官方代碼系統，<code>http&#58;//id.who.int/icd/release/11/mms</code>)</li>
 <li><a href="CodeSystem-twcm-clinicalfinding.html">中醫臨床表現詞彙</a></li>
 <li><a href="CodeSystem-twcm-fourdiagnosis-category.html">中醫四診分類</a></li>
 <li><a href="CodeSystem-twcm-medicalhistory-category.html">中醫病史分類</a></li>
@@ -58,5 +58,10 @@
 <li><a href="ValueSet-twcm-inquiry-female.html">問婦女值集</a></li>
 <li><a href="ValueSet-twcm-inquiry-male.html">問男性值集</a></li>
 <li><a href="ValueSet-twcm-palpation-pressing.html">按診值集</a></li>
+</ul>
+
+### 概念對應表
+<ul>
+<li><a href="ConceptMap-twcm-whoictm-to-icd11.html">WHO傳統醫學國際標準術語(中醫)證候與ICD-11對應表</a></li>
 </ul>
 ---

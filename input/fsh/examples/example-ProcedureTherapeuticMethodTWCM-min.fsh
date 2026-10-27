@@ -5,8 +5,8 @@ Description: "依據病人治法(ProcedureTherapeuticMethod TWCM)Profile呈現�
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
 * category = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-therapeutic-category#therapeutic-method "治法"
-* code.coding[0] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2429 "補氣；益氣；扶正益氣；扶正補氣"
-* code.coding[1] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#WGM2#2462 "補益氣血；補氣養血"
+* code.coding[0] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#2429 "補氣；益氣；扶正益氣；扶正補氣"
+* code.coding[1] = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#2462 "補益氣血；補氣養血"
 * code.text = "補氣調中,補氣活血"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)
