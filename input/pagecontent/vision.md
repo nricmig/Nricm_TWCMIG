@@ -2,7 +2,7 @@
 <div style="padding-left: 10px;">
 中醫門診單以Bundle.type = document 之<a href="StructureDefinition-bundle-twcm.html">中醫-資料交換基本單位(Bundle TWCM)</a>打包，主要資料集為<a href="StructureDefinition-composition-twcm.html">中醫-臨床文件架構(Composition TWCM)</a>，再由Composition.section.entry參照以下資料(相關對應表可以參照<a href="StructureDefinition-TraditionalChineseMedicineClinicRecordModel-mappings.html">中醫門診單之資料模型</a>中的Mappings)：
 <ul>
-<li>病人資料-Patient TWCM、就醫事件-Encounter TWCM、醫事機構-Organization TWCM、醫師基本資料-Practitioner TWCM</li>
+<li>病人資料-Patient TWCM、就醫事件-Encounter TWCM、醫事機構-Organization TWCM、健康照護服務提供人員資料-Practitioner TWCM</li>
 <li>過敏或不耐症-AllergyIntolerance TWCM、病史-ConditionMedicalHistory TWCM、慢性疾病-ConditionChronicDisease TWCM、家族史-FamilyMemberHistory TWCM</li>
 <li>職業-ObservationOccupation TWCM、教育程度-ObservationEducationLevel TWCM、血型-ObservationBloodtype TWCM</li>
 <li>生命徵象-ObservationVitalSigns TWCM（血壓、脈搏、身高、體重、體溫）、病人主訴-ConditionChiefComplaint TWCM</li>

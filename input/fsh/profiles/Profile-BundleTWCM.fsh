@@ -110,7 +110,7 @@ Description: "此Profile說明本IG如何進一步定義臺灣核心-資料交�
 * entry[ConditionDiagnosis].resource only conditiondiagnosis-twcm
 
 * entry[Practitioner].resource 1..1
-  * ^short = "醫師基本資料"
+  * ^short = "健康照護服務提供人員資料"
 * entry[Practitioner].resource only practitioner-twcm
 
 * entry[CarePlan].resource 1..1

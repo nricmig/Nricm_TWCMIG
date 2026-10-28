@@ -91,3 +91,7 @@ A definition for CodeSystem 'https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd
 
 # ICD-11 MMS代碼系統內容未隨套件提供(content = not-present)，validator無法逐碼檢查概念對應表之ICD-11目標代碼，代碼已與病人證型值集比對，不影響驗證。
 %Target Code System http://id.who.int/icd/release/11/mms doesn't have all content (content = not-present), so the target codes cannot be checked%
+
+# 提醒regex、elementdefinition-maxValueSet擴充已被HL7標示為棄用(deprecated)；此二擴充來自繼承之TW Core IG Profile(Patient、AllergyIntolerance)，非本IG定義，不影響驗證。
+% is deprecated with the note: 'Use additionalBinding extension or element instead'%
+% is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath%
