@@ -15,7 +15,7 @@ Description: "此醫師簽章(Provenance TWCM)Profile說明本IG如何進一步�
   * who 1..1 MS
   * onBehalfOf only Reference(organization-twcm)
     * ^short = "簽章醫事人員所屬之醫事機構(依TW Core規範，簽章者為醫事人員時必填)"
-* signature 1..* MS
+* signature 1..1 MS
   * ^short = "[應填入中醫門診單之醫師簽章Doctor Sign]"
   * type 1..* MS
   * when 1..1 MS

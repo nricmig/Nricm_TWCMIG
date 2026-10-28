@@ -40,7 +40,7 @@ Description: "此中醫-藥品請求(MedicationRequest TWCM)Profile說明本IG�
   * quantity 1..1 MS
     * ^short = "每次配藥的藥品（數）量。[應填入於中醫門診單之藥品總劑量Total Amount]"
 
-* extension contains $packageNumber named packageNumber 1..1 MS
+* extension contains $packageNumber named packageNumber 0..1 MS
   * ^short = "[應填入中醫門診單之包數Package Number]"
 
 
