@@ -4,7 +4,7 @@ Title: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料模型"
 Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料模型"
 * ^version = "0.1.0"
 * documentInfo 1..1 BackboneElement "病歷文件資料"
-  * hisdocPK 1..1 Identifier "HIS病歷唯一碼"
+  * hisDocK 1..1 Identifier "HIS病歷唯一碼"
   * hospitalId 1..1 Identifier "醫事機構代碼"
   * hospitalName 1..1 string "醫事機構名稱"
   * sheetInfo 1..1 BackboneElement "病歷表單資料"
@@ -15,23 +15,23 @@ Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料�
     * docConfidentialityCode 1..1 code "文件敏感性"
     * createTime 1..1 dateTime "文件產生時間"
 * patientInfo 1..1 BackboneElement "病人基本資料"
-  * chatNo 1..1 Identifier "病歷號"
+  * chartNo 1..1 Identifier "病歷號"
   * patientName 1..1 HumanName "病人姓名"
-  * birthDate 0..1 date "出生日期"
+  * birthday 0..1 date "出生日期"
   * visitIdentity 1..1 CodeableConcept "就醫身份"
   * gender 1..1 code "性別"
-  * personalIDNumber 1..1 Identifier "身分證號"
+  * patientId 1..1 Identifier "身分證號"
   * contactInfo 0..1 BackboneElement "聯絡資訊"
     * homeTel 0..1 ContactPoint "住宅電話"
     * officeTel 0..1 ContactPoint "公司電話"
     * mobile 0..1 ContactPoint "行動電話"
-  * bloodtype 0..1 	CodeableConcept "自述血型"
+  * bloodType 0..1 	CodeableConcept "自述血型"
   * marriageStatus 0..1 CodeableConcept	 "婚姻"
   * occupation 0..1 CodeableConcept	"職業"
   * addressInfo 0..1 BackboneElement "病人相關住址"
     * originalAddressInfo 0..1 BackboneElement "病人戶籍地址資料"
       * originalAddressZipCode 0..1 code "病人戶籍地址郵遞區號"
-      * originalAddresLocation 0..1 Address "病人戶籍地址"
+      * originalAddressLocation 0..1 Address "病人戶籍地址"
     * contactAddressInfo 0..1 BackboneElement "病人聯絡地址資料"
       * contactAddressZipCode 0..1 code "病人聯絡地址郵遞區號"
       * contactAddressLocation 0..1 Address "病人聯絡地址"
@@ -41,7 +41,7 @@ Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料�
   * allergy 0..1 string "過敏記錄"
   * emergencyContactInfo 0..* BackboneElement "緊急聯絡人相關資訊"
     * emName 0..1 HumanName "緊急聯絡人姓名"
-    * emrelationshp 0..1 code "緊急聯絡人與病人關係"
+    * emRelationship 0..1 code "緊急聯絡人與病人關係"
     * emergencyContactWay 0..1 BackboneElement "緊急聯絡人聯絡方式"
       * emHomeTel 0..1 ContactPoint "緊急聯絡人住宅電話"
       * emOfficeTel 0..1 ContactPoint "緊急聯絡人公司電話"
@@ -57,13 +57,13 @@ Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料�
   * doctorName 1..1 HumanName "看診醫師姓名"
   * patientBloodPressure 0..1 BackboneElement "病人血壓"
     * systolicPressure 0..1 CodeableConcept "收縮壓"
-    * diastoicPressure 0..1 CodeableConcept "舒張壓"
+    * diastolicPressure 0..1 CodeableConcept "舒張壓"
   * pulse 0..1 CodeableConcept "病人脈搏"
   * height 0..1 CodeableConcept "病人身高"
   * heightUnit 0..1 code "病人身高單位"
   * weight 0..1 CodeableConcept "病人體重"
   * weightUnit 0..1 code "病人體重單位"
-  * bodytemperature 0..1 CodeableConcept "病人體溫"
+  * bodyTemperature 0..1 CodeableConcept "病人體溫"
   * chiefComplain 1..1 Annotation "病人主訴"
   * presentIllness 0..* CodeableConcept "現病史"
   * familyHistory 0..* Annotation "家族史"
@@ -91,15 +91,15 @@ Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料�
       * majorInjuryCode 1..1 code "重大傷病代碼"
       * majorInjuryName 1..1 string "重大傷病名稱"
   * diagnosisContent 1..* BackboneElement "診斷代碼與名稱"
-    * diagcode 1..1 code "診斷代碼"
+    * diagCode 1..1 code "診斷代碼"
     * diagName 1..1 string "診斷名稱"
-  * treatmenInfo 0..* BackboneElement "處置相關內容"
-    * treatmentNHICCode 0..1 code "處置健保碼"
+  * treatmentInfo 0..* BackboneElement "處置相關內容"
+    * treatmentNHICode 0..1 code "處置健保碼"
     * treatmentDescription 0..1 string "處置說明"
     * acupunctureInfo 0..* BackboneElement "針灸處置"
       * acupunctureRegionNHICode 1..* code "針灸部位"
       * acupuncturePointName 1..1 Annotation "針灸穴位"
-      * acpuncturePointComment 0..1 string "針灸補充說明"
+      * acupuncturePointComment 0..1 string "針灸補充說明"
     * contusionInfo 0..* BackboneElement "傷科處置"
       * contusionRegionNHICode 1..1 code "傷科部位"
       * contusionTechnique 1..1 Annotation "傷科手法"
@@ -111,7 +111,7 @@ Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料�
   * doctorAdvise 0..1 Annotation "醫師囑咐"
   * doctorSign 1..1 Signature "醫師簽章"
 * drugInfo 0..* BackboneElement "用藥紀錄相關內容"
-  * drugNHICCode 0..1 code "藥品健保碼"
+  * drugNHICode 0..1 code "藥品健保碼"
   * drugCode 1..1 code "藥品藥品碼"
   * drugName 1..1 string "藥品商品名"
   * dose 1..1 decimal "用量"
@@ -124,7 +124,7 @@ Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料�
   * totalAmount 1..1 decimal "藥品總劑量"
   * prescriptionMethod 0..1 string "藥品調劑方式"
   * packageNumber 0..1 integer "包數"
-* examiationInfo 0..* BackboneElement "檢驗檢查相關內容"
+* examinationInfo 0..* BackboneElement "檢驗檢查相關內容"
   * examOrderDate 0..1 dateTime "檢驗檢查開單日期"
   * orderHospitalID 1..1 code "檢驗檢查開單醫事機構代碼"
   * orderHospitalName 1..1 string "檢驗檢查開單醫事機構名稱"
@@ -133,6 +133,7 @@ Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料�
   * examDate 1..1 dateTime "檢查日期"
   * verifyDate 0..1 dateTime "報告日期"
   * testNHICode 0..1 code "健保檢驗檢查代碼"
+  * testCode 1..1 code "院內檢驗檢查代碼"
   * testName 1..1 string "檢驗檢查名稱"
   * testResult 0..1 string "檢驗檢查結果值"
   * resultUnit 0..1 string "檢驗檢查結果單位"
@@ -154,7 +155,7 @@ Title: "Mapping to BundleTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/bundle-twcm"
 * -> "BundleTWCM"
-* documentInfo.hisdocPK -> "BundleTWCM.identifier(HIS病歷唯一碼)"
+* documentInfo.hisDocK -> "BundleTWCM.identifier(HIS病歷唯一碼)"
 
 Mapping: TWCMClinicRecordToOrganizationTWCM
 Id: OrganizationTWCM
@@ -163,8 +164,8 @@ Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/organization-twcm"
 * documentInfo.hospitalId -> "OrganizationTWCM.identifier(醫事機構代碼)"
 * documentInfo.hospitalName -> "OrganizationTWCM.name(醫事機構名稱)"
-* examiationInfo.orderHospitalID -> "OrganizationTWCM.identifier(檢驗檢查開單醫事機構代碼)"
-* examiationInfo.orderHospitalName -> "OrganizationTWCM.name(檢驗檢查開單醫事機構名稱)"
+* examinationInfo.orderHospitalID -> "OrganizationTWCM.identifier(檢驗檢查開單醫事機構代碼)"
+* examinationInfo.orderHospitalName -> "OrganizationTWCM.name(檢驗檢查開單醫事機構名稱)"
 
 Mapping: TWCMClinicRecordToCompositionTWCM
 Id: CompositionTWCM
@@ -182,22 +183,22 @@ Id: PatientTWCM
 Title: "Mapping to PatientTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/patient-twcm"
-* patientInfo.chatNo -> "PatientTWCM.identifier:medicalRecord(病歷號)"
+* patientInfo.chartNo -> "PatientTWCM.identifier:medicalRecord(病歷號)"
 * patientInfo.patientName -> "PatientTWCM.name(病人姓名)"
-* patientInfo.birthDate -> "PatientTWCM.birthDate(出生日期)"
+* patientInfo.birthday -> "PatientTWCM.birthDate(出生日期)"
 * patientInfo.gender -> "PatientTWCM.gender(性別)"
-* patientInfo.personalIDNumber -> "PatientTWCM.identifier:idCardNumber(身分證號)"
+* patientInfo.patientId -> "PatientTWCM.identifier:idCardNumber(身分證號)"
 * patientInfo.contactInfo.homeTel -> "PatientTWCM.telecom.where(system='phone' and use='home').value(住宅電話)"
 * patientInfo.contactInfo.officeTel -> "PatientTWCM.telecom.where(system='phone' and use='work').value(公司電話)"
 * patientInfo.contactInfo.mobile -> "PatientTWCM.telecom.where(system='phone' and use='mobile').value(行動電話)"
 * patientInfo.marriageStatus -> "PatientTWCM.maritalStatus(婚姻)"
 * patientInfo.addressInfo.originalAddressInfo.originalAddressZipCode -> "PatientTWCM.address.postalCode.valueCodeableConceptTW.coding:PostalCode3(病人戶籍地址郵遞區號)"
-* patientInfo.addressInfo.originalAddressInfo.originalAddresLocation -> "PatientTWCM.address.where(use='home').value(病人戶籍地址)"
+* patientInfo.addressInfo.originalAddressInfo.originalAddressLocation -> "PatientTWCM.address.where(use='home').value(病人戶籍地址)"
 * patientInfo.addressInfo.contactAddressInfo.contactAddressZipCode -> "PatientTWCM.address.postalCode.valueCodeableConceptTW.coding:PostalCode3(病人聯絡地址郵遞區號)"
 * patientInfo.addressInfo.contactAddressInfo.contactAddressLocation -> "PatientTWCM.address.where(use='billing').value(病人聯絡地址)"
 * patientInfo.email -> "PatientTWCM.telecom.where(system ='email').value(病人電子郵件地址)"
 * patientInfo.emergencyContactInfo.emName -> "PatientTWCM.contact.name(緊急聯絡人姓名)"
-* patientInfo.emergencyContactInfo.emrelationshp -> "PatientTWCM.contact.relationship(緊急聯絡人與病人關係)"
+* patientInfo.emergencyContactInfo.emRelationship -> "PatientTWCM.contact.relationship(緊急聯絡人與病人關係)"
 * patientInfo.emergencyContactInfo.emergencyContactWay.emHomeTel -> "PatientTWCM.contact.telecom.where(system='phone' and use='home').value(緊急聯絡人住宅電話)"
 * patientInfo.emergencyContactInfo.emergencyContactWay.emOfficeTel -> "PatientTWCM.contact.telecom.where(system='phone' and use='work').value(緊急聯絡人公司電話)"
 * patientInfo.emergencyContactInfo.emergencyContactWay.emMobile -> "PatientTWCM.contact.telecom.where(system='phone' and use='mobile').value(緊急聯絡人行動電話)"
@@ -209,9 +210,9 @@ Title: "Mapping to EncounterTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/encounter-twcm"
 * patientInfo.visitIdentity -> "EncounterTWCM.extension.medicalIdentity.CodeableConcept(就醫身份)"
-* encounter.visitDate -> "EncounterTWCM.period(掛號(報到)日期時間)"
+* encounter.visitDate -> "EncounterTWCM.period.start(掛號(報到)日期時間)"
 * encounter.visitSeq -> "EncounterTWCM.identifier(掛號序號)"
-* encounter.department -> "EncounterTWCM.servicetype(看診科別)"
+* encounter.department -> "EncounterTWCM.serviceType(看診科別)"
 * encounter.patientComeFrom -> "EncounterTWCM.class(病人來源)"
 
 Mapping: TWCMClinicRecordToObservationBloodtypeTWCM
@@ -219,7 +220,7 @@ Id: ObservationBloodtypeTWCM
 Title: "Mapping to ObservationBloodtypeTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/observationbloodtype-twcm"
-* patientInfo.bloodtype -> "ObservationBloodtypeTWCM.where(code='883-9').valueCodeableConcept.text(自述血型)"
+* patientInfo.bloodType -> "ObservationBloodtypeTWCM.where(code='883-9').valueCodeableConcept.text(自述血型)"
 
 Mapping: TWCMClinicRecordToObservationOccupationTWCM
 Id: ObservationOccupationTWCM
@@ -275,13 +276,13 @@ Title: "Mapping to ObservationVitalSignTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/observationvitalsign-twcm"
 * encounter.patientBloodPressure.systolicPressure -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBloodPressureTWCM).where(code='8480-6').valueQuantity(收縮壓)"
-* encounter.patientBloodPressure.diastoicPressure -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBloodPressureTWCM).where(code='8462-4').valueQuantity(舒張壓)"
+* encounter.patientBloodPressure.diastolicPressure -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBloodPressureTWCM).where(code='8462-4').valueQuantity(舒張壓)"
 * encounter.pulse -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationHeartRateTWCM).where(code='8867-4').valueQuantity(病人脈搏)"
 * encounter.height -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyHeightTWCM).where(code='8302-2').valueQuantity(病人身高)"
-* encounter.heightUnit -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyHeightTWCM).where(code='8302-2').valueQuantity(病人身高單位)"
+* encounter.heightUnit -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyHeightTWCM).where(code='8302-2').valueQuantity.unit(病人身高單位)"
 * encounter.weight -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyWeightTWCM).where(code='29463-7').valueQuantity(病人體重)"
-* encounter.weightUnit -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyWeightTWCM).where(code='29463-7').valueQuantity(病人體重單位)"
-* encounter.bodytemperature -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyTempTWCM).where(code='8310-5').valueQuantity(病人體溫)"
+* encounter.weightUnit -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyWeightTWCM).where(code='29463-7').valueQuantity.unit(病人體重單位)"
+* encounter.bodyTemperature -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyTempTWCM).where(code='8310-5').valueQuantity(病人體溫)"
 
 Mapping: TWCMClinicRecordToConditionChiefComplaintTWCM
 Id: ConditionChiefComplaintTWCM
@@ -372,14 +373,14 @@ Title: "Mapping to ConditionMajorIllnessTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/conditionmajorillness-twcm"
 * encounter.majorInjuryInfo.majorInjuryContent.majorInjuryCode -> "ConditionMajorIllnessTWCM.code(重大傷病代碼)"
-* encounter.majorInjuryInfo.majorInjuryContent.majorInjuryName -> "ConditionMajorIllnessTWCM.code.display(重大傷病代碼)"
+* encounter.majorInjuryInfo.majorInjuryContent.majorInjuryName -> "ConditionMajorIllnessTWCM.code.display(重大傷病名稱)"
 
 Mapping: TWCMClinicRecordToConditionDiagnosisTWCM
 Id: ConditionDiagnosisTWCM
 Title: "Mapping to ConditionDiagnosisTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/conditiondiagnosis-twcm"
-* encounter.diagnosisContent.diagcode -> "ConditionDiagnosisTWCM.code(診斷代碼)"
+* encounter.diagnosisContent.diagCode -> "ConditionDiagnosisTWCM.code(診斷代碼)"
 * encounter.diagnosisContent.diagName -> "ConditionDiagnosisTWCM.code.display(診斷名稱)"
 
 Mapping: TWCMClinicRecordToProcedureTWCM
@@ -387,17 +388,17 @@ Id: ProcedureTWCM
 Title: "Mapping to ProcedureTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/procedure-twcm"
-* encounter.treatmenInfo.treatmentNHICCode -> "ProcedureTWCM.code(處置健保碼)"
-* encounter.treatmenInfo.treatmentDescription -> "ProcedureTWCM.code.display(處置說明)"
-* encounter.treatmenInfo.acupunctureInfo.acupunctureRegionNHICode -> "ProcedureTWCM.bodySite.text(針灸部位)"
-* encounter.treatmenInfo.acupunctureInfo.acupuncturePointName -> "ProcedureTWCM.bodySite.extension.approach.valueCodeableConcept(針灸穴位)"
-* encounter.treatmenInfo.acupunctureInfo.acpuncturePointComment -> "ProcedureTWCM.bodySite.extension.description.valueCodeableConcept(針灸補充說明)"
-* encounter.treatmenInfo.contusionInfo.contusionRegionNHICode -> "ProcedureTWCM.bodySite.text(傷科部位)"
-* encounter.treatmenInfo.contusionInfo.contusionTechnique -> "ProcedureTWCM.bodySite.extension.approach.valueCodeableConcept(傷科手法)"
-* encounter.treatmenInfo.contusionInfo.contusionComment -> "ProcedureTWCM.bodySite.extension.description.valueCodeableConcept(傷科補充說明)"
-* encounter.treatmenInfo.dislocationInfo.dislocationRegionNHICode -> "ProcedureTWCM.bodySite.text(脫臼整復部位)"
-* encounter.treatmenInfo.dislocationInfo.dislocationTreatmentMethod -> "ProcedureTWCM.bodySite.extension.approach.valueCodeableConcept(脫臼整復處理方法)"
-* encounter.treatmenInfo.dislocationInfo.dislocationComment -> "ProcedureTWCM.bodySite.extension.description.valueCodeableConcept(脫臼整復的補充說明)"
+* encounter.treatmentInfo.treatmentNHICode -> "ProcedureTWCM.code(處置健保碼)"
+* encounter.treatmentInfo.treatmentDescription -> "ProcedureTWCM.code.display(處置說明)"
+* encounter.treatmentInfo.acupunctureInfo.acupunctureRegionNHICode -> "ProcedureTWCM.bodySite.text(針灸部位)"
+* encounter.treatmentInfo.acupunctureInfo.acupuncturePointName -> "ProcedureTWCM.bodySite.extension.approach.valueCodeableConcept(針灸穴位)"
+* encounter.treatmentInfo.acupunctureInfo.acupuncturePointComment -> "ProcedureTWCM.bodySite.extension.description.valueCodeableConcept(針灸補充說明)"
+* encounter.treatmentInfo.contusionInfo.contusionRegionNHICode -> "ProcedureTWCM.bodySite.text(傷科部位)"
+* encounter.treatmentInfo.contusionInfo.contusionTechnique -> "ProcedureTWCM.bodySite.extension.approach.valueCodeableConcept(傷科手法)"
+* encounter.treatmentInfo.contusionInfo.contusionComment -> "ProcedureTWCM.bodySite.extension.description.valueCodeableConcept(傷科補充說明)"
+* encounter.treatmentInfo.dislocationInfo.dislocationRegionNHICode -> "ProcedureTWCM.bodySite.text(脫臼整復部位)"
+* encounter.treatmentInfo.dislocationInfo.dislocationTreatmentMethod -> "ProcedureTWCM.bodySite.extension.approach.valueCodeableConcept(脫臼整復處理方法)"
+* encounter.treatmentInfo.dislocationInfo.dislocationComment -> "ProcedureTWCM.bodySite.extension.description.valueCodeableConcept(脫臼整復的補充說明)"
 
 Mapping: TWCMClinicRecordToCarePlanTWCM
 Id: CarePlanTWCM
@@ -418,7 +419,7 @@ Id: MedicationTWCM
 Title: "Mapping to MedicationTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/medication-twcm"
-* drugInfo.drugNHICCode -> "MedicationTWCM.code(藥品健保碼)"
+* drugInfo.drugNHICode -> "MedicationTWCM.code(藥品健保碼)"
 * drugInfo.drugCode -> "MedicationTWCM.code(藥品藥品碼)"
 * drugInfo.drugName -> "MedicationTWCM.code.display(藥品商品名)"
 
@@ -436,42 +437,43 @@ Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/medicationreque
 * drugInfo.days -> "MedicationRequestTWCM.dosageInstruction.timing.repeat.duration(服藥天數)"
 * drugInfo.totalAmount -> "MedicationRequestTWCM.dispenseRequest.quantity(藥品總劑量)"
 * drugInfo.prescriptionMethod -> "MedicationRequestTWCM.note(藥品調劑方式)"
-* drugInfo.packageNumber -> "MedicationRequestTWCM.extension.packagenumber.valueInteger(包數)"
+* drugInfo.packageNumber -> "MedicationRequestTWCM.extension.packageNumber.valueInteger(包數)"
 
 Mapping: TWCMClinicRecordToServiceRequestTWCM
 Id: ServiceRequestTWCM
 Title: "Mapping to ServiceRequestTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/servicerequest-twcm"
-* examiationInfo.examOrderDate -> "ServiceRequestTWCM.occurrenceDateTime(檢驗檢查開單日期)"
+* examinationInfo.examOrderDate -> "ServiceRequestTWCM.occurrenceDateTime(檢驗檢查開單日期)"
 
 Mapping: TWCMClinicRecordToOrganizationInspectionTWCM
 Id: OrganizationInspectionTWCM
 Title: "Mapping to OrganizationInspectionTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/organizationinspection-twcm"
-* examiationInfo.examHospitalID -> "OrganizationInspectionTWCM.identifier(檢驗檢查執行醫事機構代碼)"
-* examiationInfo.examHospitalName -> "OrganizationInspectionTWCM.name(檢驗檢查執行醫事機構名稱)"
+* examinationInfo.examHospitalID -> "OrganizationInspectionTWCM.identifier(檢驗檢查執行醫事機構代碼)"
+* examinationInfo.examHospitalName -> "OrganizationInspectionTWCM.name(檢驗檢查執行醫事機構名稱)"
 
 Mapping: TWCMClinicRecordToObservationTWCM
 Id: ObservationTWCM
 Title: "Mapping to ObservationTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/observation-twcm"
-* examiationInfo.examDate -> "ObservationTWCM.effectiveDateTime(檢查日期)"
-* examiationInfo.testNHICode -> "ObservationTWCM.code(健保檢驗檢查代碼)"
-* examiationInfo.testName -> "ObservationTWCM.code.display(檢驗檢查名稱)"
-* examiationInfo.testResult -> "ObservationTWCM.valueQuantity.value(檢驗檢查結果值)"
-* examiationInfo.resultUnit -> "ObservationTWCM.valueQuantity.unit(檢驗檢查結果單位)"
-* examiationInfo.resultFlag -> "ObservationTWCM.interpretation(檢驗檢查結果判斷註記)"
-* examiationInfo.resultComment -> "ObservationTWCM.note(檢驗檢查結果備註說明)"
+* examinationInfo.examDate -> "ObservationTWCM.effectiveDateTime(檢查日期)"
+* examinationInfo.testNHICode -> "ObservationTWCM.code(健保檢驗檢查代碼)"
+* examinationInfo.testCode -> "ObservationTWCM.code.coding(院內檢驗檢查代碼)"
+* examinationInfo.testName -> "ObservationTWCM.code.display(檢驗檢查名稱)"
+* examinationInfo.testResult -> "ObservationTWCM.valueQuantity.value(檢驗檢查結果值)"
+* examinationInfo.resultUnit -> "ObservationTWCM.valueQuantity.unit(檢驗檢查結果單位)"
+* examinationInfo.resultFlag -> "ObservationTWCM.interpretation(檢驗檢查結果判斷註記)"
+* examinationInfo.resultComment -> "ObservationTWCM.note(檢驗檢查結果備註說明)"
 
 Mapping: TWCMClinicRecordToDiagnosticReportTWCM
 Id: DiagnosticReportTWCM
 Title: "Mapping to DiagnosticReportTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://hitstdio.ntunhs.edu.tw/twcm/StructureDefinition/diagnosticreport-twcm"
-* examiationInfo.verifyDate -> "DiagnosticReportTWCM.effectiveDateTime(報告日期)"
+* examinationInfo.verifyDate -> "DiagnosticReportTWCM.effectiveDateTime(報告日期)"
 
 Mapping: TWCMClinicRecordToDocumentReferenceTWCM
 Id: DocumentReferenceTWCM

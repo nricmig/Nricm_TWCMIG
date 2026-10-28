@@ -14,7 +14,7 @@ Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
   <h3>
-    <b>醫師基本資料</b>
+    <b>健康照護服務提供人員資料</b>
   </h3>
   <p>
 	<b>識別碼型別</b>：National Person Identifier <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#NNxxx ） </span>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1950" height="13398" viewBox="0 0 1950 13398" font-family="'Microsoft JhengHei','Noto Sans TC','PingFang TC','Heiti TC',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1950" height="13428" viewBox="0 0 1950 13428" font-family="'Microsoft JhengHei','Noto Sans TC','PingFang TC','Heiti TC',Arial,sans-serif">
 <defs>
 <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E00000"/></marker>
 <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
@@ -7,7 +7,7 @@
 <linearGradient id="gPink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8CECC"/><stop offset="1" stop-color="#EA6B66"/></linearGradient>
 <g id="mag"><circle cx="6" cy="6" r="5" fill="none" stroke="#000" stroke-width="1.6"/><line x1="9.6" y1="9.6" x2="14" y2="14" stroke="#000" stroke-width="2"/></g>
 </defs>
-<rect x="0" y="0" width="1950" height="13398" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1950" height="13428" fill="#FFFFFF"/>
 <text x="975.0" y="46.0" font-size="28" font-weight="bold" text-anchor="middle" fill="#000">中醫門診單 視覺化邏輯模型（Bundle.type = document）</text>
 <text x="975.0" y="76.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#444">左：中醫門診單邏輯模型欄位　→　中：Bundle TWCM 及其 entry 中各 Profile 之資料項目　→　右：參照的 Profiles</text>
 <a href="StructureDefinition-TraditionalChineseMedicineClinicRecordModel.html" target="_top">
@@ -22,13 +22,13 @@
 <text x="34.0" y="4381.0" font-size="14" font-weight="bold" text-anchor="start" fill="#333">病人當次看診之相關資訊 encounter</text>
 <rect x="20" y="11282" width="340" height="664" rx="14" fill="#D5E8D4" fill-opacity="0.55" stroke="#82B366" stroke-width="1.5"/>
 <text x="34.0" y="11303.0" font-size="14" font-weight="bold" text-anchor="start" fill="#333">用藥紀錄相關內容 drugInfo</text>
-<rect x="20" y="11986" width="340" height="1046" rx="14" fill="#FFF2CC" fill-opacity="0.55" stroke="#D6B656" stroke-width="1.5"/>
-<text x="34.0" y="12007.0" font-size="14" font-weight="bold" text-anchor="start" fill="#333">檢驗檢查相關內容 examiationInfo</text>
-<rect x="20" y="13072" width="340" height="164" rx="14" fill="#F5F5F5" fill-opacity="0.55" stroke="#666666" stroke-width="1.5"/>
-<text x="34.0" y="13093.0" font-size="14" font-weight="bold" text-anchor="start" fill="#333">圖檔報告內容 imageInfo</text>
-<rect x="20" y="13246" width="340" height="98" rx="14" fill="#F5F5F5" fill-opacity="0.55" stroke="#666666" stroke-width="1.5"/>
-<text x="34.0" y="13267.0" font-size="14" font-weight="bold" text-anchor="start" fill="#333">參考附件資料內容 referenceInfo</text>
-<rect x="720" y="150" width="880" height="13218" fill="#F9F7ED" stroke="#36393D" stroke-width="1.6"/>
+<rect x="20" y="11986" width="340" height="1076" rx="14" fill="#FFF2CC" fill-opacity="0.55" stroke="#D6B656" stroke-width="1.5"/>
+<text x="34.0" y="12007.0" font-size="14" font-weight="bold" text-anchor="start" fill="#333">檢驗檢查相關內容 examinationInfo</text>
+<rect x="20" y="13102" width="340" height="164" rx="14" fill="#F5F5F5" fill-opacity="0.55" stroke="#666666" stroke-width="1.5"/>
+<text x="34.0" y="13123.0" font-size="14" font-weight="bold" text-anchor="start" fill="#333">圖檔報告內容 imageInfo</text>
+<rect x="20" y="13276" width="340" height="98" rx="14" fill="#F5F5F5" fill-opacity="0.55" stroke="#666666" stroke-width="1.5"/>
+<text x="34.0" y="13297.0" font-size="14" font-weight="bold" text-anchor="start" fill="#333">參考附件資料內容 referenceInfo</text>
+<rect x="720" y="150" width="880" height="13248" fill="#F9F7ED" stroke="#36393D" stroke-width="1.6"/>
 <a href="StructureDefinition-bundle-twcm.html" target="_top">
 <text x="732.0" y="172.0" font-size="16" font-weight="bold" text-anchor="start" fill="#000">中醫-資料交換基本單位 Bundle TWCM（Bundle.type = document）</text>
 </a>
@@ -217,7 +217,7 @@
 <path d="M1293,1262 L1640,1262" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-practitioner-twcm.html" target="_top">
 <rect x="1640" y="1250" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="1266.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Practitioner TWCM  醫師基本資料</text>
+<text x="1648.0" y="1266.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Practitioner TWCM  健康照護服務提供人員資料</text>
 </a>
 <rect x="770" y="1288" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="1304.5" font-size="12.5" font-weight="bold" text-anchor="start" fill="#000">section:PhysicalFindings</text>
@@ -740,7 +740,7 @@
 </a>
 <rect x="745" y="4820" width="830" height="100" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
 <a href="StructureDefinition-practitioner-twcm.html" target="_top">
-<text x="757.0" y="4842.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：醫師基本資料 Practitioner TWCM Profile</text>
+<text x="757.0" y="4842.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：健康照護服務提供人員資料 Practitioner TWCM Profile</text>
 </a>
 <rect x="770" y="4854" width="370" height="24" fill="#F8CECC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="4870.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">identifier:idCardNumber</text>
@@ -1664,7 +1664,7 @@
 <path d="M1140,11100 L1640,11100" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-practitioner-twcm.html" target="_top">
 <rect x="1640" y="11088" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="11104.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Practitioner TWCM  醫師基本資料</text>
+<text x="1648.0" y="11104.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Practitioner TWCM  健康照護服務提供人員資料</text>
 </a>
 <rect x="770" y="11118" width="370" height="24" fill="url(#gPink)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="11134.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">signature.type</text>
@@ -1677,7 +1677,7 @@
 <path d="M1140,11190 L1640,11190" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-practitioner-twcm.html" target="_top">
 <rect x="1640" y="11178" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="11194.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Practitioner TWCM  醫師基本資料</text>
+<text x="1648.0" y="11194.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Practitioner TWCM  健康照護服務提供人員資料</text>
 </a>
 <rect x="770" y="11208" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="11224.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">signature.data</text>
@@ -1813,7 +1813,7 @@
 <text x="1157.0" y="12276.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">type = v2-0203#FI</text>
 <rect x="770" y="12290" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="12306.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">name</text>
-<rect x="745" y="12340" width="830" height="430" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
+<rect x="745" y="12340" width="830" height="460" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
 <a href="StructureDefinition-observation-twcm.html" target="_top">
 <text x="757.0" y="12362.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：檢驗檢查 Observation TWCM Profile</text>
 </a>
@@ -1831,118 +1831,118 @@
 <text x="777.0" y="12450.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">code.coding</text>
 <rect x="1150" y="12436" width="78" height="20" fill="#FFF2CC" stroke="#FFF2CC"/>
 <text x="1155.0" y="12450.0" font-size="12" font-weight="bold" text-anchor="start" fill="#1F6FB2">TW Core IG</text>
-<rect x="770" y="12464" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="12480.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">code.text</text>
 <rect x="770" y="12494" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="12510.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">subject</text>
-<path d="M1140,12506 L1640,12506" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
-<a href="StructureDefinition-patient-twcm.html" target="_top">
-<rect x="1640" y="12494" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="12510.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Patient TWCM  病人資料</text>
-</a>
-<rect x="770" y="12524" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="12540.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">encounter</text>
+<text x="777.0" y="12510.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">code.text</text>
+<rect x="770" y="12524" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="12540.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">subject</text>
 <path d="M1140,12536 L1640,12536" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
-<a href="StructureDefinition-encounter-twcm.html" target="_top">
-<rect x="1640" y="12524" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="12540.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Encounter TWCM  就醫事件</text>
-</a>
-<rect x="770" y="12554" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="12570.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">effectiveDateTime</text>
-<rect x="770" y="12584" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="12600.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">issued</text>
-<rect x="770" y="12614" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="12630.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">performer</text>
-<path d="M1140,12626 L1640,12626" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
-<a href="StructureDefinition-organizationinspection-twcm.html" target="_top">
-<rect x="1640" y="12614" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="12630.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">OrganizationInspection TWCM  檢驗檢查機構</text>
-</a>
-<rect x="770" y="12644" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="12660.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueQuantity.value</text>
-<rect x="770" y="12674" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="12690.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueQuantity.unit</text>
-<rect x="770" y="12704" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
-<text x="777.0" y="12720.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">interpretation</text>
-<rect x="1150" y="12706" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
-<text x="1155" y="12720" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
-<rect x="770" y="12734" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="12750.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">note</text>
-<rect x="745" y="12784" width="830" height="250" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
-<a href="StructureDefinition-diagnosticreport-twcm.html" target="_top">
-<text x="757.0" y="12806.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：診斷報告 DiagnosticReport TWCM Profile</text>
-</a>
-<rect x="770" y="12818" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="12834.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>
-<rect x="1150" y="12820" width="90" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="12834.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= final</text>
-<rect x="1246" y="12820" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
-<text x="1251" y="12834" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
-<rect x="770" y="12848" width="370" height="24" fill="url(#gPink)" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="12864.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">category</text>
-<rect x="1150" y="12850" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
-<text x="1155" y="12864" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
-<rect x="770" y="12878" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="12894.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">subject</text>
-<path d="M1140,12890 L1640,12890" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-patient-twcm.html" target="_top">
-<rect x="1640" y="12878" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="12894.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Patient TWCM  病人資料</text>
+<rect x="1640" y="12524" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="1648.0" y="12540.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Patient TWCM  病人資料</text>
 </a>
-<rect x="770" y="12908" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="12924.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">encounter</text>
-<path d="M1140,12920 L1640,12920" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<rect x="770" y="12554" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="777.0" y="12570.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">encounter</text>
+<path d="M1140,12566 L1640,12566" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-encounter-twcm.html" target="_top">
+<rect x="1640" y="12554" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="1648.0" y="12570.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Encounter TWCM  就醫事件</text>
+</a>
+<rect x="770" y="12584" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="12600.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">effectiveDateTime</text>
+<rect x="770" y="12614" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="12630.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">issued</text>
+<rect x="770" y="12644" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="12660.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">performer</text>
+<path d="M1140,12656 L1640,12656" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-organizationinspection-twcm.html" target="_top">
+<rect x="1640" y="12644" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="1648.0" y="12660.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">OrganizationInspection TWCM  檢驗檢查機構</text>
+</a>
+<rect x="770" y="12674" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="777.0" y="12690.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueQuantity.value</text>
+<rect x="770" y="12704" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="777.0" y="12720.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueQuantity.unit</text>
+<rect x="770" y="12734" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
+<text x="777.0" y="12750.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">interpretation</text>
+<rect x="1150" y="12736" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
+<text x="1155" y="12750" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
+<rect x="770" y="12764" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="777.0" y="12780.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">note</text>
+<rect x="745" y="12814" width="830" height="250" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
+<a href="StructureDefinition-diagnosticreport-twcm.html" target="_top">
+<text x="757.0" y="12836.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：診斷報告 DiagnosticReport TWCM Profile</text>
+</a>
+<rect x="770" y="12848" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="12864.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>
+<rect x="1150" y="12850" width="90" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1157.0" y="12864.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= final</text>
+<rect x="1246" y="12850" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
+<text x="1251" y="12864" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
+<rect x="770" y="12878" width="370" height="24" fill="url(#gPink)" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="12894.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">category</text>
+<rect x="1150" y="12880" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
+<text x="1155" y="12894" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
+<rect x="770" y="12908" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="777.0" y="12924.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">subject</text>
+<path d="M1140,12920 L1640,12920" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-patient-twcm.html" target="_top">
 <rect x="1640" y="12908" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="12924.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Encounter TWCM  就醫事件</text>
+<text x="1648.0" y="12924.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Patient TWCM  病人資料</text>
 </a>
 <rect x="770" y="12938" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="12954.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">basedOn</text>
+<text x="777.0" y="12954.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">encounter</text>
 <path d="M1140,12950 L1640,12950" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
-<a href="StructureDefinition-servicerequest-twcm.html" target="_top">
+<a href="StructureDefinition-encounter-twcm.html" target="_top">
 <rect x="1640" y="12938" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="12954.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">ServiceRequest TWCM  服務請求</text>
+<text x="1648.0" y="12954.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Encounter TWCM  就醫事件</text>
 </a>
 <rect x="770" y="12968" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="12984.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">result</text>
+<text x="777.0" y="12984.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">basedOn</text>
 <path d="M1140,12980 L1640,12980" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
-<a href="StructureDefinition-observation-twcm.html" target="_top">
+<a href="StructureDefinition-servicerequest-twcm.html" target="_top">
 <rect x="1640" y="12968" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="12984.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Observation TWCM  檢驗檢查</text>
+<text x="1648.0" y="12984.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">ServiceRequest TWCM  服務請求</text>
 </a>
-<rect x="770" y="12998" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="13014.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">effectiveDateTime</text>
-<rect x="745" y="13048" width="830" height="296" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
+<rect x="770" y="12998" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="777.0" y="13014.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">result</text>
+<path d="M1140,13010 L1640,13010" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<a href="StructureDefinition-observation-twcm.html" target="_top">
+<rect x="1640" y="12998" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="1648.0" y="13014.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Observation TWCM  檢驗檢查</text>
+</a>
+<rect x="770" y="13028" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="13044.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">effectiveDateTime</text>
+<rect x="745" y="13078" width="830" height="296" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
 <a href="StructureDefinition-documentreference-twcm.html" target="_top">
-<text x="757.0" y="13070.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：文件參照 DocumentReference TWCM Profile</text>
+<text x="757.0" y="13100.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：文件參照 DocumentReference TWCM Profile</text>
 </a>
-<rect x="770" y="13082" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="13098.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>
-<rect x="1150" y="13084" width="90" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="13098.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= current</text>
-<rect x="1246" y="13084" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
-<text x="1251" y="13098" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
-<rect x="770" y="13112" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="13128.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">subject</text>
-<path d="M1140,13124 L1640,13124" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<rect x="770" y="13112" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="13128.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>
+<rect x="1150" y="13114" width="90" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1157.0" y="13128.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= current</text>
+<rect x="1246" y="13114" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
+<text x="1251" y="13128" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
+<rect x="770" y="13142" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="777.0" y="13158.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">subject</text>
+<path d="M1140,13154 L1640,13154" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-patient-twcm.html" target="_top">
-<rect x="1640" y="13112" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="13128.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Patient TWCM  病人資料</text>
+<rect x="1640" y="13142" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="1648.0" y="13158.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Patient TWCM  病人資料</text>
 </a>
-<rect x="770" y="13142" width="370" height="24" fill="url(#gPink)" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="13158.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">content.attachment.contentType</text>
-<rect x="1150" y="13144" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
-<text x="1155" y="13158" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
-<rect x="770" y="13172" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="13188.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">content.attachment.title</text>
+<rect x="770" y="13172" width="370" height="24" fill="url(#gPink)" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="13188.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">content.attachment.contentType</text>
+<rect x="1150" y="13174" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
+<text x="1155" y="13188" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
 <rect x="770" y="13202" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="13218.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">content.attachment.data</text>
-<rect x="770" y="13232" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="13248.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">context.encounter</text>
-<path d="M1140,13244 L1640,13244" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
+<text x="777.0" y="13218.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">content.attachment.title</text>
+<rect x="770" y="13232" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
+<text x="777.0" y="13248.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">content.attachment.data</text>
+<rect x="770" y="13262" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
+<text x="777.0" y="13278.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">context.encounter</text>
+<path d="M1140,13274 L1640,13274" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-encounter-twcm.html" target="_top">
-<rect x="1640" y="13232" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="13248.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Encounter TWCM  就醫事件</text>
+<rect x="1640" y="13262" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="1648.0" y="13278.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Encounter TWCM  就醫事件</text>
 </a>
 <path d="M340,200 L770,200" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
 <path d="M340,380 L770,380" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
@@ -2050,21 +2050,22 @@
 <path d="M340,12156 L684,12156 L684,12128 L770,12128" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
 <path d="M340,12272 L770,12272" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
 <path d="M340,12302 L770,12302" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,12476 L684,12476 L684,12446 L770,12446" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
 <path d="M340,12446 L770,12446" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
-<path d="M340,12476 L770,12476" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
-<path d="M340,12566 L770,12566" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
-<path d="M340,12656 L770,12656" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,12506 L770,12506" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,12596 L770,12596" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
 <path d="M340,12686 L770,12686" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
 <path d="M340,12716 L770,12716" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
 <path d="M340,12746 L770,12746" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
-<path d="M340,13010 L770,13010" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
-<path d="M340,13184 L770,13184" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,12776 L770,12776" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+<path d="M340,13040 L770,13040" fill="none" stroke="#E00000" stroke-width="1.6" stroke-dasharray="7 5" marker-end="url(#ar)"/>
 <path d="M340,13214 L770,13214" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
-<path d="M340,13294 L684,13294 L684,13184 L770,13184" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
-<path d="M340,13322 L668,13322 L668,13214 L770,13214" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,13244 L770,13244" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,13324 L684,13324 L684,13214 L770,13214" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M340,13352 L668,13352 L668,13244 L770,13244" fill="none" stroke="#E00000" stroke-width="1.6" marker-end="url(#ar)"/>
 <rect x="40" y="188" width="300" height="24" fill="#E6E6E6" stroke="#333" stroke-width="2.2"/>
 <text x="48.0" y="204.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">HIS病歷唯一碼</text>
-<text x="333.0" y="204.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">hisdocPK</text>
+<text x="333.0" y="204.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">hisDocK</text>
 <rect x="40" y="368" width="300" height="24" fill="#E6E6E6" stroke="#333" stroke-width="2.2"/>
 <text x="48.0" y="384.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">病歷表單版本</text>
 <text x="333.0" y="384.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">sheetVersion</text>
@@ -2088,10 +2089,10 @@
 <text x="333.0" y="678.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">docConfidentialityCode</text>
 <rect x="40" y="2522" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="2.2"/>
 <text x="48.0" y="2538.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">病歷號</text>
-<text x="333.0" y="2538.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">chatNo</text>
+<text x="333.0" y="2538.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">chartNo</text>
 <rect x="40" y="2552" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="2.2"/>
 <text x="48.0" y="2568.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">身分證號</text>
-<text x="333.0" y="2568.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">personalIDNumber</text>
+<text x="333.0" y="2568.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">patientId</text>
 <rect x="40" y="2582" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="2.2"/>
 <text x="48.0" y="2598.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">病人姓名</text>
 <text x="333.0" y="2598.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">patientName</text>
@@ -2100,7 +2101,7 @@
 <text x="333.0" y="2628.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">gender</text>
 <rect x="40" y="2642" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="2658.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">出生日期</text>
-<text x="333.0" y="2658.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">birthDate</text>
+<text x="333.0" y="2658.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">birthday</text>
 <rect x="40" y="2672" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="2688.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">住宅電話</text>
 <text x="333.0" y="2688.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">homeTel</text>
@@ -2121,7 +2122,7 @@
 <text x="333.0" y="2838.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">originalAddressZipCode</text>
 <rect x="40" y="2852" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="2868.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">病人戶籍地址</text>
-<text x="333.0" y="2868.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">originalAddresLocation</text>
+<text x="333.0" y="2868.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">originalAddressLocation</text>
 <rect x="40" y="2882" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="2898.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">病人聯絡地址郵遞區號</text>
 <text x="333.0" y="2898.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">contactAddressZipCode</text>
@@ -2133,7 +2134,7 @@
 <text x="333.0" y="2958.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">emName</text>
 <rect x="40" y="2972" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="2988.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">緊急聯絡人與病人關係</text>
-<text x="333.0" y="2988.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">emrelationshp</text>
+<text x="333.0" y="2988.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">emRelationship</text>
 <rect x="40" y="3002" width="300" height="24" fill="#FFCC99" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="3018.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">緊急聯絡人住宅電話</text>
 <text x="333.0" y="3018.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">emHomeTel</text>
@@ -2154,7 +2155,7 @@
 <text x="333.0" y="3426.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">chronicDisease</text>
 <rect x="40" y="3614" width="300" height="24" fill="#F48FB1" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="3630.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">自述血型</text>
-<text x="333.0" y="3630.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">bloodtype</text>
+<text x="333.0" y="3630.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">bloodType</text>
 <rect x="40" y="3848" width="300" height="24" fill="#BCAAA4" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="3864.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">職業</text>
 <text x="333.0" y="3864.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">occupation</text>
@@ -2205,7 +2206,7 @@
 <text x="333.0" y="5398.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">systolicPressure</text>
 <rect x="40" y="5412" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="5428.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">舒張壓</text>
-<text x="333.0" y="5428.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">diastoicPressure</text>
+<text x="333.0" y="5428.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">diastolicPressure</text>
 <rect x="40" y="5586" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="5602.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">病人脈搏</text>
 <text x="333.0" y="5602.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">pulse</text>
@@ -2223,7 +2224,7 @@
 <text x="333.0" y="6010.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">weightUnit</text>
 <rect x="40" y="6168" width="300" height="24" fill="#FFB3B3" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="6184.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">病人體溫</text>
-<text x="333.0" y="6184.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">bodytemperature</text>
+<text x="333.0" y="6184.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">bodyTemperature</text>
 <rect x="40" y="6342" width="300" height="24" fill="#FFD966" stroke="#333" stroke-width="2.2"/>
 <text x="48.0" y="6358.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">病人主訴</text>
 <text x="333.0" y="6358.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">chiefComplain</text>
@@ -2283,13 +2284,13 @@
 <text x="333.0" y="10006.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">majorInjuryName</text>
 <rect x="40" y="10194" width="300" height="24" fill="#F8BBD0" stroke="#333" stroke-width="2.2"/>
 <text x="48.0" y="10210.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">診斷代碼</text>
-<text x="333.0" y="10210.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">diagcode</text>
+<text x="333.0" y="10210.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">diagCode</text>
 <rect x="40" y="10224" width="300" height="24" fill="#F8BBD0" stroke="#333" stroke-width="2.2"/>
 <text x="48.0" y="10240.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">診斷名稱</text>
 <text x="333.0" y="10240.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">diagName</text>
 <rect x="40" y="10428" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="10444.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">處置健保碼</text>
-<text x="333.0" y="10444.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">treatmentNHICCode</text>
+<text x="333.0" y="10444.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">treatmentNHICode</text>
 <rect x="40" y="10458" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="10474.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">處置說明</text>
 <text x="333.0" y="10474.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">treatmentDescription</text>
@@ -2313,7 +2314,7 @@
 <text x="333.0" y="10644.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">dislocationTreatmentMethod</text>
 <rect x="40" y="10656" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="10672.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">針灸補充說明</text>
-<text x="333.0" y="10672.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">acpuncturePointComment</text>
+<text x="333.0" y="10672.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">acupuncturePointComment</text>
 <rect x="40" y="10684" width="300" height="24" fill="#9FA8DA" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="10700.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">傷科補充說明</text>
 <text x="333.0" y="10700.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">contusionComment</text>
@@ -2328,7 +2329,7 @@
 <text x="333.0" y="11224.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">doctorSign</text>
 <rect x="40" y="11318" width="300" height="24" fill="#A5D6A7" stroke="#333" stroke-width="1"/>
 <text x="48.0" y="11334.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">藥品健保碼</text>
-<text x="333.0" y="11334.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">drugNHICCode</text>
+<text x="333.0" y="11334.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">drugNHICode</text>
 <rect x="40" y="11348" width="300" height="24" fill="#A5D6A7" stroke="#333" stroke-width="2.2"/>
 <text x="48.0" y="11364.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">藥品藥品碼</text>
 <text x="333.0" y="11364.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">drugCode</text>
@@ -2384,36 +2385,39 @@
 <text x="48.0" y="12450.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">健保檢驗檢查代碼</text>
 <text x="333.0" y="12450.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">testNHICode</text>
 <rect x="40" y="12464" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="2.2"/>
-<text x="48.0" y="12480.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查名稱</text>
-<text x="333.0" y="12480.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">testName</text>
-<rect x="40" y="12554" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="2.2"/>
-<text x="48.0" y="12570.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢查日期</text>
-<text x="333.0" y="12570.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">examDate</text>
-<rect x="40" y="12644" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1"/>
-<text x="48.0" y="12660.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查結果值</text>
-<text x="333.0" y="12660.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">testResult</text>
+<text x="48.0" y="12480.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">院內檢驗檢查代碼</text>
+<text x="333.0" y="12480.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">testCode</text>
+<rect x="40" y="12494" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="2.2"/>
+<text x="48.0" y="12510.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查名稱</text>
+<text x="333.0" y="12510.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">testName</text>
+<rect x="40" y="12584" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="2.2"/>
+<text x="48.0" y="12600.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢查日期</text>
+<text x="333.0" y="12600.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">examDate</text>
 <rect x="40" y="12674" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1"/>
-<text x="48.0" y="12690.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查結果單位</text>
-<text x="333.0" y="12690.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">resultUnit</text>
+<text x="48.0" y="12690.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查結果值</text>
+<text x="333.0" y="12690.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">testResult</text>
 <rect x="40" y="12704" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1"/>
-<text x="48.0" y="12720.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查結果判斷註記</text>
-<text x="333.0" y="12720.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">resultFlag</text>
+<text x="48.0" y="12720.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查結果單位</text>
+<text x="333.0" y="12720.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">resultUnit</text>
 <rect x="40" y="12734" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1"/>
-<text x="48.0" y="12750.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查結果備註說明</text>
-<text x="333.0" y="12750.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">resultComment</text>
-<rect x="40" y="12998" width="300" height="24" fill="#FFCA28" stroke="#333" stroke-width="1"/>
-<text x="48.0" y="13014.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">報告日期</text>
-<text x="333.0" y="13014.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">verifyDate</text>
-<rect x="40" y="13172" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2"/>
-<text x="48.0" y="13188.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">圖檔報告名稱</text>
-<text x="333.0" y="13188.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">imageFileName</text>
+<text x="48.0" y="12750.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查結果判斷註記</text>
+<text x="333.0" y="12750.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">resultFlag</text>
+<rect x="40" y="12764" width="300" height="24" fill="#FFE082" stroke="#333" stroke-width="1"/>
+<text x="48.0" y="12780.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">檢驗檢查結果備註說明</text>
+<text x="333.0" y="12780.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">resultComment</text>
+<rect x="40" y="13028" width="300" height="24" fill="#FFCA28" stroke="#333" stroke-width="1"/>
+<text x="48.0" y="13044.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">報告日期</text>
+<text x="333.0" y="13044.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">verifyDate</text>
 <rect x="40" y="13202" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2"/>
-<text x="48.0" y="13218.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">圖檔報告內容</text>
-<text x="333.0" y="13218.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">imageContent</text>
-<rect x="40" y="13282" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2"/>
-<text x="48.0" y="13298.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">附件檔名</text>
-<text x="333.0" y="13298.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">referenceDocFileName</text>
-<rect x="40" y="13310" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2"/>
-<text x="48.0" y="13326.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">附件內容</text>
-<text x="333.0" y="13326.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">referenceDocContent</text>
+<text x="48.0" y="13218.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">圖檔報告名稱</text>
+<text x="333.0" y="13218.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">imageFileName</text>
+<rect x="40" y="13232" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2"/>
+<text x="48.0" y="13248.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">圖檔報告內容</text>
+<text x="333.0" y="13248.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">imageContent</text>
+<rect x="40" y="13312" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2"/>
+<text x="48.0" y="13328.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">附件檔名</text>
+<text x="333.0" y="13328.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">referenceDocFileName</text>
+<rect x="40" y="13340" width="300" height="24" fill="#B0BEC5" stroke="#333" stroke-width="2.2"/>
+<text x="48.0" y="13356.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">附件內容</text>
+<text x="333.0" y="13356.5" font-size="11" font-weight="normal" text-anchor="end" fill="#555">referenceDocContent</text>
 </svg>
