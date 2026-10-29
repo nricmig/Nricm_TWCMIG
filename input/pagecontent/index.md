@@ -99,6 +99,22 @@
 <td colspan="2">衛生福利部國家中醫藥研究所</td>
 <td></td>
 </tr>
+<tr>
+<td>貢獻者-IG</td>
+<td colspan="2">國泰電腦有限公司</td>
+<td></td>
+</tr>
+<tr>
+<td>貢獻者-IG</td>
+<td colspan="2">睿傳數據股份有限公司</td>
+<td></td>
+</tr>
+<tr>
+<td>貢獻者-IG</td>
+<td>李麗惠 副教授</td>
+<td>國立臺北護理健康大學</td>
+<td></td>
+</tr>
 
 </tbody>
 </table>
