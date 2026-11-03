@@ -71,10 +71,9 @@
 <table class="grid">
 <thead>
 <tr class="header">
-<th style="width:10%">角色</th>
-<th style="width:10%">姓名</th>
-<th style="width:40%">機構</th>
-<th style="width:20%">聯絡方式</th>
+<th style="width:15%">角色</th>
+<th style="width:20%">姓名</th>
+<th style="width:65%">機構</th>
 </tr>
 </thead>
 <tbody>
@@ -82,35 +81,28 @@
 <td>作者-IG</td>
 <td>鄭嘉儀</td>
 <td rowspan="3">衛生福利部國家中醫藥研究所</td>
-<td><a href="mailto:amy960038@gmail.com">amy960038@gmail.com</a></td>
 </tr>
 <tr>
 <td>作者-IG</td>
 <td>楊宜蓁</td>
-<td><a href="mailto:yyz030630@gmail.com">yyz030630@gmail.com</a></td>
 </tr>
 <tr>
 <td>作者-IG</td>
 <td>曾鈺珈</td>
-<td><a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a></td>
 </tr>
 <tr>
 <td rowspan="4">貢獻者-IG</td>
 <td colspan="2">衛生福利部國家中醫藥研究所</td>
-<td></td>
 </tr>
 <tr>
 <td colspan="2">國泰電腦有限公司</td>
-<td></td>
 </tr>
 <tr>
 <td colspan="2">睿傳數據股份有限公司</td>
-<td></td>
 </tr>
 <tr>
 <td>李麗惠 副教授</td>
 <td>國立臺北護理健康大學</td>
-<td></td>
 </tr>
 
 </tbody>
