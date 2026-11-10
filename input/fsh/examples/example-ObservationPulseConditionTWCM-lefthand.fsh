@@ -29,7 +29,7 @@ Usage: #example
     <b>把脈手別</b>：左腕 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#5951000) </span>
     </p>
     <p>
-    <b>病人脈象</b>：弦脈
+    <b>病人脈象</b>：弦脈 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#904) </span>
     </p>
      <p>
 		<b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>
