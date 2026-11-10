@@ -30,7 +30,7 @@ Usage: #example
     <b>把脈手別</b>：右腕 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#9736006) </span>
     </p>
     <p>
-    <b>病人脈象</b>：寸：浮而無力，兼有結代（此描述無法對應至WHO傳統醫學術語代碼，故僅記錄文字）
+    <b>病人脈象</b>：寸脈 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#884) </span>：浮而無力，兼有結代（此描述無法對應至WHO傳統醫學術語代碼，故僅記錄文字）
     </p>
      <p>
 		<b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

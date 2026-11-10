@@ -68,6 +68,7 @@
 - [切診範例](Observation-ObservationPalpationTWCM-min.html)：依據切診(ObservationPalpation TWCM)Profile呈現中醫門診單中切診範例（以hasMember參照病人脈象）
 - [病人脈象範例(右手,分寸關尺)](Observation-ObservationPulseConditionTWCM-min.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師記錄到寸關尺時的病人脈象範例
 - [病人脈象範例(左手,未分寸關尺)](Observation-ObservationPulseConditionTWCM-lefthand.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師只記錄到左右手時的病人脈象範例
+- [病人脈象範例(未分左右手及寸關尺)](Observation-ObservationPulseConditionTWCM-nohand.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現醫師只記錄整體脈象、未記錄左右手時的病人脈象範例
 - [病人脈象範例(僅文字,無對應代碼)](Observation-ObservationPulseConditionTWCM-textonly.html)：依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫門診單中病人脈象無法對應代碼時僅填文字的範例
 
 ### Organization
