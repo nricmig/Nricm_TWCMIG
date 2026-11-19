@@ -63,6 +63,8 @@ pages:
     title: 結構定義與範例檔下載
   security.md:
     title: 安全性
+  scopes.md:
+    title: SMART on FHIR規範要求與支援能力
   examples.md:
     title: 範例
   ImplementationGuide-tw.gov.mohw.nricm.twcm.md:

@@ -59,7 +59,11 @@
 	</li>
 	<li><strong><a href="examples.html">範例</a></strong>：符合臺灣中醫實作指引所定義Profiles之範例檔。</li>
 	<li><strong><a href="downloads.html">結構定義與範例檔下載</a></strong>：實作者若不偏好使用FHIR RESTful API驗證資料是否符合Profiles，可直接下載所需的格式驗證檔，包括XML、JSON及Turtle三種格式，亦可於此下載完整範例檔。</li>
-	<li><strong><a href="security.html">安全性</a></strong>：主要說明採用臺灣中醫實作指引網站進行實作時，有關資料存取授權的作法。</li>
+	<li><strong><a href="security.html">安全性</a></strong>：主要說明採用臺灣中醫實作指引網站進行實作時，有關資料存取授權的作法。
+	<ul>
+		<li><strong><a href="scopes.html">SMART on FHIR規範要求與支援能力</a></strong>：說明伺服端支援前端應用程式及後端服務時，所需遵循的SMART on FHIR能力集合、存取範圍(Scopes)及/.well-known/smart-configuration要求。</li>
+	</ul>
+	</li>
 	<li><strong><a href="https://hitstdio.ntunhs.edu.tw/twcm/history.html">版本異動說明頁</a></strong>：若臺灣中醫實作指引網站的版本有所異動，皆可透過<a href="https://hitstdio.ntunhs.edu.tw/twcm/history.html">異動說明頁</a>得以瞭解版本間的異動差異。</li>
 </ul>
 </div>
