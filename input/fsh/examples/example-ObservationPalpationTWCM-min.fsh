@@ -11,7 +11,7 @@ Usage: #example
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueString = "腹部按之柔軟無壓痛"
 * component[pressing].code = TWCMFourDiagnosisCategory#"按診" "按診"
-* component[pressing].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"腹" "腹"
+* component[pressing].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"腹" "腹"
 * component[pressing].valueCodeableConcept.text = "腹"
 * hasMember[0] = Reference(Observation/ObservationPulseConditionTWCM-min)
 * hasMember[1] = Reference(Observation/ObservationPulseConditionTWCM-lefthand)

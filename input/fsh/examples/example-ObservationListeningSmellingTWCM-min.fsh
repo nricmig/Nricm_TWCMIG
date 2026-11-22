@@ -11,10 +11,10 @@ Usage: #example
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueString = "語聲低微，口中無異味"
 * component[voice].code = TWCMFourDiagnosisCategory#"聞語音" "聞語音"
-* component[voice].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"聲低" "聲低"
+* component[voice].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"聲低" "聲低"
 * component[voice].valueCodeableConcept.text = "聲低"
 * component[odor].code = TWCMFourDiagnosisCategory#"聞氣味" "聞氣味"
-* component[odor].valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"無特殊" "無特殊"
+* component[odor].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"無特殊" "無特殊"
 * component[odor].valueCodeableConcept.text = "無特殊"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

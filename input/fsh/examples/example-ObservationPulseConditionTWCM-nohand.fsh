@@ -9,7 +9,7 @@ Usage: #example
 * subject = Reference(Patient/PatientTWCM-min)
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
-* valueCodeableConcept.coding = https://hitstdio.ntunhs.edu.tw/twcm/CodeSystem/who-ictm-terminology#900 "滑脈"
+* valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#900 "滑脈"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
   <h3>
