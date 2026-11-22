@@ -82,27 +82,28 @@
 </thead>
 <tbody>
 <tr>
-<td>作者-IG</td>
+<td rowspan="3">作者-IG</td>
 <td>鄭嘉儀</td>
 <td rowspan="3">衛生福利部國家中醫藥研究所</td>
 </tr>
 <tr>
-<td>作者-IG</td>
 <td>楊宜蓁</td>
 </tr>
 <tr>
-<td>作者-IG</td>
 <td>曾鈺珈</td>
 </tr>
 <tr>
 <td rowspan="4">貢獻者-IG</td>
-<td colspan="2">衛生福利部國家中醫藥研究所</td>
+<td></td>
+<td>衛生福利部國家中醫藥研究所</td>
 </tr>
 <tr>
-<td colspan="2">國泰電腦有限公司</td>
+<td></td>
+<td>國泰電腦有限公司</td>
 </tr>
 <tr>
-<td colspan="2">睿傳數據股份有限公司</td>
+<td></td>
+<td>睿傳數據股份有限公司</td>
 </tr>
 <tr>
 <td>李麗惠 副教授</td>
