@@ -2,7 +2,7 @@ Alias: $SCT = http://snomed.info/sct
 Instance: ClinicalImpressionTWCM-min
 InstanceOf: clinicalimpression-twcm
 Title: "中醫辨證評估範例"
-Description: "依據中醫辨證評估(ClinicalImpression TWCM)Profile呈現中醫門診單中望聞問切客觀描述、四診紀錄參照及辨證結果的範例"
+Description: "依據中醫辨證評估(ClinicalImpression TWCM)Profile呈現中醫門診單中望聞問切客觀描述、診察紀錄參照及辨證結果的範例"
 Usage: #example
 * status = #completed
 * subject = Reference(Patient/PatientTWCM-min)
@@ -45,7 +45,7 @@ Usage: #example
     <b>望聞問切客觀描述</b>：神清，面色萎黃，形體偏瘦，語聲低微，腹部按之柔軟無壓痛
     </p>
     <p>
-    <b>四診紀錄</b>：<br />
+    <b>診察紀錄</b>：<br />
     望診：<a href=\"Observation-ObservationInspectionTWCM-min.html\">Observation/ObservationInspectionTWCM-min</a><br />
     聞診：<a href=\"Observation-ObservationListeningSmellingTWCM-min.html\">Observation/ObservationListeningSmellingTWCM-min</a><br />
     問診：<a href=\"Observation-ObservationInquiryTWCM-min.html\">Observation/ObservationInquiryTWCM-min</a><br />

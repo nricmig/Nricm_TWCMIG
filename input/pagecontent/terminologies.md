@@ -10,7 +10,7 @@
 <li><a href="CodeSystem-twcm-treatmentregion.html">針灸傷科脫臼整復部位</a></li>
 <li><a href="https://icd.who.int/browse/2026-01/mms/zh">ICD-11 MMS</a>(WHO官方代碼系統，<code>http&#58;//id.who.int/icd/release/11/mms</code>)</li>
 <li><a href="CodeSystem-twcm-clinicalfinding.html">中醫臨床表現詞彙</a></li>
-<li><a href="CodeSystem-twcm-fourdiagnosis-category.html">中醫四診分類</a></li>
+<li><a href="CodeSystem-twcm-diagnosticexam-category.html">中醫診察分類</a></li>
 <li><a href="CodeSystem-twcm-medicalhistory-category.html">中醫病史分類</a></li>
 <li><a href="CodeSystem-twcm-therapeutic-category.html">中醫論治分類</a></li>
 </ul>

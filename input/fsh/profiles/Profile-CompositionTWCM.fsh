@@ -128,7 +128,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
   * entry only Reference(practitioner-twcm)
     * reference 1..1
 
-* section[PhysicalFindings] ^short = "四診：理學檢查發現(脈象)"
+* section[PhysicalFindings] ^short = "診察：理學檢查發現(脈象)"
 * section[PhysicalFindings].title 1..1
 * section[PhysicalFindings].code 1..1
 * section[PhysicalFindings].code = http://loinc.org#29545-1 "Physical findings note"

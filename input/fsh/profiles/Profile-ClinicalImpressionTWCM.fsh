@@ -3,7 +3,7 @@ Profile: ClinicalImpressionTWCM
 Parent: ClinicalImpression
 Id: clinicalimpression-twcm
 Title: "中醫辨證評估(ClinicalImpression TWCM)"
-Description: "此中醫辨證評估(ClinicalImpression TWCM)Profile說明本IG如何進一步定義FHIR的ClinicalImpression Resource以呈現中醫門診單之望聞問切客觀描述、四診紀錄參照，以及病因、病性、病位、病勢與證型等辨證結果。四診（望、聞、問、切）為證據，以Observation記錄並由investigation參照；辨證為推論，記錄於finding。"
+Description: "此中醫辨證評估(ClinicalImpression TWCM)Profile說明本IG如何進一步定義FHIR的ClinicalImpression Resource以呈現中醫門診單之望聞問切客觀描述、診察紀錄參照，以及病因、病性、病位、病勢與證型等辨證結果。診察（望、聞、問、切）為證據，以Observation記錄並由investigation參照；辨證為推論，記錄於finding。"
 * status = #completed
 * subject 1..1 MS
 * subject only Reference(patient-twcm)
@@ -16,7 +16,7 @@ Description: "此中醫辨證評估(ClinicalImpression TWCM)Profile說明本IG�
   * ^short = "[應填入中醫門診單之望聞問切客觀描述Description]"
 
 * investigation MS
-  * ^short = "四診紀錄。依望、聞、問、切分別參照對應的Observation"
+  * ^short = "診察紀錄。依望、聞、問、切分別參照對應的Observation"
 * investigation ^slicing.discriminator.type = #pattern
 * investigation ^slicing.discriminator.path = "code"
 * investigation ^slicing.rules = #open

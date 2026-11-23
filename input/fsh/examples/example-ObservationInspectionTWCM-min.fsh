@@ -10,10 +10,10 @@ Usage: #example
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueString = "神清，面色萎黃，形體偏瘦"
-* component[spirit].code = TWCMFourDiagnosisCategory#"望神" "望神"
+* component[spirit].code = TWCMDiagnosticExamCategory#"望神" "望神"
 * component[spirit].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"神疲" "神疲"
 * component[spirit].valueCodeableConcept.text = "神疲"
-* component[headFace].code = TWCMFourDiagnosisCategory#"望頭面" "望頭面"
+* component[headFace].code = TWCMDiagnosticExamCategory#"望頭面" "望頭面"
 * component[headFace].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"面色萎黃" "面色萎黃"
 * component[headFace].valueCodeableConcept.text = "面色萎黃"
 * component[tongueCondition][0].code = $SCT#249378009 "Tongue finding"

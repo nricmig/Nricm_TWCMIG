@@ -1,7 +1,7 @@
-CodeSystem: TWCMFourDiagnosisCategory
-Id: twcm-fourdiagnosis-category
-Title: "中醫四診分類"
-Description: "中醫門診單四診紀錄之分類，用於望診、聞診、問診、切診Observation之component.code，以區分各component所記錄的項目。"
+CodeSystem: TWCMDiagnosticExamCategory
+Id: twcm-diagnosticexam-category
+Title: "中醫診察分類"
+Description: "中醫門診單診察紀錄之分類，用於望診、聞診、問診、切診Observation之component.code，以區分各component所記錄的項目。"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

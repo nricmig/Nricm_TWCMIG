@@ -10,10 +10,10 @@ Usage: #example
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueString = "語聲低微，口中無異味"
-* component[voice].code = TWCMFourDiagnosisCategory#"聞語音" "聞語音"
+* component[voice].code = TWCMDiagnosticExamCategory#"聞語音" "聞語音"
 * component[voice].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"聲低" "聲低"
 * component[voice].valueCodeableConcept.text = "聲低"
-* component[odor].code = TWCMFourDiagnosisCategory#"聞氣味" "聞氣味"
+* component[odor].code = TWCMDiagnosticExamCategory#"聞氣味" "聞氣味"
 * component[odor].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"無特殊" "無特殊"
 * component[odor].valueCodeableConcept.text = "無特殊"
 * text.status = #generated

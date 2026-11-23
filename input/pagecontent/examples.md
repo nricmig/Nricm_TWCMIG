@@ -10,7 +10,7 @@
 - [醫師囑咐範例](CarePlan-CarePlanTWCM-min.html)：依據關懷計畫(CarePlan TWCM)Profile呈現中醫門診單中醫師囑咐的範例
 
 ### ClinicalImpression
-- [中醫辨證評估範例](ClinicalImpression-ClinicalImpressionTWCM-min.html)：依據中醫辨證評估(ClinicalImpression TWCM)Profile呈現中醫門診單中望聞問切客觀描述、四診紀錄參照及辨證結果的範例
+- [中醫辨證評估範例](ClinicalImpression-ClinicalImpressionTWCM-min.html)：依據中醫辨證評估(ClinicalImpression TWCM)Profile呈現中醫門診單中望聞問切客觀描述、診察紀錄參照及辨證結果的範例
 
 ### Composition
 - [門診單架構](Composition-CompositionTWCM-min.html)：依據中醫-臨床文件架構(Composition TWCM)Profile呈現中醫門診單

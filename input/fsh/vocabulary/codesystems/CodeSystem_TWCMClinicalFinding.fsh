@@ -1,7 +1,7 @@
 CodeSystem: TWCMClinicalFinding
 Id: twcm-clinicalfinding
 Title: "中醫臨床表現詞彙"
-Description: "中醫門診單四診（望、聞、問、切之按診）、月經史及產科史之臨床表現詞彙。整理自國家中醫藥研究所「新增欄位代碼整理」，代碼即為中文詞彙本身。同一詞彙出現在多個分類時僅建立一個代碼，並由各分類ValueSet分別收錄。舌象與脈象分別沿用TWCMTongueCondition與WHOICTMTerminology，不收錄於本代碼系統。"
+Description: "中醫門診單診察（望、聞、問、切之按診）、月經史及產科史之臨床表現詞彙。整理自國家中醫藥研究所「新增欄位代碼整理」，代碼即為中文詞彙本身。同一詞彙出現在多個分類時僅建立一個代碼，並由各分類ValueSet分別收錄。舌象與脈象分別沿用TWCMTongueCondition與WHOICTMTerminology，不收錄於本代碼系統。"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false
