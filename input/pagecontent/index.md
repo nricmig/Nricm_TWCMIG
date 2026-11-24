@@ -72,43 +72,67 @@
 
 ### 作者與貢獻者
 
-<table class="grid">
+<table class="grid" style="width:100%">
 <thead>
 <tr class="header">
-<th style="width:15%">角色</th>
-<th style="width:20%">姓名</th>
-<th style="width:65%">機構</th>
+<th style="width:10%;text-align:center;vertical-align:middle;">角色</th>
+<th style="width:8%;text-align:center;vertical-align:middle;">貢獻版次</th>
+<th style="width:20%;text-align:center;vertical-align:middle;">機構名稱</th>
+<th style="width:22%;text-align:center;vertical-align:middle;">姓名</th>
+<th style="width:40%;text-align:center;vertical-align:middle;">所屬單位</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="3">作者-IG</td>
+<td rowspan="3" style="text-align:center;vertical-align:middle;">作者-IG</td>
+<td rowspan="14" style="text-align:center;vertical-align:middle;">v0.1.0</td>
+<td rowspan="14" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所</td>
 <td>鄭嘉儀</td>
-<td rowspan="3">衛生福利部國家中醫藥研究所</td>
+<td rowspan="10" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所<br>（National Research Institute of Chinese Medicine, MOHW）</td>
 </tr>
 <tr>
 <td>楊宜蓁</td>
 </tr>
 <tr>
-<td>曾鈺珈</td>
+<td>曾鈺珈（Yu-Jia Tseng）</td>
 </tr>
 <tr>
-<td rowspan="4">貢獻者-IG</td>
+<td rowspan="11" style="text-align:center;vertical-align:middle;">貢獻者-IG</td>
+<td>蘇奕彰（Yi-Chang Su）</td>
+</tr>
+<tr>
+<td>邱文慧（Wen-Fei Chiou）</td>
+</tr>
+<tr>
+<td>沈郁強（Yuh-Chiang Shen）</td>
+</tr>
+<tr>
+<td>黃郁清（Yu-Ching Huang）</td>
+</tr>
+<tr>
+<td>張文瓊（Wen-Chiung Chang）</td>
+</tr>
+<tr>
+<td>李芳盈（Fang-Ying Li）</td>
+</tr>
+<tr>
+<td>林玨羽（Chueh-Yu Lin）</td>
+</tr>
+<tr>
 <td></td>
-<td>衛生福利部國家中醫藥研究所</td>
+<td style="text-align:center;vertical-align:middle;">衛生福利部中醫藥司<br>（Department of Chinese Medicine and Pharmacy, MOHW）</td>
+</tr>
+<tr>
+<td>李麗惠（Li-Hui Lee）</td>
+<td style="text-align:center;vertical-align:middle;">國立臺北護理健康大學<br>（National Taipei University of Nursing and Health Sciences）</td>
 </tr>
 <tr>
 <td></td>
-<td>國泰電腦有限公司</td>
+<td style="text-align:center;vertical-align:middle;">國泰電腦有限公司</td>
 </tr>
 <tr>
 <td></td>
-<td>睿傳數據股份有限公司</td>
+<td style="text-align:center;vertical-align:middle;">睿傳數據股份有限公司</td>
 </tr>
-<tr>
-<td>李麗惠 副教授</td>
-<td>國立臺北護理健康大學</td>
-</tr>
-
 </tbody>
 </table>
