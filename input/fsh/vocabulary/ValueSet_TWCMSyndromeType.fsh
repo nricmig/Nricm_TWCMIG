@@ -3,7 +3,7 @@ Alias: $ICD11 = http://id.who.int/icd/release/11/mms
 ValueSet: TWCMSyndromeType
 Id: twcm-syndrometype
 Title: "病人證型值集"
-Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證」章節中之證型分類，代碼引用自WHO官方ICD-11 MMS(Mortality and Morbidity Statistics)，網址為[http://id.who.int/icd/release/11/mms](http://id.who.int/icd/release/11/mms)；中文名稱依ICD-11第26章中文譯本(WHO試用版草稿，2022年5月3日製備)，除移除「(TM1)」後綴外，均依原文收錄。"
+Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證」章節中之證型分類，代碼引用自WHO官方ICD-11 MMS(Mortality and Morbidity Statistics)，網址為[http://id.who.int/icd/release/11/mms](http://id.who.int/icd/release/11/mms)；中文名稱依中醫藥研究所《臺灣中醫臨床術語代碼手冊草稿》收錄，手冊未收錄之代碼依ICD-11第26章中文譯本(WHO試用版草稿，2022年5月3日製備)收錄並移除「(TM1)」後綴。"
 * ^status = #active
 * ^experimental = false
 * $ICD11#SE70 "Yang pattern (TM1)"
@@ -29,7 +29,7 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "表證"
 * $ICD11#SE77 "Interior pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "裡證"
+  * ^designation[0].value = "裏證"
 * $ICD11#SE78 "Moderate (Heat/Cold) pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "寒熱中間證"
@@ -47,31 +47,31 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "未特指的八綱證"
 * $ICD11#SE80 "Wind factor pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "風淫證/風邪證"
+  * ^designation[0].value = "風邪證"
 * $ICD11#SE81 "Cold factor pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "寒淫證/寒邪證"
+  * ^designation[0].value = "寒邪證"
 * $ICD11#SE82 "Dampness factor pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "濕淫證/濕邪證"
+  * ^designation[0].value = "濕邪證"
 * $ICD11#SE83 "Dryness factor pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "燥淫證/燥邪證"
+  * ^designation[0].value = "燥邪證"
 * $ICD11#SE84 "Fire-heat factor pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "火熱淫證/火熱邪證"
+  * ^designation[0].value = "火熱邪證"
 * $ICD11#SE85 "Summer-heat factor pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "暑淫證/暑邪證"
+  * ^designation[0].value = "暑熱證"
 * $ICD11#SE86 "Pestilent factor pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "疫癘證"
 * $ICD11#SE8Y "Other specified environmental factor patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的外感證/環境因子證候"
+  * ^designation[0].value = "其他特指的外感／環境因子證"
 * $ICD11#SE8Z "Environmental factor patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的外感證/環境因子證候"
+  * ^designation[0].value = "未特指的外感／環境因子證"
 * $ICD11#SE90 "Qi deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "氣虛證"
@@ -89,10 +89,10 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "氣脫證"
 * $ICD11#SE9Y "Other specified qi patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的氣證"
+  * ^designation[0].value = "其他特指氣證"
 * $ICD11#SE9Z "Qi patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的氣證"
+  * ^designation[0].value = "未特指氣證"
 * $ICD11#SF00 "Blood deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "血虛證"
@@ -110,16 +110,16 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "血燥證"
 * $ICD11#SF0Y "Other specified blood patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的血證"
+  * ^designation[0].value = "其他特指血證"
 * $ICD11#SF0Z "Blood patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的血證"
+  * ^designation[0].value = "未特指血證"
 * $ICD11#SF10 "Fluid deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "津液虧虛證"
 * $ICD11#SF11 "Fluid disturbance pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "水毒證"
+  * ^designation[0].value = "水毒症"
 * $ICD11#SF12 "Dry-phlegm pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "燥痰證"
@@ -134,25 +134,25 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "風痰證"
 * $ICD11#SF1Y "Other specified fluid patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的津液證"
+  * ^designation[0].value = "其他特指津液證"
 * $ICD11#SF1Z "Fluid patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的津液證"
+  * ^designation[0].value = "未特指津液證"
 * $ICD11#SF20 "Essence deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "精虛證"
 * $ICD11#SF2Y "Other specified essence patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的精證"
+  * ^designation[0].value = "其他特指精證"
 * $ICD11#SF2Z "Essence patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的精證"
+  * ^designation[0].value = "未特指精證"
 * $ICD11#SF4Y "Other specified body constituents patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特定的氣血津液證/身體成分證/氣血津液精證"
+  * ^designation[0].value = "其他特定氣血津液／身體成分／氣血津液精證"
 * $ICD11#SF4Z "Body constituents patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的氣血津液證/身體成分證/氣血津液精證"
+  * ^designation[0].value = "未特指氣血津液／身體成分／氣血津液精證"
 * $ICD11#SF50 "Liver yin deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "肝陰虛證"
@@ -182,7 +182,7 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "肝火上炎證"
 * $ICD11#SF59 "Liver heat stirring wind pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "肝熱動風型"
+  * ^designation[0].value = "肝熱動風證"
 * $ICD11#SF5A "Liver-gallbladder dampness-heat pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "肝膽濕熱證"
@@ -191,7 +191,7 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "肝經濕熱證"
 * $ICD11#SF5C "Liver meridian cold stagnation pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "寒滯肝脈證/肝經寒凝證"
+  * ^designation[0].value = "寒滯肝脈證"
 * $ICD11#SF5D "Gallbladder qi deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "膽氣虛證"
@@ -221,10 +221,10 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "肝火犯肺證"
 * $ICD11#SF5Y "Other specified liver system patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的肝系證類"
+  * ^designation[0].value = "其他特指肝證"
 * $ICD11#SF5Z "Liver system patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的肝系證類"
+  * ^designation[0].value = "未特指肝證"
 * $ICD11#SF60 "Heart qi deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "心氣虛證"
@@ -263,7 +263,7 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "心神不寧證"
 * $ICD11#SF6C "Anxiety damaging the spirit pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "憂傷神氣證"
+  * ^designation[0].value = "擾傷神氣證"
 * $ICD11#SF6D "Small intestine qi stagnation pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "小腸氣滯證"
@@ -284,7 +284,7 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "心脾兩虛證"
 * $ICD11#SF6K "Heart and lung qi deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "心肺氣虛證候"
+  * ^designation[0].value = "心肺氣虛證"
 * $ICD11#SF6L "Heart and kidney systems disharmony pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "心腎不交證"
@@ -293,10 +293,10 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "心腎陽虛證"
 * $ICD11#SF6Y "Other specified heart system patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的心系證類"
+  * ^designation[0].value = "其他特指心系證"
 * $ICD11#SF6Z "Heart system patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的心系證類"
+  * ^designation[0].value = "未特指心系證"
 * $ICD11#SF70 "Spleen qi deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "脾氣虛證"
@@ -332,7 +332,7 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "脾虛水泛證"
 * $ICD11#SF7B "Cold-dampness encumbering the spleen system pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "寒濕困脾證"
+  * ^designation[0].value = "寒濕蘊脾證"
 * $ICD11#SF7C "Stomach qi deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "胃氣虛證"
@@ -359,16 +359,16 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "思傷脾氣證"
 * $ICD11#SF7L "Lung and spleen deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "肺脾兩虛證"
+  * ^designation[0].value = "脾肺兩虛證"
 * $ICD11#SF7M "Spleen and kidney yang deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "脾腎陽虛證"
 * $ICD11#SF7Y "Other specified spleen system patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的脾系證類"
+  * ^designation[0].value = "其他特指脾系證"
 * $ICD11#SF7Z "Spleen system patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的脾系證類"
+  * ^designation[0].value = "未特指脾系證"
 * $ICD11#SF80 "Lung qi deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "肺氣虛證"
@@ -395,7 +395,7 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "表寒肺熱證"
 * $ICD11#SF88 "Intense congestion of lung heat pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "肺熱熾盛證"
+  * ^designation[0].value = "熱肺熾盛證"
 * $ICD11#SF89 "Phlegm heat obstructing the lung pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "痰熱壅肺證"
@@ -428,10 +428,10 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "大腸虛寒證"
 * $ICD11#SF8Y "Other specified lung system patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的肺系證類"
+  * ^designation[0].value = "其他特指肺系證"
 * $ICD11#SF8Z "Lung system patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的肺系證類"
+  * ^designation[0].value = "未特指肺系證"
 * $ICD11#SF90 "Kidney qi deficiency pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "腎氣虛證"
@@ -470,7 +470,7 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "胞宮濕熱證"
 * $ICD11#SF9C "Cold stagnation in the uterus pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "寒滯胞宮證"
+  * ^designation[0].value = "寒凝胞宮證"
 * $ICD11#SF9D "Uterine deficiency cold pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "胞宮虛寒證"
@@ -491,10 +491,10 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "膀胱虛寒證"
 * $ICD11#SF9Y "Other specified kidney system patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的腎系證類"
+  * ^designation[0].value = "其他特指腎系證"
 * $ICD11#SF9Z "Kidney system patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的腎系證類"
+  * ^designation[0].value = "未特指腎系證"
 * $ICD11#SG1Y "Other specified organ system patterns (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "其他特指的臟腑證"
@@ -539,46 +539,46 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "足厥陰肝經證"
 * $ICD11#SG2Y "Other specified main Meridian Patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的十二正經證"
+  * ^designation[0].value = "其他特指十二正經證"
 * $ICD11#SG2Z "Main Meridian Patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的十二正經證"
+  * ^designation[0].value = "未特指十二正經證"
 * $ICD11#SG30 "Governor vessel pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "督脈病證"
+  * ^designation[0].value = "督脈證"
 * $ICD11#SG31 "Conception vessel pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "任脈病證"
+  * ^designation[0].value = "任脈證"
 * $ICD11#SG32 "Yin heel vessel pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "陰蹻脈病證"
+  * ^designation[0].value = "陰蹻脈證"
 * $ICD11#SG33 "Yang heel vessel pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "陽蹻脈病證"
+  * ^designation[0].value = "陽蹻脈證"
 * $ICD11#SG34 "Yin link vessel pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "陰維脈病證"
+  * ^designation[0].value = "陰維脈證"
 * $ICD11#SG35 "Yang link vessel pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "陽維脈病證"
+  * ^designation[0].value = "陽維脈證"
 * $ICD11#SG36 "Thoroughfare vessel pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "衝脈病證"
+  * ^designation[0].value = "沖脈證"
 * $ICD11#SG37 "Belt vessel pattern (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "帶脈病證"
+  * ^designation[0].value = "帶脈證"
 * $ICD11#SG3Y "Other specified extra Meridian Patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的奇經八脈證"
+  * ^designation[0].value = "其他特指奇經八脈證"
 * $ICD11#SG3Z "Extra Meridian Patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的奇經八脈證"
+  * ^designation[0].value = "未特指奇經八脈證"
 * $ICD11#SG5Y "Other specified meridian and collateral patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "其他特指的十二正經和奇經八脈證"
+  * ^designation[0].value = "其他特指十二正經和奇經八脈證"
 * $ICD11#SG5Z "Meridian and collateral patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的十二正經和奇經八脈證"
+  * ^designation[0].value = "未特指十二正經和奇經八脈證"
 * $ICD11#SG60 "Early yang stage pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "太陽病證"
@@ -605,13 +605,13 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "未特指的六經病證"
 * $ICD11#SG70 "Upper energizer stage patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "上焦證"
+  * ^designation[0].value = "上焦階段證"
 * $ICD11#SG71 "Middle energizer stage patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "中焦證"
+  * ^designation[0].value = "中焦階段證"
 * $ICD11#SG72 "Lower energizer stage patterns (TM1)"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "下焦證"
+  * ^designation[0].value = "下焦階段證"
 * $ICD11#SG7Y "Other specified triple energizer stage patterns (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "其他特指的三焦證"
@@ -644,7 +644,7 @@ Description: "病人證型值集。內容為ICD-11第26章「傳統醫學病證�
   * ^designation[0].value = "其他特指的氣分證"
 * $ICD11#SG9Z "Qi phase patterns (TM1), unspecified"
   * ^designation[0].language = #zh-TW
-  * ^designation[0].value = "未特指的氣分證"
+  * ^designation[0].value = "未特指氣分證"
 * $ICD11#SH00 "Nutrient qi and defense qi disharmony pattern (TM1)"
   * ^designation[0].language = #zh-TW
   * ^designation[0].value = "營衛不和證"
