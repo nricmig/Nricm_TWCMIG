@@ -5,7 +5,7 @@ Usage: #definition
 * url = "https://twcmig.nricm.edu.tw/SearchParameter/Bundle-id"
 * name = "BundleId"
 * status = #active
-* version = "0.1.0"
+* version = "1.0.0"
 * date = "2026-10-06"
 * publisher = "衛生福利部國家中醫藥研究所"
 * description = "中醫門診資料交換Bundle的邏輯性ID"
@@ -20,7 +20,7 @@ Usage: #definition
 * url = "https://twcmig.nricm.edu.tw/SearchParameter/Bundle-identifier"
 * name = "BundleIdentifier"
 * status = #active
-* version = "0.1.0"
+* version = "1.0.0"
 * date = "2026-10-06"
 * publisher = "衛生福利部國家中醫藥研究所"
 * description = "中醫門診資料交換Bundle的唯一識別碼(identifier)"
@@ -35,7 +35,7 @@ Usage: #definition
 * url = "https://twcmig.nricm.edu.tw/SearchParameter/Bundle-composition"
 * name = "BundleComposition"
 * status = #active
-* version = "0.1.0"
+* version = "1.0.0"
 * date = "2026-10-06"
 * publisher = "衛生福利部國家中醫藥研究所"
 * description = "中醫門診資料交換Bundle的臨床文件(composition)"
@@ -51,7 +51,7 @@ Usage: #definition
 * url = "https://twcmig.nricm.edu.tw/SearchParameter/Composition-status"
 * name = "CompositionStatus"
 * status = #active
-* version = "0.1.0"
+* version = "1.0.0"
 * date = "2026-10-06"
 * publisher = "衛生福利部國家中醫藥研究所"
 * description = "臨床文件架構的狀態(status)"
@@ -66,7 +66,7 @@ Usage: #definition
 * url = "https://twcmig.nricm.edu.tw/SearchParameter/Composition-type"
 * name = "CompositionType"
 * status = #active
-* version = "0.1.0"
+* version = "1.0.0"
 * date = "2026-10-06"
 * publisher = "衛生福利部國家中醫藥研究所"
 * description = "臨床文件架構的型別(type)"
@@ -81,7 +81,7 @@ Usage: #definition
 * url = "https://twcmig.nricm.edu.tw/SearchParameter/Composition-subject"
 * name = "CompositionSubject"
 * status = #active
-* version = "0.1.0"
+* version = "1.0.0"
 * date = "2026-10-06"
 * publisher = "衛生福利部國家中醫藥研究所"
 * description = "臨床文件架構的對象(subject)"
@@ -97,7 +97,7 @@ Usage: #definition
 * url = "https://twcmig.nricm.edu.tw/SearchParameter/Patient-identifier"
 * name = "PatientIdentifier"
 * status = #active
-* version = "0.1.0"
+* version = "1.0.0"
 * date = "2026-10-06"
 * publisher = "衛生福利部國家中醫藥研究所"
 * description = "病人的身分識別碼(identifier)"
@@ -112,7 +112,7 @@ Usage: #definition
 * url = "https://twcmig.nricm.edu.tw/SearchParameter/Patient-name"
 * name = "PatientName"
 * status = #active
-* version = "0.1.0"
+* version = "1.0.0"
 * date = "2026-10-06"
 * publisher = "衛生福利部國家中醫藥研究所"
 * description = "病人的姓名(name)，該查詢可能與 HumanName 中的任何字串匹配，包括完整的中文姓名(text)、英文姓(family)、英文名(given)、姓名前面的頭銜(prefix)、姓名後面的稱謂(suffix)。"

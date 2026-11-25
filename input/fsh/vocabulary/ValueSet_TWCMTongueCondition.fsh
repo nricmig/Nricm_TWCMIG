@@ -4,7 +4,7 @@ ValueSet: TWCMTongueConditionVS
 Id: twcm-tonguecondition
 Title: "病人舌象值集"
 Description: "病人舌象值集，收錄以「Tongue」於 SNOMED CT 檢索所得之概念，代碼直接引用 SNOMED CT（http://snomed.info/sct），顯示名稱為 SNOMED CT 英文術語。"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * ^name = "TWCMTongueCondition"

@@ -9,7 +9,7 @@ Description: "SNOMED CT + 衛福部中醫診所EMR單張-中醫處置分類值�
 * ^experimental = false
 * ^date = "2024-08-31"
 * ^copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
-* ^version = "0.1.0"
+* ^version = "1.0.0"
 * ^experimental = false
 * include codes from system TWCMProcedureCategory
 

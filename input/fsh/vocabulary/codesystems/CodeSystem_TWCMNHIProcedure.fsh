@@ -1,7 +1,7 @@
 CodeSystem: TWCMNHIProcedure
 Id: twcm-nhi-procedure
 Title: "全民健康保險中醫處置給付項目"
-Description: "全民健康保險中醫處置給付項目。依中醫藥研究所《臺灣中醫臨床術語代碼手冊草稿》「全民健康保險中醫處置給付項目與SNOMED CT編碼對照表」收錄，代碼為全民健康保險醫療服務給付項目及支付標準之中醫處置代碼，資料所屬單位：衛生福利部中央健康保險署。"
+Description: "全民健康保險中醫處置給付項目。依中醫藥研究所《臺灣中醫臨床術語代碼手冊草稿》「全民健康保險中醫處置給付項目與SNOMED CT編碼對照表」收錄，代碼為[《全民健康保險醫療服務給付項目及支付標準》](https://www.nhi.gov.tw/ch/lp-3778-1.html)之中醫處置代碼，資料所屬單位：衛生福利部中央健康保險署。"
 * ^caseSensitive = true
 * ^content = #complete
 * ^date = "2026-10-13"

@@ -3,7 +3,7 @@ Id: approach-twcm
 Title: "方法(Approach)"
 Description: "方法"
 * ^url = "https://twcmig.nricm.edu.tw/StructureDefinition/approach-twcm"
-* ^version = "0.1.0"
+* ^version = "1.0.0"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Procedure.bodySite"

@@ -2,7 +2,7 @@ Logical: TraditionalChineseMedicineClinicRecordModel
 Id: TraditionalChineseMedicineClinicRecordModel
 Title: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料模型"
 Description: "中醫門診單(TraditionalChineseMedicineClinicRecord)之資料模型"
-* ^version = "0.1.0"
+* ^version = "1.0.0"
 * documentInfo 1..1 BackboneElement "病歷文件資料"
   * hisDocK 1..1 Identifier "HIS病歷唯一碼"
   * hospitalId 1..1 Identifier "醫事機構代碼"

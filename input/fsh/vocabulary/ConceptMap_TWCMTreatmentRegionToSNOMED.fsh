@@ -28,7 +28,6 @@ Description: "健保署中醫診療部位代碼（針灸傷科脫臼整復部位
 * group[0].element[2].target[0].code = #416550000
 * group[0].element[2].target[0].display = "Chest and abdomen"
 * group[0].element[2].target[0].equivalence = #wider
-* group[0].element[2].target[0].comment = "對應程度待中醫所確認"
 * group[0].element[3].code = #CD
 * group[0].element[3].display = "後軀幹"
 * group[0].element[3].target[0].code = #77568009
@@ -39,7 +38,6 @@ Description: "健保署中醫診療部位代碼（針灸傷科脫臼整復部位
 * group[0].element[4].target[0].code = #304037003
 * group[0].element[4].target[0].display = "Structure of upper back"
 * group[0].element[4].target[0].equivalence = #equivalent
-* group[0].element[4].target[0].comment = "對應程度待中醫所確認"
 * group[0].element[5].code = #CF
 * group[0].element[5].display = "腰"
 * group[0].element[5].target[0].code = #52612000
@@ -47,10 +45,9 @@ Description: "健保署中醫診療部位代碼（針灸傷科脫臼整復部位
 * group[0].element[5].target[0].equivalence = #equal
 * group[0].element[6].code = #CG
 * group[0].element[6].display = "股"
-* group[0].element[6].target[0].code = #29836001
-* group[0].element[6].target[0].display = "Hip region structure"
-* group[0].element[6].target[0].equivalence = #inexact
-* group[0].element[6].target[0].comment = "對應程度待中醫所確認"
+* group[0].element[6].target[0].code = #68367000
+* group[0].element[6].target[0].display = "Thigh structure"
+* group[0].element[6].target[0].equivalence = #equivalent
 * group[0].element[7].code = #CH
 * group[0].element[7].display = "左上肢"
 * group[0].element[7].target[0].code = #80768000

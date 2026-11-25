@@ -3,7 +3,7 @@ Id: description-twcm
 Title: "處置類別描述(description)"
 Description: "處置類別描述"
 * ^url = "https://twcmig.nricm.edu.tw/StructureDefinition/description-twcm"
-* ^version = "0.1.0"
+* ^version = "1.0.0"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Procedure.bodySite"

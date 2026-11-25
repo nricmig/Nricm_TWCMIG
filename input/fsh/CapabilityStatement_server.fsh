@@ -2,13 +2,16 @@ Instance: CapabilityStatementTWCMServer
 InstanceOf: CapabilityStatement
 Usage: #definition
 * url = "https://twcmig.nricm.edu.tw/CapabilityStatement/CapabilityStatementTWCMServer"
-* version = "0.1.0"
+* version = "1.0.0"
 * name = "CapabilityStatementTWCMServer"
 * title = "臺灣中醫實作指引-伺服端(TWCM Server)"
 * status = #active
 * experimental = false
 * publisher = "衛生福利部國家中醫藥研究所"
-* date = "2026-10-06"
+* contact.name = "衛生福利部國家中醫藥研究所"
+* contact.telecom.system = #url
+* contact.telecom.value = "https://www.nricm.edu.tw/"
+* date = "2026-11-26"
 * kind = #requirements
 * fhirVersion = #4.0.1
 * format[0] = #xml
@@ -17,6 +20,8 @@ Usage: #definition
 * implementationGuide = "https://twcmig.nricm.edu.tw/ImplementationGuide/tw.gov.mohw.nricm.twcm"
 * description = "臺灣中醫實作指引(TWCM IG)伺服端(Server)之能力聲明"
 * rest.mode = #server
+* rest.security.service = http://terminology.hl7.org/CodeSystem/restful-security-service#SMART-on-FHIR "SMART-on-FHIR"
+* rest.security.description = "臺灣中醫實作指引-伺服端(TWCM Server)必須(SHALL)支援SMART on FHIR進行驗證與授權，並以HTTP狀態碼401、403或404拒絕未經授權的請求。詳細要求請參閱[安全性](security.html)及[SMART on FHIR規範要求與支援能力](scopes.html)。"
 * rest.documentation = "臺灣中醫實作指引-伺服端(TWCM Server)必須(SHALL)：(1)支援本實作指引中所有profiles (2)根據FHIR規範實作RESTful (3)回傳狀態碼-①(Status 400)：無效參數(invalid parameter)、②(Status 401/4xx)：未經授權的請求(unauthorized request)、③(Status 403)：未充分授權的資料存取範圍(insufficient permission scope)、④(Status 404)：未知的resource(unknown resource) (4)支援JSON格式 (5)可識別每個新增到Server的實例(instance)之meta.profile是否為本實作指引Profiles Defining URL，並確認實例是否依循Profile製作。臺灣中醫實作指引-伺服端(TWCM Server)建議應該(SHOULD)：(1)支援XML格式。"
 
 * rest.resource[+].type = #AllergyIntolerance
@@ -370,10 +375,10 @@ Usage: #definition
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
   <h2 id=\"title\">臺灣中醫實作指引-伺服端(TWCM Server)</h2>
   <ul>
-    <li>實作指引版本：0.1.0</li>
+    <li>實作指引版本：1.0.0</li>
     <li>FHIR版本：4.0.1</li>
     <li>支援格式：<code>json</code>、<code>xml</code></li>
-    <li>發布日：2026-10-06</li>
+    <li>發布日：2026-11-26</li>
     <li>發布者：衛生福利部國家中醫藥研究所</li>
   </ul>
   <h3 id=\"shallIGs\">必須（SHALL）支援以下實作指引</h3>
@@ -402,6 +407,8 @@ Usage: #definition
       </div>
     </div>
   </div>
+  <h3 id=\"security\">安全性</h3>
+  <p>臺灣中醫實作指引-伺服端(TWCM Server)<b>必須(SHALL)</b>支援SMART on FHIR進行驗證與授權，並以HTTP狀態碼401、403或404拒絕未經授權的請求。詳細要求請參閱<a href=\"security.html\">安全性</a>及<a href=\"scopes.html\">SMART on FHIR規範要求與支援能力</a>。</p>
   <h3 id=\"resourcesCap1\">Resources或Profiles的RESTful功能</h3>
   <h4 id=\"resourcesSummary1\">Summary</h4>
   <p>共有十九類Resources，各Resource支援之互動及查詢參數如下表：</p>

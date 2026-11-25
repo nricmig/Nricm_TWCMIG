@@ -5,6 +5,7 @@
 <ul>
 <li><a href="CodeSystem-mohw-dopmac-tcmmedication.html">臺灣衛福部中醫藥品許可證</a></li>
 <li><a href="CodeSystem-twcm-procedurecategory.html">衛福部中醫診所EMR單張-中醫處置分類</a></li>
+<li><a href="CodeSystem-twcm-nhi-procedure.html">全民健康保險中醫處置給付項目</a></li>
 <li><a href="CodeSystem-who-ictm-terminology.html">WHO傳統醫學國際標準術語(中醫)</a></li>
 <li><a href="CodeSystem-twcm-acupuncturepoint.html">中醫針灸經絡穴位代碼</a></li>
 <li><a href="CodeSystem-twcm-treatmentregion.html">針灸傷科脫臼整復部位</a></li>
@@ -24,6 +25,7 @@
 <li><a href="ValueSet-twcm-pulsecondition.html">病人脈象值集</a></li>
 <li><a href="ValueSet-twcm-pulseposition.html">中醫脈診部位值集(寸關尺)</a></li>
 <li><a href="ValueSet-twcm-pulsebodysite.html">中醫脈診左右手值集</a></li>
+<li><a href="ValueSet-twcm-tonguecondition.html">病人舌象值集</a></li>
 <li><a href="ValueSet-twcm-therapeuticprinciples.html">病人治則值集</a></li>
 <li><a href="ValueSet-twcm-therapeuticmethod.html">病人治法值集</a></li>
 <li><a href="ValueSet-twcm-acupuncturepoint.html">中醫針灸經絡穴位值集</a></li>
@@ -68,6 +70,8 @@
 ### 概念對應表
 <ul>
 <li><a href="ConceptMap-twcm-whoictm-to-icd11.html">WHO傳統醫學國際標準術語(中醫)證型與ICD-11對應表</a></li>
+<li><a href="ConceptMap-twcm-acupuncturepoint-to-snomed.html">中醫針灸經絡穴位與SNOMED CT對應表</a></li>
+<li><a href="ConceptMap-twcm-nhi-procedure-to-snomed.html">全民健康保險中醫處置給付項目與SNOMED CT對應表</a></li>
 <li><a href="ConceptMap-twcm-treatmentregion-to-snomed.html">針灸傷科脫臼整復部位與SNOMED CT對應表</a></li>
 <li><a href="ConceptMap-twcm-educationlevel-to-v3.html">臺灣教育程度標準分類代碼對應至HL7 v3 EducationLevel</a></li>
 </ul>

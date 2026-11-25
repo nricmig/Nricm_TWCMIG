@@ -3,7 +3,7 @@ Id: packagenumber-twcm
 Title: "包數(PackageNumber)"
 Description: "包數，指本次處方共開立之藥品包數。"
 * ^url = "https://twcmig.nricm.edu.tw/StructureDefinition/packagenumber-twcm"
-* ^version = "0.1.0"
+* ^version = "1.0.0"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "MedicationRequest"

@@ -1,7 +1,7 @@
 CodeSystem: TWCMAcupuncturePoint
 Id: twcm-acupuncturepoint
 Title: "中醫針灸經絡穴位代碼"
-Description: "依據 WHO Standard Acupuncture Nomenclature, Second Edition（ISBN 9290611057），由 WHO Regional Office for the Western Pacific 出版。原始內容著作權屬於 World Health Organization。本代碼系統非由 WHO 建立，WHO 不負責其內容之準確性。收錄 14 經絡、361 經穴、經外奇穴（EX）及頭皮針標準治療線（MS），穴位中文名稱依中醫藥研究所《臺灣中醫臨床術語代碼手冊草稿》收錄。
+Description: "依據 [WHO Standard Acupuncture Nomenclature, Second Edition](https://www.who.int/publications/i/item/9290611057)（ISBN 9290611057），由 WHO Regional Office for the Western Pacific 出版。原始內容著作權屬於 World Health Organization。本代碼系統非由 WHO 建立，WHO 不負責其內容之準確性。收錄 14 經絡、361 經穴、經外奇穴（EX）及頭皮針標準治療線（MS），穴位中文名稱依中醫藥研究所《臺灣中醫臨床術語代碼手冊草稿》收錄。
 
 因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。"
 * ^caseSensitive = true
