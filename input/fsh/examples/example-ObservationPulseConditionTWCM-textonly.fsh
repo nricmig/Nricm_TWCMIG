@@ -5,7 +5,7 @@ Title: "病人脈象範例(僅文字,無對應代碼)"
 Description: "依據病人脈象(ObservationPulseCondition TWCM)Profile呈現中醫門診單中病人脈象的範例。示範當來源文字無法對應到WHOICTMTerminology代碼系統中任何詞條時,component.valueCodeableConcept僅填text、不填coding的寫法。"
 Usage: #example
 * status = #final
-* code = $SCT#421608007 "Finding of pulse taking by palpation (finding)"
+* code = WHOICTMTerminology#850 "脈診；切脈"
 * subject = Reference(Patient/PatientTWCM-min)
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
@@ -21,7 +21,7 @@ Usage: #example
     <b>狀態</b>：Final <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/observation-status\">ObservationStatus</a>#final) </span>
     </p>
     <p>
-    <b>項目</b>：Finding of pulse taking by palpation (finding) <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#421608007) </span>
+    <b>項目</b>：脈診；切脈 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#850) </span>
     </p>
     <p>
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"

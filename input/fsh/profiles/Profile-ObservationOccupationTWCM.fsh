@@ -8,6 +8,9 @@ Description: "此職業(ObservationOccupation TWCM)Profile說明本IG如何進�
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 
+* effective[x] 0..0
+  * ^short = "[中醫門診單未記錄職業之時間，不填寫]"
+
 * value[x] only CodeableConceptTW
 * valueCodeableConcept 1..1 MS
   * ^short = "[應填入中醫門診單之職業Occuation]"

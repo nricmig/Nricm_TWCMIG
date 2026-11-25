@@ -284,5 +284,5 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 
 Invariant: majorIllness-condition-twcm
 Description: "若重大傷病註記為「是」，則重大傷病代碼與病名必填"
-Expression: "(Composition.section.where(code.coding.code.all($this = '11338-1')).entry.resolve().where(($this is Observation) and (code.coding.code.all($this = '11338-1')) and (value.ofType(boolean) = true)).exists()) implies (Composition.section.where(code.coding.code.all($this = '11338-1')).section.where(code.coding.code.all($this = '11338-1')).entry.resolve().where($this is Condition).exists())"
+Expression: "(Composition.section.where(code.coding.code.all($this = '11338-1')).entry.resolve().where(($this is Observation) and (code.coding.code.all($this = '11338-1')) and (value.ofType(string) = '是')).exists()) implies (Composition.section.where(code.coding.code.all($this = '11338-1')).section.where(code.coding.code.all($this = '11338-1')).entry.resolve().where($this is Condition).exists())"
 Severity: #error

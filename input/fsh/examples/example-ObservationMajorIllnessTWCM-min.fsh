@@ -8,7 +8,7 @@ Usage: #example
 * subject = Reference(Patient/PatientTWCM-min)
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
-* valueBoolean = true
+* valueString = "是"
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

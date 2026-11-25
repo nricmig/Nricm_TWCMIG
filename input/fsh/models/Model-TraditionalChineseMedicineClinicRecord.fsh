@@ -314,30 +314,30 @@ Id: ObservationInspectionTWCM
 Title: "Mapping to ObservationInspectionTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/observationinspection-twcm"
-* encounter.inspection -> "ObservationInspectionTWCM.where(code='118243007').valueString(望診)"
-* encounter.tongueCondition -> "ObservationInspectionTWCM.component.where(code='249378009').valueCodeableConcept(病人舌象)"
+* encounter.inspection -> "ObservationInspectionTWCM.where(code='558').valueString(望診)"
+* encounter.tongueCondition -> "ObservationInspectionTWCM.component.where(code='634').valueCodeableConcept(病人舌象)"
 
 Mapping: TWCMClinicRecordToObservationListeningSmellingTWCM
 Id: ObservationListeningSmellingTWCM
 Title: "Mapping to ObservationListeningSmellingTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/observationlisteningsmelling-twcm"
-* encounter.listeningSmelling -> "ObservationListeningSmellingTWCM.where(code='118241009').valueString(聞診)"
+* encounter.listeningSmelling -> "ObservationListeningSmellingTWCM.where(code='701').valueString(聞診)"
 
 Mapping: TWCMClinicRecordToObservationInquiryTWCM
 Id: ObservationInquiryTWCM
 Title: "Mapping to ObservationInquiryTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/observationinquiry-twcm"
-* encounter.inquiry -> "ObservationInquiryTWCM.where(code='418799008').valueString(問診)"
+* encounter.inquiry -> "ObservationInquiryTWCM.where(code='725').valueString(問診)"
 
 Mapping: TWCMClinicRecordToObservationPalpationTWCM
 Id: ObservationPalpationTWCM
 Title: "Mapping to ObservationPalpationTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/observationpalpation-twcm"
-* encounter.palpation -> "ObservationPalpationTWCM.where(code='118242002').valueString(切診)"
-* encounter.pulseCondition -> "ObservationPalpationTWCM.hasMember.Reference(ObservationPulseConditionTWCM).where(code='421608007')：bodySite(左右手)；component.where(code=寸脈|關脈|尺脈).valueCodeableConcept(分部位脈象)；未分寸關尺時為valueCodeableConcept(病人脈象)"
+* encounter.palpation -> "ObservationPalpationTWCM.where(code='849').valueString(切診)"
+* encounter.pulseCondition -> "ObservationPalpationTWCM.hasMember.Reference(ObservationPulseConditionTWCM).where(code='850')：bodySite(左右手)；component.where(code=寸脈|關脈|尺脈).valueCodeableConcept(分部位脈象)；未分寸關尺時為valueCodeableConcept(病人脈象)"
 
 Mapping: TWCMClinicRecordToConditionSyndromeTypeTWCM
 Id: ConditionSyndromeTypeTWCM
@@ -365,7 +365,7 @@ Id: ObservationMajorIllnessTWCM
 Title: "Mapping to ObservationMajorIllnessTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/observationmajorillness-twcm"
-* encounter.majorInjuryInfo.majorInjuryFlag -> "ObservationMajorIllnessTWCM.where(code='11338-1').valueBoolean(重大傷病註記)"
+* encounter.majorInjuryInfo.majorInjuryFlag -> "ObservationMajorIllnessTWCM.where(code='11338-1').valueString(重大傷病註記)"
 
 Mapping: TWCMClinicRecordToConditionMajorIllnessTWCM
 Id: ConditionMajorIllnessTWCM

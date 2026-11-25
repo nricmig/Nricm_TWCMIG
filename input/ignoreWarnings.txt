@@ -6,8 +6,9 @@
 # 本IG自訂代碼系統目前為草案(draft)狀態，待正式發布後改為active，不影響驗證。
 % Reference to draft CodeSystem%
 
-# 建議Observation皆須要填寫performer，但此專案情境不需要。
-% Best Practice Recommendation: In general, all observations should have a performer%
+# Observation中的performer/effective[x]為選填，但HL7 FHIR建議填寫，此警告訊息不影響實作與實際代碼驗證。
+%Best Practice Recommendation: In general, all observations should have a performer%
+%Best Practice Recommendation: In general, all observations should have an effective[x]%
 
 # validator無法辨識URL，不影響驗證。
 % No definition could be found for URL value%
@@ -61,3 +62,9 @@ The slice definition for Procedure.code.coding has a maximum of 1 but the slices
 # 提醒regex、elementdefinition-maxValueSet擴充已被HL7標示為棄用(deprecated)；此二擴充來自繼承之TW Core IG Profile(Patient、AllergyIntolerance)，非本IG定義，不影響驗證。
 % is deprecated with the note: 'Use additionalBinding extension or element instead'%
 % is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath%
+
+# ICD-11採用臨床通用之MMS代碼(如SA00)，術語伺服器另提示其內部實體編號為標準形式，代碼本身有效，不影響驗證。
+%is valid, but it is not the normal form for the code system 'http://id.who.int/icd/release/11/mms%
+
+# SNOMED CT代碼僅能由術語伺服器驗證，validator基於效能考量不逐碼檢查概念對應表之目標代碼，代碼已另行查證。
+%Target Code System http://snomed.info/sct is only supported on the terminology server%

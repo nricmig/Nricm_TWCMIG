@@ -5,7 +5,7 @@ Id: observationpulsecondition-twcm
 Title: "病人脈象(ObservationPulseCondition TWCM)"
 Description: "此病人脈象(ObservationPulseCondition TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現中醫門診單之病人脈象的詳細資料。"
 * status = #final
-* code = $SCT#421608007 "Finding of pulse taking by palpation (finding)"
+* code = WHOICTMTerminology#850 "脈診；切脈"
 * obeys pulsecondition-value-or-component and pulsecondition-component-bodysite
 * value[x] MS
 * value[x] only CodeableConcept

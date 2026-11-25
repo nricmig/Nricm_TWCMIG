@@ -731,6 +731,8 @@
 <text x="1286.8" y="4726.0" font-size="12" font-weight="bold" text-anchor="start" fill="#1F6FB2">TW Core IG</text>
 <rect x="770" y="4740" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="4756.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">extension:medicalIdentity</text>
+<rect x="1150" y="4742" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
+<text x="1155" y="4756" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
 <rect x="770" y="4770" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="4786.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">subject</text>
 <path d="M1140,4782 L1640,4782" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
@@ -996,7 +998,7 @@
 <rect x="770" y="6780" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="6796.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">investigation:inspection.item</text>
 <rect x="1150" y="6782" width="143" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="6796.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = SCT#118243007</text>
+<text x="1157.0" y="6796.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = WHO#558</text>
 <path d="M1293,6792 L1640,6792" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-observationinspection-twcm.html" target="_top">
 <rect x="1640" y="6780" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
@@ -1005,7 +1007,7 @@
 <rect x="770" y="6810" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="6826.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">investigation:listeningSmelling.item</text>
 <rect x="1150" y="6812" width="143" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="6826.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = SCT#118241009</text>
+<text x="1157.0" y="6826.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = WHO#701</text>
 <path d="M1293,6822 L1640,6822" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-observationlisteningsmelling-twcm.html" target="_top">
 <rect x="1640" y="6810" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
@@ -1014,7 +1016,7 @@
 <rect x="770" y="6840" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="6856.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">investigation:inquiry.item</text>
 <rect x="1150" y="6842" width="143" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="6856.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = SCT#418799008</text>
+<text x="1157.0" y="6856.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = WHO#725</text>
 <path d="M1293,6852 L1640,6852" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-observationinquiry-twcm.html" target="_top">
 <rect x="1640" y="6840" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
@@ -1023,7 +1025,7 @@
 <rect x="770" y="6870" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="6886.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">investigation:palpation.item</text>
 <rect x="1150" y="6872" width="143" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="6886.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = SCT#118242002</text>
+<text x="1157.0" y="6886.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = WHO#849</text>
 <path d="M1293,6882 L1640,6882" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-observationpalpation-twcm.html" target="_top">
 <rect x="1640" y="6870" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
@@ -1067,13 +1069,13 @@
 <rect x="770" y="7134" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="7150.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">code</text>
 <rect x="1150" y="7136" width="111" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="7150.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= SCT#118243007</text>
+<text x="1157.0" y="7150.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= WHO#558</text>
 <rect x="770" y="7164" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="7180.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueString</text>
 <rect x="770" y="7194" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
 <text x="777.0" y="7210.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">component:tongueCondition.valueCodeableConcept</text>
 <rect x="1150" y="7196" width="143" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="7210.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = SCT#249378009</text>
+<text x="1157.0" y="7210.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">code = WHO#634</text>
 <rect x="1299" y="7196" width="88" height="20" fill="#FFF2CC" stroke="#FFF2CC"/>
 <text x="1303.8" y="7210.0" font-size="12" font-weight="bold" text-anchor="start" fill="#1F6FB2">專案自訂代碼</text>
 <rect x="770" y="7224" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
@@ -1135,7 +1137,7 @@
 <rect x="770" y="7548" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="7564.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">code</text>
 <rect x="1150" y="7550" width="111" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="7564.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= SCT#118241009</text>
+<text x="1157.0" y="7564.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= WHO#701</text>
 <rect x="770" y="7578" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="7594.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueString</text>
 <rect x="770" y="7608" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
@@ -1179,7 +1181,7 @@
 <rect x="770" y="7842" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="7858.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">code</text>
 <rect x="1150" y="7844" width="111" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="7858.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= SCT#418799008</text>
+<text x="1157.0" y="7858.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= WHO#725</text>
 <rect x="770" y="7872" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="7888.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueString</text>
 <rect x="770" y="7902" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
@@ -1295,7 +1297,7 @@
 <rect x="770" y="8496" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="8512.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">code</text>
 <rect x="1150" y="8498" width="111" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="8512.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= SCT#118242002</text>
+<text x="1157.0" y="8512.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= WHO#849</text>
 <rect x="770" y="8526" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="8542.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueString</text>
 <rect x="770" y="8556" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
@@ -1340,7 +1342,7 @@
 <rect x="770" y="8790" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="8806.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">code</text>
 <rect x="1150" y="8792" width="111" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="8806.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= SCT#421608007</text>
+<text x="1157.0" y="8806.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= WHO#850</text>
 <rect x="770" y="8820" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
 <text x="777.0" y="8836.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueCodeableConcept</text>
 <rect x="1150" y="8822" width="88" height="20" fill="#FFF2CC" stroke="#FFF2CC"/>
@@ -1492,7 +1494,7 @@
 <rect x="1150" y="9728" width="111" height="20" fill="#F5F5F5" stroke="#999"/>
 <text x="1157.0" y="9742.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= LOINC#11338-1</text>
 <rect x="770" y="9756" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="9772.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueBoolean</text>
+<text x="777.0" y="9772.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">valueString</text>
 <rect x="770" y="9786" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="9802.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">subject</text>
 <path d="M1140,9798 L1640,9798" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>

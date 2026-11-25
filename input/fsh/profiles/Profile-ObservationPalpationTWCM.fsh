@@ -5,7 +5,7 @@ Id: observationpalpation-twcm
 Title: "切診(ObservationPalpation TWCM)"
 Description: "此切診(ObservationPalpation TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現中醫門診單之切診的詳細資料。切診整體描述填於valueString；按診以component記錄；病人脈象以hasMember參照病人脈象(ObservationPulseCondition TWCM)。"
 * status = #final
-* code = $SCT#118242002 "Finding by palpation"
+* code = WHOICTMTerminology#849 "切診"
 * obeys palpation-value-or-hasmember
 * value[x] MS
 * value[x] only string

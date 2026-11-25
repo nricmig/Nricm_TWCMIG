@@ -5,7 +5,7 @@ Id: observationlisteningsmelling-twcm
 Title: "聞診(ObservationListeningSmelling TWCM)"
 Description: "此聞診(ObservationListeningSmelling TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現中醫門診單之聞診的詳細資料。聞診整體描述填於valueString；各分類紀錄以component記錄。"
 * status = #final
-* code = $SCT#118241009 "Finding by auscultation"
+* code = WHOICTMTerminology#701 "聞診"
 * obeys listeningsmelling-value-or-component
 * value[x] MS
 * value[x] only string

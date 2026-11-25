@@ -5,8 +5,10 @@ Title: "重大傷病註記(ObservationMajorIllness TWCM)"
 Description: "此重大傷病註記(ObservationMajorIllness TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現中醫門診單之重大傷病註記。"
 * status = #final
 * code = http://loinc.org#11338-1
-* valueBoolean 1..1 MS
-* valueBoolean ^short = "[應填入中醫門診單重大傷病註記Major Injury Flag(是/否)；表示是否具健保重大傷病資格，不代表特定診斷]。"
+* value[x] only string
+* valueString 1..1 MS
+* valueString ^short = "[應填入中醫門診單重大傷病註記Major Injury Flag，填「是」或「否」]。"
+* obeys majorIllness-flag-twcm
 
 * basedOn only Reference(careplan-twcm or DeviceRequest or ImmunizationRecommendation or medicationrequest-twcm or NutritionOrder or servicerequest-twcm)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or procedure-twcm or TWCoreImmunization or TWCoreImagingStudy)
@@ -19,3 +21,8 @@ Description: "此重大傷病註記(ObservationMajorIllness TWCM)Profile說明�
 
 * subject 1..1 MS
 * encounter 1..1 MS
+
+Invariant: majorIllness-flag-twcm
+Description: "重大傷病註記僅可填「是」或「否」"
+Expression: "value.ofType(string) = '是' or value.ofType(string) = '否'"
+Severity: #error

@@ -16,6 +16,7 @@ Usage: #example
   * individual = Reference(Practitioner/PractitionerTWCM-pro)
 
 * extension[0].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/medicalidentity-twcm"
+* extension[=].valueCodeableConcept.coding = http://terminology.hl7.org/CodeSystem/v3-ActCode#PUBLICPOL "public healthcare"
 * extension[=].valueCodeableConcept.text = "健保"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -40,7 +41,7 @@ Usage: #example
 		<b>掛號(報到)時間</b>：2010-10-10 17:30:00-0500
 	</p>
 	<p>
-		<b>就醫身份[extension: <a href=\"StructureDefinition-medicalidentity-twcm.html\">medicalidentity</a>]</b>：健保
+		<b>就醫身份[extension: <a href=\"StructureDefinition-medicalidentity-twcm.html\">medicalidentity</a>]</b>：健保 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v3-ActCode\">ActCode</a>#PUBLICPOL) </span>
 	</p>
 	<p>
 		<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"

@@ -9,13 +9,13 @@ Usage: #example
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * summary = "神清，面色萎黃，形體偏瘦，語聲低微，腹部按之柔軟無壓痛"
-* investigation[inspection].code = $SCT#118243007 "Finding by inspection (simple observation)"
+* investigation[inspection].code = WHOICTMTerminology#558 "望診"
 * investigation[inspection].item = Reference(Observation/ObservationInspectionTWCM-min)
-* investigation[listeningSmelling].code = $SCT#118241009 "Finding by auscultation"
+* investigation[listeningSmelling].code = WHOICTMTerminology#701 "聞診"
 * investigation[listeningSmelling].item = Reference(Observation/ObservationListeningSmellingTWCM-min)
-* investigation[inquiry].code = $SCT#418799008 "Finding reported by subject or history provider"
+* investigation[inquiry].code = WHOICTMTerminology#725 "問診"
 * investigation[inquiry].item = Reference(Observation/ObservationInquiryTWCM-min)
-* investigation[palpation].code = $SCT#118242002 "Finding by palpation"
+* investigation[palpation].code = WHOICTMTerminology#849 "切診"
 * investigation[palpation].item = Reference(Observation/ObservationPalpationTWCM-min)
 * finding[diseaseCause].itemCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-syndromedifferentiation-category#"病因" "病因"
 * finding[diseaseCause].itemCodeableConcept.text = "外感風寒，飲食失調"

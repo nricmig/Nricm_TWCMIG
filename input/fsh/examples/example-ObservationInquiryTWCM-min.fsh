@@ -5,7 +5,7 @@ Title: "問診範例"
 Description: "依據問診(ObservationInquiry TWCM)Profile呈現中醫門診單中問診的範例"
 Usage: #example
 * status = #final
-* code = $SCT#418799008 "Finding reported by subject or history provider"
+* code = WHOICTMTerminology#725 "問診"
 * subject = Reference(Patient/PatientTWCM-min)
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
@@ -31,7 +31,7 @@ Usage: #example
     <b>狀態</b>：Final <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/observation-status\">ObservationStatus</a>#final) </span>
     </p>
     <p>
-    <b>項目</b>：Finding reported by subject or history provider <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#418799008) </span>
+    <b>項目</b>：問診 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#725) </span>
     </p>
     <p>
     <b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"

@@ -326,15 +326,15 @@ Description: "病人舌象值集，收錄以「Tongue」於 SNOMED CT 檢索所�
 * $SCT#783738002 "Heart defect, tongue hamartoma, polysyndactyly syndrome"
 * $SCT#94134006 "Primary malignant neoplasm of inferior part of oral part of tongue"
 * $SCT#93848003 "Primary malignant neoplasm of junctional zone of dorsum of tongue"
-  * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/valueset-deprecated"
-  * ^extension[0].valueBoolean = true
+  * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
+  * ^extension[0].valueCode = #deprecated
   * ^extension[1].url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
   * ^extension[1].valueString = "狀態：SNOMED CT 已停用(inactive)"
 * $SCT#94273000 "Metastatic malignant neoplasm to dorsal surface of tongue"
 * $SCT#94672000 "Metastatic malignant neoplasm to inferior part of oral part of tongue"
 * $SCT#94359007 "Metastatic malignant neoplasm to junctional zone of dorsum of tongue"
-  * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/valueset-deprecated"
-  * ^extension[0].valueBoolean = true
+  * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
+  * ^extension[0].valueCode = #deprecated
   * ^extension[1].url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
   * ^extension[1].valueString = "狀態：SNOMED CT 已停用(inactive)"
 * $SCT#94813001 "Neoplasm of uncertain behavior of dorsal surface of tongue"

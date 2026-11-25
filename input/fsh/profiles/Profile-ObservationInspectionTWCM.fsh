@@ -5,7 +5,7 @@ Id: observationinspection-twcm
 Title: "望診(ObservationInspection TWCM)"
 Description: "此望診(ObservationInspection TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現中醫門診單之望診的詳細資料。望診整體描述填於valueString；病人舌象、望神、望體、望頭面、望目、望皮膚等分類紀錄以component記錄。"
 * status = #final
-* code = $SCT#118243007 "Finding by inspection (simple observation)"
+* code = WHOICTMTerminology#558 "望診"
 * obeys inspection-value-or-component
 * value[x] MS
 * value[x] only string
@@ -19,7 +19,7 @@ Description: "此望診(ObservationInspection TWCM)Profile說明本IG如何進�
 * component ^slicing.description = "依望診分類切分"
 * component contains tongueCondition 0..* MS
 * component[tongueCondition] ^short = "[應填入中醫門診單之病人舌象Tongue Condition；有多個舌象時，每個舌象各填一筆component]"
-* component[tongueCondition].code = $SCT#249378009 "Tongue finding"
+* component[tongueCondition].code = WHOICTMTerminology#634 "舌診"
 * component[tongueCondition].value[x] 1..1 MS
 * component[tongueCondition].value[x] only CodeableConcept
 * component[tongueCondition].valueCodeableConcept

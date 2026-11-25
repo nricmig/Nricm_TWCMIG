@@ -5,7 +5,7 @@ Title: "聞診範例"
 Description: "依據聞診(ObservationListeningSmelling TWCM)Profile呈現中醫門診單中聞診的範例"
 Usage: #example
 * status = #final
-* code = $SCT#118241009 "Finding by auscultation"
+* code = WHOICTMTerminology#701 "聞診"
 * subject = Reference(Patient/PatientTWCM-min)
 * effectiveDateTime = "2010-10-10T17:30:00-05:00"
 * encounter = Reference(Encounter/EncounterTWCM-min)
@@ -25,7 +25,7 @@ Usage: #example
     <b>狀態</b>：Final <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/observation-status\">ObservationStatus</a>#final) </span>
     </p>
     <p>
-    <b>項目</b>：Finding by auscultation <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#118241009) </span>
+    <b>項目</b>：聞診 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#701) </span>
     </p>
     <p>
     <b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"

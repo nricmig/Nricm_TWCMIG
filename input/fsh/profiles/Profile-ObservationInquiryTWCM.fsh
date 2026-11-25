@@ -5,7 +5,7 @@ Id: observationinquiry-twcm
 Title: "問診(ObservationInquiry TWCM)"
 Description: "此問診(ObservationInquiry TWCM)Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現中醫門診單之問診的詳細資料。問診整體描述填於valueString；各分類紀錄以component記錄。"
 * status = #final
-* code = $SCT#418799008 "Finding reported by subject or history provider"
+* code = WHOICTMTerminology#725 "問診"
 * obeys inquiry-value-or-component
 * value[x] MS
 * value[x] only string

@@ -26,19 +26,19 @@ Description: "此中醫辨證評估(ClinicalImpression TWCM)Profile說明本IG�
     listeningSmelling 0..1 MS and
     inquiry 0..1 MS and
     palpation 0..1 MS
-* investigation[inspection].code = $SCT#118243007 "Finding by inspection (simple observation)"
+* investigation[inspection].code = WHOICTMTerminology#558 "望診"
 * investigation[inspection].item 1..1 MS
 * investigation[inspection].item only Reference(observationinspection-twcm)
 * investigation[inspection] ^short = "望診"
-* investigation[listeningSmelling].code = $SCT#118241009 "Finding by auscultation"
+* investigation[listeningSmelling].code = WHOICTMTerminology#701 "聞診"
 * investigation[listeningSmelling].item 1..1 MS
 * investigation[listeningSmelling].item only Reference(observationlisteningsmelling-twcm)
 * investigation[listeningSmelling] ^short = "聞診"
-* investigation[inquiry].code = $SCT#418799008 "Finding reported by subject or history provider"
+* investigation[inquiry].code = WHOICTMTerminology#725 "問診"
 * investigation[inquiry].item 1..1 MS
 * investigation[inquiry].item only Reference(observationinquiry-twcm)
 * investigation[inquiry] ^short = "問診"
-* investigation[palpation].code = $SCT#118242002 "Finding by palpation"
+* investigation[palpation].code = WHOICTMTerminology#849 "切診"
 * investigation[palpation].item 1..1 MS
 * investigation[palpation].item only Reference(observationpalpation-twcm)
 * investigation[palpation] ^short = "切診"

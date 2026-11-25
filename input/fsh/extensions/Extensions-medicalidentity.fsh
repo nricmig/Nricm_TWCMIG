@@ -8,6 +8,7 @@ Description: "就醫身分"
 * ^context.type = #element
 * ^context.expression = "Encounter"
 * value[x] only CodeableConcept
+* value[x] from twcm-medicalidentity (extensible)
 
 
 * . ^short = "就醫身份"
