@@ -1,10 +1,10 @@
 CodeSystem: TWCMTreatmentRegion
 Id: twcm-treatmentregion
 Title: "針灸傷科脫臼整復部位"
-Description: "針灸、傷科、脫臼整復部位。參考健保署中醫用診療部位代碼。依據[《特約醫事服務機構門診醫療費用點數申報格式及填表說明》](https://www.nhi.gov.tw/ch/cp-5367-8d6c5-2757-1.html)（版更日期：112.08.25）建立，資料來源為衛生福利部中央健康保險署，對應欄位 p6 中醫診療部位代碼。"
+Description: "針灸、傷科、脫臼整復部位。參考健保署中醫用診療部位代碼。依據[《特約醫事服務機構門診醫療費用點數申報格式及填表說明》](https://www.nhi.gov.tw/ch/cp-5367-8d6c5-2757-1.html)（版更日期：114.10.16）建立，資料來源為衛生福利部中央健康保險署，對應欄位 p6 中醫診療部位代碼。"
 * ^caseSensitive = true
 * ^content = #complete
-* ^date = "2023-08-25"
+* ^date = "2025-10-16"
 * ^experimental = false
 
 * #CA "頭"
