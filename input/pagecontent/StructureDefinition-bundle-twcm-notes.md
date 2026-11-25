@@ -16,7 +16,7 @@
  `GET [base]/Bundle?identifier=[system]|[code]`
 
    例子：<br>
-   (1) GET [base]/Bundle?identifier=https://www.nricm.edu.tw/twcm\|77654729730091
+   (1) GET [base]/Bundle?identifier=https://twcmig.nricm.edu.tw\|77654729730091
 
 1. **應該（SHOULD）** 支援透過查詢參數 **[`composition`](SearchParameter-Bundle-composition.html)** 查詢所有Bundle：<br>
  ([如何透過reference查詢](http://hl7.org/fhir/R4/search.html#reference))<br>

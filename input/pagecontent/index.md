@@ -64,7 +64,7 @@
 		<li><strong><a href="scopes.html">SMART on FHIR規範要求與支援能力</a></strong>：說明伺服端支援前端應用程式及後端服務時，所需遵循的SMART on FHIR能力集合、存取範圍(Scopes)及/.well-known/smart-configuration要求。</li>
 	</ul>
 	</li>
-	<li><strong><a href="https://www.nricm.edu.tw/twcm/history.html">版本異動說明頁</a></strong>：若臺灣中醫實作指引網站的版本有所異動，皆可透過<a href="https://www.nricm.edu.tw/twcm/history.html">異動說明頁</a>得以瞭解版本間的異動差異。</li>
+	<li><strong><a href="https://twcmig.nricm.edu.tw/history.html">版本異動說明頁</a></strong>：若臺灣中醫實作指引網站的版本有所異動，皆可透過<a href="https://twcmig.nricm.edu.tw/history.html">異動說明頁</a>得以瞭解版本間的異動差異。</li>
 </ul>
 </div>
 

@@ -5,7 +5,7 @@ Description: "依據就醫事件(Encounter TWCM)Profile呈現中醫門診單中�
 Usage: #example
 * identifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * identifier.type.coding.code = #SNO
-* identifier.system = "https://www.nricm.edu.tw/twcm/identifiers/encounter"
+* identifier.system = "https://twcmig.nricm.edu.tw/identifiers/encounter"
 * identifier.value = "0035"
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#AMB "ambulatory"
@@ -15,7 +15,7 @@ Usage: #example
 * participant
   * individual = Reference(Practitioner/PractitionerTWCM-pro)
 
-* extension[0].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/medicalidentity-twcm"
+* extension[0].url = "https://twcmig.nricm.edu.tw/StructureDefinition/medicalidentity-twcm"
 * extension[=].valueCodeableConcept.coding = http://terminology.hl7.org/CodeSystem/v3-ActCode#PUBLICPOL "public healthcare"
 * extension[=].valueCodeableConcept.text = "健保"
 * text.status = #generated

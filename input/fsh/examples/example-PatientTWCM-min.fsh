@@ -39,7 +39,7 @@ Usage: #example
 
 * birthDate = "1976-09-06"
 
-* extension[0].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/childnumber-twcm"
+* extension[0].url = "https://twcmig.nricm.edu.tw/StructureDefinition/childnumber-twcm"
 * extension[=].valueInteger = 2
 
 * address[0].use = #home

@@ -11,10 +11,10 @@ Usage: #example
 * encounter = Reference(Encounter/EncounterTWCM-min)
 * valueString = "神清，面色萎黃，形體偏瘦"
 * component[spirit].code = TWCMDiagnosticExamCategory#"望神" "望神"
-* component[spirit].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"神疲" "神疲"
+* component[spirit].valueCodeableConcept.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-clinicalfinding#"神疲" "神疲"
 * component[spirit].valueCodeableConcept.text = "神疲"
 * component[headFace].code = TWCMDiagnosticExamCategory#"望頭面" "望頭面"
-* component[headFace].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"面色萎黃" "面色萎黃"
+* component[headFace].valueCodeableConcept.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-clinicalfinding#"面色萎黃" "面色萎黃"
 * component[headFace].valueCodeableConcept.text = "面色萎黃"
 * component[tongueCondition][0].code = WHOICTMTerminology#634 "舌診"
 * component[tongueCondition][0].valueCodeableConcept.coding = http://snomed.info/sct#698193000 "Coating of mucous membrane of tongue"

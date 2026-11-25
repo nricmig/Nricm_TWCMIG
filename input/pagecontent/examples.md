@@ -25,6 +25,7 @@
 - [病史範例(月經史)](Condition-ConditionMedicalHistoryTWCM-menstrual.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中月經史範例
 - [病史範例(產科史)](Condition-ConditionMedicalHistoryTWCM-obstetric.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中產科史範例
 - [病史範例(小兒病史)](Condition-ConditionMedicalHistoryTWCM-pediatric.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中小兒病史範例
+- [病史範例(男科史)](Condition-ConditionMedicalHistoryTWCM-male.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中男科史範例
 - [慢性疾病範例](Condition-ConditionChronicDiseaseTWCM-min.html)：依據慢性疾病(ConditionChronicDisease TWCM)Profile呈現中醫門診單中慢性疾病的範例
 - [病人證型範例](Condition-ConditionSyndromeTypeTWCM-min.html)：依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型範例
 - [病人證型範例(僅文字,無對應代碼)](Condition-ConditionSyndromeTypeTWCM-textonly.html)：依據病人證型(ConditionSyndromeType TWCM)Profile呈現中醫門診單中病人證型無法對應代碼時僅填文字的範例
@@ -79,6 +80,7 @@
 
 ### Patient 
 - [病人基本資料-陳美真](Patient-PatientTWCM-min.html)：依據病人資料(Patient TWCM)Profile呈現中醫門診單中之病人資料範例
+- [病人基本資料-王大明](Patient-PatientTWCM-male.html)：依據病人資料(Patient TWCM)Profile呈現中醫門診單中之男性病人資料範例
 
 ### Practitioner
 - [健康照護服務提供人員基本資料-張正原](Practitioner-PractitionerTWCM-pro.html)：依據健康照護服務提供人員資料(Practitioner TWCM)Profile呈現中醫門診單中之健康照護服務提供人員資料範例

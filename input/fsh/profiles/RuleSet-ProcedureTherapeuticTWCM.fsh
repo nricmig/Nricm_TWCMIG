@@ -5,7 +5,7 @@ RuleSet: ProcedureTherapeuticCommonRules
 * code 1..1 MS
   * coding 0..* MS
 * code.coding contains whoIctm 0..* MS
-* code.coding[whoIctm] ^patternCoding.system = "https://www.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology"
+* code.coding[whoIctm] ^patternCoding.system = "https://twcmig.nricm.edu.tw/CodeSystem/who-ictm-terminology"
 
 * subject 1..1 MS
 * encounter MS
