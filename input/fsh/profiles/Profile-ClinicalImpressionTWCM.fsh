@@ -44,9 +44,9 @@ Description: "此中醫辨證評估(ClinicalImpression TWCM)Profile說明本IG�
 * investigation[palpation] ^short = "切診"
 
 * finding MS
-  * ^short = "辨證結果。病因、病性、病位、病勢以固定文字標示項目，內容填於basis；證型以itemReference參照ConditionSyndromeTypeTWCM"
-* finding ^slicing.discriminator.type = #value
-* finding ^slicing.discriminator.path = "itemCodeableConcept.text"
+  * ^short = "辨證結果。itemCodeableConcept.coding標示辨證分類(病因、病性、病位、病勢、證型)，辨證內容填於itemCodeableConcept.text；證型以itemReference參照ConditionSyndromeTypeTWCM"
+* finding ^slicing.discriminator.type = #pattern
+* finding ^slicing.discriminator.path = "itemCodeableConcept"
 * finding ^slicing.rules = #open
 * finding ^slicing.description = "依病因、病性、病位、病勢、證型切分"
 * finding contains
@@ -56,23 +56,31 @@ Description: "此中醫辨證評估(ClinicalImpression TWCM)Profile說明本IG�
     diseaseTrend 0..1 MS and
     syndromeType 0..1 MS
 * finding[diseaseCause].itemCodeableConcept 1..1 MS
-* finding[diseaseCause].itemCodeableConcept.text = "病因" (exactly)
-* finding[diseaseCause].basis 1..1 MS
+* finding[diseaseCause].itemCodeableConcept = TWCMSyndromeDifferentiationCategory#"病因" "病因"
+* finding[diseaseCause].itemCodeableConcept.text 1..1 MS
   * ^short = "[應填入中醫門診單之病因Disease Cause]"
+* finding[diseaseCause].basis MS
+  * ^short = "支持此辨證之判斷依據(選填)"
 * finding[diseaseNature].itemCodeableConcept 1..1 MS
-* finding[diseaseNature].itemCodeableConcept.text = "病性" (exactly)
-* finding[diseaseNature].basis 1..1 MS
+* finding[diseaseNature].itemCodeableConcept = TWCMSyndromeDifferentiationCategory#"病性" "病性"
+* finding[diseaseNature].itemCodeableConcept.text 1..1 MS
   * ^short = "[應填入中醫門診單之病性Disease Nature]"
+* finding[diseaseNature].basis MS
+  * ^short = "支持此辨證之判斷依據(選填)"
 * finding[diseaseLocation].itemCodeableConcept 1..1 MS
-* finding[diseaseLocation].itemCodeableConcept.text = "病位" (exactly)
-* finding[diseaseLocation].basis 1..1 MS
+* finding[diseaseLocation].itemCodeableConcept = TWCMSyndromeDifferentiationCategory#"病位" "病位"
+* finding[diseaseLocation].itemCodeableConcept.text 1..1 MS
   * ^short = "[應填入中醫門診單之病位Disease Location]"
+* finding[diseaseLocation].basis MS
+  * ^short = "支持此辨證之判斷依據(選填)"
 * finding[diseaseTrend].itemCodeableConcept 1..1 MS
-* finding[diseaseTrend].itemCodeableConcept.text = "病勢" (exactly)
-* finding[diseaseTrend].basis 1..1 MS
+* finding[diseaseTrend].itemCodeableConcept = TWCMSyndromeDifferentiationCategory#"病勢" "病勢"
+* finding[diseaseTrend].itemCodeableConcept.text 1..1 MS
   * ^short = "[應填入中醫門診單之病勢Disease Trend]"
+* finding[diseaseTrend].basis MS
+  * ^short = "支持此辨證之判斷依據(選填)"
 * finding[syndromeType].itemCodeableConcept 1..1 MS
-* finding[syndromeType].itemCodeableConcept.text = "證型" (exactly)
+* finding[syndromeType].itemCodeableConcept = TWCMSyndromeDifferentiationCategory#"證型" "證型"
 * finding[syndromeType].itemReference 1..1 MS
 * finding[syndromeType].itemReference only Reference(conditionsyndrometype-twcm)
   * ^short = "參照本次辨證所得之病人證型"

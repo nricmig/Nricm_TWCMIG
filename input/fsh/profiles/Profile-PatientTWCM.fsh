@@ -4,9 +4,8 @@ Parent: TWCorePatient
 Id: patient-twcm
 Title: "病人資料(Patient TWCM)"
 Description: "此病人資料(Patient TWCM)Profile說明本IG如何進一步定義臺灣核心-病人(TW Core Patient) Profile以呈現中醫門診單之病人基本資料。"
-* identifier 2..2 
-  * ^short = "病歷號(identifier:medicalRecord)、身分證字號(identifier:idCardNumber)為必填，若為外國病人無身分證字號(identifier:idCardNumber)則改填寫護照號碼(identifier:passportNumber)"
-* identifier[residentNumber] 0..0
+* identifier 2..*
+  * ^short = "病歷號(identifier:medicalRecord)、身分證字號(identifier:idCardNumber)為必填，若為外國病人無身分證字號(identifier:idCardNumber)則改填寫護照號碼(identifier:passportNumber)或居留證號(identifier:residentNumber)"
 * identifier[medicalRecord] 1..1
 
 * name 1..1
@@ -49,13 +48,13 @@ Description: "此病人資料(Patient TWCM)Profile說明本IG如何進一步定�
 * address ^slicing.rules = #open
 * address contains 
           home 0..1 MS and
-          billing 0..1 MS
+          contact 0..1 MS
 * address[home].use 1..1
 * address[home].use = #home
 * address[home] ^short = "此地址用途為[病人戶籍地址]"
-* address[billing].use 1..1
-* address[billing].use = #billing
-* address[billing] ^short = "此地址用途為[病人聯絡地址]"
+* address[contact].use 1..1
+* address[contact].use = #temp
+* address[contact] ^short = "此地址用途為[病人聯絡地址]"
 * extension contains $childnumber named childnumber 0..1 MS
 
 * contact.telecom ^slicing.discriminator.type = #pattern

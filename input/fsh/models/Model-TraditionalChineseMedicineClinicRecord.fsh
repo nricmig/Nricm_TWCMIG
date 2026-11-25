@@ -187,7 +187,7 @@ Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/patient-twcm"
 * patientInfo.patientName -> "PatientTWCM.name(病人姓名)"
 * patientInfo.birthday -> "PatientTWCM.birthDate(出生日期)"
 * patientInfo.gender -> "PatientTWCM.gender(性別)"
-* patientInfo.patientId -> "PatientTWCM.identifier:idCardNumber(身分證號)"
+* patientInfo.patientId -> "PatientTWCM.identifier:idCardNumber(身分證號)；外籍病人改填identifier:passportNumber或identifier:residentNumber"
 * patientInfo.contactInfo.homeTel -> "PatientTWCM.telecom.where(system='phone' and use='home').value(住宅電話)"
 * patientInfo.contactInfo.officeTel -> "PatientTWCM.telecom.where(system='phone' and use='work').value(公司電話)"
 * patientInfo.contactInfo.mobile -> "PatientTWCM.telecom.where(system='phone' and use='mobile').value(行動電話)"
@@ -195,7 +195,7 @@ Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/patient-twcm"
 * patientInfo.addressInfo.originalAddressInfo.originalAddressZipCode -> "PatientTWCM.address.postalCode.valueCodeableConceptTW.coding:PostalCode3(病人戶籍地址郵遞區號)"
 * patientInfo.addressInfo.originalAddressInfo.originalAddressLocation -> "PatientTWCM.address.where(use='home').value(病人戶籍地址)"
 * patientInfo.addressInfo.contactAddressInfo.contactAddressZipCode -> "PatientTWCM.address.postalCode.valueCodeableConceptTW.coding:PostalCode3(病人聯絡地址郵遞區號)"
-* patientInfo.addressInfo.contactAddressInfo.contactAddressLocation -> "PatientTWCM.address.where(use='billing').value(病人聯絡地址)"
+* patientInfo.addressInfo.contactAddressInfo.contactAddressLocation -> "PatientTWCM.address.where(use='temp').value(病人聯絡地址)"
 * patientInfo.email -> "PatientTWCM.telecom.where(system ='email').value(病人電子郵件地址)"
 * patientInfo.emergencyContactInfo.emName -> "PatientTWCM.contact.name(緊急聯絡人姓名)"
 * patientInfo.emergencyContactInfo.emRelationship -> "PatientTWCM.contact.relationship(緊急聯絡人與病人關係)"
@@ -304,10 +304,10 @@ Title: "Mapping to ClinicalImpressionTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/clinicalimpression-twcm"
 * encounter.objectiveDescription -> "ClinicalImpressionTWCM.summary(望聞問切客觀描述)"
-* encounter.diseaseCause -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.text='病因').basis(病因)"
-* encounter.diseaseNature -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.text='病性').basis(病性)"
-* encounter.diseaseLocation -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.text='病位').basis(病位)"
-* encounter.diseaseTrend -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.text='病勢').basis(病勢)"
+* encounter.diseaseCause -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.coding.code='病因').itemCodeableConcept.text(病因)"
+* encounter.diseaseNature -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.coding.code='病性').itemCodeableConcept.text(病性)"
+* encounter.diseaseLocation -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.coding.code='病位').itemCodeableConcept.text(病位)"
+* encounter.diseaseTrend -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.coding.code='病勢').itemCodeableConcept.text(病勢)"
 
 Mapping: TWCMClinicRecordToObservationInspectionTWCM
 Id: ObservationInspectionTWCM
@@ -344,7 +344,7 @@ Id: ConditionSyndromeTypeTWCM
 Title: "Mapping to ConditionSyndromeTypeTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/conditionsyndrometype-twcm"
-* encounter.manifestation -> "ConditionSyndromeTypeTWCM.code(病人證型)；由ClinicalImpressionTWCM.finding.where(itemCodeableConcept.text='證型').itemReference參照"
+* encounter.manifestation -> "ConditionSyndromeTypeTWCM.code(病人證型)；由ClinicalImpressionTWCM.finding.where(itemCodeableConcept.coding.code='證型').itemReference參照"
 
 Mapping: TWCMClinicRecordToProcedureTherapeuticPrinciplesTWCM
 Id: ProcedureTherapeuticPrinciplesTWCM
@@ -434,7 +434,7 @@ Target: "https://www.nricm.edu.tw/twcm/StructureDefinition/medicationrequest-twc
 * drugInfo.frequency -> "MedicationRequestTWCM.dosageInstruction.timing.code(藥品的使用頻率)"
 * drugInfo.drugStartDate -> "MedicationRequestTWCM.dosageInstruction.timing.repeat.boundsPeriod.start(用藥開始日期)"
 * drugInfo.drugEndDate -> "MedicationRequestTWCM.dosageInstruction.timing.repeat.boundsPeriod.end(用藥結束日期)"
-* drugInfo.days -> "MedicationRequestTWCM.dosageInstruction.timing.repeat.duration(服藥天數)"
+* drugInfo.days -> "MedicationRequestTWCM.dispenseRequest.expectedSupplyDuration.value(服藥天數)"
 * drugInfo.totalAmount -> "MedicationRequestTWCM.dispenseRequest.quantity(藥品總劑量)"
 * drugInfo.prescriptionMethod -> "MedicationRequestTWCM.note(藥品調劑方式)"
 * drugInfo.packageNumber -> "MedicationRequestTWCM.extension.packageNumber.valueInteger(包數)"

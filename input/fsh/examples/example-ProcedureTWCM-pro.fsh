@@ -11,8 +11,8 @@ Usage: #example
 * bodySite.extension[0].valueCodeableConcept.text = "端、提法"
 * bodySite.extension[1].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
 * bodySite.extension[1].valueCodeableConcept.text = "包紮"
-* bodySite.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CG
-* bodySite.text = "F"
+* bodySite.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CG "股"
+* bodySite.text = "股"
 
 * subject = Reference(Patient/PatientTWCM-min)
 * text.status = #generated
@@ -33,7 +33,7 @@ Usage: #example
 		<b>處置說明</b>：高度複雜性傷科－起始次-3.脫臼整復復位－起始次－另開內服藥
 	</p>
 	<p>
-		<b>脫臼整復部位</b>：F
+		<b>脫臼整復部位</b>：股
 	</p>
 	<p>
 		<b>脫臼整復處理方法</b>：端、提法

@@ -3,7 +3,8 @@ Parent: TWCoreServiceRequest
 Id: servicerequest-twcm
 Title: "服務請求(ServiceRequest TWCM)"
 Description: "此服務請求(ServiceRequest TWCM)Profile說明本IG如何進一步定義FHIR的 ServiceRequest Resource以呈現中醫門診單服務請求的詳細資料。"
-* status = #completed
+* status MS
+  * ^short = "[已開立尚未執行者填active；已完成者填completed]"
 * intent = #order
 * code ^short = "應填入中醫門診單之檢驗檢查項目代碼。若檢驗項目為單一項，請填入該項目的對應代碼;若檢驗項目包含多個子項，請填入對應的大項代碼，使其涵蓋所有檢查內容。"
   * coding contains

@@ -480,13 +480,13 @@
 <rect x="1150" y="2854" width="90" height="20" fill="#F5F5F5" stroke="#999"/>
 <text x="1157.0" y="2868.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">use = home</text>
 <rect x="770" y="2882" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
-<text x="777.0" y="2898.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">address:billing.postalCode</text>
+<text x="777.0" y="2898.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">address:contact.postalCode</text>
 <rect x="1150" y="2884" width="78" height="20" fill="#FFF2CC" stroke="#FFF2CC"/>
 <text x="1155.0" y="2898.0" font-size="12" font-weight="bold" text-anchor="start" fill="#1F6FB2">TW Core IG</text>
 <rect x="770" y="2912" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
-<text x="777.0" y="2928.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">address:billing</text>
+<text x="777.0" y="2928.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">address:contact</text>
 <rect x="1150" y="2914" width="98" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="2928.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">use = billing</text>
+<text x="1157.0" y="2928.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">use = temp</text>
 <rect x="770" y="2942" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="2958.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">contact.name</text>
 <rect x="770" y="2972" width="370" height="24" fill="url(#gPink)" stroke="#B85450" stroke-width="1"/>
@@ -1030,25 +1030,25 @@
 <text x="1648.0" y="6886.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">ObservationPalpation TWCM  切診</text>
 </a>
 <rect x="770" y="6900" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="6916.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">finding:diseaseCause.basis</text>
-<rect x="1150" y="6902" width="211" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="6916.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.text = 病因</text>
+<text x="777.0" y="6916.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">finding:diseaseCause.itemCodeableConcept.text</text>
+<rect x="1150" y="6902" width="226" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1157.0" y="6916.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.coding = 病因</text>
 <rect x="770" y="6930" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="6946.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">finding:diseaseNature.basis</text>
-<rect x="1150" y="6932" width="211" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="6946.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.text = 病性</text>
+<text x="777.0" y="6946.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">finding:diseaseNature.itemCodeableConcept.text</text>
+<rect x="1150" y="6932" width="226" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1157.0" y="6946.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.coding = 病性</text>
 <rect x="770" y="6960" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="6976.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">finding:diseaseLocation.basis</text>
-<rect x="1150" y="6962" width="211" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="6976.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.text = 病位</text>
+<text x="777.0" y="6976.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">finding:diseaseLocation.itemCodeableConcept.text</text>
+<rect x="1150" y="6962" width="226" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1157.0" y="6976.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.coding = 病位</text>
 <rect x="770" y="6990" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="7006.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">finding:diseaseTrend.basis</text>
-<rect x="1150" y="6992" width="211" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="7006.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.text = 病勢</text>
+<text x="777.0" y="7006.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">finding:diseaseTrend.itemCodeableConcept.text</text>
+<rect x="1150" y="6992" width="226" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1157.0" y="7006.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.coding = 病勢</text>
 <rect x="770" y="7020" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="7036.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">finding:syndromeType.itemReference</text>
-<rect x="1150" y="7022" width="211" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="7036.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.text = 證型</text>
+<rect x="1150" y="7022" width="226" height="20" fill="#F5F5F5" stroke="#999"/>
+<text x="1157.0" y="7036.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">itemCodeableConcept.coding = 證型</text>
 <path d="M1361,7032 L1640,7032" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-conditionsyndrometype-twcm.html" target="_top">
 <rect x="1640" y="7020" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
@@ -1701,10 +1701,8 @@
 </a>
 <rect x="770" y="11462" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="11478.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>
-<rect x="1150" y="11464" width="90" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="11478.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= completed</text>
-<rect x="1246" y="11464" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
-<text x="1251" y="11478" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
+<rect x="1150" y="11464" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
+<text x="1155" y="11478" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
 <rect x="770" y="11492" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="11508.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">intent</text>
 <rect x="1150" y="11494" width="90" height="20" fill="#F5F5F5" stroke="#999"/>
@@ -1749,9 +1747,9 @@
 <rect x="770" y="11762" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="11778.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">dosageInstruction.timing.repeat.boundsPeriod.end</text>
 <rect x="770" y="11792" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="11808.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">dosageInstruction.timing.repeat.duration</text>
+<text x="777.0" y="11808.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">dispenseRequest.expectedSupplyDuration.value</text>
 <rect x="770" y="11822" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
-<text x="777.0" y="11838.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">dosageInstruction.timing.repeat.durationUnit</text>
+<text x="777.0" y="11838.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">dispenseRequest.expectedSupplyDuration.code</text>
 <rect x="1150" y="11824" width="90" height="20" fill="#F5F5F5" stroke="#999"/>
 <text x="1157.0" y="11838.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= d</text>
 <rect x="770" y="11852" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
@@ -1766,10 +1764,8 @@
 </a>
 <rect x="770" y="11996" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="12012.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>
-<rect x="1150" y="11998" width="90" height="20" fill="#F5F5F5" stroke="#999"/>
-<text x="1157.0" y="12012.0" font-size="11.5" font-weight="normal" text-anchor="start" fill="#333">= completed</text>
-<rect x="1246" y="11998" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
-<text x="1251" y="12012" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
+<rect x="1150" y="11998" width="66" height="20" fill="#FFFFFF" stroke="#FFFFFF"/>
+<text x="1155" y="12012" font-size="12" font-weight="bold" fill="#E44D26">HL7<tspan font-weight="normal"> FHIR</tspan></text>
 <rect x="770" y="12026" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="12042.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">intent</text>
 <rect x="1150" y="12028" width="90" height="20" fill="#F5F5F5" stroke="#999"/>

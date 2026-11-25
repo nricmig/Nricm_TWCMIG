@@ -21,7 +21,7 @@ Description: "此中醫-處置或手術(Procedure TWCM)Profile說明本IG如何�
   * coding 0..1 MS
   * coding from twcm-treatmentregion (required)
   * extension contains $approach named approach 1..1 MS
-* bodySite.extension[approach] ^short = "[應填入中醫門診單之針灸穴位/傷科手法/脫臼整復處理方法]"
+* bodySite.extension[approach] ^short = "[應填入中醫門診單之針灸穴位/傷科手法/脫臼整復處理方法；針灸穴位應填穴位代碼，傷科手法、脫臼整復方法無對應代碼，僅填text]"
 * bodySite.extension contains $description named description 0..1 MS
 * bodySite.extension[description] ^short = "[應填入中醫門診單之針灸補充說明/傷科補充說明/脫臼整復補充說明]"
 * bodySite.text 1..1 MS

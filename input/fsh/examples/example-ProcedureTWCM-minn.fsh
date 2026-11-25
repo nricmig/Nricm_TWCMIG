@@ -13,13 +13,13 @@ Usage: #example
 * bodySite[0].extension[0].valueCodeableConcept.text = "承靈"
 * bodySite[0].extension[1].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
 * bodySite[0].extension[1].valueCodeableConcept.text = "承靈，下針4公分"
-* bodySite[0].coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CA
-* bodySite[0].text = "A"
+* bodySite[0].coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CA "頭"
+* bodySite[0].text = "頭"
 
 * bodySite[1].extension[0].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
 * bodySite[1].extension[0].valueCodeableConcept.text = "按摩法"
-* bodySite[1].coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CD
-* bodySite[1].text = "H"
+* bodySite[1].coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CD "後軀幹"
+* bodySite[1].text = "後軀幹"
 
 * subject = Reference(Patient/PatientTWCM-min)
 * text.status = #generated
@@ -40,7 +40,7 @@ Usage: #example
 		<b>處置說明</b>：一般針灸合併中度複雜性傷科--療程第二至六次－另開內服藥
 	</p>
 	<p>
-		<b>針灸部位</b>：A
+		<b>針灸部位</b>：頭
 	<br />
 		<b>針灸穴位</b>：承靈
 	<br />
@@ -48,7 +48,7 @@ Usage: #example
 	</p>
 
 	<p>
-		<b>傷科部位</b>：H
+		<b>傷科部位</b>：後軀幹
 	<br />
 		<b>傷科手法</b>：按摩法
 	</p>

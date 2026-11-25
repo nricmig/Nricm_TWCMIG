@@ -13,8 +13,8 @@ Usage: #example
 * bodySite.extension[1].url = "https://www.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
 * bodySite.extension[1].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-acupuncturepoint#GB18 "承靈"
 * bodySite.extension[1].valueCodeableConcept.text = "承靈"
-* bodySite.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CA
-* bodySite.text = "A"
+* bodySite.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CA "頭"
+* bodySite.text = "頭"
 
 * subject = Reference(Patient/PatientTWCM-min)
 * text.status = #generated
@@ -33,7 +33,7 @@ Usage: #example
 		<b>處置說明</b>：一般針灸－另開內服藥
 	</p>
 	<p>
-		<b>針灸部位</b>：A
+		<b>針灸部位</b>：頭
 	</p>
 	<p>
 		<b>處置類別</b>：Acu <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-procedurecategory.html\">中醫處置分類值集</a>#Acu) </span>

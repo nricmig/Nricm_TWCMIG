@@ -13,6 +13,8 @@
 <li><a href="CodeSystem-twcm-diagnosticexam-category.html">中醫診察分類</a></li>
 <li><a href="CodeSystem-twcm-medicalhistory-category.html">中醫病史分類</a></li>
 <li><a href="CodeSystem-twcm-therapeutic-category.html">中醫論治分類</a></li>
+<li><a href="CodeSystem-twcm-syndromedifferentiation-category.html">中醫辨證分類</a></li>
+<li><a href="CodeSystem-twcm-educationlevel.html">臺灣教育程度標準分類</a></li>
 </ul>
 
 ### 值集
@@ -58,10 +60,14 @@
 <li><a href="ValueSet-twcm-inquiry-female.html">問婦女值集</a></li>
 <li><a href="ValueSet-twcm-inquiry-male.html">問男性值集</a></li>
 <li><a href="ValueSet-twcm-palpation-pressing.html">按診值集</a></li>
+<li><a href="ValueSet-twcm-educationlevel.html">臺灣教育程度標準分類值集</a></li>
+<li><a href="ValueSet-twcm-educationlevel-v3.html">HL7 v3 EducationLevel + 臺灣教育程度標準分類值集</a></li>
 </ul>
 
 ### 概念對應表
 <ul>
 <li><a href="ConceptMap-twcm-whoictm-to-icd11.html">WHO傳統醫學國際標準術語(中醫)證型與ICD-11對應表</a></li>
+<li><a href="ConceptMap-twcm-treatmentregion-to-snomed.html">針灸傷科脫臼整復部位與SNOMED CT對應表</a></li>
+<li><a href="ConceptMap-twcm-educationlevel-to-v3.html">臺灣教育程度標準分類代碼對應至HL7 v3 EducationLevel</a></li>
 </ul>
 ---

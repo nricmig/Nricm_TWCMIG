@@ -19,6 +19,7 @@
 - [重大傷病範例](Condition-ConditionMajorIllnessTWCM-min.html)：依據重大傷病(ConditionMajorIllness TWCM)Profile呈現中醫門診單中重大傷病代碼與病名的範例
 - [病人主訴範例](Condition-ConditionChiefComplaintTWCM-min.html)：依據病人主訴(ConditionChiefComplaint TWCM)Profile呈現中醫門診單中病人主訴的範例
 - [病情、問題或診斷範例](Condition-ConditionDiagnosisTWCM-min.html)：依據診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例
+- [病情、問題或診斷範例（含ICD-11中醫病名）](Condition-ConditionDiagnosisTWCM-pro.html)：依據診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例，同一診斷並列ICD-10-CM與ICD-11中醫病名代碼
 - [病史範例(過去病史)](Condition-ConditionMedicalHistoryTWCM-min.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中一般過去病史範例
 - [病史範例(現病史)](Condition-ConditionMedicalHistoryTWCM-present.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中現病史範例
 - [病史範例(月經史)](Condition-ConditionMedicalHistoryTWCM-menstrual.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中月經史範例
@@ -52,6 +53,7 @@
 ### Observation 
 - [血型範例](Observation-ObservationBloodtypeTWCM-min.html)：依據血型(ObservationBloodtype TWCM)Profile呈現中醫門診單中血型的範例
 - [教育程度範例](Observation-ObservationEducationLevelTWCM-min.html)：依據教育程度(ObservationEducationLevel TWCM)Profile呈現中醫門診單中教育程度的範例
+- [教育程度範例（含代碼）](Observation-ObservationEducationLevelTWCM-pro.html)：依據教育程度(ObservationEducationLevel TWCM)Profile呈現中醫門診單中教育程度的範例，除原始文字外並填入HL7 v3 EducationLevel代碼
 - [重大傷病註記範例](Observation-ObservationMajorIllnessTWCM-min.html)：依據重大傷病註記(ObservationMajorIllness TWCM)Profile呈現中醫門診單中重大傷病註記範例
 - [檢驗檢查範例](Observation-ObservationTWCM-min.html)：依據檢驗檢查(Observation TWCM)Profile呈現中醫門診單中檢驗檢查範例
 - [檢驗檢查範例](Observation-ObservationTWCM-pro.html)：依據檢驗檢查(Observation TWCM)Profile呈現中醫門診單中檢驗檢查範例

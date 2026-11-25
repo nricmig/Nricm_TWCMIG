@@ -9,10 +9,14 @@ Description: "此診斷(ConditionDiagnosis TWCM)Profile說明本IG如何進一�
 * encounter only Reference(encounter-twcm)
 * code 1..1
   * ^short = "病情、問題或診斷的識別。[應填入中醫門診單之診斷代碼(code)與診斷名稱(display)]"
-  * coding 1..1 MS
+  * coding 1..* MS
     * system 1..1 MS
     * code 1..1 MS
     * display 1..1 MS
+* code.coding contains icd11TM 0..1 MS
+* code.coding[icd11TM] ^patternCoding.system = "http://id.who.int/icd/release/11/mms"
+* code.coding[icd11TM] from twcm-icd11-disease (required)
+* code.coding[icd11TM] ^short = "[可選填。同一診斷可另填ICD-11第26章傳統醫學病名代碼]"
 
 * recorder only Reference(practitioner-twcm or TWCorePractitionerRole or patient-twcm or TWCoreRelatedPerson)
 * asserter only Reference(practitioner-twcm or TWCorePractitionerRole or patient-twcm or TWCoreRelatedPerson)

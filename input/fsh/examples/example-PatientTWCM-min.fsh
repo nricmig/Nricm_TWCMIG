@@ -43,8 +43,8 @@ Usage: #example
 * extension[=].valueInteger = 2
 
 * address[0].use = #home
-* address[0].district = "台北市"
-* address[0].city = "內湖區"
+* address[0].city = "台北市"
+* address[0].district = "內湖區"
 * address[0].line = "基湖路"
 * address[0].extension[0].url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-number"
 * address[0].extension[=].valueString = "32號"
@@ -53,9 +53,9 @@ Usage: #example
 * address[0].postalCode.extension.valueCodeableConcept.coding.system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/postal-code5-tw"
 * address[0].postalCode.extension.valueCodeableConcept.coding.code = #11492
 
-* address[1].use = #billing
-* address[1].district = "台北市"
-* address[1].city = "內湖區"
+* address[1].use = #temp
+* address[1].city = "台北市"
+* address[1].district = "內湖區"
 * address[1].line = "基湖路"
 * address[1].extension[0].url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-number"
 * address[1].extension[=].valueString = "32號"
@@ -128,7 +128,7 @@ Usage: #example
 		<b>病人戶籍地址</b>：(Home)(11492)台北市內湖區基湖路32號
 	</p>
 	<p>
-		<b>病人聯絡地址</b>：(Billing)(11492)台北市內湖區基湖路32號
+		<b>病人聯絡地址</b>：(Temporary)(11492)台北市內湖區基湖路32號
 	</p>
 	<p>
 		<b>婚姻</b>：Married <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus\">Marital Status Codes</a>#M） </span>

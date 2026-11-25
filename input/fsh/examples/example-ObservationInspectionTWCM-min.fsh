@@ -17,7 +17,7 @@ Usage: #example
 * component[headFace].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"面色萎黃" "面色萎黃"
 * component[headFace].valueCodeableConcept.text = "面色萎黃"
 * component[tongueCondition][0].code = $SCT#249378009 "Tongue finding"
-* component[tongueCondition][0].valueCodeableConcept.coding = https://www.nricm.edu.tw/twcm/CodeSystem/twcm-tonguecondition#698193000 "Coating of mucous membrane of tongue"
+* component[tongueCondition][0].valueCodeableConcept.coding = http://snomed.info/sct#698193000 "Coating of mucous membrane of tongue"
 * component[tongueCondition][0].valueCodeableConcept.text = "苔白"
 * component[tongueCondition][1].code = $SCT#249378009 "Tongue finding"
 * component[tongueCondition][1].valueCodeableConcept.text = "舌淡紅，舌邊有齒痕"
@@ -43,7 +43,7 @@ Usage: #example
     </p>
     <p>
     <b>病人舌象</b>：<br />
-    苔白（Coating of mucous membrane of tongue <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-tonguecondition.html\">病人舌象</a>#698193000) </span>）<br />
+    苔白（Coating of mucous membrane of tongue <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT</a>#698193000) </span>）<br />
     舌淡紅，舌邊有齒痕（此描述無法對應至單一SNOMED CT代碼，故僅記錄文字）
     </p>
     <p>
