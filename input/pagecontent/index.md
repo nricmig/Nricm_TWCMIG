@@ -85,19 +85,19 @@
 <tbody>
 <tr>
 <td rowspan="3" style="text-align:center;vertical-align:middle;">作者-IG</td>
-<td rowspan="14" style="text-align:center;vertical-align:middle;">v0.1.0</td>
-<td rowspan="14" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所</td>
-<td>鄭嘉儀</td>
+<td rowspan="18" style="text-align:center;vertical-align:middle;">v0.1.0</td>
+<td rowspan="18" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所</td>
+<td>鄭嘉儀（Chia-Yi Cheng）</td>
 <td rowspan="10" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所<br>（National Research Institute of Chinese Medicine, MOHW）</td>
 </tr>
 <tr>
-<td>楊宜蓁</td>
+<td>楊宜蓁（Yi-Zhen Yang）</td>
 </tr>
 <tr>
 <td>曾鈺珈（Yu-Jia Tseng）</td>
 </tr>
 <tr>
-<td rowspan="11" style="text-align:center;vertical-align:middle;">貢獻者-IG</td>
+<td rowspan="15" style="text-align:center;vertical-align:middle;">貢獻者-IG</td>
 <td>蘇奕彰（Yi-Chang Su）</td>
 </tr>
 <tr>
@@ -119,20 +119,30 @@
 <td>林玨羽（Chueh-Yu Lin）</td>
 </tr>
 <tr>
-<td></td>
-<td style="text-align:center;vertical-align:middle;">衛生福利部中醫藥司<br>（Department of Chinese Medicine and Pharmacy, MOHW）</td>
+<td>黃怡嘉（Yi-Chia Huang）</td>
+<td rowspan="5" style="text-align:center;vertical-align:middle;">衛生福利部<br>（Ministry of Health and Welfare）</td>
+</tr>
+<tr>
+<td>賴貞蘭（Jen-Lan Lai）</td>
+</tr>
+<tr>
+<td>蔡素玲（Su-Lin Tsai）</td>
+</tr>
+<tr>
+<td>洪小幸（Shiau-Shing Hung）</td>
+</tr>
+<tr>
+<td>陳禹璋（Yu-Chang Chen）</td>
 </tr>
 <tr>
 <td>李麗惠（Li-Hui Lee）</td>
 <td style="text-align:center;vertical-align:middle;">國立臺北護理健康大學<br>（National Taipei University of Nursing and Health Sciences）</td>
 </tr>
 <tr>
-<td></td>
-<td style="text-align:center;vertical-align:middle;">國泰電腦有限公司</td>
+<td colspan="2" style="text-align:left;vertical-align:middle;">國泰電腦有限公司</td>
 </tr>
 <tr>
-<td></td>
-<td style="text-align:center;vertical-align:middle;">睿傳數據股份有限公司</td>
+<td colspan="2" style="text-align:left;vertical-align:middle;">睿傳數據股份有限公司</td>
 </tr>
 </tbody>
 </table>
