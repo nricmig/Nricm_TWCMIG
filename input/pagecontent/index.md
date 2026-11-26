@@ -85,10 +85,10 @@
 <tbody>
 <tr>
 <td rowspan="3" style="text-align:center;vertical-align:middle;">作者-IG</td>
-<td rowspan="18" style="text-align:center;vertical-align:middle;">v1.0.0</td>
-<td rowspan="18" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所</td>
+<td rowspan="3" style="text-align:center;vertical-align:middle;">v1.0.0</td>
+<td rowspan="3" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所</td>
 <td>鄭嘉儀（Chia-Yi Cheng）</td>
-<td rowspan="10" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所<br>（National Research Institute of Chinese Medicine, MOHW）</td>
+<td rowspan="3" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所<br>（National Research Institute of Chinese Medicine, MOHW）</td>
 </tr>
 <tr>
 <td>楊宜蓁（Yi-Zhen Yang）</td>
@@ -98,7 +98,10 @@
 </tr>
 <tr>
 <td rowspan="15" style="text-align:center;vertical-align:middle;">貢獻者-IG</td>
+<td rowspan="15" style="text-align:center;vertical-align:middle;">v1.0.0</td>
+<td rowspan="15" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所</td>
 <td>蘇奕彰（Yi-Chang Su）</td>
+<td rowspan="7" style="text-align:center;vertical-align:middle;">衛生福利部國家中醫藥研究所<br>（National Research Institute of Chinese Medicine, MOHW）</td>
 </tr>
 <tr>
 <td>邱文慧（Wen-Fei Chiou）</td>
