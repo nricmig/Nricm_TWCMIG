@@ -2,10 +2,6 @@
 
 </div>
 
-<div class="bg-danger" style="padding:10px;border:1px solid #ebccd1;margin-bottom:10px;">
-<p>請注意：您目前所看到的IG為持續建置(ci-build)版，主要依據實作者及衛生福利部國家中醫藥研究所端的業務需求即時調整之內容。</p>
-</div>
-
 ### 專案介紹
 <div  style="padding-left: 10px;"> 
 <p>臺灣中醫實作指引(Taiwan Chinese Medicine Implementation Guide，TWCM IG)採用HL7® FHIR® standard（Fast Healthcare Interoperability Resources）IG建置方法，在FHIR R4.0.1之標準基礎上，繼承TW Core IG V0.3.2，並參考衛生福利部電子病歷推動專區之標準文件<a href="https://emr.mohw.gov.tw/myemr/Html/doc/%E6%A8%99%E6%BA%96%E6%96%87%E4%BB%B6/%E5%AF%A6%E4%BD%9C%E6%8C%87%E5%BC%95%E6%A8%99%E6%BA%96%E6%9B%B8/119_%E4%B8%AD%E9%86%AB%E9%96%80%E8%A8%BA_PDF.pdf">「119中醫門診(診所)單張」</a>、<a href="https://emr.mohw.gov.tw/myemr/Html/doc/%E6%A8%99%E6%BA%96%E6%96%87%E4%BB%B6/%E5%9F%BA%E6%9C%AC%E6%A0%BC%E5%BC%8F/034_%E4%B8%AD%E9%86%AB%E9%96%80%E8%A8%BA%E5%96%AE.pdf">「034中醫門診單」</a>及<a href="https://emr.mohw.gov.tw/myemr/Html/doc/%E6%A8%99%E6%BA%96%E6%96%87%E4%BB%B6/%E5%9F%BA%E6%9C%AC%E6%A0%BC%E5%BC%8F/038_%E4%B8%AD%E9%86%AB%E5%85%A5%E9%99%A2%E7%B4%80%E9%8C%84.pdf">「038_中醫入院紀錄」</a>，以及中華民國中醫師公會全國聯合會<a href="https://twtm.tw/userfiles/upload/163513394128023.pdf">「中醫居家病歷範本」</a>，進一步定義適用於「中醫臨床」資料需求的Resources（類似資料表）、其中的資料項目（意即欄位）、基數（意即0..1、0..*、1..1或1..*）及資料類型（文字、日期時間、代碼等）等。</p>
