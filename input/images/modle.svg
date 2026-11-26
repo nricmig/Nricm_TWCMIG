@@ -30,7 +30,7 @@
 <text x="34.0" y="13297.0" font-size="14" font-weight="bold" text-anchor="start" fill="#333">參考附件資料內容 referenceInfo</text>
 <rect x="720" y="150" width="880" height="13248" fill="#F9F7ED" stroke="#36393D" stroke-width="1.6"/>
 <a href="StructureDefinition-bundle-twcm.html" target="_top">
-<text x="732.0" y="172.0" font-size="16" font-weight="bold" text-anchor="start" fill="#000">中醫-資料交換基本單位 Bundle TWCM（Bundle.type = document）</text>
+<text x="732.0" y="172.0" font-size="16" font-weight="bold" text-anchor="start" fill="#000">資料交換基本單位 Bundle TWCM（Bundle.type = document）</text>
 </a>
 <text x="732.0" y="190.0" font-size="12" font-weight="normal" text-anchor="start" fill="#000"></text>
 <rect x="770" y="188" width="370" height="24" fill="#F8CECC" stroke="#000" stroke-width="2.2"/>
@@ -50,11 +50,11 @@
 <path d="M1140,290 L1640,290" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-composition-twcm.html" target="_top">
 <rect x="1640" y="278" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="294.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Composition TWCM  中醫-臨床文件架構</text>
+<text x="1648.0" y="294.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Composition TWCM  臨床文件架構</text>
 </a>
 <rect x="745" y="334" width="830" height="2000" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.5"/>
 <a href="StructureDefinition-composition-twcm.html" target="_top">
-<text x="757.0" y="356.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry[TWCoreComposition].resource：中醫-臨床文件架構 Composition TWCM Profile</text>
+<text x="757.0" y="356.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry[TWCoreComposition].resource：臨床文件架構 Composition TWCM Profile</text>
 </a>
 <rect x="770" y="368" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="384.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">meta.versionId</text>
@@ -186,7 +186,7 @@
 <path d="M1293,1104 L1640,1104" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-medicationrequest-twcm.html" target="_top">
 <rect x="1640" y="1092" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="1108.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">MedicationRequest TWCM  中醫-藥品請求</text>
+<text x="1648.0" y="1108.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">MedicationRequest TWCM  藥品請求</text>
 </a>
 <rect x="770" y="1130" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="1146.5" font-size="12.5" font-weight="bold" text-anchor="start" fill="#000">section:ConditionDiagnosis</text>
@@ -286,7 +286,7 @@
 <path d="M1140,1662 L1640,1662" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-observationvitalsign-twcm.html" target="_top">
 <rect x="1640" y="1650" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="1666.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">ObservationVitalSigns TWCM  生命徵象</text>
+<text x="1648.0" y="1666.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">ObservationVitalSign TWCM  生命徵象</text>
 </a>
 <rect x="770" y="1688" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="1704.5" font-size="12.5" font-weight="bold" text-anchor="start" fill="#000">section:Procedure</text>
@@ -297,7 +297,7 @@
 <path d="M1140,1730 L1640,1730" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-procedure-twcm.html" target="_top">
 <rect x="1640" y="1718" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="1734.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Procedure TWCM  中醫-處置或手術</text>
+<text x="1648.0" y="1734.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Procedure TWCM  處置或手術</text>
 </a>
 <rect x="770" y="1756" width="370" height="24" fill="#FFF2CC" stroke="#D6B656" stroke-width="1"/>
 <text x="777.0" y="1772.5" font-size="12.5" font-weight="bold" text-anchor="start" fill="#000">section:ObservationLabResults</text>
@@ -750,7 +750,7 @@
 <text x="777.0" y="4900.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">name.text</text>
 <rect x="745" y="4934" width="830" height="370" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
 <a href="StructureDefinition-observationvitalsign-twcm.html" target="_top">
-<text x="757.0" y="4956.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：生命徵象 ObservationVitalSigns TWCM Profile</text>
+<text x="757.0" y="4956.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：生命徵象 ObservationVitalSign TWCM Profile</text>
 </a>
 <rect x="770" y="4968" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="4984.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>
@@ -1575,7 +1575,7 @@
 </a>
 <rect x="745" y="10334" width="830" height="412" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
 <a href="StructureDefinition-procedure-twcm.html" target="_top">
-<text x="757.0" y="10356.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：中醫-處置或手術 Procedure TWCM Profile</text>
+<text x="757.0" y="10356.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：處置或手術 Procedure TWCM Profile</text>
 </a>
 <rect x="770" y="10368" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="10384.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>
@@ -1657,7 +1657,7 @@
 <path d="M1140,11040 L1640,11040" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-composition-twcm.html" target="_top">
 <rect x="1640" y="11028" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="11044.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Composition TWCM  中醫-臨床文件架構</text>
+<text x="1648.0" y="11044.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">Composition TWCM  臨床文件架構</text>
 </a>
 <rect x="770" y="11058" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="11074.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">recorded</text>
@@ -1699,7 +1699,7 @@
 <text x="777.0" y="11394.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">code.coding.display</text>
 <rect x="745" y="11428" width="830" height="520" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
 <a href="StructureDefinition-medicationrequest-twcm.html" target="_top">
-<text x="757.0" y="11450.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：中醫-藥品請求 MedicationRequest TWCM Profile</text>
+<text x="757.0" y="11450.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：藥品請求 MedicationRequest TWCM Profile</text>
 </a>
 <rect x="770" y="11462" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="11478.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>

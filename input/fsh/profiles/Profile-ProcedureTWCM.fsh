@@ -3,8 +3,8 @@ Alias: $description = https://twcmig.nricm.edu.tw/StructureDefinition/descriptio
 Profile: ProcedureTWCM
 Parent: TWCoreProcedure
 Id: procedure-twcm
-Title: "中醫-處置或手術(Procedure TWCM)"
-Description: "此中醫-處置或手術(Procedure TWCM)Profile說明本IG如何進一步定義臺灣核心-處置或手術（TW Core Procedure)Profile以呈現中醫門診單之處置或手術的詳細資料。"
+Title: "處置或手術(Procedure TWCM)"
+Description: "此處置或手術(Procedure TWCM)Profile說明本IG如何進一步定義臺灣核心-處置或手術（TW Core Procedure)Profile以呈現中醫門診單之處置或手術的詳細資料。"
 * status = #completed
 * category 1..1 MS
 * category from twcm-procedurecategory

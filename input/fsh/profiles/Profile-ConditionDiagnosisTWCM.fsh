@@ -2,7 +2,7 @@ Profile: ConditionDiagnosisTWCM
 Parent: TWCoreCondition
 Id: conditiondiagnosis-twcm
 Title: "病情、問題或診斷(ConditionDiagnosis TWCM)"
-Description: "此診斷(ConditionDiagnosis TWCM)Profile說明本IG如何進一步定義臺灣核心-臺灣核心-病情、問題或診斷(TW Core Condition)Profile以呈現中醫門診單之診斷的詳細資料。"
+Description: "此病情、問題或診斷(ConditionDiagnosis TWCM)Profile說明本IG如何進一步定義臺灣核心-臺灣核心-病情、問題或診斷(TW Core Condition)Profile以呈現中醫門診單之診斷的詳細資料。"
 * clinicalStatus 1..1 MS
 * category = http://terminology.hl7.org/CodeSystem/condition-category#encounter-diagnosis
 * subject only Reference(patient-twcm)

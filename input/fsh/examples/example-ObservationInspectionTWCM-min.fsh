@@ -43,13 +43,13 @@ Usage: #example
     </p>
     <p>
     <b>病人舌象</b>：<br />
-    苔白（Coating of mucous membrane of tongue <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT</a>#698193000) </span>）<br />
-    舌淡紅，舌邊有齒痕（此描述無法對應至單一SNOMED CT代碼，故僅記錄文字）
+    舌診 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#634) </span>：苔白（Coating of mucous membrane of tongue <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT</a>#698193000) </span>）<br />
+    舌診 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#634) </span>：舌淡紅，舌邊有齒痕（此描述無法對應至單一SNOMED CT代碼，故僅記錄文字）
     </p>
     <p>
     <b>望診分類紀錄</b>：<br />
-    望神：神疲 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#神疲) </span><br />
-    望頭面：面色萎黃 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#面色萎黃) </span>
+    望神 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-diagnosticexam-category.html\">中醫診察分類</a>#望神) </span>：神疲 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#神疲) </span><br />
+    望頭面 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-diagnosticexam-category.html\">中醫診察分類</a>#望頭面) </span>：面色萎黃 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#面色萎黃) </span>
     </p>
     <p>
     <b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

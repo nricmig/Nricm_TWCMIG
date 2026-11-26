@@ -1,7 +1,7 @@
 Instance: MedicationRequestTWCM-min
 InstanceOf: medicationrequest-twcm
 Title: "藥品請求範例"
-Description: "依據中醫-藥品請求(MedicationRequest TWCM)Profile呈現中醫門診單中藥品請求範例"
+Description: "依據藥品請求(MedicationRequest TWCM)Profile呈現中醫門診單中藥品請求範例"
 Usage: #example
 * status = #active
 * intent = #order

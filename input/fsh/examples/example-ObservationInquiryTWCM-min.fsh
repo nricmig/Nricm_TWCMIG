@@ -44,10 +44,10 @@ Usage: #example
     </p>
     <p>
     <b>問診分類紀錄</b>：<br />
-    問寒熱：惡寒發熱 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#惡寒發熱) </span><br />
-    問鼻咽：鼻塞 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#鼻塞) </span><br />
-    問飲食口味：納呆(納差、納少) <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#納呆(納差、納少)) </span><br />
-    問大便：大便溏 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#大便溏) </span>
+    問寒熱 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-diagnosticexam-category.html\">中醫診察分類</a>#問寒熱) </span>：惡寒發熱 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#惡寒發熱) </span><br />
+    問鼻咽 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-diagnosticexam-category.html\">中醫診察分類</a>#問鼻咽) </span>：鼻塞 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#鼻塞) </span><br />
+    問飲食口味 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-diagnosticexam-category.html\">中醫診察分類</a>#問飲食口味) </span>：納呆(納差、納少) <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#納呆(納差、納少)) </span><br />
+    問大便 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-diagnosticexam-category.html\">中醫診察分類</a>#問大便) </span>：大便溏 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#大便溏) </span>
     </p>
     <p>
     <b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

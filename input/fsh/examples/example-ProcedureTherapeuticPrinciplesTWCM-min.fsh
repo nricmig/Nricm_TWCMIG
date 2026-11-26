@@ -26,7 +26,9 @@ Usage: #example
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"
     </p>
     <p>
-    <b>病人治則</b>：虛則補之，扶正固本
+    <b>病人治則</b>：虛則補之 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#2267) </span><br />
+    扶正固本；扶正培本 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#2259) </span><br />
+    文字描述：虛則補之，扶正固本
     </p>
      <p>
 		<b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

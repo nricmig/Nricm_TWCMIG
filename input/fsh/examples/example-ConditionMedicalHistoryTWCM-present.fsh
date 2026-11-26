@@ -22,7 +22,8 @@ Usage: #example
 		<b>病情、問題或診斷分類</b>：History of Present illness Narrative <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org/\">LOINC</a>#10164-2) </span>
 	</p>
 	<p>
-		<b>病情、問題或診斷識別</b>：第二型糖尿病，三年前於西醫診斷，目前口服降血糖藥控制 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw\">臺灣健保署2023年中文版ICD-10-CM</a>#E11.9) </span>
+		<b>病情、問題或診斷識別</b>：第二型糖尿病，未伴有併發症 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw\">臺灣健保署2023年中文版ICD-10-CM</a>#E11.9) </span><br />
+		文字描述：第二型糖尿病，三年前於西醫診斷，目前口服降血糖藥控制
 	</p>
 	<p>
 		<b>發生時間</b>：三年前

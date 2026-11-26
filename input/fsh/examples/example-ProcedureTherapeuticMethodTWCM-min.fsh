@@ -25,7 +25,9 @@ Usage: #example
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"
     </p>
     <p>
-    <b>病人治法</b>：補氣調中,補氣活血
+    <b>病人治法</b>：補氣；益氣；扶正益氣；扶正補氣 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#2429) </span><br />
+    補益氣血；補氣養血 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#2462) </span><br />
+    文字描述：補氣調中,補氣活血
     </p>
      <p>
 		<b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

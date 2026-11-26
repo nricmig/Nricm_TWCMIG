@@ -37,7 +37,7 @@ Usage: #example
     </p>
     <p>
     <b>按診紀錄</b>：<br />
-    按診：腹 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#腹) </span>
+    按診 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-diagnosticexam-category.html\">中醫診察分類</a>#按診) </span>：腹 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-twcm-clinicalfinding.html\">中醫臨床表現詞彙</a>#腹) </span>
     </p>
     <p>
     <b>病人脈象</b>：<a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>（右手）、<a href=\"Observation-ObservationPulseConditionTWCM-lefthand.html\">Observation/ObservationPulseConditionTWCM-lefthand</a>（左手）

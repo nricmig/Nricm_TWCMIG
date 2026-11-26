@@ -26,7 +26,8 @@ Usage: #example
 		Chronic disease (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#27624003) </span>
 	</p>
 	<p>
-		<b>病情、問題或診斷識別</b>：高血壓，規則服藥控制中 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw\">臺灣健保署2023年中文版ICD-10-CM</a>#I10) </span>
+		<b>病情、問題或診斷識別</b>：本態性(原發性)高血壓 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw\">臺灣健保署2023年中文版ICD-10-CM</a>#I10) </span><br />
+		文字描述：高血壓，規則服藥控制中
 	</p>
 	<p>
 		<b>發生時間</b>：五年前

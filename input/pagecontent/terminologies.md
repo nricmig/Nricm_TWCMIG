@@ -23,7 +23,7 @@
 <li><a href="ValueSet-mohw-dopmac-tcmmedication.html">臺灣衛福部中醫藥品許可證值集</a></li>
 <li><a href="ValueSet-twcm-procedurecategory.html">SNOMED CT + 衛福部中醫診所EMR單張-中醫處置分類值集</a></li>
 <li><a href="ValueSet-twcm-pulsecondition.html">病人脈象值集</a></li>
-<li><a href="ValueSet-twcm-pulseposition.html">中醫脈診部位值集(寸關尺)</a></li>
+<li><a href="ValueSet-twcm-pulseposition.html">中醫脈診部位值集</a></li>
 <li><a href="ValueSet-twcm-pulsebodysite.html">中醫脈診左右手值集</a></li>
 <li><a href="ValueSet-twcm-tonguecondition.html">病人舌象值集</a></li>
 <li><a href="ValueSet-twcm-therapeuticprinciples.html">病人治則值集</a></li>

@@ -18,6 +18,9 @@ Usage: #example
     <b>狀態</b>：Final <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/observation-status\">ObservationStatus</a>#final) </span>
     </p>
     <p>
+    <b>分類</b>：Social History <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/R4/codesystem-observation-category.html\">Observation Category Codes</a>#social-history) </span>
+    </p>
+    <p>
     <b>項目</b>：History of Occupation <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://loinc.org\">LOINCCodes</a>#11341-5) </span>
     </p>
     <p>

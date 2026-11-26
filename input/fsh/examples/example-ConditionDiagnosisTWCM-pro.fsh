@@ -1,7 +1,7 @@
 Instance: ConditionDiagnosisTWCM-pro
 InstanceOf: conditiondiagnosis-twcm
 Title: "病情、問題或診斷範例（含ICD-11中醫病名）"
-Description: "依據診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例，同一診斷並列ICD-10-CM與ICD-11中醫病名代碼"
+Description: "依據病情、問題或診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例，同一診斷並列ICD-10-CM與ICD-11中醫病名代碼"
 Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active "Active"
 * category = http://terminology.hl7.org/CodeSystem/condition-category#encounter-diagnosis "Encounter Diagnosis"

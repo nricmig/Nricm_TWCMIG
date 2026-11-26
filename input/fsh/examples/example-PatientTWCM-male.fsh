@@ -62,6 +62,7 @@ Usage: #example
 		<b>出生日期</b>：1980-03-15
 	</p>
 	<p>
-		<b>病人戶籍地址</b>：(Home)(11492)台北市內湖區基湖路35號
+		<b>病人戶籍地址</b>：(Home)台北市內湖區基湖路35號<br />
+		郵遞區號：11492 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/postal-code5-tw\">臺灣郵遞區號</a>#11492) </span>
 	</p>
 </div>"

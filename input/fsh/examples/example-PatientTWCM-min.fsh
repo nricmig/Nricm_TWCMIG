@@ -125,10 +125,12 @@ Usage: #example
 		<b>病人子女數[extension: <a href=\"StructureDefinition-childnumber-twcm.html\">childnumber</a>]</b>：2
 	</p>
 	<p>
-		<b>病人戶籍地址</b>：(Home)(11492)台北市內湖區基湖路32號
+		<b>病人戶籍地址</b>：(Home)台北市內湖區基湖路32號<br />
+		郵遞區號：11492 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/postal-code5-tw\">臺灣郵遞區號</a>#11492) </span>
 	</p>
 	<p>
-		<b>病人聯絡地址</b>：(Temporary)(11492)台北市內湖區基湖路32號
+		<b>病人聯絡地址</b>：(Temporary)台北市內湖區基湖路32號<br />
+		郵遞區號：11492 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/postal-code5-tw\">臺灣郵遞區號</a>#11492) </span>
 	</p>
 	<p>
 		<b>婚姻</b>：Married <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus\">Marital Status Codes</a>#M） </span>

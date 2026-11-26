@@ -2,8 +2,8 @@ Alias: $packageNumber = https://twcmig.nricm.edu.tw/StructureDefinition/packagen
 Profile: MedicationRequestTWCM
 Parent: TWCoreMedicationRequest
 Id: medicationrequest-twcm
-Title: "中醫-藥品請求(MedicationRequest TWCM)"
-Description: "此中醫-藥品請求(MedicationRequest TWCM)Profile說明本IG如何進一步定義臺灣核心-藥品請求（TW Core MedicationRequest)Profile以呈現中醫門診單之藥品請求的詳細資料。"
+Title: "藥品請求(MedicationRequest TWCM)"
+Description: "此藥品請求(MedicationRequest TWCM)Profile說明本IG如何進一步定義臺灣核心-藥品請求（TW Core MedicationRequest)Profile以呈現中醫門診單之藥品請求的詳細資料。"
 * status MS
   * ^short = "[門診當日開立尚有效者填active；已完成者填completed]"
 * intent = #order

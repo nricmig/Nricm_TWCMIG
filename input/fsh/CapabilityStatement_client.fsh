@@ -432,7 +432,7 @@ Usage: #definition
         </tr>
         <tr>
           <td><a href=\"#Bundle1-2\">Bundle</a></td>
-          <td><a href=\"StructureDefinition-bundle-twcm.html\">中醫-資料交換基本單位(Bundle TWCM)</a></td>
+          <td><a href=\"StructureDefinition-bundle-twcm.html\">資料交換基本單位(Bundle TWCM)</a></td>
           <td class=\"text-center\">-</td>
           <td class=\"text-center\">y</td>
           <td class=\"text-center\">y</td>
@@ -468,7 +468,7 @@ Usage: #definition
         </tr>
         <tr>
           <td><a href=\"#Composition1-5\">Composition</a></td>
-          <td><a href=\"StructureDefinition-composition-twcm.html\">中醫-臨床文件架構(Composition TWCM)</a></td>
+          <td><a href=\"StructureDefinition-composition-twcm.html\">臨床文件架構(Composition TWCM)</a></td>
           <td class=\"text-center\">-</td>
           <td class=\"text-center\">y</td>
           <td class=\"text-center\">y</td>
@@ -557,7 +557,7 @@ Usage: #definition
         </tr>
         <tr>
           <td><a href=\"#MedicationRequest1-12\">MedicationRequest</a></td>
-          <td><a href=\"StructureDefinition-medicationrequest-twcm.html\">中醫-藥品請求(MedicationRequest TWCM)</a></td>
+          <td><a href=\"StructureDefinition-medicationrequest-twcm.html\">藥品請求(MedicationRequest TWCM)</a></td>
           <td class=\"text-center\">-</td>
           <td class=\"text-center\">y</td>
           <td class=\"text-center\">y</td>
@@ -585,7 +585,7 @@ Usage: #definition
           <a href=\"StructureDefinition-observationoccupation-twcm.html\">職業(ObservationOccupation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpalpation-twcm.html\">切診(ObservationPalpation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpulsecondition-twcm.html\">病人脈象(ObservationPulseCondition TWCM)</a><br />
-          <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象(ObservationVitalSigns TWCM)</a></td>
+          <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象(ObservationVitalSign TWCM)</a></td>
           <td class=\"text-center\">y</td>
           <td class=\"text-center\">y</td>
           <td class=\"text-center\">y</td>
@@ -634,7 +634,7 @@ Usage: #definition
         <tr>
           <td><a href=\"#Procedure1-17\">Procedure</a></td>
           <td class=\"text-center\">-</td>
-          <td><a href=\"StructureDefinition-procedure-twcm.html\">中醫-處置或手術(Procedure TWCM)</a><br />
+          <td><a href=\"StructureDefinition-procedure-twcm.html\">處置或手術(Procedure TWCM)</a><br />
           <a href=\"StructureDefinition-proceduretherapeuticprinciples-twcm.html\">病人治則(ProcedureTherapeuticPrinciples TWCM)</a><br />
           <a href=\"StructureDefinition-proceduretherapeuticmethod-twcm.html\">病人治法(ProcedureTherapeuticMethod TWCM)</a></td>
           <td class=\"text-center\">y</td>
@@ -706,7 +706,7 @@ Usage: #definition
       <div class=\"container\">
         <div class=\"row\">
           <div class=\"col-lg-4\"><span class=\"lead\">Profile</span><br />
-          <a href=\"StructureDefinition-bundle-twcm.html\">中醫-資料交換基本單位(Bundle TWCM)</a>
+          <a href=\"StructureDefinition-bundle-twcm.html\">資料交換基本單位(Bundle TWCM)</a>
           </div>
           <div class=\"col-lg-3\"><span class=\"lead\">Profile預期的遵從度</span><br /><b>建議應該（SHOULD）</b></div>
           <div class=\"col-lg-5\"><span class=\"lead\">支援的參照政策（Reference policy）</span><br /><code>resolves</code></div>
@@ -822,7 +822,7 @@ Usage: #definition
       <div class=\"container\">
         <div class=\"row\">
           <div class=\"col-lg-4\"><span class=\"lead\">Profile</span><br />
-          <a href=\"StructureDefinition-composition-twcm.html\">中醫-臨床文件架構(Composition TWCM)</a>
+          <a href=\"StructureDefinition-composition-twcm.html\">臨床文件架構(Composition TWCM)</a>
           </div>
           <div class=\"col-lg-3\"><span class=\"lead\">Profile預期的遵從度</span><br /><b>建議應該（SHOULD）</b></div>
           <div class=\"col-lg-5\"><span class=\"lead\">支援的參照政策（Reference policy）</span><br /><code>resolves</code></div>
@@ -1042,7 +1042,7 @@ Usage: #definition
       <div class=\"container\">
         <div class=\"row\">
           <div class=\"col-lg-4\"><span class=\"lead\">Profile</span><br />
-          <a href=\"StructureDefinition-medicationrequest-twcm.html\">中醫-藥品請求(MedicationRequest TWCM)</a>
+          <a href=\"StructureDefinition-medicationrequest-twcm.html\">藥品請求(MedicationRequest TWCM)</a>
           </div>
           <div class=\"col-lg-3\"><span class=\"lead\">Profile預期的遵從度</span><br /><b>建議應該（SHOULD）</b></div>
           <div class=\"col-lg-5\"><span class=\"lead\">支援的參照政策（Reference policy）</span><br /><code>resolves</code></div>
@@ -1082,7 +1082,7 @@ Usage: #definition
           <a href=\"StructureDefinition-observationoccupation-twcm.html\">職業(ObservationOccupation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpalpation-twcm.html\">切診(ObservationPalpation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpulsecondition-twcm.html\">病人脈象(ObservationPulseCondition TWCM)</a><br />
-          <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象(ObservationVitalSigns TWCM)</a>
+          <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象(ObservationVitalSign TWCM)</a>
           </div>
           <div class=\"col-lg-3\"><span class=\"lead\">Profile預期的遵從度</span><br /><b>建議應該（SHOULD）</b></div>
           <div class=\"col-lg-5\"><span class=\"lead\">支援的參照政策（Reference policy）</span><br /><code>resolves</code></div>
@@ -1215,7 +1215,7 @@ Usage: #definition
       <div class=\"container\">
         <div class=\"row\">
           <div class=\"col-lg-4\"><span class=\"lead\">Profile</span><br />
-          <a href=\"StructureDefinition-procedure-twcm.html\">中醫-處置或手術(Procedure TWCM)</a><br />
+          <a href=\"StructureDefinition-procedure-twcm.html\">處置或手術(Procedure TWCM)</a><br />
           <a href=\"StructureDefinition-proceduretherapeuticprinciples-twcm.html\">病人治則(ProcedureTherapeuticPrinciples TWCM)</a><br />
           <a href=\"StructureDefinition-proceduretherapeuticmethod-twcm.html\">病人治法(ProcedureTherapeuticMethod TWCM)</a>
           </div>

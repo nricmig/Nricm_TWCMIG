@@ -27,7 +27,8 @@ Usage: #example
     <b>分類</b>：Laboratory <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://hl7.org/fhir/R4/codesystem-observation-category.html\">Observation Category Codes</a>#laboratory) </span>
   </p>
   <p>
-    <b>檢驗項目</b>：HSV IgM <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw\">臺灣醫療服務給付項目</a>#14052B) </span>
+    <b>檢驗項目</b>：單純疱疹病毒IgM抗體 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw\">臺灣健保署醫療服務給付項目</a>#14052B) </span><br />
+    文字描述：HSV IgM
   </p>
   <p>
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"

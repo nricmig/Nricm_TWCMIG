@@ -1,7 +1,7 @@
 Instance: BundleTWCM-min
 InstanceOf: bundle-twcm
 Title: "中醫門診單"
-Description: "依據中醫門診單(Bundle TWCM)Profile呈現中醫門診單範例"
+Description: "依據資料交換基本單位(Bundle TWCM)Profile呈現中醫門診單範例"
 Usage: #example
 * identifier.system = "https://twcmig.nricm.edu.tw"
 * identifier.value = "77654729730091"

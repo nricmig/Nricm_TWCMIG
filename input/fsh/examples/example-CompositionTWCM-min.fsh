@@ -1,7 +1,7 @@
 Instance: CompositionTWCM-min
 InstanceOf: composition-twcm
 Title: "門診單架構"
-Description: "依據中醫-臨床文件架構(Composition TWCM)Profile呈現中醫門診單"
+Description: "依據臨床文件架構(Composition TWCM)Profile呈現中醫門診單"
 Usage: #example
 * meta.versionId = "1"
 * meta.profile[0] = "https://twcmig.nricm.edu.tw/StructureDefinition/composition-twcm"
@@ -139,6 +139,9 @@ Usage: #example
      <p>
 		<b>病歷表單版本</b>：1
 	</p>
+	<p>
+		<b>文件識別碼</b>：TW.NRICM.Clinic.ChineseMedicine.1 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#SNO) </span>
+	</p>
     <p>
 		<b>臨床狀態</b>：Final <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/composition-status\">CompositionStatus</a>#final) </span>
 	</p>
@@ -170,51 +173,51 @@ Usage: #example
     <blockquote>
 
     <p>
-      <b>section[PatientInformation]</b>： <a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a>
+      <b>section[PatientInformation]</b> Patient demographics panel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#79191-3) </span>： <a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a>
     </p>
 
-    <p><b>section[AllergyIntolerance]</b>： <a href=\"AllergyIntolerance-AllergyIntoleranceTWCM-min.html\">AllergyIntolerance/AllergyIntoleranceTWCM-min</a></p>
+    <p><b>section[AllergyIntolerance]</b> Allergies and adverse reactions Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#48765-2) </span>： <a href=\"AllergyIntolerance-AllergyIntoleranceTWCM-min.html\">AllergyIntolerance/AllergyIntoleranceTWCM-min</a></p>
 
-    <p><b>section[MedicalHistory]</b>： <a href=\"Condition-ConditionMedicalHistoryTWCM-min.html\">Condition/ConditionMedicalHistoryTWCM-min</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-menstrual.html\">Condition/ConditionMedicalHistoryTWCM-menstrual</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-obstetric.html\">Condition/ConditionMedicalHistoryTWCM-obstetric</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-pediatric.html\">Condition/ConditionMedicalHistoryTWCM-pediatric</a>、<a href=\"Condition-ConditionChronicDiseaseTWCM-min.html\">Condition/ConditionChronicDiseaseTWCM-min</a></p>
+    <p><b>section[MedicalHistory]</b> History of Past illness note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#11348-0) </span>： <a href=\"Condition-ConditionMedicalHistoryTWCM-min.html\">Condition/ConditionMedicalHistoryTWCM-min</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-menstrual.html\">Condition/ConditionMedicalHistoryTWCM-menstrual</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-obstetric.html\">Condition/ConditionMedicalHistoryTWCM-obstetric</a>、<a href=\"Condition-ConditionMedicalHistoryTWCM-pediatric.html\">Condition/ConditionMedicalHistoryTWCM-pediatric</a>、<a href=\"Condition-ConditionChronicDiseaseTWCM-min.html\">Condition/ConditionChronicDiseaseTWCM-min</a></p>
 
     <p>
-      <b>section[ConditionMajorIllness]</b>： <a href=\"Observation-ObservationMajorIllnessTWCM-min.html\">Observation/ObservationMajorIllnessTWCM-min</a><br />
-      <span style=\"display: block; margin-left: 20px;\"><b>section</b>： <a href=\"Condition-ConditionMajorIllnessTWCM-min.html\">Condition/ConditionMajorIllnessTWCM-min</a></span>
+      <b>section[ConditionMajorIllness]</b> History of Major illnesses and injuries Narrative <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#11338-1) </span>： <a href=\"Observation-ObservationMajorIllnessTWCM-min.html\">Observation/ObservationMajorIllnessTWCM-min</a><br />
+      <span style=\"display: block; margin-left: 20px;\"><b>section</b> History of Major illnesses and injuries Narrative <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#11338-1) </span>： <a href=\"Condition-ConditionMajorIllnessTWCM-min.html\">Condition/ConditionMajorIllnessTWCM-min</a></span>
     </p>
     <p>
-    <b>section[Medication]</b>：<br />
+    <b>section[Medication]</b> History of Medication use Narrative <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#10160-0) </span>：<br />
      <span style=\"display: block; margin-left: 20px;\">
-      <b>section[medication]</b>： <a href=\"Medication-MedicationTWCM-min.html\">Medication/MedicationTWCM-min</a>
+      <b>section[medication]</b> Medication administration.brief <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#87232-5) </span>： <a href=\"Medication-MedicationTWCM-min.html\">Medication/MedicationTWCM-min</a>
       <br />
       <b>section[medication]</b>： <a href=\"Medication-MedicationTWCM-pro.html\">Medication/MedicationTWCM-pro</a>
       <br />
-      <b>section[medicationrequest]</b>： <a href=\"MedicationRequest-MedicationRequestTWCM-min.html\">MedicationRequest/MedicationRequestTWCM-min</a>
+      <b>section[medicationrequest]</b> Prescription for medication <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#57833-6) </span>： <a href=\"MedicationRequest-MedicationRequestTWCM-min.html\">MedicationRequest/MedicationRequestTWCM-min</a>
    <br />
       <b>section[medicationrequest]</b>： <a href=\"MedicationRequest-MedicationRequestTWCM-pro.html\">MedicationRequest/MedicationRequestTWCM-pro</a>
     </span>
     </p>
 
     <p>
-      <b>section[ConditionDiagnosis]</b>：<br />
+      <b>section[ConditionDiagnosis]</b> Problem list - Reported <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#11450-4) </span>：<br />
       <span style=\"display: block; margin-left: 20px;\">
-      <b>section[conditiondiagnosis]</b>： <a href=\"Condition-ConditionDiagnosisTWCM-min.html\">Condition/ConditionDiagnosisTWCM-min</a>、<a href=\"Condition-ConditionSyndromeTypeTWCM-min.html\">Condition/ConditionSyndromeTypeTWCM-min</a>
+      <b>section[conditiondiagnosis]</b> Diagnosis Narrative <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#29548-5) </span>： <a href=\"Condition-ConditionDiagnosisTWCM-min.html\">Condition/ConditionDiagnosisTWCM-min</a>、<a href=\"Condition-ConditionSyndromeTypeTWCM-min.html\">Condition/ConditionSyndromeTypeTWCM-min</a>
       <br />
-      <b>section[practitioner]</b>： <a href=\"Practitioner-PractitionerTWCM-pro.html\">Practitioner/PractitionerTWCM-pro</a>
+      <b>section[practitioner]</b> Primary practitioner identifier <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#18600-7) </span>： <a href=\"Practitioner-PractitionerTWCM-pro.html\">Practitioner/PractitionerTWCM-pro</a>
       </span>
     </p>
 
-    <p><b>section[PhysicalFindings]</b>： <a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>、<a href=\"Observation-ObservationPulseConditionTWCM-lefthand.html\">Observation/ObservationPulseConditionTWCM-lefthand</a></p>
+    <p><b>section[PhysicalFindings]</b> Physical findings note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#29545-1) </span>： <a href=\"Observation-ObservationPulseConditionTWCM-min.html\">Observation/ObservationPulseConditionTWCM-min</a>、<a href=\"Observation-ObservationPulseConditionTWCM-lefthand.html\">Observation/ObservationPulseConditionTWCM-lefthand</a></p>
 
-    <p><b>section[PlanOfCare]</b>： <a href=\"CarePlan-CarePlanTWCM-min.html\">CarePlan/CarePlanTWCM-min</a>、<a href=\"Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html\">Procedure/ProcedureTherapeuticPrinciplesTWCM-min</a>、<a href=\"Procedure-ProcedureTherapeuticMethodTWCM-min.html\">Procedure/ProcedureTherapeuticMethodTWCM-min</a></p>
+    <p><b>section[PlanOfCare]</b> Plan of care note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#18776-5) </span>： <a href=\"CarePlan-CarePlanTWCM-min.html\">CarePlan/CarePlanTWCM-min</a>、<a href=\"Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html\">Procedure/ProcedureTherapeuticPrinciplesTWCM-min</a>、<a href=\"Procedure-ProcedureTherapeuticMethodTWCM-min.html\">Procedure/ProcedureTherapeuticMethodTWCM-min</a></p>
 
-    <p><b>section[ConditionChiefComplaint]</b>： <a href=\"Condition-ConditionChiefComplaintTWCM-min.html\">Condition/ConditionChiefComplaintTWCM-min</a></p>
+    <p><b>section[ConditionChiefComplaint]</b> Chief complaint Narrative - Reported <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#10154-3) </span>： <a href=\"Condition-ConditionChiefComplaintTWCM-min.html\">Condition/ConditionChiefComplaintTWCM-min</a></p>
 
-    <p><b>section[PresentIllness]</b>： <a href=\"Condition-ConditionMedicalHistoryTWCM-present.html\">Condition/ConditionMedicalHistoryTWCM-present</a></p>
+    <p><b>section[PresentIllness]</b> History of Present illness Narrative <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#10164-2) </span>： <a href=\"Condition-ConditionMedicalHistoryTWCM-present.html\">Condition/ConditionMedicalHistoryTWCM-present</a></p>
 
-    <p><b>section[ObservationVitalSign]</b>： <a href=\"Observation-ObservationVitalSignTWCM-min.html\">Observation/ObservationVitalSignTWCM-min</a></p>
+    <p><b>section[ObservationVitalSign]</b> Vital signs note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#8716-3) </span>： <a href=\"Observation-ObservationVitalSignTWCM-min.html\">Observation/ObservationVitalSignTWCM-min</a></p>
 
     <p>
-    <b>section[Procedure]</b>： <a href=\"Procedure-ProcedureTWCM-min.html\">Procedure/ProcedureTWCM-min</a>
+    <b>section[Procedure]</b> Procedure Narrative <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#29554-3) </span>： <a href=\"Procedure-ProcedureTWCM-min.html\">Procedure/ProcedureTWCM-min</a>
     <br />
     <b>section[Procedure]</b>： <a href=\"Procedure-ProcedureTWCM-minn.html\">Procedure/ProcedureTWCM-minn</a>
     <br />
@@ -222,37 +225,37 @@ Usage: #example
     </p>
 
     <p>
-    <b>section[ObservationLabResults]</b>：<br />
+    <b>section[ObservationLabResults]</b> Relevant diagnostic tests/laboratory data note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#30954-2) </span>：<br />
     <span style=\"display: block; margin-left: 20px;\">
-    <b>section[observation]</b>： <a href=\"Observation-ObservationTWCM-min.html\">Observation/ObservationTWCM-min</a>
+    <b>section[observation]</b> Referral lab test results <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#19146-0) </span>： <a href=\"Observation-ObservationTWCM-min.html\">Observation/ObservationTWCM-min</a>
     <br />
     <b>section[observation]</b>： <a href=\"Observation-ObservationTWCM-pro.html\">Observation/ObservationTWCM-pro</a>
     <br />
-    <b>section[servicerequest]</b>： <a href=\"ServiceRequest-ServiceRequestTWCM-min.html\">ServiceRequest/ServiceRequestTWCM-min</a>
+    <b>section[servicerequest]</b> Orders placed Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#77597-3) </span>： <a href=\"ServiceRequest-ServiceRequestTWCM-min.html\">ServiceRequest/ServiceRequestTWCM-min</a>
     <br />
     <b>section[servicerequest]</b>： <a href=\"ServiceRequest-ServiceRequestTWCM-pro.html\">ServiceRequest/ServiceRequestTWCM-pro</a>
     <br />
-    <b>section[diagnosticreport]</b>： <a href=\"DiagnosticReport-DiagnosticReportTWCM-min.html\">DiagnosticReport/DiagnosticReportTWCM-min</a>
+    <b>section[diagnosticreport]</b> Narrative diagnostic report [Interpretation] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#50398-7) </span>： <a href=\"DiagnosticReport-DiagnosticReportTWCM-min.html\">DiagnosticReport/DiagnosticReportTWCM-min</a>
     <br />
-    <b>section[bloodtype]</b>： <a href=\"Observation-ObservationBloodtypeTWCM-min.html\">Observation/ObservationBloodtypeTWCM-min</a>
+    <b>section[bloodtype]</b> ABO group [Type] in Blood <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#883-9) </span>： <a href=\"Observation-ObservationBloodtypeTWCM-min.html\">Observation/ObservationBloodtypeTWCM-min</a>
     </span>
     </p>
 
-    <p><b>section[DocumentReference]</b>： <a href=\"DocumentReference-DocumentReferenceTWCM-min.html\">DocumentReference/DocumentReferenceTWCM-min</a></p>
+    <p><b>section[DocumentReference]</b> Health concerns Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#75310-3) </span>： <a href=\"DocumentReference-DocumentReferenceTWCM-min.html\">DocumentReference/DocumentReferenceTWCM-min</a></p>
 
-    <p><b>section[FamilyMemberHistory]</b>： <a href=\"FamilyMemberHistory-FamilyMemberHistoryTWCM-min.html\">FamilyMemberHistory/FamilyMemberHistoryTWCM-min</a></p>
+    <p><b>section[FamilyMemberHistory]</b> History of family member diseases note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#10157-6) </span>： <a href=\"FamilyMemberHistory-FamilyMemberHistoryTWCM-min.html\">FamilyMemberHistory/FamilyMemberHistoryTWCM-min</a></p>
 
     <p>
-    <b>section[SocialHistory]</b><br />
+    <b>section[SocialHistory]</b> Social history note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#29762-2) </span><br />
     <span style=\"display: block; margin-left: 20px;\">
-    <b>section[occupation]</b>： <a href=\"Observation-ObservationOccupationTWCM-min.html\">Observation/ObservationOccupationTWCM-min</a>
+    <b>section[occupation]</b> History of Occupation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#11341-5) </span>： <a href=\"Observation-ObservationOccupationTWCM-min.html\">Observation/ObservationOccupationTWCM-min</a>
     <br />
-    <b>section[educationlevel]</b>： <a href=\"Observation-ObservationEducationLevelTWCM-min.html\">Observation/ObservationEducationLevelTWCM-min</a>
+    <b>section[educationlevel]</b> Highest level of education <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#82589-3) </span>： <a href=\"Observation-ObservationEducationLevelTWCM-min.html\">Observation/ObservationEducationLevelTWCM-min</a>
     </span>
     </p>
 
     <p>
-    <b>section[Objective]</b>：<br />
+    <b>section[Objective]</b> Objective Narrative <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#61149-1) </span>：<br />
     <span style=\"display: block; margin-left: 20px;\">
     <a href=\"ClinicalImpression-ClinicalImpressionTWCM-min.html\">ClinicalImpression/ClinicalImpressionTWCM-min</a>
     <br />

@@ -26,7 +26,7 @@ Usage: #example
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"
     </p>
     <p>
-    <b>把脈手別</b>：左腕 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#5951000) </span>
+    <b>把脈手別</b>：Structure of left wrist region <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#5951000) </span>
     </p>
     <p>
     <b>病人脈象</b>：弦脈 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#904) </span>

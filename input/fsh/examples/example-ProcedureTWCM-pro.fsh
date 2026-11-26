@@ -1,7 +1,7 @@
 Instance: ProcedureTWCM-pro
 InstanceOf: procedure-twcm
 Title: "脫臼整復處置範例"
-Description: "依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中脫臼整復處置範例"
+Description: "依據處置或手術(Procedure TWCM)Profile呈現中醫門診單中脫臼整復處置範例"
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
 * category = https://twcmig.nricm.edu.tw/CodeSystem/twcm-procedurecategory#Dis
@@ -33,7 +33,7 @@ Usage: #example
 		<b>處置說明</b>：高度複雜性傷科－起始次-3.脫臼整復復位－起始次－另開內服藥
 	</p>
 	<p>
-		<b>脫臼整復部位</b>：股
+		<b>脫臼整復部位</b>：股 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-treatmentregion.html\">針灸傷科脫臼整復部位</a>#CG) </span>
 	</p>
 	<p>
 		<b>脫臼整復處理方法</b>：端、提法

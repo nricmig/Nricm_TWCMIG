@@ -6,7 +6,7 @@ Alias: $bodytemp = http://hl7.org/fhir/StructureDefinition/bodytemp
 Profile: ObservationVitalSignTWCM
 Parent: http://hl7.org/fhir/StructureDefinition/vitalspanel
 Id: observationvitalsign-twcm
-Title: "生命徵象(ObservationVitalSigns TWCM)"
+Title: "生命徵象(ObservationVitalSign TWCM)"
 Description: "此生命徵象(ObservationVitalSign TWCM)Profile說明本IG如何進一步定義FHIR的VitalsPanel Profile以呈現中醫門診單之生命徵象的詳細資料。"
 * status = #final
 * category 1..1

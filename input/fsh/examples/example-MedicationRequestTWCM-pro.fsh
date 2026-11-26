@@ -1,7 +1,7 @@
 Instance: MedicationRequestTWCM-pro
 InstanceOf: medicationrequest-twcm
 Title: "藥品請求範例"
-Description: "依據中醫-藥品請求(MedicationRequest TWCM)Profile呈現中醫門診單中藥品請求範例"
+Description: "依據藥品請求(MedicationRequest TWCM)Profile呈現中醫門診單中藥品請求範例"
 Usage: #example
 * status = #active
 * intent = #order
@@ -52,7 +52,8 @@ Usage: #example
 		<b>藥品調劑方式</b>：先煎
 	</p>
 	<p>
-		<b>藥品使用頻率</b>：QID <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation\">HL7 TimingAbbreviation </a>#QID) </span>
+		<b>藥品使用頻率</b>：QID <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation\">HL7 TimingAbbreviation</a>#QID) </span><br />
+		文字描述：一天四次,三餐飯後與睡前
 
 	</p>
     <p>

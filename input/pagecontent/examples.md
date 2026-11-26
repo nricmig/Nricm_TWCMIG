@@ -4,7 +4,7 @@
 - [過敏或不耐症範例](AllergyIntolerance-AllergyIntoleranceTWCM-min.html)：依據過敏或不耐症(AllergyIntolerance TWCM)Profile呈現中醫門診單中過敏與不耐症範例
 
 ### Bundle
-- [中醫門診單](Bundle-BundleTWCM-min.html)：依據中醫門診單(Bundle TWCM)Profile呈現中醫門診單範例
+- [中醫門診單](Bundle-BundleTWCM-min.html)：依據資料交換基本單位(Bundle TWCM)Profile呈現中醫門診單範例
 
 ### CarePlan
 - [醫師囑咐範例](CarePlan-CarePlanTWCM-min.html)：依據關懷計畫(CarePlan TWCM)Profile呈現中醫門診單中醫師囑咐的範例
@@ -13,13 +13,13 @@
 - [中醫辨證評估範例](ClinicalImpression-ClinicalImpressionTWCM-min.html)：依據中醫辨證評估(ClinicalImpression TWCM)Profile呈現中醫門診單中望聞問切客觀描述、診察紀錄參照及辨證結果的範例
 
 ### Composition
-- [門診單架構](Composition-CompositionTWCM-min.html)：依據中醫-臨床文件架構(Composition TWCM)Profile呈現中醫門診單
+- [門診單架構](Composition-CompositionTWCM-min.html)：依據臨床文件架構(Composition TWCM)Profile呈現中醫門診單
 
 ### Condition
 - [重大傷病範例](Condition-ConditionMajorIllnessTWCM-min.html)：依據重大傷病(ConditionMajorIllness TWCM)Profile呈現中醫門診單中重大傷病代碼與病名的範例
 - [病人主訴範例](Condition-ConditionChiefComplaintTWCM-min.html)：依據病人主訴(ConditionChiefComplaint TWCM)Profile呈現中醫門診單中病人主訴的範例
-- [病情、問題或診斷範例](Condition-ConditionDiagnosisTWCM-min.html)：依據診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例
-- [病情、問題或診斷範例（含ICD-11中醫病名）](Condition-ConditionDiagnosisTWCM-pro.html)：依據診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例，同一診斷並列ICD-10-CM與ICD-11中醫病名代碼
+- [病情、問題或診斷範例](Condition-ConditionDiagnosisTWCM-min.html)：依據病情、問題或診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例
+- [病情、問題或診斷範例（含ICD-11中醫病名）](Condition-ConditionDiagnosisTWCM-pro.html)：依據病情、問題或診斷(ConditionDiagnosis TWCM)Profile呈現中醫門診單中診斷的範例，同一診斷並列ICD-10-CM與ICD-11中醫病名代碼
 - [病史範例(過去病史)](Condition-ConditionMedicalHistoryTWCM-min.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中一般過去病史範例
 - [病史範例(現病史)](Condition-ConditionMedicalHistoryTWCM-present.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中現病史範例
 - [病史範例(月經史)](Condition-ConditionMedicalHistoryTWCM-menstrual.html)：依據病史(ConditionMedicalHistory TWCM)Profile呈現中醫門診單中月經史範例
@@ -35,7 +35,7 @@
 
 ### DocumentReference
 
-- [文件參照範例](DocumentReference-DocumentReferenceTWCM-min.html)：依據文件參照(DocumentReferance TWCM)Profile呈現中醫門診單中文件參照的範例
+- [文件參照範例](DocumentReference-DocumentReferenceTWCM-min.html)：依據文件參照(DocumentReference TWCM)Profile呈現中醫門診單中文件參照的範例
 
 ### Encounter
 - [就醫事件範例](Encounter-EncounterTWCM-min.html)：依據就醫事件(Encounter TWCM)Profile呈現中醫門診單中就醫事件範例
@@ -86,9 +86,9 @@
 - [健康照護服務提供人員基本資料-張正原](Practitioner-PractitionerTWCM-pro.html)：依據健康照護服務提供人員資料(Practitioner TWCM)Profile呈現中醫門診單中之健康照護服務提供人員資料範例
 
 ### Procedure
-- [針灸處置範例](Procedure-ProcedureTWCM-min.html)：依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中針灸處置範例
-- [傷科處置範例](Procedure-ProcedureTWCM-minn.html)：依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中傷科處置範例
-- [脫臼整復處置範例](Procedure-ProcedureTWCM-pro.html)：依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中脫臼整復處置範例
+- [針灸處置範例](Procedure-ProcedureTWCM-min.html)：依據處置或手術(Procedure TWCM)Profile呈現中醫門診單中針灸處置範例
+- [傷科處置範例](Procedure-ProcedureTWCM-minn.html)：依據處置或手術(Procedure TWCM)Profile呈現中醫門診單中傷科處置範例
+- [脫臼整復處置範例](Procedure-ProcedureTWCM-pro.html)：依據處置或手術(Procedure TWCM)Profile呈現中醫門診單中脫臼整復處置範例
 - [病人治則範例](Procedure-ProcedureTherapeuticPrinciplesTWCM-min.html)：依據病人治則(ProcedureTherapeuticPrinciples TWCM)Profile呈現中醫門診單中病人治則範例
 - [病人治則範例(僅文字,無對應代碼)](Procedure-ProcedureTherapeuticPrinciplesTWCM-textonly.html)：依據病人治則(ProcedureTherapeuticPrinciples TWCM)Profile呈現中醫門診單中病人治則無法對應代碼時僅填文字的範例
 - [病人治法範例](Procedure-ProcedureTherapeuticMethodTWCM-min.html)：依據病人治法(ProcedureTherapeuticMethod TWCM)Profile呈現中醫門診單中病人治法範例
@@ -97,6 +97,6 @@
 - [醫師簽章範例](Provenance-ProvenanceTWCM-min.html)：依據醫師簽章(Provenance TWCM)Profile呈現中醫門診單中醫師電子病歷簽章的範例
 
 ### ServiceRequest
-- [服務請求範例](ServiceRequest-ServiceRequestTWCM-min.html)：依據服務請求(SerciceRequest TWCM)Profile呈現中醫門診單中服務請求的範例
-- [服務請求範例](ServiceRequest-ServiceRequestTWCM-pro.html)：依據服務請求(SerciceRequest TWCM)Profile呈現中醫門診單中服務請求的範例
+- [服務請求範例](ServiceRequest-ServiceRequestTWCM-min.html)：依據服務請求(ServiceRequest TWCM)Profile呈現中醫門診單中服務請求的範例
+- [服務請求範例](ServiceRequest-ServiceRequestTWCM-pro.html)：依據服務請求(ServiceRequest TWCM)Profile呈現中醫門診單中服務請求的範例
 

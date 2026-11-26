@@ -1,7 +1,7 @@
 Profile: CompositionTWCM
 Parent: TWCoreComposition
 Id: composition-twcm
-Title: "中醫-臨床文件架構(Composition TWCM)"
+Title: "臨床文件架構(Composition TWCM)"
 Description: "此Profile用於描述中醫門診單的報告文件"
 * meta 1..1 MS
   * ^short = "應填入於中醫門診單之病歷表單版本號Sheet Version"

@@ -1,7 +1,7 @@
 Instance: ProcedureTWCM-minn
 InstanceOf: procedure-twcm
 Title: "傷科處置範例"
-Description: "依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中傷科處置範例"
+Description: "依據處置或手術(Procedure TWCM)Profile呈現中醫門診單中傷科處置範例"
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
 * category = https://twcmig.nricm.edu.tw/CodeSystem/twcm-procedurecategory#Con
@@ -40,15 +40,15 @@ Usage: #example
 		<b>處置說明</b>：一般針灸合併中度複雜性傷科--療程第二至六次－另開內服藥
 	</p>
 	<p>
-		<b>針灸部位</b>：頭
+		<b>針灸部位</b>：頭 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-treatmentregion.html\">針灸傷科脫臼整復部位</a>#CA) </span>
 	<br />
-		<b>針灸穴位</b>：承靈
+		<b>針灸穴位</b>：承靈 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-acupuncturepoint.html\">中醫針灸經絡穴位代碼</a>#GB18) </span>
 	<br />
 		<b>針灸補充說明</b>：承靈，下針4公分
 	</p>
 
 	<p>
-		<b>傷科部位</b>：後軀幹
+		<b>傷科部位</b>：後軀幹 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-treatmentregion.html\">針灸傷科脫臼整復部位</a>#CD) </span>
 	<br />
 		<b>傷科手法</b>：按摩法
 	</p>

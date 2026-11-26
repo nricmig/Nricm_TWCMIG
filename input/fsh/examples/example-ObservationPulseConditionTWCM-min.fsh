@@ -33,7 +33,7 @@ Usage: #example
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"
     </p>
     <p>
-    <b>把脈手別</b>：右腕 <span style=\"background: LightGoldenRodYellow;\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#9736006) </span>
+    <b>把脈手別</b>：Structure of right wrist region <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://snomed.info/sct\">SNOMED CT Code</a>#9736006) </span>
     </p>
     <p>
     <b>病人脈象</b>：<br/>

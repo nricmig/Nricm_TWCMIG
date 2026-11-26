@@ -2,7 +2,7 @@ Profile: PractitionerTWCM
 Parent: TWCorePractitioner
 Id: practitioner-twcm
 Title: "健康照護服務提供人員資料(Practitioner TWCM)"
-Description: "此健康照護服務提供人員(Practitioner TWCM)Profile說明本IG如何進一步定義臺灣核心-健康照護服務提供人員(TW Core Practitioner) Profile以呈現中醫門診單之健康照護服務提供人員基本資料。"
+Description: "此健康照護服務提供人員資料(Practitioner TWCM)Profile說明本IG如何進一步定義臺灣核心-健康照護服務提供人員(TW Core Practitioner) Profile以呈現中醫門診單之健康照護服務提供人員基本資料。"
 * identifier 1..1 MS
   * ^short = "識別碼。應填入看診醫師身分證字號"
   * type 1..1 

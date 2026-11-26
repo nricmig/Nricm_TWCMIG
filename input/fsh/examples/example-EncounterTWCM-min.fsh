@@ -35,13 +35,14 @@ Usage: #example
 		<b>就醫現況</b>：Finished  <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/encounter-status\">EncounterStatus</a>#finished) </span>
 	</p>
 	<p>
-		<b>看診科別</b>：中醫科 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-nhi-tw\">臺灣健保署就醫科別</a>#60) </span>
+		<b>看診科別</b>：中醫一般科 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-nhi-tw\">臺灣健保署就醫科別</a>#60) </span>
 	</p>
 	<p>
 		<b>掛號(報到)時間</b>：2010-10-10 17:30:00-0500
 	</p>
 	<p>
-		<b>就醫身份[extension: <a href=\"StructureDefinition-medicalidentity-twcm.html\">medicalidentity</a>]</b>：健保 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v3-ActCode\">ActCode</a>#PUBLICPOL) </span>
+		<b>就醫身份[extension: <a href=\"StructureDefinition-medicalidentity-twcm.html\">medicalidentity</a>]</b>：public healthcare <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v3-ActCode\">ActCode</a>#PUBLICPOL) </span><br />
+		文字描述：健保
 	</p>
 	<p>
 		<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"

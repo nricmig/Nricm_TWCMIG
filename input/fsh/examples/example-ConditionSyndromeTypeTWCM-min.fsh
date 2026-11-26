@@ -29,7 +29,9 @@ Usage: #example
 	<b>病人</b>：<a href=\"Patient-PatientTWCM-min.html\">Patient/PatientTWCM-min</a> \"陳美真\"
     </p>
     <p>
-    <b>病人證型</b>：外感風寒,脾失健運
+    <b>病人證型</b>：Wind-cold fettering the lung pattern (TM1) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://id.who.int/icd/release/11/mms\">ICD-11 MMS</a>#SF8C) </span><br />
+    Spleen qi deficiency pattern (TM1) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://id.who.int/icd/release/11/mms\">ICD-11 MMS</a>#SF70) </span><br />
+    文字描述：外感風寒,脾失健運
     </p>
      <p>
 		<b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

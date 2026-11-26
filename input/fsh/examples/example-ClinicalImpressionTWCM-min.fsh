@@ -46,18 +46,18 @@ Usage: #example
     </p>
     <p>
     <b>診察紀錄</b>：<br />
-    望診：<a href=\"Observation-ObservationInspectionTWCM-min.html\">Observation/ObservationInspectionTWCM-min</a><br />
-    聞診：<a href=\"Observation-ObservationListeningSmellingTWCM-min.html\">Observation/ObservationListeningSmellingTWCM-min</a><br />
-    問診：<a href=\"Observation-ObservationInquiryTWCM-min.html\">Observation/ObservationInquiryTWCM-min</a><br />
-    切診：<a href=\"Observation-ObservationPalpationTWCM-min.html\">Observation/ObservationPalpationTWCM-min</a>
+    望診 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#558) </span>：<a href=\"Observation-ObservationInspectionTWCM-min.html\">Observation/ObservationInspectionTWCM-min</a><br />
+    聞診 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#701) </span>：<a href=\"Observation-ObservationListeningSmellingTWCM-min.html\">Observation/ObservationListeningSmellingTWCM-min</a><br />
+    問診 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#725) </span>：<a href=\"Observation-ObservationInquiryTWCM-min.html\">Observation/ObservationInquiryTWCM-min</a><br />
+    切診 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-who-ictm-terminology.html\">WHO傳統醫學國際標準術語(中醫)</a>#849) </span>：<a href=\"Observation-ObservationPalpationTWCM-min.html\">Observation/ObservationPalpationTWCM-min</a>
     </p>
     <p>
     <b>辨證結果</b>：<br />
-    病因：外感風寒，飲食失調<br />
-    病性：表寒兼脾虛，虛實夾雜<br />
-    病位：肺、脾<br />
-    病勢：病程尚短，持續治療中<br />
-    證型：<a href=\"Condition-ConditionSyndromeTypeTWCM-min.html\">Condition/ConditionSyndromeTypeTWCM-min</a> \"外感風寒,脾失健運\"
+    病因 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-syndromedifferentiation-category.html\">中醫辨證分類</a>#病因) </span>：外感風寒，飲食失調<br />
+    病性 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-syndromedifferentiation-category.html\">中醫辨證分類</a>#病性) </span>：表寒兼脾虛，虛實夾雜<br />
+    病位 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-syndromedifferentiation-category.html\">中醫辨證分類</a>#病位) </span>：肺、脾<br />
+    病勢 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-syndromedifferentiation-category.html\">中醫辨證分類</a>#病勢) </span>：病程尚短，持續治療中<br />
+    證型 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-syndromedifferentiation-category.html\">中醫辨證分類</a>#證型) </span>：<a href=\"Condition-ConditionSyndromeTypeTWCM-min.html\">Condition/ConditionSyndromeTypeTWCM-min</a> \"外感風寒,脾失健運\"
     </p>
     <p>
     <b>就醫事件</b>：<a href=\"Encounter-EncounterTWCM-min.html\">Encounter/EncounterTWCM-min</a>

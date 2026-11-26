@@ -1,7 +1,7 @@
 Instance: ProcedureTWCM-min
 InstanceOf: procedure-twcm
 Title: "針灸處置範例"
-Description: "依據中醫-處置或手術(Procedure TWCM)Profile呈現中醫門診單中針灸處置範例"
+Description: "依據處置或手術(Procedure TWCM)Profile呈現中醫門診單中針灸處置範例"
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
 * category = https://twcmig.nricm.edu.tw/CodeSystem/twcm-procedurecategory#Acu
@@ -33,13 +33,13 @@ Usage: #example
 		<b>處置說明</b>：一般針灸－另開內服藥
 	</p>
 	<p>
-		<b>針灸部位</b>：頭
+		<b>針灸部位</b>：頭 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-treatmentregion.html\">針灸傷科脫臼整復部位</a>#CA) </span>
 	</p>
 	<p>
 		<b>處置類別</b>：Acu <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-procedurecategory.html\">中醫處置分類值集</a>#Acu) </span>
 	</p>
 	<p>
-		<b>針灸穴位</b>：承靈
+		<b>針灸穴位</b>：承靈 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-acupuncturepoint.html\">中醫針灸經絡穴位代碼</a>#GB18) </span>
 	</p>
 	<p>
 		<b>針灸補充說明</b>：下針3公分
