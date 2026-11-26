@@ -596,7 +596,7 @@ Usage: #definition
           <a href=\"StructureDefinition-observationoccupation-twcm.html\">職業(ObservationOccupation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpalpation-twcm.html\">切診(ObservationPalpation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpulsecondition-twcm.html\">病人脈象(ObservationPulseCondition TWCM)</a><br />
-          <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象(ObservationVitalSign TWCM)</a></td>
+          <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象組合(ObservationVitalSignsPanel TWCM)</a></td>
           <td class=\"text-center\">y</td>
           <td class=\"text-center\">y</td>
           <td class=\"text-center\">y</td>
@@ -1093,7 +1093,7 @@ Usage: #definition
           <a href=\"StructureDefinition-observationoccupation-twcm.html\">職業(ObservationOccupation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpalpation-twcm.html\">切診(ObservationPalpation TWCM)</a><br />
           <a href=\"StructureDefinition-observationpulsecondition-twcm.html\">病人脈象(ObservationPulseCondition TWCM)</a><br />
-          <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象(ObservationVitalSign TWCM)</a>
+          <a href=\"StructureDefinition-observationvitalsign-twcm.html\">生命徵象組合(ObservationVitalSignsPanel TWCM)</a>
           </div>
           <div class=\"col-lg-3\"><span class=\"lead\">Profile預期的遵從度</span><br /><b>必須（SHALL）</b></div>
           <div class=\"col-lg-5\"><span class=\"lead\">支援的參照政策（Reference policy）</span><br /><code>resolves</code></div>

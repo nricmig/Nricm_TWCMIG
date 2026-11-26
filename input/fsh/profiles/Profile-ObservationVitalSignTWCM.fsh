@@ -3,11 +3,11 @@ Alias: $bodyheight = http://hl7.org/fhir/StructureDefinition/bodyheight
 Alias: $bodyweight = http://hl7.org/fhir/StructureDefinition/bodyweight
 Alias: $bodytemp = http://hl7.org/fhir/StructureDefinition/bodytemp
 
-Profile: ObservationVitalSignTWCM
+Profile: ObservationVitalSignsPanelTWCM
 Parent: http://hl7.org/fhir/StructureDefinition/vitalspanel
 Id: observationvitalsign-twcm
-Title: "生命徵象(ObservationVitalSign TWCM)"
-Description: "此生命徵象(ObservationVitalSign TWCM)Profile說明本IG如何進一步定義FHIR的VitalsPanel Profile以呈現中醫門診單之生命徵象的詳細資料。"
+Title: "生命徵象組合(ObservationVitalSignsPanel TWCM)"
+Description: "此生命徵象組合(ObservationVitalSignsPanel TWCM)Profile說明本IG如何進一步定義FHIR的VitalsPanel Profile以呈現中醫門診單之生命徵象的詳細資料。"
 * status = #final
 * category 1..1
 * category.coding 1..1

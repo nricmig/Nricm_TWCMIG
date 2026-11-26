@@ -1,7 +1,7 @@
 Instance: ObservationVitalSignTWCM-min
 InstanceOf: observationvitalsign-twcm
 Title: "生命徵象範例"
-Description: "依據生命徵象(ObservationVitalSign TWCM)Profile呈現中醫門診單中生命徵象範例"
+Description: "依據生命徵象組合(ObservationVitalSignsPanel TWCM)Profile呈現中醫門診單中生命徵象範例"
 Usage: #example
 * status = #final
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"

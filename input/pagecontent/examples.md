@@ -59,7 +59,7 @@
 - [檢驗檢查範例](Observation-ObservationTWCM-min.html)：依據檢驗檢查(Observation TWCM)Profile呈現中醫門診單中檢驗檢查範例
 - [檢驗檢查範例](Observation-ObservationTWCM-pro.html)：依據檢驗檢查(Observation TWCM)Profile呈現中醫門診單中檢驗檢查範例
 - [職業範例](Observation-ObservationOccupationTWCM-min.html)：依據職業(ObservationOccupation TWCM)Profile呈現中醫門診單中職業的範例
-- [生命徵象範例](Observation-ObservationVitalSignTWCM-min.html)：依據生命徵象(ObservationVitalSign TWCM)Profile呈現中醫門診單中生命徵象範例
+- [生命徵象範例](Observation-ObservationVitalSignTWCM-min.html)：依據生命徵象組合(ObservationVitalSignsPanel TWCM)Profile呈現中醫門診單中生命徵象範例
     - [血壓範例](Observation-obs-bloodPressure-example-TWCM.html)：依據臺灣核心-血壓(TW Core Observation Blood Pressure) Profile呈現血壓範例
     - [脈搏範例](Observation-obs-heartrate-example-TWCM.html)：依據脈搏(ObservationHeartRate TWCM) Profile呈現脈搏範例
     - [身高範例](Observation-obs-bodyheight-example-TWCM.html)：依據身高(ObservationBodyHeight TWCM) Profile呈現身高範例

@@ -286,7 +286,7 @@
 <path d="M1140,1662 L1640,1662" fill="none" stroke="#000" stroke-width="1.6" marker-end="url(#ab)"/>
 <a href="StructureDefinition-observationvitalsign-twcm.html" target="_top">
 <rect x="1640" y="1650" width="280" height="24" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="1648.0" y="1666.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">ObservationVitalSign TWCM  生命徵象</text>
+<text x="1648.0" y="1666.5" font-size="12" font-weight="bold" text-anchor="start" fill="#000">ObservationVitalSignsPanel TWCM  生命徵象組合</text>
 </a>
 <rect x="770" y="1688" width="370" height="24" fill="#FFF2CC" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="1704.5" font-size="12.5" font-weight="bold" text-anchor="start" fill="#000">section:Procedure</text>
@@ -750,7 +750,7 @@
 <text x="777.0" y="4900.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">name.text</text>
 <rect x="745" y="4934" width="830" height="370" fill="#D5E8D4" stroke="#82B366" stroke-width="1.5"/>
 <a href="StructureDefinition-observationvitalsign-twcm.html" target="_top">
-<text x="757.0" y="4956.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：生命徵象 ObservationVitalSign TWCM Profile</text>
+<text x="757.0" y="4956.0" font-size="15" font-weight="bold" text-anchor="start" fill="#000">entry.resource：生命徵象組合 ObservationVitalSignsPanel TWCM Profile</text>
 </a>
 <rect x="770" y="4968" width="370" height="24" fill="url(#gGray)" stroke="#000" stroke-width="2.2"/>
 <text x="777.0" y="4984.5" font-size="12.5" font-weight="normal" text-anchor="start" fill="#000">status</text>

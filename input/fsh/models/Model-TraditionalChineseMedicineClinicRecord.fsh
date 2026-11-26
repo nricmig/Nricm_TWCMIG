@@ -270,19 +270,19 @@ Target: "https://twcmig.nricm.edu.tw/StructureDefinition/practitioner-twcm"
 * encounter.doctorId -> "PractitionerTWCM.identifier(看診醫師身分證號)"
 * encounter.doctorName -> "PractitionerTWCM.name(看診醫師姓名)"
 
-Mapping: TWCMClinicRecordToObservationVitalSignTWCM
-Id: ObservationVitalSignTWCM
-Title: "Mapping to ObservationVitalSignTWCM"
+Mapping: TWCMClinicRecordToObservationVitalSignsPanelTWCM
+Id: ObservationVitalSignsPanelTWCM
+Title: "Mapping to ObservationVitalSignsPanelTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationvitalsign-twcm"
-* encounter.patientBloodPressure.systolicPressure -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBloodPressureTWCM).where(code='8480-6').valueQuantity(收縮壓)"
-* encounter.patientBloodPressure.diastolicPressure -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBloodPressureTWCM).where(code='8462-4').valueQuantity(舒張壓)"
-* encounter.pulse -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationHeartRateTWCM).where(code='8867-4').valueQuantity(病人脈搏)"
-* encounter.height -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyHeightTWCM).where(code='8302-2').valueQuantity(病人身高)"
-* encounter.heightUnit -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyHeightTWCM).where(code='8302-2').valueQuantity.unit(病人身高單位)"
-* encounter.weight -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyWeightTWCM).where(code='29463-7').valueQuantity(病人體重)"
-* encounter.weightUnit -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyWeightTWCM).where(code='29463-7').valueQuantity.unit(病人體重單位)"
-* encounter.bodyTemperature -> "ObservationVitalSignTWCM.hasMember.Reference(ObservationBodyTempTWCM).where(code='8310-5').valueQuantity(病人體溫)"
+* encounter.patientBloodPressure.systolicPressure -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationBloodPressureTWCM).where(code='8480-6').valueQuantity(收縮壓)"
+* encounter.patientBloodPressure.diastolicPressure -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationBloodPressureTWCM).where(code='8462-4').valueQuantity(舒張壓)"
+* encounter.pulse -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationHeartRateTWCM).where(code='8867-4').valueQuantity(病人脈搏)"
+* encounter.height -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationBodyHeightTWCM).where(code='8302-2').valueQuantity(病人身高)"
+* encounter.heightUnit -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationBodyHeightTWCM).where(code='8302-2').valueQuantity.unit(病人身高單位)"
+* encounter.weight -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationBodyWeightTWCM).where(code='29463-7').valueQuantity(病人體重)"
+* encounter.weightUnit -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationBodyWeightTWCM).where(code='29463-7').valueQuantity.unit(病人體重單位)"
+* encounter.bodyTemperature -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationBodyTempTWCM).where(code='8310-5').valueQuantity(病人體溫)"
 
 Mapping: TWCMClinicRecordToConditionChiefComplaintTWCM
 Id: ConditionChiefComplaintTWCM

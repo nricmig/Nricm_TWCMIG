@@ -48,7 +48,7 @@
 - [重大傷病註記(ObservationMajorIllness TWCM)](StructureDefinition-observationmajorillness-twcm.html)
 - [檢驗檢查(Observation TWCM)](StructureDefinition-observation-twcm.html)
 - [職業(ObservationOccupation TWCM)](StructureDefinition-observationoccupation-twcm.html)
-- [生命徵象(ObservationVitalSign TWCM)](StructureDefinition-observationvitalsign-twcm.html)
+- [生命徵象組合(ObservationVitalSignsPanel TWCM)](StructureDefinition-observationvitalsign-twcm.html)
     - [血壓(ObservationBloodPressure TWCM)](StructureDefinition-observationbloodpressure-twcm.html)
     - [脈搏(ObservationHeartRate TWCM)](StructureDefinition-observationheartrate-twcm.html)
     - [身高(ObservationBodyHeight TWCM)](StructureDefinition-observationbodyheight-twcm.html)
