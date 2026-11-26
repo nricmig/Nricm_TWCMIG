@@ -29,3 +29,5 @@ Description: "此關懷計畫(CarePlan TWCM)Profile說明本IG如何進一步定
     * reasonReference only Reference(observation-twcm or documentreference-twcm)
     * location only Reference(TWCoreLocation)
     * performer only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or TWCoreRelatedPerson or patient-twcm or TWCoreCareTeam or HealthcareService or TWCoreImplantableDevice)
+* activity.detail.productReference only Reference(medication-twcm)
+* addresses only Reference(conditiondiagnosis-twcm or conditionsyndrometype-twcm)

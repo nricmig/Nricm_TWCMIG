@@ -33,3 +33,5 @@ Description: "此就醫事件(Encounter TWCM)Profile說明本IG如何進一步�
   * destination only Reference(TWCoreLocation or organization-twcm)
 * serviceProvider only Reference(organization-twcm)
 * partOf only Reference(encounter-twcm)
+* identifier.assigner only Reference(organization-twcm)
+* diagnosis.condition only Reference(conditiondiagnosis-twcm or conditionsyndrometype-twcm or procedure-twcm)

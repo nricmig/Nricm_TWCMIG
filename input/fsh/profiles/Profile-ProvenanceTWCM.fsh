@@ -23,3 +23,8 @@ Description: "此醫師簽章(Provenance TWCM)Profile說明本IG如何進一步�
   * who only Reference(practitioner-twcm or TWCorePractitionerRole)
   * sigFormat MS
   * data 1..1 MS
+* agent.who only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreRelatedPerson or TWCoreImplantableDevice)
+* agent.onBehalfOf only Reference(organization-twcm)
+* agent[ProvenanceTransmitter].who only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreRelatedPerson or TWCoreImplantableDevice)
+* agent[ProvenanceTransmitter].onBehalfOf only Reference(organization-twcm)
+* signature.onBehalfOf only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreRelatedPerson or TWCoreImplantableDevice)

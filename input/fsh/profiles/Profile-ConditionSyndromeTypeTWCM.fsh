@@ -28,7 +28,7 @@ Description: "此病人證型(ConditionSyndromeType TWCM)Profile說明本IG如�
 * recorder only Reference(practitioner-twcm or TWCorePractitionerRole or patient-twcm or TWCoreRelatedPerson)
 * asserter only Reference(practitioner-twcm or TWCorePractitionerRole or patient-twcm or TWCoreRelatedPerson)
 * stage
-  * assessment only Reference(ClinicalImpression or diagnosticreport-twcm or observation-twcm or Observation-vitalSigns-twcore)
+  * assessment only Reference(clinicalimpression-twcm or diagnosticreport-twcm or observation-twcm or Observation-vitalSigns-twcore)
 
 * subject 1..1 MS
 * encounter MS

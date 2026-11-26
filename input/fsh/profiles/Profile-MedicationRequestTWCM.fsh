@@ -69,6 +69,9 @@ Description: "此藥品請求(MedicationRequest TWCM)Profile說明本IG如何進
 * reasonReference only 	Reference(conditiondiagnosis-twcm or observation-twcm)
 * basedOn only Reference(careplan-twcm or servicerequest-twcm or ImmunizationRecommendation)
 * priorPrescription only Reference(medicationrequest-twcm)
+* medicationReference only Reference(medication-twcm)
+* dispenseRequest.performer only Reference(organization-twcm)
+* eventHistory only Reference(provenance-twcm)
 
 Invariant: twcm-quantity-ucum
 Description: "單位一律須填原始文字(unit)；若填入單位代碼(code)，代碼系統(system)須為UCUM(http://unitsofmeasure.org)。"

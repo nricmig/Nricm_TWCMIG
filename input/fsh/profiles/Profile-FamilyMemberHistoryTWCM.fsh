@@ -10,3 +10,4 @@ Description: "此家族史(FamilyMemberHistory TWCM)Profile說明本IG如何進�
   * ^short = "與病人之關係，如父、母、祖父母、兄弟姊妹等直系血親"
 * note 1..1 MS
   * ^short = "家族遺傳性疾病紀錄。[應填入中醫門診單之家族史Family History]"
+* reasonReference only Reference(conditionchiefcomplaint-twcm or conditionchronicdisease-twcm or conditiondiagnosis-twcm or conditionmajorillness-twcm or conditionmedicalhistory-twcm or conditionsyndrometype-twcm or observation-twcm or allergyintolerance-twcm or QuestionnaireResponse or diagnosticreport-twcm or documentreference-twcm)

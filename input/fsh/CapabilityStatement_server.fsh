@@ -701,7 +701,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -726,7 +726,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -792,7 +792,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -817,7 +817,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -842,7 +842,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -912,7 +912,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -937,7 +937,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -962,7 +962,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -987,7 +987,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1012,7 +1012,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1037,7 +1037,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1062,7 +1062,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1102,7 +1102,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1128,7 +1128,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1153,7 +1153,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1210,7 +1210,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1237,7 +1237,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1262,7 +1262,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>
@@ -1287,7 +1287,7 @@ Usage: #definition
         <div class=\"row\">
           <div class=\"col-lg-6\"><span class=\"lead\">能力摘要</span><br />
             <ul>
-              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"https://build.fhir.org/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"https://build.fhir.org/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
+              <li><strong>必須（SHALL）</strong>支援<code>create</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#ccreate\">conditionalCreate</a></code>,<code>update</code>,<code><a href=\"http://hl7.org/fhir/R4/http.html#cond-update\">conditionalUpdate</a></code>,<code>read</code>.</li>
             </ul>
           </div>
         </div>

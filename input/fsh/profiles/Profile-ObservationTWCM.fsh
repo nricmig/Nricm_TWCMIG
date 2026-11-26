@@ -42,6 +42,7 @@ Description: "此檢驗檢查(Observation TWCM)Profile說明本IG如何進一步
 * encounter only Reference(encounter-twcm)
 * hasMember only Reference(observation-twcm or TWCoreQuestionnaireResponse or MolecularSequence)
 * derivedFrom only Reference(documentreference-twcm or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or observation-twcm or MolecularSequence)
+* basedOn only Reference(careplan-twcm or medicationrequest-twcm or servicerequest-twcm)
 
 
 

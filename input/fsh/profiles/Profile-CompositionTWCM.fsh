@@ -271,7 +271,7 @@ Description: "此Profile用於描述中醫門診單的報告文件"
 * section[Objective].entry[palpation] ^short = "切診"
 
 * identifier
-  * assigner only Reference(TWCoreOrganization)
+  * assigner only Reference(organization-twcm)
 * attester
   * party only Reference(patient-twcm or TWCoreRelatedPerson or practitioner-twcm or TWCorePractitionerRole or organization-twcm)
 * custodian only Reference(organization-twcm)
@@ -281,6 +281,19 @@ Description: "此Profile用於描述中醫門診單的報告文件"
   * author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
 
 * obeys majorIllness-condition-twcm
+
+* section[ConditionMajorIllness].section.author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[Medication].section[medication].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[Medication].section[medicationrequest].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[ConditionDiagnosis].section.author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[ConditionDiagnosis].section[conditiondiagnosis].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[ConditionDiagnosis].section[practitioner].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[ObservationLabResults].section[observation].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[ObservationLabResults].section[servicerequest].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[ObservationLabResults].section[diagnosticreport].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[ObservationLabResults].section[bloodtype].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[SocialHistory].section[occupation].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
+* section[SocialHistory].section[educationlevel].author only Reference(practitioner-twcm or TWCorePractitionerRole or organization-twcm or patient-twcm or TWCoreImplantableDevice or TWCoreRelatedPerson)
 
 Invariant: majorIllness-condition-twcm
 Description: "若重大傷病註記為「是」，則重大傷病代碼與病名必填"

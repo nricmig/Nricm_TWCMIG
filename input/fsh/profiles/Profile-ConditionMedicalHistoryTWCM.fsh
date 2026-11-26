@@ -44,7 +44,7 @@ Description: "此病史(ConditionMedicalHistory TWCM)Profile說明本IG如何進
 * recorder only Reference(practitioner-twcm or TWCorePractitionerRole or patient-twcm or TWCoreRelatedPerson)
 * asserter only Reference(practitioner-twcm or TWCorePractitionerRole or patient-twcm or TWCoreRelatedPerson)
 * stage
-  * assessment only Reference(ClinicalImpression or diagnosticreport-twcm or observation-twcm or Observation-vitalSigns-twcore)
+  * assessment only Reference(clinicalimpression-twcm or diagnosticreport-twcm or observation-twcm or Observation-vitalSigns-twcore)
 
 Invariant: medicalhistory-present-active
 Description: "現病史(category為LOINC 10164-2)之clinicalStatus應為active"

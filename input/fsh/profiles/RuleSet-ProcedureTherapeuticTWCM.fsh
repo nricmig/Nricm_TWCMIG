@@ -22,3 +22,4 @@ RuleSet: ProcedureTherapeuticCommonRules
 * reasonReference only Reference(observation-twcm or procedure-twcm or documentreference-twcm)
 * report only Reference(documentreference-twcm)
 * usedReference only Reference(TWCoreImplantableDevice or Substance)
+* complicationDetail only Reference(conditiondiagnosis-twcm or conditionsyndrometype-twcm)

@@ -28,3 +28,4 @@ Description: "此服務請求(ServiceRequest TWCM)Profile說明本IG如何進一
 * reasonReference only 	Reference(conditiondiagnosis-twcm or observation-twcm or diagnosticreport-twcm or documentreference-twcm)
 * specimen only Reference(TWCoreSpecimen)
 * insurance only Reference(TWCoreCoverage or ClaimResponse)
+* relevantHistory only Reference(provenance-twcm)
