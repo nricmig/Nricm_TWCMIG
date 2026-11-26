@@ -4,9 +4,9 @@ Title: "病人治法範例"
 Description: "依據病人治法(ProcedureTherapeuticMethod TWCM)Profile呈現中醫門診單中病人治法的範例"
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
-* category = https://twcmig.nricm.edu.tw/CodeSystem/twcm-therapeutic-category#therapeutic-method "治法"
-* code.coding[0] = https://twcmig.nricm.edu.tw/CodeSystem/who-ictm-terminology#2429 "補氣；益氣；扶正益氣；扶正補氣"
-* code.coding[1] = https://twcmig.nricm.edu.tw/CodeSystem/who-ictm-terminology#2462 "補益氣血；補氣養血"
+* category = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-therapeutic-category#therapeutic-method "治法"
+* code.coding[0] = https://twcmig.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#2429 "補氣；益氣；扶正益氣；扶正補氣"
+* code.coding[1] = https://twcmig.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology#2462 "補益氣血；補氣養血"
 * code.text = "補氣調中,補氣活血"
 * subject = Reference(Patient/PatientTWCM-min)
 * encounter = Reference(Encounter/EncounterTWCM-min)

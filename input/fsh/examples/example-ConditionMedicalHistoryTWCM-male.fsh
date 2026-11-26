@@ -6,7 +6,7 @@ Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved
 * category.coding[recordType] = http://loinc.org#11348-0 "History of Past illness note"
 * category.coding[historyType] = TWCMMedicalHistoryCategory#"男科史" "男科史"
-* code.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-clinicalfinding#"遺精" "遺精"
+* code.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-clinicalfinding#"遺精" "遺精"
 * code.text = "青壯年時期曾有遺精，約每週1至2次，經中藥調理後已改善"
 * onsetString = "青壯年時期"
 * subject = Reference(Patient/PatientTWCM-male)

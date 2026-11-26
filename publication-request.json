@@ -1,0 +1,18 @@
+{
+  "package-id": "tw.gov.mohw.nricm.twcm",
+  "version": "1.0.0",
+  "path": "https://twcmig.nricm.edu.tw/twcm/1.0.0",
+  "mode": "milestone",
+  "status": "trial-use",
+  "sequence": "Releases",
+  "descmd": "第一個發佈版本",
+  "first": true,
+  "title": "臺灣中醫實作指引",
+  "ci-build": "https://twcmig.nricm.edu.tw/twcm/index.html",
+  "category": "Public Health",
+  "introduction": " ",
+  "registry-description": "臺灣中醫實作指引 (Taiwan Chinese Medicine Implementation Guide)",
+  "registry-country": "tw",
+  "registry-authority": "衛生福利部國家中醫藥研究所",
+  "desc": "第一個發佈版本"
+}

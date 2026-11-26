@@ -4,16 +4,16 @@ Usage: #definition
 Title: "臺灣教育程度標準分類代碼對應至HL7 v3 EducationLevel"
 Description: "此對應表為臺灣教育部「中華民國教育程度標準分類」等級向度代碼對應至HL7 v3 EducationLevel代碼，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
 * id = "twcm-educationlevel-to-v3"
-* url = "https://twcmig.nricm.edu.tw/ConceptMap/twcm-educationlevel-to-v3"
+* url = "https://twcmig.nricm.edu.tw/twcm/ConceptMap/twcm-educationlevel-to-v3"
 * name = "TWCMEducationLevelToV3"
 * title = "臺灣教育程度標準分類代碼對應至HL7 v3 EducationLevel"
 * description = "此對應表為臺灣教育部「中華民國教育程度標準分類」等級向度代碼對應至HL7 v3 EducationLevel代碼，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
 * status = #active
 * experimental = false
 * date = "2026-11-25"
-* sourceUri = "https://twcmig.nricm.edu.tw/ValueSet/twcm-educationlevel"
+* sourceUri = "https://twcmig.nricm.edu.tw/twcm/ValueSet/twcm-educationlevel"
 * targetUri = "http://terminology.hl7.org/ValueSet/v3-EducationLevel"
-* group[0].source = "https://twcmig.nricm.edu.tw/CodeSystem/twcm-educationlevel"
+* group[0].source = "https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-educationlevel"
 * group[=].target = "http://terminology.hl7.org/CodeSystem/v3-EducationLevel"
 * group.element[0].code = #0
 * group.element[=].display = "學前教育"

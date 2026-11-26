@@ -4,16 +4,16 @@ Title: "針灸處置範例"
 Description: "依據處置或手術(Procedure TWCM)Profile呈現中醫門診單中針灸處置範例"
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
-* category = https://twcmig.nricm.edu.tw/CodeSystem/twcm-procedurecategory#Acu
+* category = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-procedurecategory#Acu
 * code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw#D01
 * code.coding.display = "一般針灸－另開內服藥"
 
-* bodySite.extension[0].url = "https://twcmig.nricm.edu.tw/StructureDefinition/description-twcm"
+* bodySite.extension[0].url = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
 * bodySite.extension[0].valueCodeableConcept.text = "承靈，下針3公分"
-* bodySite.extension[1].url = "https://twcmig.nricm.edu.tw/StructureDefinition/approach-twcm"
-* bodySite.extension[1].valueCodeableConcept.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-acupuncturepoint#GB18 "承靈"
+* bodySite.extension[1].url = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
+* bodySite.extension[1].valueCodeableConcept.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-acupuncturepoint#GB18 "承靈"
 * bodySite.extension[1].valueCodeableConcept.text = "承靈"
-* bodySite.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-treatmentregion#CA "頭"
+* bodySite.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CA "頭"
 * bodySite.text = "頭"
 
 * subject = Reference(Patient/PatientTWCM-min)

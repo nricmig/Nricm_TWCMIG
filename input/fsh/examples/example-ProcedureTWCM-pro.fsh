@@ -4,14 +4,14 @@ Title: "脫臼整復處置範例"
 Description: "依據處置或手術(Procedure TWCM)Profile呈現中醫門診單中脫臼整復處置範例"
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
-* category = https://twcmig.nricm.edu.tw/CodeSystem/twcm-procedurecategory#Dis
+* category = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-procedurecategory#Dis
 * code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw#E09
 * code.coding.display = "高度複雜性傷科－起始次-3.脫臼整復復位－起始次－另開內服藥"
-* bodySite.extension[0].url = "https://twcmig.nricm.edu.tw/StructureDefinition/approach-twcm"
+* bodySite.extension[0].url = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
 * bodySite.extension[0].valueCodeableConcept.text = "端、提法"
-* bodySite.extension[1].url = "https://twcmig.nricm.edu.tw/StructureDefinition/description-twcm"
+* bodySite.extension[1].url = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
 * bodySite.extension[1].valueCodeableConcept.text = "包紮"
-* bodySite.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-treatmentregion#CG "股"
+* bodySite.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CG "股"
 * bodySite.text = "股"
 
 * subject = Reference(Patient/PatientTWCM-min)

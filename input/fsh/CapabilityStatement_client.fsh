@@ -1,7 +1,7 @@
 Instance: CapabilityStatementTWCMClient
 InstanceOf: CapabilityStatement
 Usage: #definition
-* url = "https://twcmig.nricm.edu.tw/CapabilityStatement/CapabilityStatementTWCMClient"
+* url = "https://twcmig.nricm.edu.tw/twcm/CapabilityStatement/CapabilityStatementTWCMClient"
 * version = "1.0.0"
 * name = "CapabilityStatementTWCMClient"
 * title = "臺灣中醫實作指引-用戶端(TWCM Client)"
@@ -17,7 +17,7 @@ Usage: #definition
 * format[0] = #xml
 * format[+] = #json
 * patchFormat = #application/json-patch+json
-* implementationGuide = "https://twcmig.nricm.edu.tw/ImplementationGuide/tw.gov.mohw.nricm.twcm"
+* implementationGuide = "https://twcmig.nricm.edu.tw/twcm/ImplementationGuide/tw.gov.mohw.nricm.twcm"
 * description = "臺灣中醫實作指引(TWCM IG)用戶端(Client)之能力聲明"
 * rest.mode = #client
 * rest.security.service = http://terminology.hl7.org/CodeSystem/restful-security-service#SMART-on-FHIR "SMART-on-FHIR"
@@ -25,7 +25,7 @@ Usage: #definition
 * rest.documentation = "臺灣中醫實作指引-用戶端(TWCM Client)建議應該(SHOULD)支援新增、修改和查詢一個或多個Profile(s)。"
 
 * rest.resource[+].type = #AllergyIntolerance
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/allergyintolerance-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/allergyintolerance-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -40,7 +40,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Bundle
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/bundle-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/bundle-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -54,23 +54,23 @@ Usage: #definition
 * rest.resource[=].conditionalUpdate = true
 * rest.resource[=].referencePolicy = #resolves
 * rest.resource[=].searchParam[0].name = "_id"
-* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/SearchParameter/Bundle-id"
+* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/twcm/SearchParameter/Bundle-id"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 * rest.resource[=].searchParam[+].name = "identifier"
-* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/SearchParameter/Bundle-identifier"
+* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/twcm/SearchParameter/Bundle-identifier"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 * rest.resource[=].searchParam[+].name = "composition"
-* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/SearchParameter/Bundle-composition"
+* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/twcm/SearchParameter/Bundle-composition"
 * rest.resource[=].searchParam[=].type = #reference
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 
 * rest.resource[+].type = #CarePlan
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/careplan-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/careplan-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -85,7 +85,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #ClinicalImpression
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/clinicalimpression-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/clinicalimpression-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -100,7 +100,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Composition
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/composition-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/composition-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -114,28 +114,28 @@ Usage: #definition
 * rest.resource[=].conditionalUpdate = true
 * rest.resource[=].referencePolicy = #resolves
 * rest.resource[=].searchParam[0].name = "status"
-* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/SearchParameter/Composition-status"
+* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/twcm/SearchParameter/Composition-status"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 * rest.resource[=].searchParam[+].name = "type"
-* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/SearchParameter/Composition-type"
+* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/twcm/SearchParameter/Composition-type"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 * rest.resource[=].searchParam[+].name = "subject"
-* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/SearchParameter/Composition-subject"
+* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/twcm/SearchParameter/Composition-subject"
 * rest.resource[=].searchParam[=].type = #reference
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 
 * rest.resource[+].type = #Condition
-* rest.resource[=].supportedProfile[0] = "https://twcmig.nricm.edu.tw/StructureDefinition/conditionchiefcomplaint-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/conditionchronicdisease-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/conditiondiagnosis-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/conditionmajorillness-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/conditionmedicalhistory-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/conditionsyndrometype-twcm"
+* rest.resource[=].supportedProfile[0] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionchiefcomplaint-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionchronicdisease-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditiondiagnosis-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionmajorillness-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionmedicalhistory-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionsyndrometype-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -150,7 +150,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #DiagnosticReport
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/diagnosticreport-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/diagnosticreport-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -165,7 +165,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #DocumentReference
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/documentreference-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/documentreference-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -180,7 +180,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Encounter
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/encounter-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/encounter-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -195,7 +195,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #FamilyMemberHistory
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/familymemberhistory-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/familymemberhistory-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -210,7 +210,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Medication
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/medication-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/medication-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -225,7 +225,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #MedicationRequest
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/medicationrequest-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/medicationrequest-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -240,22 +240,22 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Observation
-* rest.resource[=].supportedProfile[0] = "https://twcmig.nricm.edu.tw/StructureDefinition/observation-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationbloodpressure-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationbloodtype-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationbodyheight-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationbodytemp-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationbodyweight-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationeducationlevel-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationheartrate-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationinquiry-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationinspection-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationlisteningsmelling-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationmajorillness-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationoccupation-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationpalpation-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationpulsecondition-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/observationvitalsign-twcm"
+* rest.resource[=].supportedProfile[0] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observation-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationbloodpressure-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationbloodtype-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationbodyheight-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationbodytemp-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationbodyweight-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationeducationlevel-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationheartrate-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationinquiry-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationinspection-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationlisteningsmelling-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationmajorillness-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationoccupation-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationpalpation-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationpulsecondition-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationvitalsign-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -270,8 +270,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Organization
-* rest.resource[=].supportedProfile[0] = "https://twcmig.nricm.edu.tw/StructureDefinition/organization-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/organizationinspection-twcm"
+* rest.resource[=].supportedProfile[0] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/organization-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/organizationinspection-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -286,7 +286,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Patient
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/patient-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/patient-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -300,18 +300,18 @@ Usage: #definition
 * rest.resource[=].conditionalUpdate = true
 * rest.resource[=].referencePolicy = #resolves
 * rest.resource[=].searchParam[0].name = "identifier"
-* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/SearchParameter/Patient-identifier"
+* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/twcm/SearchParameter/Patient-identifier"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 * rest.resource[=].searchParam[+].name = "name"
-* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/SearchParameter/Patient-name"
+* rest.resource[=].searchParam[=].definition = "https://twcmig.nricm.edu.tw/twcm/SearchParameter/Patient-name"
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 
 * rest.resource[+].type = #Practitioner
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/practitioner-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/practitioner-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -326,9 +326,9 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Procedure
-* rest.resource[=].supportedProfile[0] = "https://twcmig.nricm.edu.tw/StructureDefinition/procedure-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/proceduretherapeuticprinciples-twcm"
-* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/StructureDefinition/proceduretherapeuticmethod-twcm"
+* rest.resource[=].supportedProfile[0] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/procedure-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/proceduretherapeuticprinciples-twcm"
+* rest.resource[=].supportedProfile[+] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/proceduretherapeuticmethod-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -343,7 +343,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Provenance
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/provenance-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/provenance-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create
@@ -358,7 +358,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #ServiceRequest
-* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/StructureDefinition/servicerequest-twcm"
+* rest.resource[=].profile = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/servicerequest-twcm"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create

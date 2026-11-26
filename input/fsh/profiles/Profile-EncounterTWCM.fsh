@@ -1,4 +1,4 @@
-Alias: $medicalIdentity = https://twcmig.nricm.edu.tw/StructureDefinition/medicalidentity-twcm
+Alias: $medicalIdentity = https://twcmig.nricm.edu.tw/twcm/StructureDefinition/medicalidentity-twcm
 Profile: EncounterTWCM
 Parent: TWCoreEncounter
 Id: encounter-twcm

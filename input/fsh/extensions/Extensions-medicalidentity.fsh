@@ -2,7 +2,7 @@ Extension: MedicalIdentityTWCM
 Id: medicalidentity-twcm
 Title: "就醫身分(MedicalIdentity)"
 Description: "就醫身分"
-* ^url = "https://twcmig.nricm.edu.tw/StructureDefinition/medicalidentity-twcm"
+* ^url = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/medicalidentity-twcm"
 * ^version = "1.0.0"
 * ^status = #active
 * ^context.type = #element

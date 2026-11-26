@@ -26,7 +26,7 @@ Usage: #example
 * dispenseRequest.expectedSupplyDuration.unit = "日"
 * dispenseRequest.expectedSupplyDuration.system = "http://unitsofmeasure.org"
 * dispenseRequest.expectedSupplyDuration.code = #d
-* extension[0].url = "https://twcmig.nricm.edu.tw/StructureDefinition/packagenumber-twcm"
+* extension[0].url = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/packagenumber-twcm"
 * extension[=].valueInteger = 12
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

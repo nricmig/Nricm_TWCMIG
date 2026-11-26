@@ -4,14 +4,14 @@ Usage: #definition
 Title: "針灸傷科脫臼整復部位與SNOMED CT對應表"
 Description: "健保署中醫診療部位代碼（針灸傷科脫臼整復部位）與SNOMED CT解剖部位之對應，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
 * id = "twcm-treatmentregion-to-snomed"
-* url = "https://twcmig.nricm.edu.tw/ConceptMap/twcm-treatmentregion-to-snomed"
+* url = "https://twcmig.nricm.edu.tw/twcm/ConceptMap/twcm-treatmentregion-to-snomed"
 * name = "TWCMTreatmentRegionToSNOMED"
 * status = #active
 * experimental = false
 * date = "2026-11-25"
 * copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
-* sourceCanonical = "https://twcmig.nricm.edu.tw/ValueSet/twcm-treatmentregion"
-* group[0].source = "https://twcmig.nricm.edu.tw/CodeSystem/twcm-treatmentregion"
+* sourceCanonical = "https://twcmig.nricm.edu.tw/twcm/ValueSet/twcm-treatmentregion"
+* group[0].source = "https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion"
 * group[0].target = "http://snomed.info/sct"
 * group[0].element[0].code = #CA
 * group[0].element[0].display = "頭"

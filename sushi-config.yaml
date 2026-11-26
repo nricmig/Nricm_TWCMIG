@@ -4,10 +4,10 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: tw.gov.mohw.nricm.twcm
-canonical: https://twcmig.nricm.edu.tw
+canonical: https://twcmig.nricm.edu.tw/twcm
 name: TWCM
 title: "臺灣中醫實作指引"
-description: Taiwan Chinese MedicineImplementation Guide
+description: Taiwan Chinese Medicine Implementation Guide
 status: active # draft | active | retired | unknown
 version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html

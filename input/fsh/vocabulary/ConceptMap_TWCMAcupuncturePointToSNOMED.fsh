@@ -4,13 +4,13 @@ Usage: #definition
 Title: "中醫針灸經絡穴位與SNOMED CT對應表"
 Description: "中醫針灸經絡穴位代碼（經絡及經穴）與SNOMED CT之對應。對應關係依中醫藥研究所《臺灣中醫臨床術語代碼手冊草稿》「針灸穴位與相關療法之WHO標準針灸命名與SNOMED CT編碼對照表」，僅收錄本IG中醫針灸經絡穴位代碼系統已收錄且具SNOMED CT代碼之經絡、經穴與經外奇穴。"
 * id = "twcm-acupuncturepoint-to-snomed"
-* url = "https://twcmig.nricm.edu.tw/ConceptMap/twcm-acupuncturepoint-to-snomed"
+* url = "https://twcmig.nricm.edu.tw/twcm/ConceptMap/twcm-acupuncturepoint-to-snomed"
 * name = "TWCMAcupuncturePointToSNOMED"
 * status = #active
 * experimental = false
 * date = "2026-11-25"
 * copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
-* group[0].source = "https://twcmig.nricm.edu.tw/CodeSystem/twcm-acupuncturepoint"
+* group[0].source = "https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-acupuncturepoint"
 * group[0].target = "http://snomed.info/sct"
 * group[0].element[0].code = #LU
 * group[0].element[0].display = "手太陰肺經"

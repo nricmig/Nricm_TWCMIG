@@ -4,7 +4,7 @@ Title: "門診單架構"
 Description: "依據臨床文件架構(Composition TWCM)Profile呈現中醫門診單"
 Usage: #example
 * meta.versionId = "1"
-* meta.profile[0] = "https://twcmig.nricm.edu.tw/StructureDefinition/composition-twcm"
+* meta.profile[0] = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/composition-twcm"
 * meta.profile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Composition-twcore"
 * identifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * identifier.type.coding.code = #SNO

@@ -4,12 +4,12 @@ Usage: #definition
 Title: "WHO傳統醫學國際標準術語(中醫)證型與ICD-11對應表"
 Description: "WHO傳統醫學國際標準術語(中醫)證型詞條與ICD-11第26章傳統醫學證型代碼之對應。對應關係依中醫藥研究所《臺灣中醫臨床術語代碼手冊草稿》中醫證型術語與WHO中醫標準術語、ICD-11編碼對照表，僅收錄同時具有WHO代碼與ICD-11代碼之證型。"
 * id = "twcm-whoictm-to-icd11"
-* url = "https://twcmig.nricm.edu.tw/ConceptMap/twcm-whoictm-to-icd11"
+* url = "https://twcmig.nricm.edu.tw/twcm/ConceptMap/twcm-whoictm-to-icd11"
 * name = "TWCMWHOICTMToICD11"
 * status = #active
 * experimental = false
 * date = "2026-10-27"
-* group[0].source = "https://twcmig.nricm.edu.tw/CodeSystem/who-ictm-terminology"
+* group[0].source = "https://twcmig.nricm.edu.tw/twcm/CodeSystem/who-ictm-terminology"
 * group[0].target = "http://id.who.int/icd/release/11/mms"
 * group[0].element[0].code = #990
 * group[0].element[0].display = "陽證"

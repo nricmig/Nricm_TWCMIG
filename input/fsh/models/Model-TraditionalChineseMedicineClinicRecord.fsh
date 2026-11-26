@@ -153,7 +153,7 @@ Mapping: TWCMClinicRecordToBundleTWCM
 Id: BundleTWCM
 Title: "Mapping to BundleTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/bundle-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/bundle-twcm"
 * -> "BundleTWCM"
 * documentInfo.hisDocK -> "BundleTWCM.identifier(HIS病歷唯一碼)"
 
@@ -161,7 +161,7 @@ Mapping: TWCMClinicRecordToOrganizationTWCM
 Id: OrganizationTWCM
 Title: "Mapping to OrganizationTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/organization-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/organization-twcm"
 * documentInfo.hospitalId -> "OrganizationTWCM.identifier(醫事機構代碼)"
 * documentInfo.hospitalName -> "OrganizationTWCM.name(醫事機構名稱)"
 * examinationInfo.orderHospitalID -> "OrganizationTWCM.identifier.value(檢驗檢查開單醫事機構代碼)"
@@ -171,7 +171,7 @@ Mapping: TWCMClinicRecordToCompositionTWCM
 Id: CompositionTWCM
 Title: "Mapping to CompositionTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/composition-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/composition-twcm"
 * documentInfo.sheetInfo.sheetId -> "CompositionTWCM.identifier(病歷表單編號)"
 * documentInfo.sheetInfo.sheetVersion -> "CompositionTWCM.meta.versionId(病歷表單版本)"
 * documentInfo.sheetInfo.sheetName -> "CompositionTWCM.title(病歷表單名稱)"
@@ -182,7 +182,7 @@ Mapping: TWCMClinicRecordToPatientTWCM
 Id: PatientTWCM
 Title: "Mapping to PatientTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/patient-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/patient-twcm"
 * patientInfo.chartNo -> "PatientTWCM.identifier:medicalRecord(病歷號)"
 * patientInfo.patientName -> "PatientTWCM.name(病人姓名)"
 * patientInfo.birthday -> "PatientTWCM.birthDate(出生日期)"
@@ -208,7 +208,7 @@ Mapping: TWCMClinicRecordToEncounterTWCM
 Id: EncounterTWCM
 Title: "Mapping to EncounterTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/encounter-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/encounter-twcm"
 * patientInfo.visitIdentity -> "EncounterTWCM.extension.medicalIdentity.CodeableConcept(就醫身份)"
 * encounter.visitDate -> "EncounterTWCM.period.start(掛號(報到)日期時間)"
 * encounter.visitSeq -> "EncounterTWCM.identifier(掛號序號)"
@@ -219,22 +219,22 @@ Mapping: TWCMClinicRecordToObservationBloodtypeTWCM
 Id: ObservationBloodtypeTWCM
 Title: "Mapping to ObservationBloodtypeTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationbloodtype-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationbloodtype-twcm"
 * patientInfo.bloodType -> "ObservationBloodtypeTWCM.where(code='883-9').valueCodeableConcept.text(自述血型)"
 
 Mapping: TWCMClinicRecordToObservationOccupationTWCM
 Id: ObservationOccupationTWCM
 Title: "Mapping to ObservationOccupationTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationoccupation-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationoccupation-twcm"
 * patientInfo.occupation -> "ObservationOccupationTWCM.where(code='11341-5').valueCodeableConcept.text(職業)"
 
 Mapping: TWCMClinicRecordToConditionMedicalHistoryTWCM
 Id: ConditionMedicalHistoryTWCM
 Title: "Mapping to ConditionMedicalHistoryTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/conditionmedicalhistory-twcm"
-* patientInfo.history -> "ConditionMedicalHistoryTWCM.where(category.coding.code='11348-0' and category.coding.where(system='https://twcmig.nricm.edu.tw/CodeSystem/twcm-medicalhistory-category').exists().not()).code(過去病史)"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionmedicalhistory-twcm"
+* patientInfo.history -> "ConditionMedicalHistoryTWCM.where(category.coding.code='11348-0' and category.coding.where(system='https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-medicalhistory-category').exists().not()).code(過去病史)"
 * encounter.presentIllness -> "ConditionMedicalHistoryTWCM.where(category.coding.code='10164-2').code(現病史)"
 * encounter.pediatricHistory -> "ConditionMedicalHistoryTWCM.where(category.coding.code='小兒病史').code(小兒病史)"
 * encounter.menstrualHistory -> "ConditionMedicalHistoryTWCM.where(category.coding.code='月經史').code(月經史)"
@@ -245,28 +245,28 @@ Mapping: TWCMClinicRecordToConditionChronicDiseaseTWCM
 Id: ConditionChronicDiseaseTWCM
 Title: "Mapping to ConditionChronicDiseaseTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/conditionchronicdisease-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionchronicdisease-twcm"
 * patientInfo.chronicDisease -> "ConditionChronicDiseaseTWCM.code(慢性疾病)"
 
 Mapping: TWCMClinicRecordToAllergyIntoleranceTWCM
 Id: AllergyIntoleranceTWCM
 Title: "Mapping to AllergyIntoleranceTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/allergyintolerance-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/allergyintolerance-twcm"
 * patientInfo.allergy -> "AllergyIntoleranceTWCM.code.text(過敏記錄)"
 
 Mapping: TWCMClinicRecordToObservationEducationLevelTWCM
 Id: ObservationEducationLevelTWCM
 Title: "Mapping to ObservationEducationLevelTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationeducationlevel-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationeducationlevel-twcm"
 * patientInfo.education -> "ObservationEducationLevelTWCM.where(code='82589-3').valueCodeableConcept.text(病人教育程度)"
 
 Mapping: TWCMClinicRecordToPractitionerTWCM
 Id: PractitionerTWCM
 Title: "Mapping to PractitionerTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/practitioner-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/practitioner-twcm"
 * encounter.doctorId -> "PractitionerTWCM.identifier(看診醫師身分證號)"
 * encounter.doctorName -> "PractitionerTWCM.name(看診醫師姓名)"
 
@@ -274,7 +274,7 @@ Mapping: TWCMClinicRecordToObservationVitalSignsPanelTWCM
 Id: ObservationVitalSignsPanelTWCM
 Title: "Mapping to ObservationVitalSignsPanelTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationvitalsign-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationvitalsign-twcm"
 * encounter.patientBloodPressure.systolicPressure -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationBloodPressureTWCM).where(code='8480-6').valueQuantity(收縮壓)"
 * encounter.patientBloodPressure.diastolicPressure -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationBloodPressureTWCM).where(code='8462-4').valueQuantity(舒張壓)"
 * encounter.pulse -> "ObservationVitalSignsPanelTWCM.hasMember.Reference(ObservationHeartRateTWCM).where(code='8867-4').valueQuantity(病人脈搏)"
@@ -288,21 +288,21 @@ Mapping: TWCMClinicRecordToConditionChiefComplaintTWCM
 Id: ConditionChiefComplaintTWCM
 Title: "Mapping to ConditionChiefComplaintTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/conditionchiefcomplaint-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionchiefcomplaint-twcm"
 * encounter.chiefComplain -> "ConditionChiefComplaintTWCM.note(病人主訴)"
 
 Mapping: TWCMClinicRecordToFamilyMemberHistoryTWCM
 Id: FamilyMemberHistoryTWCM
 Title: "Mapping to FamilyMemberHistoryTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/familymemberhistory-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/familymemberhistory-twcm"
 * encounter.familyHistory -> "FamilyMemberHistoryTWCM.note(家族史)"
 
 Mapping: TWCMClinicRecordToClinicalImpressionTWCM
 Id: ClinicalImpressionTWCM
 Title: "Mapping to ClinicalImpressionTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/clinicalimpression-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/clinicalimpression-twcm"
 * encounter.objectiveDescription -> "ClinicalImpressionTWCM.summary(望聞問切客觀描述)"
 * encounter.diseaseCause -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.coding.code='病因').itemCodeableConcept.text(病因)"
 * encounter.diseaseNature -> "ClinicalImpressionTWCM.finding.where(itemCodeableConcept.coding.code='病性').itemCodeableConcept.text(病性)"
@@ -313,7 +313,7 @@ Mapping: TWCMClinicRecordToObservationInspectionTWCM
 Id: ObservationInspectionTWCM
 Title: "Mapping to ObservationInspectionTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationinspection-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationinspection-twcm"
 * encounter.inspection -> "ObservationInspectionTWCM.where(code='558').valueString(望診)"
 * encounter.tongueCondition -> "ObservationInspectionTWCM.component.where(code='634').valueCodeableConcept(病人舌象)"
 
@@ -321,21 +321,21 @@ Mapping: TWCMClinicRecordToObservationListeningSmellingTWCM
 Id: ObservationListeningSmellingTWCM
 Title: "Mapping to ObservationListeningSmellingTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationlisteningsmelling-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationlisteningsmelling-twcm"
 * encounter.listeningSmelling -> "ObservationListeningSmellingTWCM.where(code='701').valueString(聞診)"
 
 Mapping: TWCMClinicRecordToObservationInquiryTWCM
 Id: ObservationInquiryTWCM
 Title: "Mapping to ObservationInquiryTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationinquiry-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationinquiry-twcm"
 * encounter.inquiry -> "ObservationInquiryTWCM.where(code='725').valueString(問診)"
 
 Mapping: TWCMClinicRecordToObservationPalpationTWCM
 Id: ObservationPalpationTWCM
 Title: "Mapping to ObservationPalpationTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationpalpation-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationpalpation-twcm"
 * encounter.palpation -> "ObservationPalpationTWCM.where(code='849').valueString(切診)"
 * encounter.pulseCondition -> "ObservationPalpationTWCM.hasMember.Reference(ObservationPulseConditionTWCM).where(code='850')：bodySite(左右手)；component.where(code=寸脈|關脈|尺脈).valueCodeableConcept(分部位脈象)；未分寸關尺時為valueCodeableConcept(病人脈象)"
 
@@ -343,35 +343,35 @@ Mapping: TWCMClinicRecordToConditionSyndromeTypeTWCM
 Id: ConditionSyndromeTypeTWCM
 Title: "Mapping to ConditionSyndromeTypeTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/conditionsyndrometype-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionsyndrometype-twcm"
 * encounter.manifestation -> "ConditionSyndromeTypeTWCM.code.text(病人證型)；由ClinicalImpressionTWCM.finding.where(itemCodeableConcept.coding.code='證型').itemReference參照"
 
 Mapping: TWCMClinicRecordToProcedureTherapeuticPrinciplesTWCM
 Id: ProcedureTherapeuticPrinciplesTWCM
 Title: "Mapping to ProcedureTherapeuticPrinciplesTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/proceduretherapeuticprinciples-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/proceduretherapeuticprinciples-twcm"
 * encounter.therapeuticDiscipline -> "ProcedureTherapeuticPrinciplesTWCM.code.text(病人治則)"
 
 Mapping: TWCMClinicRecordToProcedureTherapeuticMethodTWCM
 Id: ProcedureTherapeuticMethodTWCM
 Title: "Mapping to ProcedureTherapeuticMethodTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/proceduretherapeuticmethod-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/proceduretherapeuticmethod-twcm"
 * encounter.therapeuticMethod -> "ProcedureTherapeuticMethodTWCM.code.text(病人治法)"
 
 Mapping: TWCMClinicRecordToObservationMajorIllnessTWCM
 Id: ObservationMajorIllnessTWCM
 Title: "Mapping to ObservationMajorIllnessTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observationmajorillness-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observationmajorillness-twcm"
 * encounter.majorInjuryInfo.majorInjuryFlag -> "ObservationMajorIllnessTWCM.where(code='11338-1').valueString(重大傷病註記)"
 
 Mapping: TWCMClinicRecordToConditionMajorIllnessTWCM
 Id: ConditionMajorIllnessTWCM
 Title: "Mapping to ConditionMajorIllnessTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/conditionmajorillness-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditionmajorillness-twcm"
 * encounter.majorInjuryInfo.majorInjuryContent.majorInjuryCode -> "ConditionMajorIllnessTWCM.code.coding.code(重大傷病代碼)"
 * encounter.majorInjuryInfo.majorInjuryContent.majorInjuryName -> "ConditionMajorIllnessTWCM.code.coding.display(重大傷病名稱)"
 
@@ -379,7 +379,7 @@ Mapping: TWCMClinicRecordToConditionDiagnosisTWCM
 Id: ConditionDiagnosisTWCM
 Title: "Mapping to ConditionDiagnosisTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/conditiondiagnosis-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/conditiondiagnosis-twcm"
 * encounter.diagnosisContent.diagCode -> "ConditionDiagnosisTWCM.code.coding.code(診斷代碼)"
 * encounter.diagnosisContent.diagName -> "ConditionDiagnosisTWCM.code.coding.display(診斷名稱)"
 
@@ -387,7 +387,7 @@ Mapping: TWCMClinicRecordToProcedureTWCM
 Id: ProcedureTWCM
 Title: "Mapping to ProcedureTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/procedure-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/procedure-twcm"
 * encounter.treatmentInfo.treatmentNHICode -> "ProcedureTWCM.code.coding.code(處置健保碼)"
 * encounter.treatmentInfo.treatmentDescription -> "ProcedureTWCM.code.coding.display(處置說明)"
 * encounter.treatmentInfo.acupunctureInfo.acupunctureRegionNHICode -> "ProcedureTWCM.bodySite.coding.code(針灸部位)"
@@ -404,30 +404,30 @@ Mapping: TWCMClinicRecordToCarePlanTWCM
 Id: CarePlanTWCM
 Title: "Mapping to CarePlanTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/careplan-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/careplan-twcm"
 * encounter.doctorAdvise -> "CarePlanTWCM.note(醫師囑咐)"
 
 Mapping: TWCMClinicRecordToProvenanceTWCM
 Id: ProvenanceTWCM
 Title: "Mapping to ProvenanceTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/provenance-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/provenance-twcm"
 * encounter.doctorSign -> "ProvenanceTWCM.signature(醫師簽章)"
 
 Mapping: TWCMClinicRecordToMedicationTWCM
 Id: MedicationTWCM
 Title: "Mapping to MedicationTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/medication-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/medication-twcm"
 * drugInfo.drugNHICode -> "MedicationTWCM.code.coding.where(system='https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/nhi-medication-ch-herb-tw').code(藥品健保碼)"
-* drugInfo.drugCode -> "MedicationTWCM.code.coding.where(system='https://twcmig.nricm.edu.tw/CodeSystem/mohw-dopmac-tcmmedication').code(藥品藥品碼)"
+* drugInfo.drugCode -> "MedicationTWCM.code.coding.where(system='https://twcmig.nricm.edu.tw/twcm/CodeSystem/mohw-dopmac-tcmmedication').code(藥品藥品碼)"
 * drugInfo.drugName -> "MedicationTWCM.code.coding.display(藥品商品名)"
 
 Mapping: TWCMClinicRecordToMedicationRequestTWCM
 Id: MedicationRequestTWCM
 Title: "Mapping to MedicationRequestTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/medicationrequest-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/medicationrequest-twcm"
 * drugInfo.dose -> "MedicationRequestTWCM.dosageInstruction.doseAndRate.doseQuantity.value(用量)"
 * drugInfo.doseUnit -> "MedicationRequestTWCM.dosageInstruction.doseAndRate.doseQuantity.unit(用量單位)"
 * drugInfo.route -> "MedicationRequestTWCM.dosageInstruction.route(藥品服用方法)"
@@ -443,14 +443,14 @@ Mapping: TWCMClinicRecordToServiceRequestTWCM
 Id: ServiceRequestTWCM
 Title: "Mapping to ServiceRequestTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/servicerequest-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/servicerequest-twcm"
 * examinationInfo.examOrderDate -> "ServiceRequestTWCM.occurrenceDateTime(檢驗檢查開單日期)"
 
 Mapping: TWCMClinicRecordToOrganizationInspectionTWCM
 Id: OrganizationInspectionTWCM
 Title: "Mapping to OrganizationInspectionTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/organizationinspection-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/organizationinspection-twcm"
 * examinationInfo.examHospitalID -> "OrganizationInspectionTWCM.identifier.value(檢驗檢查執行醫事機構代碼)"
 * examinationInfo.examHospitalName -> "OrganizationInspectionTWCM.name(檢驗檢查執行醫事機構名稱)"
 
@@ -458,7 +458,7 @@ Mapping: TWCMClinicRecordToObservationTWCM
 Id: ObservationTWCM
 Title: "Mapping to ObservationTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observation-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/observation-twcm"
 * examinationInfo.examDate -> "ObservationTWCM.effectiveDateTime(檢查日期)"
 * examinationInfo.testNHICode -> "ObservationTWCM.code.coding.where(system='https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw').code(健保檢驗檢查代碼)"
 * examinationInfo.testCode -> "ObservationTWCM.code.coding.where(system!='https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw').code(院內檢驗檢查代碼)"
@@ -472,14 +472,14 @@ Mapping: TWCMClinicRecordToDiagnosticReportTWCM
 Id: DiagnosticReportTWCM
 Title: "Mapping to DiagnosticReportTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/diagnosticreport-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/diagnosticreport-twcm"
 * examinationInfo.verifyDate -> "DiagnosticReportTWCM.effectiveDateTime(報告日期)"
 
 Mapping: TWCMClinicRecordToDocumentReferenceTWCM
 Id: DocumentReferenceTWCM
 Title: "Mapping to DocumentReferenceTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
-Target: "https://twcmig.nricm.edu.tw/StructureDefinition/documentreference-twcm"
+Target: "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/documentreference-twcm"
 * imageInfo.imageFileName -> "DocumentReferenceTWCM.content.attachment(圖檔報告名稱：attachment.title)"
 * imageInfo.imageContent -> "DocumentReferenceTWCM.content.attachment(圖檔報告內容：attachment.data)"
 * referenceInfo.referenceDocFileName -> "DocumentReferenceTWCM.content.attachment(附件檔名：attachment.title)"

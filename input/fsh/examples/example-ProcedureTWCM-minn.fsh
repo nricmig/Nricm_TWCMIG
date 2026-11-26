@@ -4,21 +4,21 @@ Title: "傷科處置範例"
 Description: "依據處置或手術(Procedure TWCM)Profile呈現中醫門診單中傷科處置範例"
 Usage: #example
 * status = http://hl7.org/fhir/event-status#completed
-* category = https://twcmig.nricm.edu.tw/CodeSystem/twcm-procedurecategory#Con
+* category = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-procedurecategory#Con
 * code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw#F04
 * code.coding.display = "一般針灸合併中度複雜性傷科--療程第二至六次－另開內服藥"
 
-* bodySite[0].extension[0].url = "https://twcmig.nricm.edu.tw/StructureDefinition/approach-twcm"
-* bodySite[0].extension[0].valueCodeableConcept.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-acupuncturepoint#GB18 "承靈"
+* bodySite[0].extension[0].url = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
+* bodySite[0].extension[0].valueCodeableConcept.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-acupuncturepoint#GB18 "承靈"
 * bodySite[0].extension[0].valueCodeableConcept.text = "承靈"
-* bodySite[0].extension[1].url = "https://twcmig.nricm.edu.tw/StructureDefinition/description-twcm"
+* bodySite[0].extension[1].url = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/description-twcm"
 * bodySite[0].extension[1].valueCodeableConcept.text = "承靈，下針4公分"
-* bodySite[0].coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-treatmentregion#CA "頭"
+* bodySite[0].coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CA "頭"
 * bodySite[0].text = "頭"
 
-* bodySite[1].extension[0].url = "https://twcmig.nricm.edu.tw/StructureDefinition/approach-twcm"
+* bodySite[1].extension[0].url = "https://twcmig.nricm.edu.tw/twcm/StructureDefinition/approach-twcm"
 * bodySite[1].extension[0].valueCodeableConcept.text = "按摩法"
-* bodySite[1].coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-treatmentregion#CD "後軀幹"
+* bodySite[1].coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-treatmentregion#CD "後軀幹"
 * bodySite[1].text = "後軀幹"
 
 * subject = Reference(Patient/PatientTWCM-min)

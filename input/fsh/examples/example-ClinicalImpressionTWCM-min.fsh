@@ -17,15 +17,15 @@ Usage: #example
 * investigation[inquiry].item = Reference(Observation/ObservationInquiryTWCM-min)
 * investigation[palpation].code = WHOICTMTerminology#849 "切診"
 * investigation[palpation].item = Reference(Observation/ObservationPalpationTWCM-min)
-* finding[diseaseCause].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-syndromedifferentiation-category#"病因" "病因"
+* finding[diseaseCause].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-syndromedifferentiation-category#"病因" "病因"
 * finding[diseaseCause].itemCodeableConcept.text = "外感風寒，飲食失調"
-* finding[diseaseNature].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-syndromedifferentiation-category#"病性" "病性"
+* finding[diseaseNature].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-syndromedifferentiation-category#"病性" "病性"
 * finding[diseaseNature].itemCodeableConcept.text = "表寒兼脾虛，虛實夾雜"
-* finding[diseaseLocation].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-syndromedifferentiation-category#"病位" "病位"
+* finding[diseaseLocation].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-syndromedifferentiation-category#"病位" "病位"
 * finding[diseaseLocation].itemCodeableConcept.text = "肺、脾"
-* finding[diseaseTrend].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-syndromedifferentiation-category#"病勢" "病勢"
+* finding[diseaseTrend].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-syndromedifferentiation-category#"病勢" "病勢"
 * finding[diseaseTrend].itemCodeableConcept.text = "病程尚短，持續治療中"
-* finding[syndromeType].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/CodeSystem/twcm-syndromedifferentiation-category#"證型" "證型"
+* finding[syndromeType].itemCodeableConcept.coding = https://twcmig.nricm.edu.tw/twcm/CodeSystem/twcm-syndromedifferentiation-category#"證型" "證型"
 * finding[syndromeType].itemReference = Reference(Condition/ConditionSyndromeTypeTWCM-min)
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
