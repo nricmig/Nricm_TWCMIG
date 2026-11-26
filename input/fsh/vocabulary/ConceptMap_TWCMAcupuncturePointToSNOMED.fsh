@@ -8,7 +8,7 @@ Description: "中醫針灸經絡穴位代碼（經絡及經穴）與SNOMED CT之
 * name = "TWCMAcupuncturePointToSNOMED"
 * status = #active
 * experimental = false
-* date = "2026-10-13"
+* date = "2026-11-25"
 * copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * group[0].source = "https://twcmig.nricm.edu.tw/CodeSystem/twcm-acupuncturepoint"
 * group[0].target = "http://snomed.info/sct"

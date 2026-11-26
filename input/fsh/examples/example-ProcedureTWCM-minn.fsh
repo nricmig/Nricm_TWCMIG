@@ -28,7 +28,7 @@ Usage: #example
 		<b>處置或手術基本資料</b>
 	</h3>
 	<p>
-		<b>處置類別</b>：Con <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-procedurecategory.html\">中醫處置分類值集</a>#Con) </span>
+		<b>處置類別</b>：Con <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-procedurecategory.html\">衛福部中醫診所EMR單張-中醫處置分類</a>#Con) </span>
 	</p>
 	<p>
 		<b>處置或手術狀態</b>：completed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/event-status\">EventStatus</a>#completed) </span>

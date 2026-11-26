@@ -8,6 +8,7 @@ Description: "WHO傳統醫學國際標準術語(中醫)證型詞條與ICD-11第2
 * name = "TWCMWHOICTMToICD11"
 * status = #active
 * experimental = false
+* date = "2026-10-27"
 * group[0].source = "https://twcmig.nricm.edu.tw/CodeSystem/who-ictm-terminology"
 * group[0].target = "http://id.who.int/icd/release/11/mms"
 * group[0].element[0].code = #990

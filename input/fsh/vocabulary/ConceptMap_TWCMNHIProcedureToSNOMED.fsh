@@ -8,7 +8,7 @@ Description: "全民健康保險中醫處置給付項目與SNOMED CT之對應。
 * name = "TWCMNHIProcedureToSNOMED"
 * status = #active
 * experimental = false
-* date = "2026-10-13"
+* date = "2026-11-25"
 * copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * group[0].source = "https://twcmig.nricm.edu.tw/CodeSystem/twcm-nhi-procedure"
 * group[0].target = "http://snomed.info/sct"

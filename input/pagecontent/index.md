@@ -145,3 +145,12 @@
 </tr>
 </tbody>
 </table>
+
+<div class="bg-info" style="padding:10px;margin-top:10px;">
+<p>如醫療院所有參與意願，或對資料內容、代碼檔及臺灣中醫實作指引（TWCM IG）有任何疑問，歡迎與下列窗口聯繫：</p>
+<ul>
+<li>林小姐：02-28201999 轉 4552，電子郵件（E-mail）：<a href="mailto:cm4552@nricm.edu.tw">cm4552@nricm.edu.tw</a></li>
+<li>蔡小姐：02-28201999 轉 4562</li>
+</ul>
+</div>
+

@@ -36,7 +36,7 @@ Usage: #example
 		<b>針灸部位</b>：頭 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-treatmentregion.html\">針灸傷科脫臼整復部位</a>#CA) </span>
 	</p>
 	<p>
-		<b>處置類別</b>：Acu <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-procedurecategory.html\">中醫處置分類值集</a>#Acu) </span>
+		<b>處置類別</b>：Acu <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-procedurecategory.html\">衛福部中醫診所EMR單張-中醫處置分類</a>#Acu) </span>
 	</p>
 	<p>
 		<b>針灸穴位</b>：承靈 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twcm-acupuncturepoint.html\">中醫針灸經絡穴位代碼</a>#GB18) </span>

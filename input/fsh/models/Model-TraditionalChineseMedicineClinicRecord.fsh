@@ -175,7 +175,7 @@ Target: "https://twcmig.nricm.edu.tw/StructureDefinition/composition-twcm"
 * documentInfo.sheetInfo.sheetId -> "CompositionTWCM.identifier(病歷表單編號)"
 * documentInfo.sheetInfo.sheetVersion -> "CompositionTWCM.meta.versionId(病歷表單版本)"
 * documentInfo.sheetInfo.sheetName -> "CompositionTWCM.title(病歷表單名稱)"
-* documentInfo.docInfo.docConfidentialityCode -> "CompositionTWCM.confidentiality.code(文件敏感性)"
+* documentInfo.docInfo.docConfidentialityCode -> "CompositionTWCM.confidentiality(文件敏感性)"
 * documentInfo.docInfo.createTime -> "CompositionTWCM.date(文件產生時間)"
 
 Mapping: TWCMClinicRecordToPatientTWCM
@@ -373,7 +373,7 @@ Title: "Mapping to ConditionMajorIllnessTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://twcmig.nricm.edu.tw/StructureDefinition/conditionmajorillness-twcm"
 * encounter.majorInjuryInfo.majorInjuryContent.majorInjuryCode -> "ConditionMajorIllnessTWCM.code.coding.code(重大傷病代碼)"
-* encounter.majorInjuryInfo.majorInjuryContent.majorInjuryName -> "ConditionMajorIllnessTWCM.code.display(重大傷病名稱)"
+* encounter.majorInjuryInfo.majorInjuryContent.majorInjuryName -> "ConditionMajorIllnessTWCM.code.coding.display(重大傷病名稱)"
 
 Mapping: TWCMClinicRecordToConditionDiagnosisTWCM
 Id: ConditionDiagnosisTWCM
@@ -381,7 +381,7 @@ Title: "Mapping to ConditionDiagnosisTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://twcmig.nricm.edu.tw/StructureDefinition/conditiondiagnosis-twcm"
 * encounter.diagnosisContent.diagCode -> "ConditionDiagnosisTWCM.code.coding.code(診斷代碼)"
-* encounter.diagnosisContent.diagName -> "ConditionDiagnosisTWCM.code.display(診斷名稱)"
+* encounter.diagnosisContent.diagName -> "ConditionDiagnosisTWCM.code.coding.display(診斷名稱)"
 
 Mapping: TWCMClinicRecordToProcedureTWCM
 Id: ProcedureTWCM
@@ -389,7 +389,7 @@ Title: "Mapping to ProcedureTWCM"
 Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://twcmig.nricm.edu.tw/StructureDefinition/procedure-twcm"
 * encounter.treatmentInfo.treatmentNHICode -> "ProcedureTWCM.code.coding.code(處置健保碼)"
-* encounter.treatmentInfo.treatmentDescription -> "ProcedureTWCM.code.display(處置說明)"
+* encounter.treatmentInfo.treatmentDescription -> "ProcedureTWCM.code.coding.display(處置說明)"
 * encounter.treatmentInfo.acupunctureInfo.acupunctureRegionNHICode -> "ProcedureTWCM.bodySite.coding.code(針灸部位)"
 * encounter.treatmentInfo.acupunctureInfo.acupuncturePointName -> "ProcedureTWCM.bodySite.extension.approach.valueCodeableConcept(針灸穴位)"
 * encounter.treatmentInfo.acupunctureInfo.acupuncturePointComment -> "ProcedureTWCM.bodySite.extension.description.valueCodeableConcept(針灸補充說明)"
@@ -421,7 +421,7 @@ Source: TraditionalChineseMedicineClinicRecordModel
 Target: "https://twcmig.nricm.edu.tw/StructureDefinition/medication-twcm"
 * drugInfo.drugNHICode -> "MedicationTWCM.code.coding.where(system='https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/nhi-medication-ch-herb-tw').code(藥品健保碼)"
 * drugInfo.drugCode -> "MedicationTWCM.code.coding.where(system='https://twcmig.nricm.edu.tw/CodeSystem/mohw-dopmac-tcmmedication').code(藥品藥品碼)"
-* drugInfo.drugName -> "MedicationTWCM.code.display(藥品商品名)"
+* drugInfo.drugName -> "MedicationTWCM.code.coding.display(藥品商品名)"
 
 Mapping: TWCMClinicRecordToMedicationRequestTWCM
 Id: MedicationRequestTWCM
@@ -462,7 +462,7 @@ Target: "https://twcmig.nricm.edu.tw/StructureDefinition/observation-twcm"
 * examinationInfo.examDate -> "ObservationTWCM.effectiveDateTime(檢查日期)"
 * examinationInfo.testNHICode -> "ObservationTWCM.code.coding.where(system='https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw').code(健保檢驗檢查代碼)"
 * examinationInfo.testCode -> "ObservationTWCM.code.coding.where(system!='https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw').code(院內檢驗檢查代碼)"
-* examinationInfo.testName -> "ObservationTWCM.code.display(檢驗檢查名稱)"
+* examinationInfo.testName -> "ObservationTWCM.code.text(檢驗檢查名稱)"
 * examinationInfo.testResult -> "ObservationTWCM.valueQuantity.value(檢驗檢查結果值)"
 * examinationInfo.resultUnit -> "ObservationTWCM.valueQuantity.unit(檢驗檢查結果單位)"
 * examinationInfo.resultFlag -> "ObservationTWCM.interpretation(檢驗檢查結果判斷註記)"
