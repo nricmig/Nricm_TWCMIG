@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "type": "fhir.template",
   "license": "CC0-1.0",
-  "description": "NRICM TWCM IG color scheme override, extending fhir.base.template",
-  "base": "fhir.base.template",
+  "description": "NRICM TWCM IG color scheme override, extending fhir2.base.template",
+  "base": "fhir2.base.template",
   "dependencies": {
-    "fhir.base.template": "current"
+    "fhir2.base.template": "current"
   }
 }
